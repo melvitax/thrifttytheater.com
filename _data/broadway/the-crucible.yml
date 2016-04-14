@@ -1,0 +1,38 @@
+---
+  name: The Crucible
+  description: Arthur Miller's classic drama returns to Broadway with a star-studded cast.
+  duration: 2 hrs 55 mins 1 intermission
+  advisory: Children under the age of 4 are not permitted in the theatre.
+  notice: "Please note: There is no late seating for this production."
+  theater: Walter Kerr Theatre
+  address: 219 W 48th St, New York, NY, 10036
+  preview: 2016-03-01
+  opening: 2016-03-31
+  closing: 2016-07-17
+  limited: true
+  callout: Limited Engagement
+  accolades:
+  trailer: https://www.youtube.com/watch?v=9f6vSALrODU
+  url: http://www.thecrucibleonbroadway.com
+  performances:
+    sun:
+      - performance: 3:00 PM
+    mon:
+    tue:
+      - performance: 7:00 PM
+    wed:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+    thu:
+      - performance: 7:00 PM
+    fri:
+      - performance: 8:00 PM
+    sat:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  cost:
+    -
+      title: $42-$250 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+      url: http://www.ticketmaster.com/artist/2161375
+      label: ticketmaster.com

@@ -1,0 +1,25 @@
+<head>
+  <meta charset="utf-8">
+  <!-- Fallback for Font family below in noscript [*] -->
+  <script type="text/javascript">
+    WebFontConfig = {
+      google: { families: [ '{{ site.fonts | join: ", " }}' ] }
+    };
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })(); </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" type="text/css" href="{{site.url}}/styles/main.css">
+  <link rel="stylesheet" href="{{site.url}}/vendor/video.js/video-js.min.css">
+  <noscript>
+    <!-- [*] Web fonts for no-js -->
+    <link href='http://fonts.googleapis.com/css?family={{ site.fonts | join: ", " }}' rel='stylesheet' type='text/css'>
+  </noscript>
+</head>

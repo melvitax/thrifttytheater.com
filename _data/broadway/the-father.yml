@@ -1,0 +1,75 @@
+---
+  name: The Father
+  description: Frank Langella stars in the American premiere of Florian Zeller's drama.
+  duration:
+  lowest: $30
+  advisory: May be inappropriate for 12 and under. Children under the age of 4 are not permitted in the theatre.
+  notice:
+  theater: Friedman Theatre
+  address: 261 W 47th St, New York, NY, 10036
+  preview: 2016-03-22
+  opening: 2016-04-14
+  closing: 2016-06-12
+  limited: true
+  callout: Limited Engagement
+  accolades:
+  trailer: https://www.youtube.com/watch?v=EMORVYvtePs
+  url: http://thefatherbroadway.com
+  previews:
+    sun:
+      - student: 10:00 AM
+      - performance: 2:00 PM
+    mon:
+    tue:
+      - student: 12:00 PM
+      - performance: 7:00 PM
+    wed:
+      - student: 10:00 AM
+      - performance: 2:00 PM
+      - performance: 7:00 PM
+    thu:
+      - student: 12:00 PM
+      - performance: 8:00 PM
+    fri:
+      - student: 12:00 PM
+      - performance: 8:00 PM
+    sat:
+      - student: 10:00 AM
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  performances:
+    sun:
+      - student: 10:00 AM
+      - performance: 2:00 PM
+    mon:
+    tue:
+      - student: 12:00 PM
+      - performance: 7:00 PM
+    wed:
+      - student: 10:00 AM
+      - performance: 2:00 PM
+      - performance: 7:00 PM
+    thu:
+      - student: 12:00 PM
+      - performance: 8:00 PM
+    fri:
+      - student: 12:00 PM
+      - performance: 8:00 PM
+    sat:
+      - student: 10:00 AM
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  cost:
+    -
+      title: $27 Student Rush
+      description: Student rush tickets are available at the box office on the day of the show when the box office opens. Tickets are $27, payable by cash or credit card, and are available to students with an ID from a degree or diploma granting institution. Tickets are subject to availability and are limited to two per valid ID.
+    -
+      title: $30 Under 30
+      description: If you’re under 30, you can buy a pair of $30 tickets to every MTC show! Plus, you’ll be invited to exclusive party nights with free drinks and snacks after the show. And the best part… it’s free and easy to join! SIGN UP.
+      url: http://www.manhattantheatreclub.com/season-tickets/30-under-30/
+      label: manhattantheatreclub.com
+    -
+      title: $80-$160 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours.
+      url: https://www.telecharge.com/Broadway/The-Father/Schedules-Prices
+      label: telecharge.com

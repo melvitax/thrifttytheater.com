@@ -1,0 +1,20 @@
+name: Show Hacker
+markdown: kramdown
+url: http://showhacker.com
+github: https://github.com/melvitax/showhacker
+exclude: ['node_modules', 'bower_components', 'README.md', 'package.json', 'bower.json']
+timezone: 'America/New_York'
+googleanalytics: 'UA-3488813-17'
+fonts:
+  - "Lato:400,900,700,500,300,100:latin"
+sass:
+    style: compressed
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+  envs: []
+  blanklines: false
+  profile: false
+  startings: [html, head, body]

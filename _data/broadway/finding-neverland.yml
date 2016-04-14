@@ -1,0 +1,47 @@
+---
+  name: Finding Neverland
+  description: An imaginative musical that tells the story of Peter Pan author J.M. Barrie.
+  duration: 2 hrs 30 mins 1 intermission
+  advisory: Recommended for ages 7+. Children under the age of 4 are not permitted in the theatre.
+  notice: Tony Yazbeck plays his final performance as J.M. Barrie on 3/27. Alfie Boe begins performances on 3/29.
+  lowest: $37
+  theater: Lunt-Fontanne Theatre
+  address: 205 W 46th St, New York, NY, 10036
+  preview: 2015-03-15
+  opening: 2015-04-15
+  closing:
+  limited: false
+  accolades:
+  trailer: https://www.youtube.com/watch?v=cKxqDHXtJHs
+  url: http://www.findingneverlandthemusical.com
+  performances:
+    sun:
+      - rush: 12:00 PM
+      - performance: 2:00 PM
+      - performance: 7:00 PM
+    mon:
+    tue:
+      - rush: 10:00 AM
+      - performance: 7:30 PM
+    wed:
+      - rush: 10:00 AM
+      - performance: 2:00 PM
+    thu:
+      - rush: 10:00 AM
+      - performance: 7:30 PM
+    fri:
+      - rush: 10:00 AM
+      - performance: 8:00 PM
+    sat:
+      - rush: 10:00 AM
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  cost:
+    -
+      title: $37 Rush
+      description: A limited number of rush tickets will be available for purchase in-person at the Lunt-Fontanne Theatre box office beginning at 10am (12pm on Sundays) for that day's performance(s) only. Rush tickets cost $37, with a maximum of one ticket per person, and may be purchased with cash only. Rush tickets are subject to availability and may not be offered at all performances. Rush seating locations will be determined at the discretion of the box office.
+    -
+      title: $72-$197 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours.
+      url: http://www.ticketmaster.com/artist/2054371
+      label: ticketmaster.com

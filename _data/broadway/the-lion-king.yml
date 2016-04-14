@@ -1,0 +1,49 @@
+---
+  name: The Lion King
+  description: An award-winning score and innovative puppetry bring the classic story of young royal heir Simba to life.
+  duration: 2 hrs 30 mins 1 intermission
+  advisory: All guests require a ticket, regardless of age. We recommend that children be at least six years old to attend.
+  notice:
+  lowest: $30
+  theater: Minskoff Theatre
+  address: 200 W 45th St, New York, NY, 10036
+  preview: 1997-10-15
+  opening: 1997-11-13
+  closing:
+  limited: false
+  accolades: WINNER! Tony Awards Including Best Musical
+  trailer: https://www.youtube.com/watch?v=vKDEwHv43uo
+  url: http://www.lionking.com
+  performances:
+    sun:
+      - digital: 9:00 AM
+      - performance: 3:00 PM
+    mon:
+    tue:
+      - digital: 9:00 AM
+      - performance: 7:00 PM
+    wed:
+      - digital: 9:00 AM
+      - performance: 2:00 PM
+      - performance: 7:00 PM
+    thu:
+      - digital: 9:00 AM
+      - performance: 8:00 PM
+    fri:
+      - digital: 9:00 AM
+      - performance: 8:00 PM
+    sat:
+      - digital: 9:00 AM
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  cost:
+    -
+      title: $30 Digital Lottery
+      description: Enter at lionking.com/lottery beginning at the curtain time of the previous performance. Winners are notified at 9 AM on the day of the performance and have one hour to pay online. Tickets must be picked up no earlier than 30 minutes before curtain. 2 tickets per person.
+      url: http://lionking.com/lottery
+      label: lionking.com/lottery
+    -
+      title: $122-$217 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+      url: http://www.ticketmaster.com/artist/1039581
+      label: ticketmaster.com

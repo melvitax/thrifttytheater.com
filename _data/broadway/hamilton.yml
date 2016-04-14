@@ -1,0 +1,55 @@
+---
+  name: Hamilton
+  description: Go back to the era of the Founding Fathers with Lin-Manuel Miranda’s inventive new musical.
+  duration: 2 hrs 45 mins 1 intermission
+  advisory: Children under the age of 4 are not permitted in the theatre.
+  notice: Javier Munoz plays the role of Hamilton at Sunday matinees through March 27, 2016. He will play the role of Hamilton at Saturday matinees from March 28 - September 3, 2016.
+  lowest: $10
+  theater: Richard Rodgers Theatre
+  address: 226 W 46th St, New York, NY, 10036
+  preview: 2015-07-13
+  opening: 2015-08-06
+  closing:
+  limited: false
+  callout: The Hottest Ticket In Town
+  accolades: WINNER! Grammy Awards For Best Musical Theater Album
+  trailer: https://www.youtube.com/watch?v=NBkI_9cr1Ws
+  url: http://www.hamiltonbroadway.com
+  performances:
+    sun:
+    mon:
+      - digital: 4:00 PM
+      - performance: 7:00 PM
+    tue:
+      - digital: 4:00 PM
+      - performance: 7:00 PM
+    wed:
+      - lottery: 12:30 AM
+      - performance: 2:00 PM
+      - digital: 4:00 PM
+      - performance: 8:00 PM
+    thu:
+      - digital: 4:00 PM
+      - performance: 7:00 PM
+    fri:
+      - digital: 4:00 PM
+      - performance: 8:00 PM
+    sat:
+      - digital: 11:00 AM
+      - performance: 2:00 PM
+      - digital: 4:00 PM
+      - performance: 8:00 PM
+  cost:
+    -
+      title: $10 Digital Lottery
+      description: For all matinee performances, enter between 9 a.m. and 11 a.m. For evening performances following matinees, enter between 12 p.m. and 4 p.m. On days with only an evening performance scheduled, enter between 9 a.m. and 4 p.m.
+      url: http://hamiltonbroadway.com/lottery
+      label: hamiltonbroadway.com/lottery
+    -
+      title: $10 In Person Lottery
+      description: A live lottery will be held at the theater for Wednesday matinée performances ONLY. Entries begin at 12 p.m. and winners will be drawn at 12:30 p.m. There will be 21 front row tickets available to lottery entrants. One entry per person. Tickets are $10 each, cash only. Winners must be present to win and must have a photo ID that matches the name drawn. Please note that we will not be holding a lottery for the matinees on April 13 and May 11.
+    -
+      title: $57-$277 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+      url: http://www.ticketmaster.com/artist/2095830
+      label: ticketmaster.com

@@ -1,0 +1,135 @@
+---
+layout: default
+title: Show Hacker
+---
+<div id="expandable-rows" >
+
+	{% assign market = 'broadway' %}
+	{% for slug in site.data[market].allshows %}
+	{% assign show = site.data[market][slug] %}
+	{% assign timeZone = " 00:00:00 -0500" %}
+
+	<div class="row" id="{{slug}}" preview="{{show.preview}}" opening="{{show.opening}}" {% if(show.closing) %}closing="{{show.closing}}"{% endif %} >
+		<div class="background lazyload" data-bg="{{site.url}}/images/{{market}}/{{ slug }}.jpg" ></div>
+		<div class="wrapper" id="-{{slug}}">
+			<div class="row-header">
+				<h2>{% if(show.lowest) %} <span class="lowest">{{show.lowest}} </span>{% endif %}{{ show.name }}</h2>
+				{% if(show.callout) %} <span class="callout">{{show.callout}}</span>{% endif %}
+				<div class="today"></div>
+			</div>
+			<div class="row-content">
+				<aside>
+				<div class="poster">
+					{% if show.trailer %}
+					<a class="js-player-link" href="{{show.trailer}}">
+						<img class="lazyload" data-src="{{site.url}}/images/{{market}}/{{ slug }}-poster@2x.jpg" width="230" height="355" alt="poster" />
+						<button class="button button--txt button--invert button--play">
+				      <svg  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+				      <path d="M15,10.001c0,0.299-0.305,0.514-0.305,0.514l-8.561,5.303C5.51,16.227,5,15.924,5,15.149V4.852
+				      c0-0.777,0.51-1.078,1.135-0.67l8.561,5.305C14.695,9.487,15,9.702,15,10.001z"/>
+				    </button>
+					</a>
+					{% else %}
+						<img class="lazyload missing" data-src="{{site.url}}/images/{{market}}/{{ slug }}-poster@2x.jpg" width="230" height="355" alt="poster" />
+					{% endif %}
+				</div>
+				{% if show.description %}
+				<div class="description">
+					{{show.description}}
+				</div>
+				{% endif %}
+				{% if show.duration %}
+				<div class="duration">
+					{{show.duration}}
+				</div>
+				{% endif %}
+				<div class="important-dates">
+					{% if show.preview %}
+						{% capture preview %}{{show.preview}} 00:00:00 -0500{% endcapture %}
+					<span class="date"><strong>Preview:</strong>&nbsp; {{preview | date: "%b %-d, %Y"}}</span>&nbsp;&nbsp;
+					{% endif %}
+					{% if show.opening %}
+						{% capture opening %}{{show.opening}} 00:00:00 -0500{% endcapture %}
+					<span class="date"><strong>Opening:</strong>&nbsp; {{opening | date: "%b %-d, %Y"}}</span>&nbsp;&nbsp;
+					{% endif %}
+					{% if show.closing %}
+						{% capture closing %}{{show.closing}} 00:00:00 -0500{% endcapture %}
+					<span class="date"><strong>Closing:</strong> {{closing | date: "%b %-d, %Y"}}</span>
+					{% endif %}
+				</div>
+				{% if show.url %}
+				<div class="website">
+					<a class="button" href="{{show.url}}">Website</a>
+				</div>
+				{% endif %}
+			</aside>
+				<div class="content">
+					{% if show.accolades %}
+					<div class="accolades">
+						{{show.accolades}}
+					</div>
+					{% endif %}
+					<div class="theater"><a href="https://www.google.com/maps/place/{{show.address | url_encode}}"><strong>{{ show.theater }}</strong><br />
+					{{show.address}}</a>
+					</div>
+					{% if show.previews  %}
+						<div class="previews timetable" expires="{{show.opening}}">
+							{% for item in show.previews %}
+								<div class="day-column">
+									<div class="day-name">{{item[0]}}</div>
+									{% if item[1] %}
+									{% for performance in item[1] %}
+										{% for event in performance %}
+									<div class="day-event {{event[0]}}"><span class="event-type">{{event[0]}}</span><span class="event-time">{{event[1]}}</span></div>
+										{% endfor %}
+									{% endfor %}
+									{% else %}
+										<div class="day-event no-events"><span class="event-type">no performances</span></div>
+									{% endif %}
+								</div>
+							{% endfor %}
+						</div>
+					{% endif %}
+					{% if show.performances  %}
+						<div class="performances timetable" >
+							{% for item in show.performances %}
+								<div class="day-column">
+									<div class="day-name">{{item[0]}}</div>
+										{% if item[1] %}
+										{% for performance in item[1] %}
+											{% for event in performance %}
+												<div class="day-event {{event[0]}}"><span class="event-type">{{event[0]}}</span><span class="event-time">{{event[1]}}</span></div>
+											{% endfor %}
+										{% endfor %}
+										{% else %}
+											<div class="day-event no-events"><span class="event-type">no performances</span></div>
+										{% endif %}
+								</div>
+							{% endfor %}
+						</div>
+					{% endif %}
+					<ul class="cost">
+						{% for cost in show.cost %}
+							<li>
+								<div class="cost-title">{{cost.title}}</div>
+								<div class="cost-description">{{cost.description}}
+								{% if cost.url %}
+									<br />
+									<a class="button" href="{{cost.url}}">{{cost.label}}</a>
+									{% endif %}
+								</div>
+							</li>
+						{% endfor %}
+					</ul>
+					{% if show.advisory %}
+					<div class="advisory">
+						{{show.advisory}}
+					</div>
+					{% endif %}
+				</div><!-- content -->
+			</div><!-- row-content -->
+		</div><!-- overlay -->
+	</div><!-- row -->
+	{% endfor %}
+</div>

@@ -1,0 +1,31 @@
+{
+  "name": "showhacker",
+  "version": "0.1.0",
+  "description": "Broadway web app",
+  "main": "index.html",
+  "scripts": {
+    "postinstall": "bower-installer",
+    "test": "jshint ./public/**/*.js & csslint-cli ./www/css/",
+    "dev": "jekyll serve --config _config-dev.yml --watch & browser-sync start --no-open --files '_site/*' --reload-delay 1000 --proxy 'localhost:4000'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://melvitax@github.com/melvitax/showhacker.git"
+  },
+  "keywords": [
+    "broadway",
+    "tickets"
+  ],
+  "author": "Melvin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melvitax/showhacker/issues"
+  },
+  "homepage": "https://github.com/melvitax/showhacker#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "bower-installer": "^1.2.0",
+    "csslint-cli": "0.0.3",
+    "jshint": "^2.9.1"
+  }
+}

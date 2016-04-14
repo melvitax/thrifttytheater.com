@@ -1,0 +1,66 @@
+---
+  name: Tuck Everlasting
+  description: Take a journey you’ll never forget in this daring new Broadway musical about love, family and living life to the fullest.
+  duration: 2 hrs 30 mins 1 intermission
+  advisory: Children under the age of 4 are not permitted in the theatre.
+  notice:
+  lowest: $32
+  theater: Broadhurst Theatre
+  address: 235 W 44th St, New York, NY 10036
+  preview: 2016-03-31
+  opening: 2016-04-26
+  closing:
+  limited: false
+  accolades:
+  trailer: https://www.youtube.com/watch?v=GcVF5wR0kUw
+  url: http://tuckeverlastingmusical.com
+  previews:
+    sun:
+    mon:
+      - performance: 8:00 PM
+    tue:
+      - performance: 8:00 PM
+    wed:
+      - performance: 8:00 PM
+    thu:
+      - performance: 8:00 PM
+    fri:
+      - performance: 8:00 PM
+    sat:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  performances:
+    sun:
+      - performance: 3:00 PM
+    mon:
+    tue:
+      - performance: 7:00 PM
+    wed:
+      - performance: 2:00 PM
+      - performance: 7:30 PM
+    thu:
+      - performance: 7:00 PM
+    fri:
+      - performance: 8:00 PM
+    sat:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  cost:
+    -
+      title: $32 General Rush
+      description: A limited number of $32 tickets will be available for purchase at the Broadhurst Theatre Box Office when it opens for that day’s performance only. Maximum two tickets per person. Rush tickets are subject to availability and may not be offered at all performances. Rush seating locations will be determined at the discretion of the box office. Cash only.
+    -
+      title: $40 Digital Lottery
+      description:  A limited number of $40 tickets will be made available daily through the digital lottery.
+      url: http://www.tuckeverlastinglottery.com/
+      label: tuckeverlastinglottery.com
+    -
+      title: $39 tix4Students
+      description: Student tickets for selected performances are available for purchase online in advance for members of TIX4STUDENTS.  Seats are located in the mezzanine.  You will be able to pick your own seats. There is a limit of 2 tickets per member for this show.
+      url: https://www.tix4students.com/event/tuck-everlasting/
+      label: tix4students.com
+    -
+      title: $59-$225 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+      url: https://www.telecharge.com/Broadway/Tuck-Everlasting-The-Musical/Schedules-Prices
+      label: telecharge.com

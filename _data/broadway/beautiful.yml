@@ -1,0 +1,62 @@
+---
+  name: "Beautiful: The Carole King Musical"
+  description: The inspiring true story of how Carole King became the soundtrack of a generation.
+  duration: 2 hrs 30 mins 1 intermission
+  advisory: Children under the age of 4 are not permitted in the theatre.
+  notice:
+  lowest: $39
+  theater: Stephen Sondheim Theatre
+  address: 124 W 43rd St, New York, NY, 10036
+  preview: 2013-11-21
+  opening: 2014-01-12
+  closing:
+  limited: false
+  accolades: WINNER! 2 Tony Awards including Best Leading Actress in a Musical WINNER! Grammy Award For Best Musical Theater Album
+  trailer: https://www.youtube.com/watch?v=WVjyzo92mqU
+  url: http://www.beautifulonbroadway.com
+  performances:
+    sun:
+      - rush: 10:00 AM
+      - performance: 2:00 PM
+      - digital: 3:00 PM
+      - performance: 7:00 PM
+    mon:
+    tue:
+      - rush: 10:00 AM
+      - digital: 3:00 PM
+      - performance: 7:00 PM
+    wed:
+      - rush: 10:00 AM
+      - performance: 2:00 PM
+    thu:
+      - rush: 10:00 AM
+      - digital: 3:00 PM
+      - performance: 7:00 PM
+    fri:
+      - rush: 10:00 AM
+      - digital: 3:00 PM
+      - performance: 8:00 PM
+    sat:
+      - rush: 10:00 AM
+      - performance: 2:00 PM
+      - digital: 3:00 PM
+      - performance: 8:00 PM
+  cost:
+    -
+      title: $39 Digital Lottery
+      description: A limited number of tickets for select performances will be sold via the Broadway Direct Official Digital Lottery.
+      url: https://lottery.broadwaydirect.com/show/beautiful/
+      label: broadwaydirect.com
+    -
+      title: $40 Rush
+      description: A limited number of tickets will be made available for all performances and can be purchased day-of at the box office of the Stephen Sondheim Theatre (124 West 43rd Street). Tickets are subject to availability, and patrons are limited to two rush tickets per person.
+    -
+      title: $46 tix4Students
+      description:  Student tickets are available for purchase online in advance for select performances for members of TIX4STUDENTS. Seats are located in the mezzanine.  You will be able to pick your own seats. There is a limit of 2 tickets per member for this show.
+      url: https://www.tix4students.com/event/beautiful/
+      label: tix4students.com
+    -
+      title: $69-$299 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+      url: https://www.telecharge.com/Broadway/Beautiful-The-Carole-King-Musical/Schedules-Prices
+      label: telecharge.com

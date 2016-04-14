@@ -1,0 +1,20 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+	<html>
+		{% include head.html %}
+		<body>
+			<header id="site-header">
+	    		<h1>{{site.name}}</h1>
+			</header>
+			{% include player.html %}
+			<div class="container">
+			{{ content }}
+			</div><!-- /.container -->
+			{% include footer.html %}
+			{% include scripts.html %}
+
+		</body>
+	</html>

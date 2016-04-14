@@ -1,0 +1,52 @@
+---
+  name: American Psycho
+  description: Patrick Bateman takes the stage in this thrilling new musical based on the cult classic film.
+  duration: 2 hrs 42 mins 1 intermission
+  advisory: Rated R. Children under the age of 4 are not permitted in the theatre.
+  notice:
+  theater: Gerald Schoenfeld Theatre
+  address: 236 W 45th St, New York, NY, 10036
+  preview: 2016-03-24
+  opening: 2016-04-20
+  closing:
+  limited: false
+  accolades:
+  trailer: https://www.youtube.com/watch?v=cZ4DgTUJ2sM
+  url: http://americanpsychothemusical.com
+  previews:
+    sun:
+    mon:
+      - performance: 8:00 PM
+    tue:
+      - performance: 8:00 PM
+    wed:
+      - performance: 8:00 PM
+    thu:
+      - performance: 8:00 PM
+    fri:
+      - performance: 8:00 PM
+    sat:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  performances:
+    sun:
+      - performance: 2:00 PM
+      - performance: 7:00 PM
+    mon:
+      - performance: 7:00 PM
+    tue:
+      - performance: 7:00 PM
+    wed:
+    thu:
+      - performance: 7:00 PM
+    fri:
+      - performance: 8:00 PM
+    sat:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  cost:
+    -
+      title: $69-$148 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+      url: https://www.telecharge.com/Broadway/American-Psycho/Schedules-Prices
+      label: telecharge.com

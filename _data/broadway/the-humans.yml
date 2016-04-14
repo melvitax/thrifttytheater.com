@@ -1,0 +1,47 @@
+---
+  name: The Humans
+  description: Stephen Karam's new family comedy arrives on Broadway.
+  duration: 1 hrs 30 mins 0 intermission
+  advisory:
+  notice:
+  lowest: $30
+  theater: Helen Hayes Theater
+  address: 240 W 44th St, New York, NY, 10036
+  preview: 2016-01-24
+  opening: 2016-02-24
+  closing:
+  limited: false
+  accolades:
+  trailer: https://www.youtube.com/watch?v=vOWxbJ2pgoE
+  url: http://www.thehumansonbroadway.com/
+  performances:
+    sun:
+      - rush: 12:00 PM
+      - performance: 3:00 PM
+    mon:
+    tue:
+      - rush: 10:00 AM
+      - performance: 7:00 PM
+    wed:
+      - rush: 10:00 AM
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+    thu:
+      - rush: 10:00 AM
+      - performance: 7:00 PM
+    fri:
+      - rush: 10:00 AM
+      - performance: 8:00 PM
+    sat:
+      - rush: 10:00 AM
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  cost:
+    -
+      title: $30 General Rush
+      description: A limited number of general rush tickets will be available at the box office on the day of the performance at $30 each (price includes a $2 facility fee). Limit of two tickets per person. Subject to availability. Cash and major credit cards accepted.
+    -
+      title: $39-$225 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+      url: https://www.telecharge.com/Broadway/The-Humans/Schedules-Prices
+      label: telecharge.com

@@ -1,0 +1,67 @@
+---
+  name: Les Misérables
+  description: The classic musical epic about the survival of the human spirit.
+  duration: 2 hrs 55 mins 1 intermission
+  advisory: May be inappropriate for 9 and under. (Contains themes related to complex and difficult subject matter including social revolution, poverty and prostitution.) Children under the age of 4 are not permitted in the theatre.
+  notice: John Owen-Jones returns as Jean Valjean for the final months on Broadway. Final performance September 4th.
+  lowest: $37
+  theater: Imperial Theatre
+  address: 249 W 45th St, New York, NY, 10036
+  preview: 2014-03-01
+  opening: 2014-03-23
+  closing: 2016-09-04
+  limited: false
+  callout: Final Performance September 4th
+  accolades: WINNER! 8 Tony Awards including Best Musical
+  trailer: https://www.youtube.com/watch?v=E0BltEQuMPQ
+  url: http://www.lesmis.com/broadway
+  winner: false
+  performances:
+    sun:
+      - digital: 11:00 AM
+      - rush: 12:00 PM
+      - performance: 1:30 PM
+      - digital: 3:00 PM
+      - performance: 7:30 PM
+    mon:
+    tue:
+      - rush: 10:00 AM
+      - digital: 3:00 PM
+      - performance: 7:00 PM
+    wed:
+      - rush: 10:00 AM
+      - digital: 3:00 PM
+      - performance: 7:00 PM
+    thu:
+      - rush: 10:00 AM
+      - digital: 3:00 PM
+      - performance: 7:00 PM
+    fri:
+      - rush: 10:00 AM
+      - digital: 3:00 PM
+      - performance: 8:00 PM
+    sat:
+      - rush: 10:00 AM
+      - digital: 11:00 AM
+      - performance: 2:00 PM
+      - digital: 3:00 PM
+      - performance: 8:00 PM
+  cost:
+    -
+      title: $37 Digital Lottery
+      description: Les Misérables offers $37 seats with digital lottery each day via LesMiz.com/Lottery. Entries can be submitted the day of the preferred performance, either by 11 AM for matinees or 3 PM for evening performances. Winners will be notified via email or text, depending on what they select during the entry process, and winners may purchase up to two tickets which will be held at the box office.
+      url: http://lesmiz.com/lottery
+      label: lesmiz.com/lottery
+    -
+      title: $37 Rush
+      description: A limited number general rush tickets will be available for patrons at the box office each day begining at 10 AM. A limit of two tickets per customer. Tickets are non-transferable, and seat locations will vary based on availability and may be partial view. Cash or credit cards will be accepted for all lottery and rush tickets.
+    -
+      title: $44 Tix4Students
+      description: Student tickets are available for purchase online in advance for members of TIX4STUDENTS. Seats are located in the orchestra and mezzanine. You will be able to pick your own seats. There is a limit of 2 tickets.
+      url: https://www.tix4students.com/event/les-miserable-ny/
+      label: tix4students.com
+    -
+      title: $47-$252 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+      url: https://www.telecharge.com/Broadway/Les-Miserables/Schedules-Prices
+      label: telecharge.com

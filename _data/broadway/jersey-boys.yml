@@ -1,0 +1,60 @@
+---
+  name: Jersey Boys
+  description: The Tony-winning story of how Frankie Valli and The Four Seasons became international pop superstars.
+  duration: 2 hrs 30 mins 1 intermission
+  advisory: May be inappropriate for ages 12 and under. Strong language. Children under the age of 4 are not permitted in the theatre.
+  notice:
+  lowest: $27
+  theater: August Wilson Theatre
+  address: 245 W 52nd St, New York, NY, 10019
+  preview: 2005-10-04
+  opening: 2005-11-06
+  closing:
+  limited: false
+  accolades:
+  trailer: https://www.youtube.com/watch?v=KqeBH2OIrPY
+  url: http://www.jerseyboysinfo.com/broadway/
+  performances:
+    sun:
+      - student: 12:00 PM
+      - performance: 3:00 PM
+    mon:
+    tue:
+      - student: 10:00 AM
+      - performance: 7:00 PM
+    wed:
+      - student: 10:00 AM
+      - performance: 2:00 PM
+      - performance: 7:00 PM
+    thu:
+      - student: 10:00 AM
+      - performance: 7:00 PM
+    fri:
+      - student: 10:00 AM
+      - performance: 8:00 PM
+    sat:
+      - student: 10:00 AM
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  cost:
+    -
+      title: $27 Digital Lottery
+      description: A limited number of $32 tickets are available daily through our Digital Lottery. Winners will be notified 3 hours prior to performance time.ma 2 tickets per person.
+      url: http://jerseyboysinfo.com/broadway/lottery
+      label: jerseyboysinfo.com/broadway/lottery
+    -
+      title: $27 Student Rush
+      description: Open only to current students. Available when the box office opens, subject to availability. Tuesday, Wednesday, and Thursday only. Government-issed photo ID is required along with your student ID. 2 tickets per person.
+    -
+      title: $27 Standing Room
+      description: Standing Room tickets are only available on the day of the performance from the Box Office. Tickets are sold 2 hours before the performance for $27, cash only. Limit 1 per person. Standing Room tickets are only available for sold out performances; tickets will not be available for all performances. Standing Room prices and times of sales are subject to change without notice.
+    -
+      title: $34 Tix4Students
+      description: Student tickets available for purchase online in advance for members of TIX4STUDENTS.  Student tickets are located in the rear of the orchestra and are considered partial view which means you will miss a few moments in the show. You will be able to select you own seats. There is a limit of 2 tickets for this event.
+      url: https://www.tix4students.com/events/jersey-boys-ny/
+      label: tix4students.com
+    -
+      title: $47-$297 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+      url: http://www.ticketmaster.com/Jersey-Boys-New-York-NY-tickets/artist/2197820?brand=jerseyboysnyc
+      label: ticketmaster.com

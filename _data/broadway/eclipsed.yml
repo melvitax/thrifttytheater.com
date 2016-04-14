@@ -1,0 +1,48 @@
+---
+  name: Eclipsed
+  description: Lupita Nyong'o stars in Danai Gurira's drama, set amidst the Liberian Civil War.
+  duration: 2 hrs 15 mins 1 intermission
+  advisory: May be inappropriate for children 12 and under (strong subject matter). Children under the age of 4 are not permitted in the theater.
+  notice:
+  lowest: $39
+  theater: Golden Theatre
+  address: 252 W 45th St, New York, NY, 10036
+  preview: 2016-02-23
+  opening: 2016-03-06
+  closing: 2016-06-19
+  limited: true
+  callout: Limited Engagement
+  accolades: NY Times Critic's Pick
+  trailer: https://www.youtube.com/watch?v=mQpPI5mid-Q
+  url: http://www.eclipsedbroadway.com
+  performances:
+    sun:
+      - student: 12:00 PM
+      - performance: 3:00 PM
+    mon:
+    tue:
+      - student: 10:00 AM
+      - performance: 7:00 PM
+    wed:
+      - student: 10:00 AM
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+    thu:
+      - student: 10:00 AM
+      - performance: 7:00 PM
+    fri:
+      - student: 10:00 AM
+      - performance: 8:00 PM
+    sat:
+      - student: 10:00 AM
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  cost:
+    -
+      title: $39 Student Rush
+      description: Same-day student rush tickets are available at the box office when it opens. $39 per ticket, limit two tickets per person. Valid student ID required. Availability is limited.
+    -
+      title: $77-$225 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+      url: https://www.telecharge.com/Broadway/Eclipsed/Schedules-Prices
+      label: telecharge.com

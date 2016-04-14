@@ -1,0 +1,57 @@
+---
+  name: The Phantom of the Opera
+  description: Andrew Lloyd Webber's masterwork is a timeless story of seduction and despair.
+  duration: 2 hrs 30 mins 1 intermission
+  advisory: May be appropriate for ages 4 and older. Children under 4 are not permitted into the theatre.
+  notice:
+  lowest: $28
+  theater: Majestic Theatre
+  address: 245 W 44th St, New York, NY 10036
+  preview: 1988-01-09
+  opening: 1988-01-26
+  closing:
+  limited: false
+  accolades: Broadway’s longest running musical
+  trailer: https://www.youtube.com/watch?v=zqXaNYJ3JGg
+  url: http://www.thephantomoftheopera.com/new_york/
+  performances:
+    sun:
+    mon:
+      - digital: 3:00 PM
+      - performance: 8:00 PM
+    tue:
+      - digital: 3:00 PM
+      - performance: 7:00 PM
+    wed:
+      - digital: 3:00 PM
+      - performance: 8:00
+    thu:
+      - digital: 11:00 AM
+      - performance: 2:00 PM
+      - digital: 3:00 PM
+      - performance: 8:00 PM
+    fri:
+      - digital: 3:00 PM
+      - performance: 8:00 PM
+    sat:
+      - digital: 11:00 AM
+      - performance: 2:00 PM
+      - digital: 3:00 PM
+      - performance: 8:00 PM
+  cost:
+    -
+      title: $28 Digital Lottery
+      description: To celebrate its 28th Anniversary, Phantom has introduced a daily digital lottery. For matinee performances, entries must be submitted by 11 AM; for evening performances by 3 PM. 2 tickets per person.
+      url: http://www.phantombroadwaylottery.com
+      label: phantombroadwaylottery.com
+    -
+      title: $26 Standing Room
+      description: Available when the box office opens when the show is sold out. 2 tickets per person.
+    -
+      title: $26 Rear Mezzanine
+      description: Rear mezzanine tickets are regularly priced at $26.50 for weekday performances and can be purchased in advance at the box office.
+    -
+      title: $27-$225 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+      url: https://www.telecharge.com/Broadway/The-Phantom-of-the-Opera/Schedules-Prices
+      label: telecharge.com

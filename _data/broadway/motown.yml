@@ -1,0 +1,38 @@
+---
+  name: Motown the Musical
+  description: The story of Motown legend Berry Gordy, featuring the era's greatest hits, returns to Broadway!
+  duration: 2 hrs 40 mins 1 intermission
+  advisory: Appropriate for ages 8+. Children under the age of 4 are not permitted in the theatre.
+  notice: Back on Broadway for 18 Weeks Only!
+  theater: Nederlander Theater
+  address: 208 W 41st St, New York, NY, 10036
+  preview: 2016-07-12
+  opening: 2016-07-12
+  closing: 2016-11-13
+  limited: true
+  callout: Back on Broadway for 18 Weeks Only!
+  accolades:
+  trailer: https://www.youtube.com/watch?v=dedAaHni9K4
+  url: http://www.motownthemusical.com
+  performances:
+    sun:
+      - performance: 3:00 PM
+    mon:
+    tue:
+      - performance: 7:00 PM
+    wed:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+    thu:
+      - performance: 7:00 PM
+    fri:
+      - performance: 8:00 PM
+    sat:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  cost:
+    -
+      title: $87-$252 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+      url: http://www.ticketmaster.com/Motown-the-Musical-tickets/artist/1776746
+      label: ticketmaster.com
