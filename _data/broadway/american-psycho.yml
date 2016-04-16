@@ -9,6 +9,7 @@
   preview: 2016-03-24
   opening: 2016-04-20
   closing:
+  lowest: $37
   limited: false
   accolades:
   trailer: https://www.youtube.com/watch?v=cZ4DgTUJ2sM
@@ -45,6 +46,14 @@
       - performance: 2:00 PM
       - performance: 8:00 PM
   cost:
+    - 
+      title: $37 General Rush
+      description: Rush tickets are only available at the Box Office upon open - $37.00 - Limit 2 tickets per customer - Subject to availability
+    - 
+      title: $52 Tix4Students
+      description: Student tickets for selected performances are available for purchase online in advance for members of TIX4STUDENTS.
+      url: https://www.tix4students.com/event/american-psycho/
+      label: Tix4Students
     -
       title: $69-$148 Tickets
       description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
