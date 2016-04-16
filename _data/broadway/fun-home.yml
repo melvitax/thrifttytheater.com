@@ -48,7 +48,7 @@
     -
       title: $32 Mobile Lottery
       description: Enter via TodayTix mobile app beginning at midnight on the day of the performance. Winners are notified via push notification 3-4 hours before curtain. 2 tickets per person.
-      url: https://145962.api-02.com/serve?action=click&publisher_id=145962&site_id=46108&offer_id=358834
+      url: http://www.todaytix.com/us/nyc/lottery/fun-home/
       label: TodayTIX App
     -
       title: $30 Standing Room
