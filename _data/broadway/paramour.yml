@@ -2,8 +2,9 @@
   name: Paramour
   description: Cirque du Soleil's signature spectacle is united with Broadway's story-telling in this brand new production.
   duration:
-  advisory:
+  advisory: Children under the age of 4 are not permitted in the theatre.
   notice:
+  lowest: $35
   theater: Lyric Theatre
   address: 213 W 42nd St, New York, NY 10036
   preview: 2016-04-16
