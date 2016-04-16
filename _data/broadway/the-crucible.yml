@@ -10,6 +10,7 @@
   opening: 2016-03-31
   closing: 2016-07-17
   limited: true
+  lowest: $35
   callout: Limited Engagement
   accolades:
   trailer: https://www.youtube.com/watch?v=9f6vSALrODU
@@ -31,6 +32,11 @@
       - performance: 2:00 PM
       - performance: 8:00 PM
   cost:
+    - 
+      title: $35 Online Lottery
+      description: A limited number of $35 lottery tickets are available for each performance. Win or lose announcements made via email at 12:00pm the day before the performance.Duplicate entries will be discarded.
+      url: https://jujamcyn.turnkeysurveyor.com/se/4D0A7D4978CA3CA3
+      label: turnkeysurveyor.com
     -
       title: $42-$250 Tickets
       description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
