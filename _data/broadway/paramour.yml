@@ -16,34 +16,53 @@
   previews:
     sun:
     mon:
+      - mobile: 3:30 PM
       - performance: 7:30 PM
     tue:
+      - mobile: 3:30 PM
       - performance: 7:30 PM
     wed:
+      - mobile: 3:30 PM
       - performance: 7:30 PM
     thu:
+      - mobile: 3:30 PM
       - performance: 7:30 PM
     fri:
+      - mobile: 4:00 PM
       - performance: 8:00 PM
     sat:
+      - mobile: 4:00 PM
       - performance: 8:00 PM
   performances:
     sun:
     mon:
+      - mobile: 3:30 PM
       - performance: 7:30 PM
     tue:
+      - mobile: 3:30 PM
       - performance: 7:30 PM
     wed:
+      - mobile: 10:30 AM
       - performance: 2:30 PM
+        - mobile: 3:30 PM
       - performance: 7:30
     thu:
+      - mobile: 3:30 PM
       - performance: 7:30 PM
     fri:
+      - mobile: 4:00 PM
       - performance: 8:00 PM
     sat:
+      - mobile: 10:30 AM
       - performance: 2:30 PM
+        - mobile: 4:00 PM
       - performance: 8:00 PM
   cost:
+    -
+      title: $35 Mobile Lottery
+      description: Enter via TodayTix mobile app beginning at midnight on the day of the performance. Winners are notified via push notification 3-4 hours before curtain. 2 tickets per person.
+      url: http://www.todaytix.com/us/nyc/lottery/cirque-du-soleil-paramour/
+      label: TodayTIX App
     -
       title: $55-$179 Tickets
       description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours.
