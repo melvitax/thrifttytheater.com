@@ -13,7 +13,7 @@
   limited: false
   accolades: Broadway’s longest running musical
   trailer: https://www.youtube.com/watch?v=zqXaNYJ3JGg
-  url: http://www.thephantomoftheopera.com/new_york/
+  url: http://www.thephantomoftheopera.com/new-york
   performances:
     sun:
     mon:
@@ -24,7 +24,7 @@
       - performance: 7:00 PM
     wed:
       - digital: 3:00 PM
-      - performance: 8:00
+      - performance: 8:00 PM
     thu:
       - digital: 11:00 AM
       - performance: 2:00 PM
