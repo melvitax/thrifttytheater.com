@@ -18,49 +18,69 @@
     sun:
     mon:
       - rush: 10:00 AM
+      - digital: 3:00 PM
       - performance: 8:00 PM
     tue:
       - rush: 10:00 AM
+      - digital: 3:00 PM
       - performance: 8:00 PM
     wed:
       - rush: 10:00 AM
+      - digital: 3:00 PM
       - performance: 8:00 PM
     thu:
       - rush: 10:00 AM
+      - digital: 3:00 PM
       - performance: 8:00 PM
     fri:
       - rush: 10:00 AM
+      - digital: 3:00 PM
       - performance: 8:00 PM
     sat:
       - rush: 10:00 AM
+      - digital: 11:00 AM
       - performance: 2:00 PM
+      - digital: 3:00 PM
       - performance: 8:00 PM
   performances:
     sun:
       - rush: 12:00 PM
+      - digital: 11:00 AM
       - performance: 2:00 PM
+      - digital: 3:00 PM
       - performance: 7:00 PM
     mon:
       - rush: 10:00 AM
+      - digital: 3:00 PM
       - performance: 7:00 PM
     tue:
       - rush: 10:00 AM
+      - digital: 3:00 PM
       - performance: 7:00 PM
     wed:
     thu:
       - rush: 10:00 AM
+      - digital: 3:00 PM
       - performance: 7:00 PM
     fri:
       - rush: 10:00 AM
+      - digital: 3:00 PM
       - performance: 8:00 PM
     sat:
       - rush: 10:00 AM
+      - digital: 11:00 AM
       - performance: 2:00 PM
+      - digital: 3:00 PM
       - performance: 8:00 PM
   cost:
     - 
       title: $37 General Rush
       description: Rush tickets are only available at the Box Office upon open - $37.00 - Limit 2 tickets per customer - Subject to availability
+    - 
+      title: $45 Digital Lottery
+      description: Entries can be submitted the day of the preferred performance, either by 11 AM for matinees or 3 PM for evening performances. Winners will be notified via email or text, and winners may purchase up to two tickets, which will then be held under their name at the theatre's box office (236 West 45th Street)
+      url: http://www.americanpsychothemusical.com/lottery
+      label: americanpsychothemusical.com/lottery
     - 
       title: $52 Tix4Students
       description: Student tickets for selected performances are available for purchase online in advance for members of TIX4STUDENTS.
