@@ -16,32 +16,32 @@
   url: http://www.aladdinthemusical.com
   performances:
     sun:
-      - lottery: 1:00 PM
+      - digital: 8:30 AM
       - performance: 3:00 PM
     mon:
     tue:
-      - lottery: 5:00 PM
+      - digital: 8:30 AM
       - performance: 7:00 PM
     wed:
-      - lottery: 11:00 AM
+      - digital: 8:30 AM
       - performance: 1:00 PM
-      - lottery: 6:00 PM
-      - performance: 8:00 PM
+      - performance: 7:00 PM
     thu:
-      - lottery: 5:00 PM
+      - digital: 8:30 AM
       - performance: 7:00 PM
     fri:
-      - lottery: 6:00 PM
+      - digital: 8:30 AM
       - performance: 8:00 PM
     sat:
-      - lottery: 12:00 PM
+      - digital: 8:30 AM
       - performance: 2:00 PM
-      - lottery: 6:00 PM
       - performance: 8:00 PM
   cost:
     -
-      title: $30 Lottery
-      description: They begin taking names 2.5 hours before curtain. Winners are drawn 2 hours before curtain. 2 tickets per person.
+      title: $30 Digital Lottery
+      description: A limited number of tickets will be sold to winners of the official digital lottery. Lottery entries for each performance will be accepted starting at 7PM the day prior and continue up until 8:30am on the day of the performance. At that time, the lottery for that performance will be closed. Please note, lottery seats may be partial view.
+      url: https://lottery.broadwaydirect.com/show/aladdin/
+      label: broadwaydirect.com
     -
       title: $55-$357 Tickets
       description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
