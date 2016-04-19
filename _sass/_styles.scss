@@ -16,7 +16,7 @@ body {
   vertical-align: middle;
   color: white;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  top: 70px * -1;
+  top:150px * -1;
   transition: top 0.0s ease-in-out;
   background: -moz-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.02) 98%, rgba(0,0,0,0) 100%);
   background: -moz-linear-gradient(top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.01) 98%, rgba(0,0,0,0) 100%);
@@ -229,6 +229,7 @@ a.button {
   font-weight: 900;
   color: white;
   margin: 0 2px;
+  text-align: center;
 }
 
 .today {
@@ -239,13 +240,33 @@ a.button {
   display: none;
 }
 .day-event {
-  padding: 5px;
-  margin: 5px 2px;
-  background-color: rgba(54, 58, 61, 0.11);;
+  padding: 5px 12px;
+  margin: 0 2px;
+  background-color: rgba(54, 58, 61, 0.11);
+  border-top: 1px solid rgba(229, 253, 255, 0.27);
+}
+@media (min-width: $screen-xs-min) { .day-event {
+  margin: 6px 2px;
+  border-top: none;
+  border-radius: 5px;
+}}
+
+.day-event:nth-child(2)  {
+  border-radius: 5px 5px 0 0;
+}
+.day-event:last-child {
+  border-radius: 0 0 5px 5px;
+}
+.day-event.no-events {
   border-radius: 5px;
 }
+@media (min-width: $screen-xs-min) {
+  .day-event:nth-child(2), .day-event:last-child  {
+  border-radius: 5px;
+}}
 .today .day-event {
   padding: 5px 0;
+  border-top: none;
 }
 @media (min-width: $screen-xs-min) { .today .day-event {
   display: inline-block;
@@ -254,18 +275,26 @@ a.button {
   margin-right: 1em;
 }}
 .day-event.performance {
-  background-color: rgba(229, 253, 255, 0.27);;
+  background-color: rgba(229, 253, 255, 0.27);
 }
 .today .day-event, .today .day-event.performance  {
   background-color: transparent;
 }
 .event-type {
   font-weight: 400;
+  color: $dark-grey;
   overflow: hidden;
   display: inline-block;
   zoom: 1;
   *display: inline;
   vertical-align: top;
+}
+.today .event-type {
+  color: $light-grey;
+}
+:not(.today) .no-events .event-type {
+  display: block;
+  text-align: center;
 }
 .today .event-type {
   margin-right: 5px;
