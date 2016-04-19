@@ -1,5 +1,7 @@
-var today = new Date();
-var todaysDay = today.getDay();
+var now = new Date();
+var today = now.getDay();
+var weekdays = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 var selectedRow;
 var rows = document.querySelectorAll(".row");
 
@@ -49,10 +51,10 @@ for(var i = 0; i < rows.length; i++) {
   var openingDate = new Date(row.getAttribute('opening'));
   var twoWeeks = 12096e5 // two weeks in milliseconds
 
-  if (today < new Date(previewDate - twoWeeks)) {
+  if (now < new Date(previewDate - twoWeeks)) {
     row.classList.add('upcoming');
     console.log(row.getAttribute('id')+' upcoming and hidden')
-  } else if (today >= new Date(previewDate - twoWeeks) && today < openingDate) {
+  } else if (now >= new Date(previewDate - twoWeeks) && now < openingDate) {
     if (row.querySelector('.previews')) {
         row.querySelector('.previews').classList.add('active');
     } else {
@@ -69,10 +71,10 @@ for(var i = 0; i < rows.length; i++) {
   var closing = row.getAttribute('closing');
   if (closing != undefined) {
     var closingDate = new Date(closing);
-    if (today > closingDate) {
+    if (now > closingDate) {
       console.log(row.getAttribute('id')+' show expired');
       row.style.display = 'none';
-    } else if (today > new Date(closingDate - twoWeeks)) {
+    } else if (now > new Date(closingDate - twoWeeks)) {
       this.classList.add('closing');
     }
   }
@@ -82,7 +84,7 @@ for(var i = 0; i < rows.length; i++) {
   for(var j = 0; j < timetables.length; j++) {
     var timetable = timetables[j];
     var days = timetable.querySelectorAll('.day-column');
-    row.querySelector('.row-header').querySelector('.today').innerHTML = days[todaysDay].innerHTML
+    row.querySelector('.row-header').querySelector('.today').innerHTML = days[today].innerHTML
   }
 
   // Toggle cost description
@@ -99,7 +101,14 @@ for(var i = 0; i < rows.length; i++) {
       event.preventDefault();
     });
   }
+
+  // Close row button
+  row.querySelector('.close-row').addEventListener('click', function(){
+    this.parentNode.parentNode.querySelector('.row-header').click();
+  })
+
 }
+
 
 window.lazySizesConfig = {
   addClasses: true
@@ -166,11 +175,14 @@ function scrollTo(element, to, duration) {
       scrollTo(element, to, duration - 10);
   }, 10);
 }
-document.querySelector("#site-header").addEventListener('click', function(e){
+document.querySelector("#site-header").querySelector("h1").addEventListener('click', function(e){
   'use strict';
   e.preventDefault();
   scrollTo(document.body, 0, 300);
 });
+
+// Add date to title
+document.querySelector("#site-header").querySelector("h1").innerHTML = weekdays[now.getDay()] + ' ' + months[now.getMonth()] + ' ' + now.getUTCDay();
 
 // JS Player
 var jsplayerlinks = document.querySelectorAll(".js-player-link");

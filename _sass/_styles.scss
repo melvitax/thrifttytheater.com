@@ -11,14 +11,13 @@ body {
   text-transform: uppercase;
   position: fixed;
   width: 100%;
-  height: 70px;
+  height: 120px;
   z-index: 2;
   vertical-align: middle;
   color: white;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  cursor: pointer;
   top: 70px * -1;
-  transition: top 0.25s ease-in-out;
+  transition: top 0.0s ease-in-out;
   background: -moz-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.02) 98%, rgba(0,0,0,0) 100%);
   background: -moz-linear-gradient(top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.01) 98%, rgba(0,0,0,0) 100%);
   background: -webkit-linear-gradient(top, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.01) 98%,rgba(0,0,0,0) 100%);
@@ -26,10 +25,12 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#00000000',GradientType=0 );
 }
 #site-header.is-down {
-  top: 0
+  top: 0;
+  transition: top 0.55s ease-in-out;
 }
-#site-header:hover h1, #site-header:active h1 {
-  opacity: 0.7;
+#site-header h1:hover, #site-header h1:active {
+  color: $light-grey;
+  cursor: pointer;
 }
 /* Each Show Row */
 .row {
@@ -128,15 +129,16 @@ aside { }
 } }
 .poster {
   position: relative;
+  text-align: center;
 }
 .poster img {
-  width: 100%;
-  height: auto;
+  width: 230px;
+  height: 355px;
+
   box-shadow: 0 10px 15px rgba(0,0,0,0.5);
 }
 @media (min-width: $screen-xs-min) {  .poster img  {
-  width: 230px;
-  height: 355px;
+
 }}
 
 // Content holds all info for show
@@ -164,10 +166,16 @@ aside { }
 .website {
   padding: 0.5em 0 ;
 }
-.website .button {
+.website a.button {
   display: block;
+}
+a.button {
   background: rgba(255, 255, 255, 0.2);
   font-weight: 900;
+  margin: 0.5em 0;
+  &:hover {
+    text-decoration: none;
+  }
 }
 // Theater name and address
 .theater {
@@ -222,16 +230,14 @@ aside { }
   color: white;
   margin: 0 2px;
 }
+
 .today {
   opacity: 0.8;
 }
 
-@media (min-width: $screen-xs-min) { .today .day-name  {
-  display: inline-block;
-  zoom: 1;
-  *display: inline;
-  margin-right: 1em;
-}}
+.today .day-name {
+  display: none;
+}
 .day-event {
   padding: 5px;
   margin: 5px 2px;
@@ -274,6 +280,8 @@ aside { }
 @media (min-width: $screen-xs-min) { .event-time {
   float: none;
 }}
+
+
 // Cost summary
 .cost {
   list-style-type: none;
@@ -380,6 +388,11 @@ aside { }
   text-align: center;
 }
 
+.close-row {
+  clear: both;
+  text-align: center;
+}
+
 .button {
     -webkit-transition: opacity .5s ease;
     transition: opacity .5s ease
@@ -448,7 +461,6 @@ aside { }
     .button--material span {
         margin-top: -10px
     }
-
     .button--material svg {
         fill: #fff
     }
