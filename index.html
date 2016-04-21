@@ -10,19 +10,21 @@ title: show.hacker
 	{% assign timeZone = " 00:00:00 -0500" %}
 
 	<div class="row" id="{{slug}}" preview="{{show.preview}}" opening="{{show.opening}}" {% if(show.closing) %}closing="{{show.closing}}"{% endif %} >
-		<div class="background lazyload" data-bg="{{site.url}}/images/{{market}}/{{ slug }}.jpg" ></div>
+		<div class="background lazyload" data-bg="/images/{{market}}/{{ slug }}.jpg" ></div>
 		<div class="wrapper" id="-{{slug}}">
 			<div class="row-header">
 				<h2>{% if(show.lowest) %} <span class="lowest">{{show.lowest}} </span>{% endif %}{{ show.name }}</h2>
 				{% if(show.callout) %} <span class="callout">{{show.callout}}</span>{% endif %}
-				<div class="today"></div>
+				<div class="today">
+					<div class="day-event"><span class="event-type">PERFORMANCE</span><span class="event-time">...</span></div>
+				</div>
 			</div>
 			<div class="row-content">
 				<aside>
 				<div class="poster">
 					{% if show.trailer %}
 					<a class="js-player-link" href="{{show.trailer}}">
-						<img class="lazyload" data-src="{{site.url}}/images/{{market}}/{{ slug }}-poster@2x.jpg" width="230" height="355" alt="poster" />
+						<img class="lazyload" data-src="/images/{{market}}/{{ slug }}-poster@2x.jpg" width="230" height="355" alt="poster" />
 						<button class="button button--txt button--invert button--play">
 				      <svg  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 				viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
@@ -31,7 +33,7 @@ title: show.hacker
 				    </button>
 					</a>
 					{% else %}
-						<img class="lazyload missing" data-src="{{site.url}}/images/{{market}}/{{ slug }}-poster@2x.jpg" width="230" height="355" alt="poster" />
+						<img class="lazyload missing" data-src="/images/{{market}}/{{ slug }}-poster@2x.jpg" width="230" height="355" alt="poster" />
 					{% endif %}
 				</div>
 				{% if show.description %}

@@ -1,7 +1,19 @@
 name: show.hacker
+description: An open source guide to low price theater tickets
+keywords: theater, broadway, tickets, discount, rush, lottery, opensource, hack, lifehacker, hamilton
+twitter: showhacker
+github: melvitax/showhacker.com
+socialimage: http://showhacker.com/images/socialimage.jpg
+author:
+  name: Melvin Rivera
+  twitter: melvitax
+  role: designer/developer
+thanks:
+  -
+    name: Ian Rose
+    url: https://github.com/ianrose
 markdown: kramdown
 url: http://showhacker.com
-github: https://github.com/melvitax/showhacker
 exclude: ['node_modules', 'bower_components', 'README.md', 'package.json', 'bower.json']
 timezone: 'America/New_York'
 googleanalytics: 'UA-3488813-17'

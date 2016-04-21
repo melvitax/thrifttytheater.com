@@ -4,7 +4,7 @@
   duration: 2 hrs 30 mins 1 intermission
   advisory: Children under the age of 4 are not permitted in the theatre.
   notice:
-  lowest: $39
+  lowest: $40
   theater: Stephen Sondheim Theatre
   address: 124 W 43rd St, New York, NY, 10036
   preview: 2013-11-21
@@ -18,35 +18,25 @@
     sun:
       - rush: 10:00 AM
       - performance: 2:00 PM
-      - digital: 3:00 PM
       - performance: 7:00 PM
     mon:
     tue:
       - rush: 10:00 AM
-      - digital: 3:00 PM
       - performance: 7:00 PM
     wed:
       - rush: 10:00 AM
       - performance: 2:00 PM
     thu:
       - rush: 10:00 AM
-      - digital: 3:00 PM
       - performance: 7:00 PM
     fri:
       - rush: 10:00 AM
-      - digital: 3:00 PM
       - performance: 8:00 PM
     sat:
       - rush: 10:00 AM
       - performance: 2:00 PM
-      - digital: 3:00 PM
       - performance: 8:00 PM
   cost:
-    -
-      title: $39 Digital Lottery
-      description: A limited number of tickets for select performances will be sold via the Broadway Direct Official Digital Lottery.
-      url: https://lottery.broadwaydirect.com/show/beautiful/
-      label: broadwaydirect.com
     -
       title: $40 Rush
       description: A limited number of tickets will be made available for all performances and can be purchased day-of at the box office of the Stephen Sondheim Theatre (124 West 43rd Street). Tickets are subject to availability, and patrons are limited to two rush tickets per person.

@@ -6,22 +6,22 @@
   "scripts": {
     "postinstall": "bower-installer",
     "test": "jshint ./public/**/*.js & csslint-cli ./www/css/",
-    "dev": "jekyll serve --config _config-dev.yml --watch & browser-sync start --no-open --files '_site/*' --reload-delay 1000 --proxy 'localhost:4000'"
+    "dev": "jekyll serve --watch & browser-sync start --no-open --files '_site/*' --reload-delay 1000 --proxy 'localhost:4000'"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://melvitax@github.com/melvitax/showhacker.git"
+    "url": "git+https://melvitax@github.com/melvitax/showhacker.com.git"
   },
   "keywords": [
     "broadway",
     "tickets"
   ],
-  "author": "Melvin",
+  "author": "Melvin Rivera",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/melvitax/showhacker/issues"
+    "url": "https://github.com/melvitax/showhacker.com/issues"
   },
-  "homepage": "https://github.com/melvitax/showhacker#readme",
+  "homepage": "https://github.com/melvitax/showhacker.com#readme",
   "devDependencies": {
     "browser-sync": "^2.11.2",
     "bower-installer": "^1.2.0",
