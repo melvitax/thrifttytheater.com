@@ -139,7 +139,6 @@ function hasScrolled() {
   if(Math.abs(lastScrollTop - start) <= delta) {
     return;
   }
-  console.log('start: '+start);
   if( (start > lastScrollTop && start > headerHeight) || (start < delta) ) {
     siteHeader.classList.remove('is-down');
     siteHeader.classList.add('is-up');
