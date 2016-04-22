@@ -12,15 +12,12 @@ If you want to develop locally instead, follow the instructions bellow. This pro
 
 ## To Develop Locally
 
-This project requires
-
+This project requires  
 [Git](https://git-scm.com)
-
 [NodeJS](https://nodejs.org)
-
 [Jekyll](https://jekyllrb.com)
 
-$ git clone https://github.com/melvitax/showhacker.com 
+$ git clone https://github.com/melvitax/showhacker.com
 $ npm install
 $ npm run dev
 
