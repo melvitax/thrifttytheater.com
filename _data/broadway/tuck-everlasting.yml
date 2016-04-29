@@ -14,30 +14,6 @@
   accolades:
   trailer: https://www.youtube.com/watch?v=GcVF5wR0kUw
   url: http://tuckeverlastingmusical.com
-  previews:
-    sun:
-    mon:
-      - digital: 3:00 PM
-      - performance: 8:00 PM
-    tue:
-      - digital: 3:00 PM
-      - performance: 8:00 PM
-    wed:
-      - digital: 11:00 AM
-      - performance: 2:00 PM
-      - digital: 3:00 PM
-      - performance: 8:00 PM
-    thu:
-      - digital: 3:00 PM
-      - performance: 8:00 PM
-    fri:
-      - digital: 3:00 PM
-      - performance: 8:00 PM
-    sat:
-      - digital: 11:00 AM
-      - performance: 2:00 PM
-      - digital: 3:00 PM
-      - performance: 8:00 PM
   performances:
     sun:
       - digital: 11:00 AM

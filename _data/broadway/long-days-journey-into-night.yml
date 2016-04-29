@@ -15,34 +15,6 @@
   accolades:
   trailer: https://www.youtube.com/watch?v=nYCgy2q5QqY
   url: http://www.roundabouttheatre.org/Shows-Events/Long-Day-s-Journey-Into-Night.aspx
-  previews:
-    sun:
-      - rush: 12:00 PM
-      - mobile: 10:00 AM
-      - performance: 2:00 PM
-    mon:
-    tue:
-      - rush: 12:00 PM
-      - mobile: 3:00 PM
-      - performance: 7:00 PM
-    wed:
-      - rush: 12:00 PM
-      - mobile: 10:00 AM
-      - performance: 2:00 PM
-    thu:
-      - rush: 12:00 PM
-      - mobile: 3:00 PM
-      - performance: 7:00 PM
-    fri:
-      - rush: 12:00 PM
-      - mobile: 3:00 PM
-      - performance: 7:00 PM
-    sat:
-      - rush: 12:00 PM
-      - mobile: 9:00 AM
-      - performance: 1:00 PM
-      - mobile: 3:00 PM
-      - performance: 7:00 PM
   performances:
     sun:
       - rush: 12:00 PM

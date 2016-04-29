@@ -32,6 +32,8 @@
       - mobile: 4:00 PM
       - performance: 8:00 PM
     sat:
+      - mobile: 10:30 AM
+      - performance: 3:00 PM
       - mobile: 4:00 PM
       - performance: 8:00 PM
   performances:

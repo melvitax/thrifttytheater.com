@@ -14,21 +14,6 @@
   accolades:
   trailer: https://www.youtube.com/watch?v=Y3uw2qppi4s
   url: http://waitressthemusical.com
-  previews:
-    sun:
-    mon:
-    tue:
-      - performance: 7:30 PM
-    wed:
-      - performance: 2:00 PM
-      - performance: 7:30 PM
-    thu:
-      - performance: 7:30 PM
-    fri:
-      - performance: 8:00 PM
-    sat:
-      - performance: 2:00 PM
-      - performance: 8:00 PM
   performances:
     sun:
       - performance: 3:00 PM
