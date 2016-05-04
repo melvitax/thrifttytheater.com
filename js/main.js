@@ -181,7 +181,7 @@ document.querySelector("#site-header").querySelector("h1").addEventListener('cli
 });
 
 // Add date to title
-document.querySelector("#site-header").querySelector("h1").innerHTML = weekdays[now.getDay()] + ' ' + months[now.getMonth()] + ' ' + now.getUTCDay();
+document.querySelector("#site-header").querySelector("h1").innerHTML = weekdays[now.getDay()] + ' ' + months[now.getMonth()] + ' ' + now.getDate();
 
 // JS Player
 var jsplayerlinks = document.querySelectorAll(".js-player-link");
