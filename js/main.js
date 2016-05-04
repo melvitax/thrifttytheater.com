@@ -75,7 +75,7 @@ for(var i = 0; i < rows.length; i++) {
       console.log(row.getAttribute('id')+' show expired');
       row.style.display = 'none';
     } else if (now > new Date(closingDate - twoWeeks)) {
-      this.classList.add('closing');
+      row.classList.add('closing');
     }
   }
 
