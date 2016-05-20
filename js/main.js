@@ -80,12 +80,17 @@ for(var i = 0; i < rows.length; i++) {
   }
 
   // Copy today's events to the collapssed view
-  var timetables = row.querySelectorAll('.timetable.active');
-  for(var j = 0; j < timetables.length; j++) {
-    var timetable = timetables[j];
-    var days = timetable.querySelectorAll('.day-column');
-    row.querySelector('.row-header').querySelector('.today').innerHTML = days[today].innerHTML
+  if (now < new Date(previewDate)) {
+    row.querySelector('.row-header').querySelector('.today').innerHTML = '<div class="day-event">OPENING SOON</div>';
+  } else {
+    var timetables = row.querySelectorAll('.timetable.active');
+    for(var j = 0; j < timetables.length; j++) {
+      var timetable = timetables[j];
+      var days = timetable.querySelectorAll('.day-column');
+      row.querySelector('.row-header').querySelector('.today').innerHTML = days[today].innerHTML;
+    }
   }
+
 
   // Toggle cost description
   var costs = row.querySelectorAll('.cost-title');

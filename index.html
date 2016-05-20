@@ -57,7 +57,7 @@ title: show.hacker
 					{% endif %}
 					{% if show.closing %}
 						{% capture closing %}{{show.closing}} 00:00:00 -0500{% endcapture %}
-					<span class="date"><strong>Closing:</strong> {{closing | date: "%b %-d, %Y"}}</span>
+					<span class="date"><strong>Closing:</strong>&nbsp; {{closing | date: "%b %-d, %Y"}}</span>&nbsp;&nbsp;
 					{% endif %}
 				</div>
 				{% if show.url %}

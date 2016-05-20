@@ -1,0 +1,55 @@
+---
+  name: "An Act of God"
+  description: "Written by The Creator Himself"
+  duration: 90 mins NO intermission
+  advisory: Children under the age of 4 are not permitted in the theatre.
+  notice:
+  lowest:
+  theater: Booth Theater
+  address: 222 West 45th Street, New York, NY 10036
+  preview: 2016-05-28
+  opening: 2016-06-06
+  closing: 2016-09-04
+  limited: true
+  callout: Limited Engagement
+  accolades: New York Times Critics' Pick
+  trailer: https://www.youtube.com/watch?v=SXIQAN48FWI
+  url: http://www.aladdinthemusical.com
+  previews:
+    sun:
+      - performance: 3:00 PM
+    mon:
+    tue:
+      - performance: 7:30 PM
+    wed:
+      - performance: 2:00 PM
+      - performance: 7:00 PM
+    thu:
+      - performance: 7:00 PM
+    fri:
+      - performance: 8:00 PM
+    sat:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  performances:
+    sun:
+      - performance: 3:00 PM
+    mon:
+    tue:
+      - performance: 7:30 PM
+    wed:
+      - performance: 2:00 PM
+      - performance: 7:00 PM
+    thu:
+      - performance: 7:00 PM
+    fri:
+      - performance: 8:00 PM
+    sat:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  cost:
+    -
+      title: $79-$249 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+      url: https://www.telecharge.com/Broadway/An-Act-of-God/Schedules-Prices
+      label: telecharge.com
