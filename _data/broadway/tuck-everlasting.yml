@@ -3,33 +3,28 @@
   description: Take a journey you’ll never forget in this daring new Broadway musical about love, family and living life to the fullest.
   duration: 2 hrs 30 mins 1 intermission
   advisory: Children under the age of 4 are not permitted in the theatre.
-  notice:
+  notice: Final Performance May 29th
+  callout: Final Performance May 29th
   lowest: $32
   theater: Broadhurst Theatre
   address: 235 W 44th St, New York, NY 10036
   preview: 2016-03-31
   opening: 2016-04-26
-  closing:
+  closing: 2016-05-29
   limited: false
-  accolades:
+  accolades: New York Times Critics' Pick
   trailer: https://www.youtube.com/watch?v=GcVF5wR0kUw
   url: http://tuckeverlastingmusical.com
   performances:
     sun:
       - digital: 11:00 AM
-      - performance: 3:00 PM
-    mon:
-    tue:
-      - digital: 3:00 PM
-      - performance: 7:00 PM
-    wed:
-      - digital: 11:00 AM
       - performance: 2:00 PM
       - digital: 3:00 PM
       - performance: 7:30 PM
+    mon:
+    tue:
+    wed:
     thu:
-      - digital: 3:00 PM
-      - performance: 7:00 PM
     fri:
       - digital: 3:00 PM
       - performance: 8:00 PM
