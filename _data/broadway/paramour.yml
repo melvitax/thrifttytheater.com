@@ -14,30 +14,10 @@
   accolades:
   trailer: https://www.youtube.com/watch?v=cxkdJTTf_u8
   url: http://paramouronbroadway.com
-  previews:
-    sun:
-    mon:
-      - mobile: 3:30 PM
-      - performance: 7:30 PM
-    tue:
-      - mobile: 3:30 PM
-      - performance: 7:30 PM
-    wed:
-      - mobile: 3:30 PM
-      - performance: 7:30 PM
-    thu:
-      - mobile: 3:30 PM
-      - performance: 7:30 PM
-    fri:
-      - mobile: 4:00 PM
-      - performance: 8:00 PM
-    sat:
-      - mobile: 10:30 AM
-      - performance: 3:00 PM
-      - mobile: 4:00 PM
-      - performance: 8:00 PM
   performances:
     sun:
+      - mobile: 10:00 AM
+      - performance: 2:00 PM
     mon:
       - mobile: 3:30 PM
       - performance: 7:30 PM
@@ -45,10 +25,6 @@
       - mobile: 3:30 PM
       - performance: 7:30 PM
     wed:
-      - mobile: 10:30 AM
-      - performance: 2:30 PM
-      - mobile: 3:30 PM
-      - performance: 7:30
     thu:
       - mobile: 3:30 PM
       - performance: 7:30 PM
@@ -56,8 +32,8 @@
       - mobile: 4:00 PM
       - performance: 8:00 PM
     sat:
-      - mobile: 10:30 AM
-      - performance: 2:30 PM
+      - mobile: 10:00 AM
+      - performance: 2:00 PM
       - mobile: 4:00 PM
       - performance: 8:00 PM
   cost:
