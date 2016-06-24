@@ -4,7 +4,7 @@
   duration: 90 mins NO intermission
   advisory: Children under the age of 4 are not permitted in the theatre.
   notice:
-  lowest:
+  lowest: $42
   theater: Booth Theater
   address: 222 West 45th Street, New York, NY 10036
   preview: 2016-05-28
@@ -14,24 +14,33 @@
   callout: Limited Engagement
   accolades: New York Times Critics' Pick
   trailer: https://www.youtube.com/watch?v=SXIQAN48FWI
-  url: http://www.aladdinthemusical.com
+  url: http://anactofgod.com
   performances:
     sun:
+      - rush: 12:00 PM
       - performance: 3:00 PM
     mon:
     tue:
-      - performance: 7:30 PM
+      - rush: 10:00 AM
+      - performance: 7:00 PM
     wed:
+      - rush: 10:00 AM
       - performance: 2:00 PM
       - performance: 7:00 PM
     thu:
+      - rush: 10:00 AM
       - performance: 7:00 PM
     fri:
+      - rush: 10:00 AM
       - performance: 8:00 PM
     sat:
+      - rush: 10:00 AM
       - performance: 2:00 PM
       - performance: 8:00 PM
   cost:
+    -
+      title: $42 General Rush
+      description: Available when the box office opens, subject to availability. 2 tickets per person.
     -
       title: $79-$249 Tickets
       description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
