@@ -17,30 +17,43 @@
   url: http://www.brightstarmusical.com
   performances:
     sun:
+      - digital: 10:00 AM
       - rush: 12:00 PM
       - performance: 3:00 PM
     mon:
     tue:
       - rush: 10:00 AM
+      - digital: 3:00 PM
       - performance: 7:00 PM
     wed:
       - rush: 10:00 AM
+      - digital: 10:00 AM
       - performance: 2:00 PM
+      - digital: 3:00 PM
       - performance: 8:00 PM
     thu:
       - rush: 10:00 AM
+      - digital: 3:00 PM
       - performance: 7:00 PM
     fri:
       - rush: 10:00 AM
+      - digital: 3:00 PM
       - performance: 8:00 PM
     sat:
       - rush: 10:00 AM
+      - digital: 10:00 AM
       - performance: 2:00 PM
+      - digital: 3:00 PM
       - performance: 8:00 PM
   cost:
     -
       title: $30 Rush
       description: A limited number of $30 general rush tickets will be available in person at the Cort Theatre box office on the day of each performance. 2 tickets per person.
+    -
+      title: $35 Digital Lottery
+      description: Enter on the day of the performance, up to 10 AM for matinees and 3 PM for evenings. 2 tickets per person.
+      url: http://brightstarlottery.com
+      label: brightstarlottery.com
     -
       title: $45-$250 Tickets
       description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
