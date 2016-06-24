@@ -16,15 +16,15 @@
   url: http://shufflealongbroadway.com
   performances:
     sun:
+      - performance: 2:00 PM
     mon:
-      - performance: 8:00 PM
     tue:
-      - performance: 8:00 PM
+      - performance: 7:00 PM
     wed:
       - performance: 2:00 PM
       - performance: 8:00 PM
     thu:
-      - performance: 8:00 PM
+      - performance: 7:00 PM
     fri:
       - performance: 8:00 PM
     sat:
