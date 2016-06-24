@@ -7,7 +7,7 @@
   theater: Neil Simon Theatre
   address: 250 W 52nd St, New York, NY, 10019
   preview: 2016-07-14
-  opening: 2016-08-02
+  opening: 2016-08-01
   closing:
   limited: false
   accolades:
@@ -16,7 +16,6 @@
   previews:
     sun:
     mon:
-      - performance: 8:00 PM
     tue:
       - performance: 8:00 PM
     wed:
@@ -31,11 +30,10 @@
   performances:
     sun:
     mon:
-      - performance: 7:00 PM
+      - performance: 8:00 PM
     tue:
       - performance: 7:00 PM
     wed:
-      - performance: 7:30 PM
     thu:
       - performance: 7:00 PM
     fri:
