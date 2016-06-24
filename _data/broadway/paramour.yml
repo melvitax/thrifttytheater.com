@@ -18,13 +18,15 @@
     sun:
       - mobile: 10:00 AM
       - performance: 2:00 PM
+      - mobile: 3:30 PM
+      - performance: 7:00 PM
     mon:
       - mobile: 3:30 PM
       - performance: 7:30 PM
     tue:
-      - mobile: 3:30 PM
-      - performance: 7:30 PM
     wed:
+      - mobile: 10:00 AM
+      - performance: 2:00 PM
     thu:
       - mobile: 3:30 PM
       - performance: 7:30 PM
