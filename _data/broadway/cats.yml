@@ -17,31 +17,47 @@
     sun:
     mon:
     tue:
+      - digital: 3:00 PM
       - performance: 8:00 PM
     wed:
+      - digital: 3:00 PM
       - performance: 8:00 PM
     thu:
+      - digital: 3:00 PM
       - performance: 8:00 PM
     fri:
+      - digital: 3:00 PM
       - performance: 8:00 PM
     sat:
       - performance: 2:00 PM
+      - digital: 3:00 PM
       - performance: 8:00 PM
   performances:
     sun:
     mon:
+      - digital: 3:00 PM
       - performance: 8:00 PM
     tue:
+      - digital: 3:00 PM
       - performance: 7:00 PM
     wed:
     thu:
+      - digital: 3:00 PM
       - performance: 7:00 PM
     fri:
+      - digital: 3:00 PM
       - performance: 8:00 PM
     sat:
       - performance: 2:00 PM
+      - digital: 3:00 PM
       - performance: 8:00 PM
   cost:
+    -
+      title: $40 Digital
+      description: Enter from 10 AM until 3 PM on the day of the performance. Winners will have 60 minutes to pay for their tickets online.
+2 tickets per person.
+      url: https://lottery.broadwaydirect.com/show/cats/
+      label: broadwaydirect.com
     -
       title: $59-$149 Tickets
       description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours.
