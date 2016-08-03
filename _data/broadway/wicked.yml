@@ -16,10 +16,10 @@
   url: http://www.wickedthemusical.com
   performances:
     sun:
-      - digital: 10:30 AM
-      - lottery: 1:00 PM
-      - performance: 3:00 PM
     mon:
+      - digital: 2:00 PM
+      - lottery: 5:00 PM
+      - performance: 7:00 PM
     tue:
       - digital: 2:00 PM
       - lottery: 5:00 PM
