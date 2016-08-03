@@ -13,34 +13,18 @@
   accolades:
   trailer: https://www.youtube.com/watch?v=n1m-KyDuzws
   url: http://www.catsthemusical.com/broadway
-  previews:
-    sun:
-    mon:
-    tue:
-      - digital: 3:00 PM
-      - performance: 8:00 PM
-    wed:
-      - digital: 3:00 PM
-      - performance: 8:00 PM
-    thu:
-      - digital: 3:00 PM
-      - performance: 8:00 PM
-    fri:
-      - digital: 3:00 PM
-      - performance: 8:00 PM
-    sat:
-      - performance: 2:00 PM
-      - digital: 3:00 PM
-      - performance: 8:00 PM
   performances:
     sun:
     mon:
       - digital: 3:00 PM
-      - performance: 8:00 PM
+      - performance: 7:00 PM
     tue:
       - digital: 3:00 PM
       - performance: 7:00 PM
     wed:
+      - performance: 2:00 PM
+      - digital: 3:00 PM
+      - performance: 7:30 PM
     thu:
       - digital: 3:00 PM
       - performance: 7:00 PM
