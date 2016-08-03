@@ -17,10 +17,10 @@
   url: http://www.funhomebroadway.com
   performances:
     sun:
-      - standing: 12:00 AM
-      - mobile: 11:00 AM
-      - performance: 3:00 PM
     mon:
+      - standing: 10:00 AM
+      - mobile: 3:00 PM
+      - performance: 7:00 PM
     tue:
       - standing: 10:00 AM
       - mobile: 3:00 PM
