@@ -39,11 +39,6 @@
       - performance: 8:00 PM
   cost:
     -
-      title: $30 Lottery
-      description: Enter at www.fullybroadway.com/lottery on the day of the performance, up to 11 AM for matinees and 3 PM for evenings. 2 tickets per person.
-      url: http://www.fullybroadway.com/lottery
-      label: fullybroadway.com/lottery
-    -
       title: $37 Rush
       description: A limited number of rush tickets will be available for purchase in-person at the Lunt-Fontanne Theatre box office beginning at 10am (12pm on Sundays) for that day's performance(s) only. Rush tickets cost $37, with a maximum of one ticket per person, and may be purchased with cash only. Rush tickets are subject to availability and may not be offered at all performances. Rush seating locations will be determined at the discretion of the box office.
     -
