@@ -9,7 +9,7 @@
   address: 205 W 46th St, New York, NY, 10036
   preview: 2015-03-15
   opening: 2015-04-15
-  closing: 2016-08-21
+  closing: 2016-07-31
   limited: false
   accolades:
   callout: Final Performance August 21st
@@ -22,14 +22,14 @@
     mon:
     tue:
       - rush: 10:00 AM
-      - performance: 7:30 PM
+      - performance: 7:00 PM
     wed:
       - rush: 10:00 AM
       - performance: 2:00 PM
-      - performance: 7:30 PM
+      - performance: 7:00 PM
     thu:
       - rush: 10:00 AM
-      - performance: 7:30 PM
+      - performance: 7:00 PM
     fri:
       - rush: 10:00 AM
       - performance: 8:00 PM
@@ -38,6 +38,11 @@
       - performance: 2:00 PM
       - performance: 8:00 PM
   cost:
+    -
+      title: $30 Lottery
+      description: Enter at www.fullybroadway.com/lottery on the day of the performance, up to 11 AM for matinees and 3 PM for evenings. 2 tickets per person.
+      url: http://www.fullybroadway.com/lottery
+      label: fullybroadway.com/lottery
     -
       title: $37 Rush
       description: A limited number of rush tickets will be available for purchase in-person at the Lunt-Fontanne Theatre box office beginning at 10am (12pm on Sundays) for that day's performance(s) only. Rush tickets cost $37, with a maximum of one ticket per person, and may be purchased with cash only. Rush tickets are subject to availability and may not be offered at all performances. Rush seating locations will be determined at the discretion of the box office.
