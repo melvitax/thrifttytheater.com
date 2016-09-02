@@ -17,9 +17,9 @@
   url: http://www.hamiltonbroadway.com
   performances:
     sun:
+      - digital: 11:00 AM
+      - performance: 3:00 PM
     mon:
-      - digital: 4:00 PM
-      - performance: 7:00 PM
     tue:
       - digital: 4:00 PM
       - performance: 7:00 PM
