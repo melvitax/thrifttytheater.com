@@ -1,6 +1,7 @@
 ---
   name: The Cherry Orchard
   description: Chekhov's classic returns to Broadway, adapted by Stephen Karam.
+  lowest: $35
   duration: TBA
   advisory: Children under the age of 4 are not permitted in the theatre.
   notice:
