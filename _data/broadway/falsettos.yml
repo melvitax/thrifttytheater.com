@@ -14,6 +14,22 @@
   accolades:
   trailer:
   url: http://www.lct.org/shows/falsettos/
+  previews:
+    sun:
+      - performance: 2:00 PM
+    mon:
+    tue:
+      - performance: 7:00 PM
+    wed:
+      - performance: 2:00 PM
+      - performance: 7:00 PM
+    thu:
+      - performance: 8:00 PM
+    fri:
+      - performance: 8:00 PM
+    sat:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
   performances:
     sun:
       - performance: 2:00 PM
