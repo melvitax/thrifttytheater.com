@@ -1,0 +1,63 @@
+---
+  name: Heisenberg
+  description: "Simon Stephens' two-hander, starring Mary-Louise Parker and Denis Arndt, transfers to Broadway."
+  duration: 1 hr 20 mins 0 intermission
+  advisory: Children under the age of 4 are not permitted in the theatre.
+  notice:
+  lowest:
+  theater: Samuel J Friedman Theatre
+  address: 261 West 47th Street, New York, NY 10036
+  preview: 2016-09-20
+  opening: 2016-10-13
+  closing:
+  limited: false
+  callout: 
+  accolades:
+  trailer: https://www.youtube.com/watch?v=LYTZduFpOCQ
+  url: http://www.manhattantheatreclub.com
+  previews:
+    sun:
+      - performance: 2:00 PM
+    mon:
+    tue:
+      - performance: 8:00 PM
+    wed:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+    thu:
+      - performance: 8:00 PM
+    fri:
+      - performance: 8:00 PM
+    sat:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  performances:
+    sun:
+      - performance: 2:00 PM
+    mon:
+    tue:
+      - performance: 8:00 PM
+    wed:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+    thu:
+      - performance: 8:00 PM
+    fri:
+      - performance: 8:00 PM
+    sat:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  cost:
+    -
+      title: $27 Student Rush
+      description: Open only to current students. Available when the box office opens, subject to availability. 2 tickets per ID.
+    -
+      title: $30 Under 30
+      description: Open to anyone under 30 years old. Tickets can be purchased in advance.
+      url: http://www.mtc-nyc.org/30under30/index.htm
+      label: mtc-nyc.org
+    -
+      title: $57-$277 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+      url: http://www.ticketmaster.com/artist/2095830
+      label: ticketmaster.com
