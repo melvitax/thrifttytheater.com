@@ -7,7 +7,7 @@
   lowest:
   theater: John Golden Theatre
   address: 252 West 45th Street, New York, NY 10036
-  preview: 2016-09-10
+  preview: 2016-09-20
   opening: 2016-09-29
   closing: 2017-01-08
   limited: true
@@ -30,7 +30,7 @@
     sat:
       - performance: 2:00 PM
       - performance: 8:00 PM
-    performances:
+  performances:
     sun:
       - performance: 2:00 PM
     mon:
