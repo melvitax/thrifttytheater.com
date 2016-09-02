@@ -17,14 +17,14 @@
   performances:
     sun:
       - digital: 8:30 AM
-      - performance: 3:00 PM
+      - performance: 1:00 PM
+      - performance: 6:30 PM
     mon:
     tue:
       - digital: 8:30 AM
       - performance: 7:00 PM
     wed:
       - digital: 8:30 AM
-      - performance: 1:00 PM
       - performance: 7:00 PM
     thu:
       - digital: 8:30 AM
