@@ -1,0 +1,53 @@
+---
+  name: "The Front Page"
+  description: "Nathan Lane, John Slattery and John Goodman headline the starry revival of this classic play."
+  duration: TBA
+  advisory: Children under the age of 4 are not permitted in the theatre.
+  notice:
+  lowest:
+  theater: Broadhurst Theatre
+  address: 235 West 44th Street, New York, New York
+  preview: 2016-09-20
+  opening: 2016-10-20
+  closing: 2017-01-29
+  limited: true
+  accolades:
+  trailer:
+  url: http://thefrontpagebroadway.com
+  previews:
+    sun:
+    mon:
+      - performance: 8:00 PM
+    tue:
+      - performance: 8:00 PM
+    wed:
+      - performance: 8:00 PM
+    thu:
+      - performance: 8:00 PM
+    fri:
+      - performance: 8:00 PM
+    sat:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  performances:
+    sun:
+      - performance: 3:00 PM
+    mon:
+    tue:
+      - performance: 7:00 PM
+    wed:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+    thu:
+      - performance: 7:00 PM
+    fri:
+      - performance: 8:00 PM
+    sat:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  cost:
+    -
+      title: $67-$299 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+      url: https://www.telecharge.com/Broadway/The-Front-Page/
+      label: telecharge.com
