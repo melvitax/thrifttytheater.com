@@ -53,7 +53,12 @@ for(var i = 0; i < rows.length; i++) {
 
   if (now < new Date(previewDate - twoWeeks)) {
     row.classList.add('upcoming');
-    console.log(row.getAttribute('id')+' upcoming and hidden')
+    //console.log(row.getAttribute('id')+' upcoming and hidden')
+    if (row.querySelector('.previews')) {
+        row.querySelector('.previews').classList.add('active');
+    } else {
+      console.log(row.getAttribute('id')+' no previews to show')
+    }
   } else if (now >= new Date(previewDate - twoWeeks) && now < openingDate) {
     if (row.querySelector('.previews')) {
         row.querySelector('.previews').classList.add('active');

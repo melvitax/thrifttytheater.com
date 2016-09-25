@@ -24,9 +24,9 @@
       - mobile: 3:30 PM
       - performance: 7:30 PM
     tue:
-    wed:
       - mobile: 10:00 AM
       - performance: 7:30 PM
+    wed:
     thu:
       - mobile: 3:30 PM
       - performance: 7:30 PM
@@ -35,7 +35,7 @@
       - performance: 8:00 PM
     sat:
       - mobile: 10:00 AM
-      - performance: 2:00 PM
+      - performance: 3:00 PM
       - mobile: 4:00 PM
       - performance: 8:00 PM
   cost:

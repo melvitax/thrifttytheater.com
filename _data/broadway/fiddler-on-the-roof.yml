@@ -3,12 +3,13 @@
   description: The beloved theatrical masterpiece that tells the heartwarming story of fathers and daughters.
   duration: 2 hrs 45 mins 1 intermission
   advisory: Children under the age of 4 are not permitted in the theatre.
-  notice:
+  notice: Final Performance December 31
+  callout: Final Performance December 31
   theater: Broadway Theatre
   address: 1681 Broadway, New York, NY, 10019
   preview: 2015-11-20
   opening: 2015-12-20
-  closing:
+  closing: 2016-12-31
   lowest: $37
   limited: false
   accolades:

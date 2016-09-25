@@ -15,10 +15,10 @@
   url: http://www.rottenbroadway.com/
   performances:
     sun:
-    mon:
       - rush: 10:00 AM
-      - digital: 3:30 PM
-      - performance: 7:00 PM
+      - digital: 10:30 AM
+      - performance: 3:00 PM
+    mon:
     tue:
       - rush: 10:00 AM
       - digital: 3:30 PM

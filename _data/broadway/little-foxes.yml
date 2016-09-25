@@ -1,0 +1,49 @@
+---
+  name: "The Little Foxes"
+  description: "Laura Linney and Cynthia Nixon star in Lillian Hellman's family drama."
+  duration: TBA
+  advisory: "Children under the age of 4 are not permitted in the theatre."
+  notice: "Please note: Cynthia Nixon and Laura Linney will alternate in the lead roles of Regina Hubbard Giddens and Birdie Hubbard."
+  lowest:
+  theater: Samuel J Friedman Theatre
+  address: 261 West 47th Street, New York, NY 10036
+  preview: 2017-03-29
+  opening: 2017-04-19
+  closing:
+  limited: false
+  accolades:
+  trailer:
+  url: http://manhattantheatreclub.com/2016-17-season/
+  previews:
+    sun:
+      - performance: 2:00 PM
+    mon:
+    tue:
+      - performance: 8:00 PM
+    wed:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+    thu:
+      - performance: 8:00 PM
+    fri:
+      - performance: 8:00 PM
+    sat:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  performances:
+    sun:
+      - performance: 2:00 PM
+    mon:
+    tue:
+      - performance: 8:00 PM
+    wed:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+    thu:
+      - performance: 8:00 PM
+    fri:
+      - performance: 8:00 PM
+    sat:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  cost:

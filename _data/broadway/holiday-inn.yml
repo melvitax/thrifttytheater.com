@@ -1,7 +1,7 @@
 ---
   name: Holiday Inn
   description: A new holiday musical inspired by the Oscar-winning film of the same name and featuring 20 Berlin classics.
-  lowest:
+  lowest: $35
   duration: 2 hrs 25 mins 1 intermission
   advisory: Children under the age of 4 are not permitted in the theatre.
   notice:

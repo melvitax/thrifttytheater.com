@@ -1,0 +1,52 @@
+---
+  name: "A Bronx Tale"
+  description: "A streetwise new musical based on the real life story of Chazz Palminteri."
+  duration: TBA
+  advisory: "Recommended for 12 + (Strong language; Gun shot effects). Children under the age of 4 are not permitted in the theatre."
+  notice:
+  lowest:
+  theater: Longacre Theatre
+  address: 220 West 48th St, New York, NY 10036
+  preview: 2016-11-03
+  opening: 2016-12-01
+  closing:
+  limited: false
+  accolades:
+  trailer: 
+  url: http://abronxtalethemusical.com
+  previews:
+    sun:
+    mon:
+      - performance: 8:00 PM
+    tue:
+      - performance: 8:00 PM
+    wed:
+      - performance: 8:00 PM
+    thu:
+      - performance: 8:00 PM
+    fri:
+      - performance: 8:00 PM
+    sat:
+      - performance: 8:00 PM
+  performances:
+    sun:
+      - performance: 3:00 PM
+    mon:
+    tue:
+      - performance: 7:00 PM
+    wed:
+      - performance: 2:00 PM
+      - performance: 7:00 PM
+    thu:
+      - performance: 7:00 PM
+    fri:
+      - performance: 8:00 PM
+    sat:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  cost:
+    -
+      title: $45-$252 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+      url: https://www.telecharge.com/Broadway/A-Bronx-Tale-The-Musical
+      label: telecharge.com

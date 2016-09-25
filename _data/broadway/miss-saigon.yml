@@ -1,0 +1,53 @@
+---
+  name: "Miss Saigon"
+  description: "The epic love story returns to Broadway."
+  duration: TBA
+  advisory: "Ages 12+. Children under 4 are not permitted in the theatre"
+  notice: ""
+  lowest:
+  theater: Broadway Theatre
+  address: 1681 Broadway, New York, NY 10019
+  preview: 2017-03-01
+  opening: 2017-03-23
+  closing: 2018-01-14
+  limited: true
+  accolades:
+  trailer: https://www.youtube.com/watch?v=rRbar4m_Yhg
+  url: http://www.saigonbroadway.com
+  previews:
+    sun:
+    mon:
+      - performance: 8:00 PM
+    tue:
+      - performance: 8:00 PM
+    wed:
+      - performance: 8:00 PM
+    thu:
+      - performance: 8:00 PM
+    fri:
+      - performance: 8:00 PM
+    sat:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  performances:
+    sun:
+    mon:
+      - performance: 8:00 PM
+    tue:
+      - performance: 7:00 PM
+    wed:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+    thu:
+      - performance: 8:00 PM
+    fri:
+      - performance: 8:00 PM
+    sat:
+      - performance: 2:00 PM
+      - performance: 8:00 PM
+  cost:
+      -
+        title: $39-$250 Tickets
+        description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+        url: https://www.telecharge.com/Broadway/Miss-Saigon/
+        label: telecharge.com

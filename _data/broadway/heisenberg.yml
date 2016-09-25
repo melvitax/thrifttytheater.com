@@ -11,7 +11,7 @@
   opening: 2016-10-13
   closing:
   limited: false
-  callout: 
+  callout:
   accolades:
   trailer: https://www.youtube.com/watch?v=LYTZduFpOCQ
   url: http://www.manhattantheatreclub.com
@@ -56,6 +56,10 @@
       description: Open to anyone under 30 years old. Tickets can be purchased in advance.
       url: http://www.mtc-nyc.org/30under30/index.htm
       label: mtc-nyc.org
+    - title: $30 TodayTix App Rush
+      description: Every performance day, on a first-come, first-served basis, a limited number of Rush tickets will be made available at 10am. To unlock this feature, Manhattan Theatre Club simply requests that you spread the word on social media through the app.
+      url: https://www.todaytix.com/us/nyc/rush/heisenberg/
+      label: todaytix.com
     -
       title: $57-$277 Tickets
       description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
