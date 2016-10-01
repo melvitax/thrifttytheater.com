@@ -9,17 +9,17 @@ for(var i = 0; i < rows.length; i++) {
   var row = rows[i];
 
   // Make rows expandable
-  row.querySelector('.row-header').addEventListener('click', function(){
+  row.querySelector('.collapsed-content').addEventListener('click', function(){
     'use strict';
     var thisRow = this.parentNode.parentNode;
     var allRows = document.querySelectorAll('.row')
     // Close expanded row
     var j, aRow;
     if (selectedRow && (thisRow.getAttribute('id') == selectedRow.getAttribute('id'))) {
-      thisRow.classList.remove('expanded');
+      thisRow.classList.remove('row_expanded');
       for(j = 0; j < allRows.length; j++) {
         aRow = allRows[j];
-        aRow.classList.remove('dimmed');
+        aRow.classList.remove('row_dimmed');
       }
       document.location.href = '#-'+selectedRow.getAttribute('id');
       selectedRow = null;
@@ -27,18 +27,18 @@ for(var i = 0; i < rows.length; i++) {
     } else {
       var isSwitchingRows = (selectedRow);
       if (isSwitchingRows) {
-        selectedRow.classList.remove('expanded');
-        selectedRow.classList.add('dimmed');
-        thisRow.classList.remove('dimmed');
-        thisRow.classList.add('expanded');
+        selectedRow.classList.remove('row_expanded');
+        selectedRow.classList.add('row_dimmed');
+        thisRow.classList.remove('row_dimmed');
+        thisRow.classList.add('row_expanded');
         selectedRow = thisRow;
       } else {
-        thisRow.classList.add('expanded');
+        thisRow.classList.add('row_expanded');
         selectedRow = thisRow;
         for(j = 0; j < allRows.length; j++) {
           aRow = allRows[j];
           if (aRow.getAttribute('id') != selectedRow.getAttribute('id')) {
-            aRow.classList.add('dimmed');
+            aRow.classList.add('row_dimmed');
           }
         }
       }
@@ -46,30 +46,14 @@ for(var i = 0; i < rows.length; i++) {
     }
   });
 
-  // Hide Previews if already passed
+  // Set dates for comparison
   var previewDate = new Date(row.getAttribute('preview'));
   var openingDate = new Date(row.getAttribute('opening'));
   var twoWeeks = 12096e5 // two weeks in milliseconds
 
-  if (now < new Date(previewDate - twoWeeks)) {
-    row.classList.add('upcoming');
-    //console.log(row.getAttribute('id')+' upcoming and hidden')
-    if (row.querySelector('.previews')) {
-        row.querySelector('.previews').classList.add('active');
-    } else {
-      console.log(row.getAttribute('id')+' no previews to show')
-    }
-  } else if (now >= new Date(previewDate - twoWeeks) && now < openingDate) {
-    if (row.querySelector('.previews')) {
-        row.querySelector('.previews').classList.add('active');
-    } else {
-      console.log(row.getAttribute('id')+' no previews to show')
-    }
-  } else {
-    row.querySelector('.performances').classList.add('active');
-    if (row.querySelector('.previews')) {
-        console.log(row.getAttribute('id')+' previews expired')
-    }
+  // Highlight new shows
+  if (now < previewDate) {
+    row.classList.add('row_upcoming');
   }
 
   // Highlight shows closing in the next two weeks
@@ -78,30 +62,45 @@ for(var i = 0; i < rows.length; i++) {
     var closingDate = new Date(closing);
     if (now > closingDate) {
       console.log(row.getAttribute('id')+' show expired');
-      row.style.display = 'none';
+      row.classList.add('row_expired');
     } else if (now > new Date(closingDate - twoWeeks)) {
-      row.classList.add('closing');
+      row.classList.add('row_closing');
     }
   }
 
-  // Copy today's events to the collapssed view
+  // Callout based on today
+  var calloutDiv = row.querySelector('header').querySelector('.callout')
   if (now < new Date(previewDate)) {
-    row.querySelector('.row-header').querySelector('.today').innerHTML = '<div class="day-event">OPENING SOON</div>';
+    calloutDiv.innerHTML = 'PREVIEWS BEGIN ' + moment(previewDate).fromNow();
+  } else if (now >= new Date(previewDate) && now < new Date(openingDate)) {
+    calloutDiv.innerHTML = 'IN PREVIEWS NOW';
+  } else if (closing) {
+    calloutDiv.innerHTML = 'LAST PERFORMANCE ' + moment(closingDate).fromNow();
   } else {
-    var timetables = row.querySelectorAll('.timetable.active');
-    for(var j = 0; j < timetables.length; j++) {
-      var timetable = timetables[j];
-      var days = timetable.querySelectorAll('.day-column');
-      row.querySelector('.row-header').querySelector('.today').innerHTML = days[today].innerHTML;
+    var accoladesDiv = row.querySelector('.accolades')
+    if (accoladesDiv) {
+      calloutDiv.innerHTML = accoladesDiv.innerHTML;
+      accoladesDiv.classList.add('accolades_none')
+    } else {
+      calloutDiv.innerHTML = ""
     }
   }
 
+  // Today's times
+  var timetable = row.querySelector('.timetable')
+  var todayDiv = row.querySelector('.todays-performance')
+  if (timetable) {
+    var days = row.querySelectorAll('.day');
+    todayDiv.innerHTML = days[today].querySelector('.day__time').innerHTML;
+  } else {
+    todayDiv.classList.add('todays-performance_none')
+  }
 
   // Toggle cost description
-  var costs = row.querySelectorAll('.cost-title');
-  for(var j = 0; j < costs.length; j++) {
-    var cost = costs[j];
-    cost.addEventListener('click', function(){
+  var ticketTitleDivs = row.querySelectorAll('.ticket-title');
+  for(var j = 0; j < ticketTitleDivs.length; j++) {
+    var ticketTitleDiv = ticketTitleDivs[j];
+    ticketTitleDiv.addEventListener('click', function(){
       'use strict';
       if (this.parentNode.classList.contains('expanded')) {
         this.parentNode.classList.remove('expanded');
@@ -114,7 +113,7 @@ for(var i = 0; i < rows.length; i++) {
 
   // Close row button
   row.querySelector('.close-row').addEventListener('click', function(){
-    this.parentNode.parentNode.querySelector('.row-header').click();
+    this.parentNode.parentNode.querySelector('header').click();
   })
 
 }
@@ -137,7 +136,7 @@ document.addEventListener('lazybeforeunveil', function(e){
 var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
-var siteHeader = document.querySelector('#site-header');
+var siteHeader = document.querySelector('.header');
 var headerHeight = siteHeader.offsetHeight;
 window.onscroll = function() {
   'use strict';
@@ -150,16 +149,16 @@ function hasScrolled() {
     return;
   }
   if( (start > lastScrollTop && start > headerHeight) || (start < delta) ) {
-    siteHeader.classList.remove('is-down');
-    siteHeader.classList.add('is-up');
+    siteHeader.classList.remove('header_is-down');
+    siteHeader.classList.add('header_is-up');
   } else {
     var body = document.body;
     var html = document.documentElement;
     var documentHeight = Math.max( body.scrollHeight, body.offsetHeight,
                            html.clientHeight, html.scrollHeight, html.offsetHeight );
     if (start + window.innerHeight < documentHeight) {
-      siteHeader.classList.remove('is-up');
-      siteHeader.classList.add('is-down');
+      siteHeader.classList.remove('header_is-up');
+      siteHeader.classList.add('header_is-down');
     }
   }
   lastScrollTop = start;
@@ -184,14 +183,14 @@ function scrollTo(element, to, duration) {
       scrollTo(element, to, duration - 10);
   }, 10);
 }
-document.querySelector("#site-header").querySelector("h1").addEventListener('click', function(e){
+document.querySelector(".header__title").addEventListener('click', function(e){
   'use strict';
   e.preventDefault();
   scrollTo(document.body, 0, 300);
 });
 
 // Add date to title
-document.querySelector("#site-header").querySelector("h1").innerHTML = weekdays[now.getDay()] + ' ' + months[now.getMonth()] + ' ' + now.getDate();
+document.querySelector(".header__title").innerHTML = moment(previewDate).format('dddd MMM Do')
 
 // JS Player
 var jsplayerlinks = document.querySelectorAll(".js-player-link");

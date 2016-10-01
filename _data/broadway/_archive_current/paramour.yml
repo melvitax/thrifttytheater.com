@@ -1,0 +1,26 @@
+---
+  name: Paramour
+  description: Cirque du Soleil's signature spectacle is united with Broadway's story-telling in this brand new production.
+  duration: TBA
+  advisory: Children under the age of 4 are not permitted in the theatre.
+  lowest: $35
+  theater: Lyric Theatre
+  address: 213 W 42nd St, New York, NY 10036
+  preview: 2016-04-16
+  opening: 2016-05-26
+  closing:
+  limited: false
+  accolades:
+  trailer: https://www.youtube.com/watch?v=cxkdJTTf_u8
+  url: http://paramouronbroadway.com
+  cost:
+    -
+      title: $35 Mobile Lottery
+      description: Enter via TodayTix mobile app beginning at midnight on the day of the performance. Winners are notified via push notification 3-4 hours before curtain. 2 tickets per person.
+      url: http://www.todaytix.com/us/nyc/lottery/cirque-du-soleil-paramour/
+      label: TodayTIX App
+    -
+      title: $55-$179 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours.
+      url: http://www.ticketmaster.com/Cirque-du-Soleil-Paramour-tickets/artist/2154484
+      label: ticketmaster.com

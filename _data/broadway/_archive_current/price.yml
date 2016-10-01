@@ -1,0 +1,42 @@
+---
+  name: "The Price"
+  description: "A riveting story about the struggle to make peace with the past and create hope for the future."
+  duration: TBA
+  advisory: "Recommended 14+. Children under the age of 4 are not permitted in the theatre."
+  lowest: $35
+  theater: American Airlines Theatre
+  address: 227 West 42nd Street, New York, NY 10036
+  preview: 2017-02-16
+  opening: 2017-03-16
+  closing: 2017-05-07
+  limited: true
+  accolades:
+  trailer:
+  url: http://www.roundabouttheatre.org/Shows-Events/Arthur-Millers-The-Price.aspx
+  cost:
+      -
+        title: $10 First Previews
+        description: A limited number of $10 tickets are available to the first four previews. Go to roundabouttheatre.org to buy tickets and enter ACCESS10 into the promo code. Seats are located in the rear mezzanine.
+        url: http://roundabouttheatre.org
+        label: roundabouttheatre.org
+      -
+        title: $35 Mobile Lottery
+        description: Enter via TodayTix mobile app beginning at midnight on the day of the performance. Winners are notified via push notification 3-4 hours before curtain. 2 tickets per person.
+        url: https://www.todaytix.com/nyc
+        label: TodayTIX
+      -
+        title: $47 Rush
+        description: Open to everyone. Available when the box office opens, subject to availability. 2 tickets per person. Seats are located in the rear mezzanine.
+      -
+        title: 1/2 Off Student Rush
+        description: Starting 30 minutes before curtain, any remaining seats are sold for half-price to current students. 1 ticket per ID.
+      -
+        title: $25 Hiptix
+        description: Open to anyone between the ages of 18 and 35. Tickets can be purchased in advance. Sign up for free at Hiptix.com. 2 tickets per person per show (although you can link your account to a friend's and order tickets on their behalf). Seats are located in the rear mezzanine.
+        url: http://Hiptix.com
+        label: Hiptix.com
+      -
+        title: $79-$274 Tickets
+        description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+        url: http://www.roundabouttheatre.org/tickets/reserve.aspx?pid=22367
+        label: roundabouttheatre.org

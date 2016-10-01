@@ -1,0 +1,30 @@
+---
+  name: Fiddler on the Roof
+  description: The beloved theatrical masterpiece that tells the heartwarming story of fathers and daughters.
+  duration: 2 hrs 45 mins 1 intermission
+  advisory: Children under the age of 4 are not permitted in the theatre.
+  callout: Final Performance December 31
+  theater: Broadway Theatre
+  address: 1681 Broadway, New York, NY, 10019
+  preview: 2015-11-20
+  opening: 2015-12-20
+  closing: 2016-12-31
+  lowest: $37
+  limited: false
+  accolades:
+  trailer: https://www.youtube.com/watch?v=7uQsbR-CyWk
+  url: http://www.fiddlermusical.com/
+  cost:
+    -
+      title: $37 Genral Rush
+      description: Available when the box office opens, subject to availability. 2 tickets per person.
+    -
+      title: $35 Tix4Students
+      description: Student tickets available through September 2, 2016. Seats are located in the rear mezzanine. There is a limit of 2 tickets per member for this show.
+      url: https://www.tix4students.com/event/fiddler-on-the-roof/
+      label: tix4students.com
+    -
+      title: $35-$227 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+      url: https://www.telecharge.com/Broadway/Fiddler-on-the-Roof/Schedules-Prices
+      label: telecharge.com

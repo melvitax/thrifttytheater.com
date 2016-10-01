@@ -1,0 +1,29 @@
+---
+  name: "Oslo"
+  description: "A darkly comic epic that brings dozens of diplomats and world leaders together."
+  duration: TBA
+  advisory: "May be inappropriate for 12 and under. Children under the age of 4 are not permitted in the theatre."
+  lowest: $32
+  theater: Vivian Beaumont Theater
+  address: 150 West 65th Street, New York, NY 10023
+  preview: 2017-03-23
+  opening: 2017-04-17
+  closing:
+  limited:
+  accolades:
+  trailer:
+  url: http://www.lct.org/shows/oslo-broadway/
+  cost:
+      -
+        title: $32 Student Rush
+        description: Open only to current college/university students. Available when the box office opens, subject to availability. 1 ticket per ID.
+      -
+        title: $32 Linctix
+        description: Open to anyone between the ages of 21 and 35. Tickets can be purchased in advance online or at the box office. 1 ticket per person per show. Seats are located in the rear mezzanine.
+        url: http://lct.org
+        label: lct.org
+      -
+        title: $59-$250 Tickets
+        description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+        url: https://www.telecharge.com/Broadway/OH
+        label: telecharge.com

@@ -1,0 +1,24 @@
+---
+  name: "Oh, Hello on Broadway"
+  description: "Nick Kroll and John Mulaney's popular alter egos Gil Faizon and George St. Geegland make their Broadway debuts!"
+  duration: TBA
+  advisory: "May be inappropriate for 12 and under. Children under the age of 4 are not permitted in the theatre."
+  lowest: $37
+  theater: Lyceum Theatre
+  address: 149 West 45th Street, New York, NY 10036
+  preview: 2016-09-23
+  opening: 2016-10-10
+  closing: 2017-01-08
+  limited: true
+  accolades: "New York Times Critic's Pick"
+  trailer: https://www.youtube.com/watch?v=kn0_W_Badn4
+  url: http://ohhellobroadway.com
+  cost:
+      -
+        title: $37 General Rush
+        description: A limited number of $37 RUSH tickets will be available for purchase in-person at the Lyceum Theatre box office beginning at 10am Monday-Saturday and noon on Sunday for day-of performances. There is a limit of two tickets priced at $37 each, payable in cash or by credit card, per person. No student ID is required.
+      -
+        title: $59-$250 Tickets
+        description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+        url: https://www.telecharge.com/Broadway/OH
+        label: telecharge.com

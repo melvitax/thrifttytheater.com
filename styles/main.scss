@@ -65,11 +65,11 @@ $light-blue: #74add1 !default;
 $blue: #4575b4 !default;
 $dark-blue: #313695 !default;
 
-$background-color: #000 !default;
+$background-color: #18191a !default;
 
 $highlight-color: $yellow !default;
-$link-color: $dark-blue !default;
-$text-color: black !default;
+$link-color: $blue !default;
+$text-color: white !default;
 $secondary-text-color: $grey !default;
 
 // Borders
@@ -79,7 +79,7 @@ $border-width-wide: $border-width-normal * 2 !default;
 
 // Breakpoints
 $screen-xs-min: 620px !default;
-$screen-sm-min: 740px !default;
+$screen-sm-min: 736px !default;
 $screen-md-min: 992px !default;
 $screen-lg-min: 1200px !default;
 $screen-xs-max: ($screen-sm-min -1px) !default;

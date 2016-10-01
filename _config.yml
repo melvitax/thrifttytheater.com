@@ -21,6 +21,7 @@ fonts:
   - "Lato:400,900,700,500,300,100:latin"
 sass:
     style: compressed
+    sass_dir: styles
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]

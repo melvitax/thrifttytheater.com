@@ -4,7 +4,8 @@
   "dependencies": {
     "video.js": "~5.8.7",
     "lazysizes": "~1.4.0",
-    "videojs-youtube": "~2.0.8"
+    "videojs-youtube": "~2.0.8",
+    "moment": "~2.15.1"
   },
   "install": {
     "path": "vendor",

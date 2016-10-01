@@ -1,0 +1,34 @@
+---
+  name: Kinky Boots
+  description: Broadway’s huge-hearted hit is the winner of six Tonys including Best Musical!
+  duration: 2 hrs 20 mins 1 intermission
+  advisory: Appropriate for ages 10 and up. Children under the age of 4 are not permitted in the theatre.
+  lowest: $37
+  theater: Al Hirschfeld Theatre
+  address: 302 W 45th St, New York, NY, 10036
+  preview: 2013-03-03
+  opening: 2013-04-04
+  closing:
+  limited: false
+  accolades: WINNER! 6 Tony Awards including Best Musical WINNER! Gramyy Award For Best Musical Theater Album
+  trailer: https://www.youtube.com/watch?v=wQe5jySdUko
+  url: http://www.kinkybootsthemusical.com/
+  cost:
+    -
+      title: $37 Digital Lottery
+      description: Enter online beginning on Monday morning for the current week of performances. Winners are notified by 12pm the day before the performance. Tickets must be purchased by 11:59pm the day before the performance. 2 tickets per person.
+      url: http://lottery.kinkybootsthemusical.com
+      label: lottery.kinkybootsthemusical.com
+    -
+      title: $27 Standing Room
+      description: A limited number of $27 standing-room tickets may be available in person at the box office on the day of the performance, if the performance is sold out.
+    -
+      title: $49 Tix4Students
+      description: Student tickets available for purchase online in advance for members of TIX4STUDENTS.  Student tickets are located in the rear mezzanine. You will be able to select you own seats. There is a limit of 2 tickets for this event
+      url: https://www.tix4students.com/events/kinky-boots-ny/
+      label: tix4students.com
+    -
+      title: $55-$249 Tickets
+      description: Tickets may also be purchased in person at the box office. See Theatre Information for location and hours. Premium Tickets also available; The best seats in the house, available even when other tickets are sold out.
+      url: http://www.ticketmaster.com/artist/2173343
+      label: ticketmaster.com
