@@ -114,7 +114,7 @@ body {
 .todays-performance {
   float: right;
   padding: 0 0 0 6px;
-  font-weight: 200;
+  font-weight: 300;
 }
 .todays-performance_none {
   display: none
@@ -176,6 +176,9 @@ body {
   transition: max-height 0.75s ease-in-out;
   padding: 16px;
 }
+.row:target a:link, .row:target a:visited {
+  color: $dark-blue;
+}
 /* Poster has an overlay for the video play button */
 aside { }
 @media (min-width: $screen-xs-min) {  aside {
@@ -208,7 +211,7 @@ aside { }
 .synopsis {
  font-size: 1.6em;
  line-height: 1.4em;
- font-weight: 100;
+ font-weight: 300;
  padding: 10px 0;
  border-top: 1px solid $dark-grey;
  border-bottom: 1px solid $dark-grey;
@@ -227,18 +230,10 @@ aside { }
 // website
 .website {
   padding: 0.5em 0 ;
+  text-align: center;
+  font-weight: bold;
 }
-.website a.button {
-  display: block;
-}
-a.button {
-  background: rgba(255, 255, 255, 0.2);
-  font-weight: 900;
-  margin: 0.5em 0;
-  &:hover {
-    text-decoration: none;
-  }
-}
+
 // Theater name and address
 .theater {
   font-weight: 300;
@@ -514,12 +509,10 @@ a.button {
     float: right
 }
 
-
 .set--center {
     margin-left: auto;
     margin-right: auto
 }
-
 
 .position--vert-center {
     position: absolute;

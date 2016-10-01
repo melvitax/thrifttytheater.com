@@ -190,7 +190,7 @@ document.querySelector(".header__title").addEventListener('click', function(e){
 });
 
 // Add date to title
-document.querySelector(".header__title").innerHTML = moment(previewDate).format('dddd MMM Do')
+document.querySelector(".header__title").innerHTML = moment(now).format('dddd MMM Do')
 
 // JS Player
 var jsplayerlinks = document.querySelectorAll(".js-player-link");
