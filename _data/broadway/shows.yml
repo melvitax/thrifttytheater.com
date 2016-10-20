@@ -433,9 +433,9 @@
   title: "Natasha, Pierre and the Great Comet of 1812"
   scheduleTitle: "Natasha, Pierre and The Great Comet of 1812"
   synopsis: "The acclaimed musical, based on a passage from War and Peace, arrives on Broadway starring Josh Groban."
-  duration: TBA
+  duration: 2 hr 30 min 1 intermission
   advisory: "May be inappropriate for 12 and under. Children under the age of 4 are not permitted in the theatre."
-  lowest: $59
+  lowest: $39
   theater: Imperial Theatre
   address: 249 West 45th Street, New York, NY 10036
   preview: 2016-10-18
@@ -451,6 +451,9 @@
         type: regular
         url: https://www.telecharge.com/Broadway/the-great-comet
         label: telecharge.com
+      -
+        title: $39 Rush Tickets
+        type: rush
 -
   key: hamilton
   title: Hamilton
