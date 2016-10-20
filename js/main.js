@@ -68,14 +68,18 @@ for(var i = 0; i < rows.length; i++) {
     }
   }
 
-  // Callout based on today
+  /********** Callout *******/
   var calloutDiv = row.querySelector('header').querySelector('.callout')
+  // Before Previews
   if (now < new Date(previewDate)) {
     calloutDiv.innerHTML = 'PREVIEWS BEGIN ' + moment(previewDate).fromNow();
+  // In Previews
   } else if (now >= new Date(previewDate) && now < new Date(openingDate)) {
     calloutDiv.innerHTML = 'IN PREVIEWS NOW';
+  // Is Closing
   } else if (closing) {
     calloutDiv.innerHTML = 'LAST PERFORMANCE ' + moment(closingDate).fromNow();
+  // Is Showing
   } else {
     var accoladesDiv = row.querySelector('.accolades')
     if (accoladesDiv) {
@@ -94,6 +98,9 @@ for(var i = 0; i < rows.length; i++) {
     todayDiv.innerHTML = days[today].querySelector('.day__time').innerHTML;
   } else {
     todayDiv.classList.add('todays-performance_none')
+    if (now >= new Date(previewDate)) {
+      console.log('previews started but have no timetable for ' + row.querySelector('.row-title').innerHTML )
+    }
   }
 
   // Toggle cost description

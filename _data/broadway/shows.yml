@@ -48,42 +48,6 @@
       url: http://www.ticketmaster.com/artist/1858715
       label: ticketmaster.com
 -
-  key: an-american-in-paris
-  title: An American in Paris
-  scheduleTitle: American in Paris
-  synopsis: The Academy Award-winning film is born anew as a Broadway musical.
-  duration: 2 hrs 30 mins 1 intermission
-  advisory: Children under the age of 4 are not permitted in the theatre.
-  lowest: $32
-  theater: Palace Theater New York
-  address: 1564 Broadway, New York, NY, 10036
-  preview: 2015-03-13
-  opening: 2015-04-12
-  closing: 2016-10-09
-  limited: false
-  accolades: WINNER! 4 Tony Awards
-  trailer: https://www.youtube.com/watch?v=q_i6SZR4qXU
-  url: http://www.anamericaninparisbroadway.com
-  tickets:
-    -
-      title: $40 Digital Lottery
-      type: digital
-      url: http://lottery.broadwaydirect.com/show/an-american-in-paris
-      label: broadwaydirect.com
-    -
-      title: $32 Rush
-      type: rush
-    -
-      title: $42 Tix4Students
-      type: tix4students
-      url: https://www.tix4students.com/events/an-american-in-paris/
-      label: tix4students.com
-    -
-      title: $57-$225 Tickets
-      type: regular
-      url: http://www.ticketmaster.com/artist/2047652
-      label: ticketmaster.com
--
   key: beautiful
   title: "Beautiful"
   scheduleTitle: Beautiful
@@ -392,6 +356,11 @@
   url: http://www.lct.org/shows/falsettos/
   tickets:
     -
+      title: $40 Digital Lottery
+      type: digitalFewDays
+      label: jujamcyn.com
+      url: http://www.jujamcyn.com/lottery/falsettos.html
+    -
       title: $32 Student Rush
       type: studentRush
     -
@@ -683,7 +652,7 @@
   closing:
   limited: false
   accolades:
-  trailer:
+  trailer: https://www.youtube.com/watch?v=D2l-Ikn9DEI
   url: http://www.intransitbroadway.com
   tickets:
     -
@@ -1185,8 +1154,8 @@
   closing:
   limited:
   accolades:
-  trailer:
-  url:
+  trailer: https://www.youtube.com/watch?v=bk0hovVTZBg
+  url: http://www.significantotherbroadway.com
   tickets:
 -
   key: something-rotten
