@@ -59,7 +59,7 @@ title: show.hacker
 				    </button>
 					</a>
 					{% else %}
-						<script type="text/javascript">console.log('missing trailer for: '+show.title)</script>
+						<script type="text/javascript">console.log('missing trailer for: {{show.title}}')</script>
 						<img class="lazyload missing" data-src="/images/{{market}}/{{ show.key }}/poster.jpg" width="230" height="355" alt="poster" />
 					{% endif %}
 				</div>
@@ -70,7 +70,7 @@ title: show.hacker
 					<a href="{{show.url}}">Website</a>
 				</div>
 				{% else %}
-				<script type="text/javascript">console.log('missing website for: '+show.title)</script>
+				<script type="text/javascript">console.log('missing website for: {{show.title}}')</script>
 				{% endif %}
 
 			</aside>
