@@ -99,7 +99,7 @@ for(var i = 0; i < rows.length; i++) {
   } else {
     todayDiv.classList.add('todays-performance_none')
     if (now >= new Date(previewDate)) {
-      console.log('previews started but have no timetable for ' + row.querySelector('.row-title').innerHTML )
+      console.log('previews started but have no timetable for ' + row.querySelector('.row-title').innerText )
     }
   }
 
