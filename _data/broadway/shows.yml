@@ -12,7 +12,7 @@
   opening: 2016-12-01
   closing:
   accolades:
-  trailer:
+  trailer: https://www.youtube.com/watch?v=QqsKG0RTLw8
   url: http://abronxtalethemusical.com
   tickets:
     -
@@ -412,7 +412,7 @@
   synopsis: "Nathan Lane, John Slattery and John Goodman headline the starry revival of this classic play."
   duration: 2 hrs, 45 mins, 2 intermissions
   advisory: Children under the age of 4 are not permitted in the theatre.
-  lowest: $67
+  lowest: $50
   theater: Broadhurst Theatre
   address: 235 West 44th Street, New York, New York
   preview: 2016-09-20
@@ -423,6 +423,12 @@
   trailer: https://www.youtube.com/watch?v=062TIdYA41E
   url: http://thefrontpagebroadway.com
   tickets:
+    -
+      title: $50 General Rush
+      type: rush
+    -
+      title: $32 Standing Room
+      type: standingRoom
     -
       title: $67-$299 Tickets
       type: regular
@@ -447,13 +453,13 @@
   url: http://greatcometbroadway.com
   tickets:
       -
+        title: $39 Rush Tickets
+        type: rush
+      -
         title: $59-$299 Tickets
         type: regular
         url: https://www.telecharge.com/Broadway/the-great-comet
         label: telecharge.com
-      -
-        title: $39 Rush Tickets
-        type: rush
 -
   key: hamilton
   title: Hamilton
@@ -675,7 +681,7 @@
   address: 245 W 52nd St, New York, NY, 10019
   preview: 2005-10-04
   opening: 2005-11-06
-  closing:
+  closing: 2017-01-15
   limited: false
   accolades:
   trailer: https://www.youtube.com/watch?v=KqeBH2OIrPY
