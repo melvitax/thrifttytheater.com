@@ -1,7 +1,7 @@
 -
   key: a-bronx-tale
   title: "A Bronx Tale"
-  scheduleTitle:
+  scheduleTitle: "A Bronx Tale"
   synopsis: "A streetwise new musical based on the real life story of Chazz Palminteri."
   duration: TBA
   advisory: "Recommended for 12 + (Strong language; Gun shot effects). Children under the age of 4 are not permitted in the theatre."
@@ -20,6 +20,23 @@
       type: regular
       url: https://www.telecharge.com/Broadway/A-Bronx-Tale-The-Musical
       label: telecharge.com
+-
+  key: a-dolls-house
+  title: "A Doll's House, Part 2"
+  scheduleTitle:
+  synopsis: "Laurie Metcalf stars in Lucas Hnath's sequel to Ibsen's classic."
+  duration: TBA
+  advisory: "Children under the age of 4 are not permitted in the theatre."
+  lowest:
+  theater: John Golden Theatre
+  address: 252 West 45th Street, New York, NY 10036
+  preview: 2017-04-01
+  opening: 2017-14-27
+  closing:
+  accolades:
+  trailer:
+  url:
+  tickets:
 -
   key: aladdin
   title: Aladdin
@@ -47,6 +64,29 @@
       type: regular
       url: http://www.ticketmaster.com/artist/1858715
       label: ticketmaster.com
+-
+  key: anastasia
+  title: Anastasia
+  scheduleTitle:
+  synopsis: "The stage adaptation of the 1997 film arrives on Broadway, featuring a score by Ahrens and Flaherty."
+  duration: 2 hrs 30 mins 1 intermission
+  advisory: "Ages 7+; children under 4 are not permitted in the theatre"
+  lowest:
+  theater: Broadhurst Theatre
+  address: 235 West 44th Street, New York, NY 10036
+  preview: 2017-03-23
+  opening: 2017-04-24
+  closing:
+  limited: false
+  accolades:
+  trailer: https://www.youtube.com/watch?v=wjAx__D2eeM
+  url: http://anastasiabroadway.com
+  tickets:
+    -
+      title: $69-$159 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/Anastasia/Schedules-Prices
+      label: telecharge.com
 -
   key: beautiful
   title: "Beautiful"
@@ -461,6 +501,24 @@
         url: https://www.telecharge.com/Broadway/the-great-comet
         label: telecharge.com
 -
+  key: groundhog-day
+  title: Groundhog Day
+  scheduleTitle:
+  synopsis: "Andy Karl stars as TV weather man Phil Connors in this new musical based on the popular film of the same name."
+  duration: 2 hr 30 min 1 intermission
+  advisory: "Children under the age of 4 are not permitted in the theatre."
+  lowest:
+  theater: August Wilson Theatre
+  address: 245 West 52nd Street, New York, NY 10019
+  preview: 2017-03-16
+  opening: 2017-04-17
+  closing:
+  limited: false
+  accolades:
+  trailer:
+  url: http://groundhogdaymusical.com
+  tickets:
+-
   key: hamilton
   title: Hamilton
   scheduleTitle: Hamilton
@@ -836,6 +894,45 @@
   url: http://manhattantheatreclub.com/2016-17-season/
   tickets:
 -
+  key: marvins-room
+  title: Marvin's Room
+  scheduleTitle:
+  synopsis: Scott McPherson's family drama makes it Broadway premiere.
+  duration: TBA
+  advisory: "Children under the age of 4 are not permitted in the theatre."
+  lowest: $35
+  theater: American Airlines Theatre
+  address: 227 West 42nd Street, New York, NY 10036
+  preview: 2017-06-08
+  opening: 2017-06-29
+  closing: 2017-08-27
+  limited: true
+  accolades:
+  trailer:
+  url: https://www.roundabouttheatre.org/Shows-Events/Marvins-Room.aspx
+  tickets:
+    -
+      title: $35 Mobile Lottery
+      type: mobile
+      url: http://www.todaytix.com/us/nyc/shows/the-cherry-orchard/
+      label: todaytix.com
+    -
+      title: $47 General Rush
+      type: rush
+    -
+      title: 50% Off Student Rush
+      type: fiftyOffStudentRush
+    -
+      title: $25 Hiptix
+      type: hipTix
+      url: http://hiptix.com
+      label: hiptix.com
+    -
+      title: $10 First Previews
+      type: firstPreviews
+      url: http://roundabouttheatre.org
+      label: roundabouttheatre.org
+-
   key: matilda
   title: Matilda
   scheduleTitle: Matilda
@@ -1203,6 +1300,29 @@
       url: http://www.ticketmaster.com/Something-Rotten-Ny-tickets/artist/2177532
       label: ticketmaster.com
 -
+  key: sunset-boulevard
+  title: Sunset Boulevard
+  scheduleTitle:
+  synopsis: Glenn Close revisits her Tony Award-winning performance of Norma Desmond in this acclaimed revival.
+  duration: TBA
+  advisory: Children under the age of 4 are not permitted in the theatre.
+  lowest: $79
+  theater: Palace Theatre
+  address: 1564 Broadway, New York, NY 10036
+  preview: 2017-02-02
+  opening: 2017-02-09
+  closing: 2017-05-28
+  limited: true
+  accolades:
+  trailer:
+  url: http://sunsetboulevardthemusical.com
+  tickets:
+    -
+      title: $79-$199 Tickets
+      type: regular
+      url: http://www.ticketmaster.com/Sunset-Boulevard-NY-tickets/artist/2298800
+      label: ticketmaster.com
+-
   key: waitress
   title: Waitress
   scheduleTitle: Waitress
@@ -1229,6 +1349,26 @@
       type: regular
       url: http://www.ticketmaster.com/artist/2164438
       label: ticketmaster.com
+-
+  key: war-paint
+  title: War Paint
+  scheduleTitle:
+  synopsis: Patti LuPone and Christine Ebersole star in this new musical about beauty titans Helena Rubinstein and Elizabeth Arden.
+  duration: TBA
+  advisory: Children under the age of 4 are not permitted in the theatre.
+  notice:
+  lowest:
+  theater: Nederlander Theatre
+  address: 208 W. 41st Street, New York, NY 10036
+  preview: 2017-03-07
+  opening: 2017-04-06
+  closing:
+  limited: false
+  accolades:
+  trailer:
+  url: http://warpaintmusical.com
+  tickets:
+
 -
   key: wicked
   title: Wicked

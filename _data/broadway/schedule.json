@@ -1,7 +1,7 @@
 {
 "extractorData": {
 "url": "http://www.playbill.com/article/weekly-schedule-of-current-broadway-shows-com-142774",
-"resourceId": "18c598ef73c8cedd336dc43db10aef60",
+"resourceId": "25faafe3403b3ab92b3bf201f8d2b380",
 "data": [
 {
 "group": [
@@ -134,12 +134,54 @@
 {
 "title": [
 {
+"text": "A Bronx Tale"
+}
+],
+"mon": [
+{
+"text": "X"
+}
+],
+"tue": [
+{
+"text": "X"
+}
+],
+"wed": [
+{
+"text": "X"
+}
+],
+"thu": [
+{
+"text": "7pm"
+}
+],
+"fri": [
+{
+"text": "8pm"
+}
+],
+"sat": [
+{
+"text": "8pm"
+}
+],
+"sun": [
+{
+"text": "X"
+}
+]
+},
+{
+"title": [
+{
 "text": "Cats"
 }
 ],
 "mon": [
 {
-"text": "8pm"
+"text": "DARK"
 }
 ],
 "tue": [
@@ -154,7 +196,7 @@
 ],
 "thu": [
 {
-"text": "DARK"
+"text": "7pm"
 }
 ],
 "fri": [
@@ -354,17 +396,17 @@
 ],
 "tue": [
 {
-"text": "8pm"
+"text": "7pm"
 }
 ],
 "wed": [
 {
-"text": "8pm"
+"text": "2pm, 8pm"
 }
 ],
 "thu": [
 {
-"text": "8pm"
+"text": "7pm"
 }
 ],
 "fri": [
@@ -433,22 +475,22 @@
 ],
 "mon": [
 {
-"text": "X"
+"text": "DARK"
 }
 ],
 "tue": [
 {
-"text": "X"
+"text": "7pm"
 }
 ],
 "wed": [
 {
-"text": "X"
+"text": "2pm"
 }
 ],
 "thu": [
 {
-"text": "X"
+"text": "DARK"
 }
 ],
 "fri": [
@@ -463,7 +505,7 @@
 ],
 "sun": [
 {
-"text": "3pm"
+"text": "DARK"
 }
 ]
 },
@@ -480,7 +522,7 @@
 ],
 "tue": [
 {
-"text": "8pm"
+"text": "7pm"
 }
 ],
 "wed": [
@@ -490,7 +532,7 @@
 ],
 "thu": [
 {
-"text": "X"
+"text": "7pm"
 }
 ],
 "fri": [
@@ -626,7 +668,7 @@
 ],
 "sat": [
 {
-"text": "2pm, 7pm"
+"text": "2pm, 8pm"
 }
 ],
 "sun": [
@@ -769,27 +811,27 @@
 ],
 "mon": [
 {
-"text": "X"
+"text": "DARK"
 }
 ],
 "tue": [
 {
-"text": "X"
+"text": "7pm"
 }
 ],
 "wed": [
 {
-"text": "X"
+"text": "2pm, 8pm"
 }
 ],
 "thu": [
 {
-"text": "X"
+"text": "7pm"
 }
 ],
 "fri": [
 {
-"text": "X"
+"text": "8pm"
 }
 ],
 "sat": [
@@ -799,7 +841,7 @@
 ],
 "sun": [
 {
-"text": "DARK"
+"text": "3pm"
 }
 ]
 },
@@ -905,7 +947,7 @@
 ],
 "wed": [
 {
-"text": "7pm"
+"text": "2pm, 7:30pm"
 }
 ],
 "thu": [
@@ -925,7 +967,7 @@
 ],
 "sun": [
 {
-"text": "1pm, 6:30pm"
+"text": "3pm"
 }
 ]
 },
@@ -1063,22 +1105,22 @@
 ],
 "mon": [
 {
-"text": "7:30pm"
+"text": "DARK"
 }
 ],
 "tue": [
 {
-"text": "7:30pm"
+"text": "7pm"
 }
 ],
 "wed": [
 {
-"text": "DARK"
+"text": "7pm"
 }
 ],
 "thu": [
 {
-"text": "7:30pm"
+"text": "7pm"
 }
 ],
 "fri": [
@@ -1105,7 +1147,7 @@
 ],
 "mon": [
 {
-"text": "8pm"
+"text": "DARK"
 }
 ],
 "tue": [
@@ -1135,7 +1177,7 @@
 ],
 "sun": [
 {
-"text": "DARK"
+"text": "7pm"
 }
 ]
 },
@@ -1147,7 +1189,7 @@
 ],
 "mon": [
 {
-"text": "7pm"
+"text": "DARK"
 }
 ],
 "tue": [
@@ -1177,7 +1219,7 @@
 ],
 "sun": [
 {
-"text": "DARK"
+"text": "1pm, 6:30"
 }
 ]
 },
@@ -1199,7 +1241,7 @@
 ],
 "wed": [
 {
-"text": "2pm"
+"text": "2pm, 8pm"
 }
 ],
 "thu": [
@@ -1219,7 +1261,7 @@
 ],
 "sun": [
 {
-"text": "2pm, 7:30pm"
+"text": "2pm"
 }
 ]
 },
@@ -1283,7 +1325,7 @@
 ],
 "wed": [
 {
-"text": "7pm"
+"text": "2pm, 7pm"
 }
 ],
 "thu": [
@@ -1303,7 +1345,7 @@
 ],
 "sun": [
 {
-"text": "2pm, 7pm"
+"text": "2pm"
 }
 ]
 }
@@ -1312,12 +1354,12 @@
 ]
 },
 "pageData": {
-"resourceId": "18c598ef73c8cedd336dc43db10aef60",
+"resourceId": "25faafe3403b3ab92b3bf201f8d2b380",
 "statusCode": 200,
-"timestamp": 1476803033354
+"timestamp": 1477932899583
 },
 "url": "http://www.playbill.com/article/weekly-schedule-of-current-broadway-shows-com-142774",
 "runtimeConfigId": "2c30d945-fbd8-4595-8767-a7076af09274",
-"timestamp": 1476803033729,
+"timestamp": 1477932900047,
 "sequenceNumber": -1
 }
