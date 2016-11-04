@@ -5,7 +5,7 @@
   synopsis: "A streetwise new musical based on the real life story of Chazz Palminteri."
   duration: TBA
   advisory: "Recommended for 12 + (Strong language; Gun shot effects). Children under the age of 4 are not permitted in the theatre."
-  lowest: $42
+  lowest: $39
   theater: Longacre Theatre
   address: 220 West 48th St, New York, NY 10036
   preview: 2016-11-03
@@ -15,6 +15,9 @@
   trailer: https://www.youtube.com/watch?v=QqsKG0RTLw8
   url: http://abronxtalethemusical.com
   tickets:
+    -
+      title: $39 Rush
+      type: rush
     -
       title: $45-$252 Tickets
       type: regular
