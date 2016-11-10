@@ -8,6 +8,9 @@ layout: compress
 		<body>
 			<header class="header">
 	    		<h1 class="header__title">{{site.name}}</h1>
+					<nav class="nav">
+					<span class="nav__btn nav__current">Current</span><span class="nav__btn nav__upcoming">Upcoming</span><span class="nav__btn nav__all">All</span>
+					</nav>
 			</header>
 			{% include player.html %}
 			{{ content }}

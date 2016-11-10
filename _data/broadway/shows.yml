@@ -74,7 +74,7 @@
   synopsis: "The stage adaptation of the 1997 film arrives on Broadway, featuring a score by Ahrens and Flaherty."
   duration: 2 hrs 30 mins 1 intermission
   advisory: "Ages 7+; children under 4 are not permitted in the theatre"
-  lowest:
+  lowest: $69
   theater: Broadhurst Theatre
   address: 235 West 44th Street, New York, NY 10036
   preview: 2017-03-23
@@ -315,7 +315,7 @@
   synopsis: "When the world stopped, their stories moved us all."
   duration: TBA
   advisory: "Children under the age of 4 are not permitted in the theatre."
-  lowest:
+  lowest: $47
   theater: Schoenfeld Theatre
   address: 236 West 45th St, New York, NY 10036
   preview: 2017-02-08
@@ -326,6 +326,11 @@
   trailer: https://www.youtube.com/watch?v=SvEp8ajBiwI
   url: http://comefromaway.com
   tickets:
+    -
+      title: $47-$157 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/Come-From-Away/Schedules-Prices
+      label: telecharge.com
 -
   key: dear-evan-hansen
   title: "Dear Evan Hansen"
@@ -478,6 +483,34 @@
       url: https://www.telecharge.com/Broadway/The-Front-Page/
       label: telecharge.com
 -
+  key: glass-menagerie
+  title: The Glass Menagerie
+  scheduleTitle:
+  synopsis: "Sally Field and Joe Mantello star in a new production of Tennessee Williams' classic."
+  duration: TBA
+  advisory: "Children under 4 are not permitted in the theatre"
+  lowest: $32
+  theater: Belasco Theatre
+  address: 111 West 44th Street, New York, NY 10036
+  preview: 2017-02-07
+  opening: 2017-03-09
+  closing:
+  limited: false
+  accolades:
+  trailer:
+  url: http://glassmenagerieonbroadway.com
+  tickets:
+    -
+      title: $32 Linctix
+      type: lincTix
+      url: http://lct.org
+      label: lct.org
+    -
+      title: $39-$149 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/The-Glass-Menagerie/Schedules-Prices
+      label: telecharge.com
+-
   key: great-comet
   title: "Natasha, Pierre and the Great Comet of 1812"
   scheduleTitle: "Natasha, Pierre and The Great Comet of 1812"
@@ -510,7 +543,7 @@
   synopsis: "Andy Karl stars as TV weather man Phil Connors in this new musical based on the popular film of the same name."
   duration: 2 hr 30 min 1 intermission
   advisory: "Children under the age of 4 are not permitted in the theatre."
-  lowest:
+  lowest: $89
   theater: August Wilson Theatre
   address: 245 West 52nd Street, New York, NY 10019
   preview: 2017-03-16
@@ -521,6 +554,11 @@
   trailer:
   url: http://groundhogdaymusical.com
   tickets:
+    -
+      title: $89-$149 Tickets
+      type: regular
+      url: http://www.ticketmaster.com/artist/2298314
+      label: ticketmaster.com
 -
   key: hamilton
   title: Hamilton
@@ -787,6 +825,14 @@
   url: http://manhattantheatreclub.com/2016-17-season/
   tickets:
     -
+      title: $30 Student Rush
+      type: studentRush
+    -
+      title: $30 Under 30
+      type: thirtyUnderThirty
+      url: http://www.mtc-nyc.org/30under30/
+      label: mtc-nyc.org
+    -
       title: $60-$140 Tickets
       type: regular
       url: https://www.telecharge.com/Broadway/August-Wilsons-Jitney/
@@ -896,6 +942,19 @@
   trailer:
   url: http://manhattantheatreclub.com/2016-17-season/
   tickets:
+    -
+      title: $30 Student Rush
+      type: studentRush
+    -
+      title: $30 Under 30
+      type: thirtyUnderThirty
+      url: http://www.mtc-nyc.org/30under30/
+      label: mtc-nyc.org
+    -
+      title: $70-$150 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/Lillian-Hellmans-The-Little-Foxes/Schedules-Prices
+      label: telecharge.com
 -
   key: marvins-room
   title: Marvin's Room
@@ -935,6 +994,11 @@
       type: firstPreviews
       url: http://roundabouttheatre.org
       label: roundabouttheatre.org
+    -
+      title: $47–$147 Tickets
+      type: regular
+      url: https://www.roundabouttheatre.org/tickets/reserve.aspx?pid=22368
+      label: telecharge.com
 -
   key: matilda
   title: Matilda
