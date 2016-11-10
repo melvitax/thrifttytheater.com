@@ -10,9 +10,9 @@ body {
 .header {
   text-align: center;
   text-transform: uppercase;
-
+  position: absolute;
   width: 100%;
-  height: 120px;
+  height:80px;
   z-index: 2;
   vertical-align: middle;
   color: white;
@@ -34,9 +34,18 @@ body {
   transition: top 0.55s ease-in-out;
   position: fixed;
 }
+.header__title {
+  font-size: 1.5em;
+  padding: 10px 0 0 0;
+  margin: 0;
+}
 .header__title:hover, .header__title:active {
   color: $light-grey;
   cursor: pointer;
+}
+.header__date {
+  color: #cccccc;
+  font-weight: 100;
 }
 .nav__btn {
   padding: 0 1em;
@@ -49,7 +58,7 @@ body {
 /* Site content */
 
 .expandable-rows {
-
+  padding-top: 80px;
 }
 
 /* Each Show Row */
