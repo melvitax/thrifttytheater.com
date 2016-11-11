@@ -234,7 +234,7 @@ document.querySelector(".header__title").addEventListener('click', function(e){
 });
 
 // Add date to title
-document.querySelector(".header__title").innerHTML = 'show.hacker  <span class="header__date">' + moment(now).format('MMM D') + '</span>'
+document.querySelector(".header__title").innerHTML = document.querySelector(".header__title").innerHTML + ' - ' + moment(now).format('MMM D')
 
 // JS Player
 var jsplayerlinks = document.querySelectorAll(".js-player-link");
