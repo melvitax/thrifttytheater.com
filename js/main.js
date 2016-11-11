@@ -151,7 +151,6 @@ window.onscroll = function() {
 function hasScrolled() {
   'use strict';
   var start = window.pageYOffset;
-  console.log("start: "+start+" lastScrollTop: "+lastScrollTop);
   if(Math.abs(lastScrollTop - start) <= delta) {
     return;
   }
