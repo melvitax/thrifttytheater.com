@@ -2,7 +2,7 @@
   "name": "showhacker",
   "private": true,
   "dependencies": {
-    "video.js": "~5.8.7",
+    "video.js": "~5.13.1",
     "lazysizes": "~1.4.0",
     "videojs-youtube": "~2.0.8",
     "moment": "~2.15.1"

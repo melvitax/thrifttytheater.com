@@ -5,7 +5,7 @@ title: show.hacker
 <div class="expandable-rows" >
 
 	{% assign market = 'broadway' %}
-	{% assign scheduleData = site.data[market].schedule.extractorData.data[0].group %}
+	{% assign scheduleData = site.data[market].schedule.result.extractorData.data[0].group %}
 	{% assign ticketType = site.data[market].ticketType %}
 	{% for show in site.data[market].shows %}
 	{% assign timeZone = " 00:00:00 -0500" %}

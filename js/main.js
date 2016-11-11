@@ -1,9 +1,29 @@
+
 var now = new Date();
 var today = now.getDay();
-var weekdays = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 var selectedRow;
 var rows = document.querySelectorAll(".row");
+
+function setCookie(c_name, value, exdays) {
+  'use strict';
+  var exdate = new Date();
+  exdate.setDate(exdate.getDate() + exdays);
+  var c_value = escape(value) + ((exdays == null) ? "" : "; expires=" + exdate.toUTCString());
+  document.cookie = c_name + "=" + c_value;
+}
+
+function getCookie(c_name) {
+  'use strict';
+  var i, x, y, ARRcookies = document.cookie.split(";");
+  for (i = 0; i < ARRcookies.length; i++) {
+      x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
+      y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);
+      x = x.replace(/^\s+|\s+$/g, "");
+      if (x == c_name) {
+          return unescape(y);
+      }
+  }
+}
 
 for(var i = 0; i < rows.length; i++) {
   var row = rows[i];
@@ -120,6 +140,7 @@ for(var i = 0; i < rows.length; i++) {
 
   // Close row button
   row.querySelector('.close-row').addEventListener('click', function(){
+    'use strict';
     this.parentNode.parentNode.querySelector('header').click();
   })
 
@@ -257,22 +278,3 @@ document.querySelector('.js-player-close').addEventListener('click', function(){
   document.querySelector(".js-player").innerHTML = '';
   document.querySelector(".js-player-wrapper").classList.remove('is-open');
 });
-
-function setCookie(c_name, value, exdays) {
-    var exdate = new Date();
-    exdate.setDate(exdate.getDate() + exdays);
-    var c_value = escape(value) + ((exdays == null) ? "" : "; expires=" + exdate.toUTCString());
-    document.cookie = c_name + "=" + c_value;
-}
-
-function getCookie(c_name) {
-    var i, x, y, ARRcookies = document.cookie.split(";");
-    for (i = 0; i < ARRcookies.length; i++) {
-        x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
-        y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);
-        x = x.replace(/^\s+|\s+$/g, "");
-        if (x == c_name) {
-            return unescape(y);
-        }
-    }
-}
