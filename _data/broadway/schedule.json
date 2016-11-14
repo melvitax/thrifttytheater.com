@@ -346,6 +346,48 @@
             {
               "title": [
                 {
+                  "text": "Dear Evan Hansen"
+                }
+              ],
+              "mon": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "tue": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "wed": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "thu": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "fri": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "sat": [
+                {
+                  "text": "2pm, 8pm"
+                }
+              ],
+              "sun": [
+                {
+                  "text": "DARK"
+                }
+              ]
+            },
+            {
+              "title": [
+                {
                   "text": "The Encounter"
                 }
               ],
