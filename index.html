@@ -91,7 +91,7 @@ title: show.hacker
 
 					<!-- Schedule -->
 					{% for schedule in scheduleData %}
-						{% if show.scheduleTitle == schedule.title[0].text %}
+						{% if show.scheduleTitle == schedule.show[0].text %}
 							<ul class="timetable">
 								<li class="day">
 									<span class="day__name">sun</span>
