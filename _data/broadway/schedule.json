@@ -45,7 +45,7 @@
               ],
               "sun": [
                 {
-                  "text": "3pm"
+                  "text": "3pm, 6:30pm"
                 }
               ]
             },
@@ -129,7 +129,7 @@
               ],
               "sun": [
                 {
-                  "text": "3pm"
+                  "text": "3pm, 7pm"
                 }
               ]
             },
@@ -171,7 +171,7 @@
               ],
               "sun": [
                 {
-                  "text": "2pm"
+                  "text": "2pm, 7pm"
                 }
               ]
             },
@@ -766,7 +766,7 @@
             {
               "show": [
                 {
-                  "text": "The Illusionists: Turn of the Century"
+                  "text": "The Illusionists"
                 }
               ],
               "mon": [
@@ -1011,7 +1011,7 @@
               ],
               "sun": [
                 {
-                  "text": "3pm"
+                  "text": "3pm, 6:30pm"
                 }
               ]
             },
@@ -1053,7 +1053,7 @@
               ],
               "sun": [
                 {
-                  "text": "3pm"
+                  "text": "3pm, 6:30pm"
                 }
               ]
             },
@@ -1179,7 +1179,7 @@
               ],
               "sun": [
                 {
-                  "text": "3pm"
+                  "text": "3pm, 7pm"
                 }
               ]
             },
@@ -1431,7 +1431,7 @@
               ],
               "sun": [
                 {
-                  "text": "2pm"
+                  "text": "2pm, 7pm"
                 }
               ]
             }
