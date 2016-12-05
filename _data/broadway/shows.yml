@@ -12,7 +12,7 @@
   opening: 2016-12-01
   closing:
   accolades:
-  trailer: https://www.youtube.com/watch?v=QqsKG0RTLw8
+  trailer: https://www.youtube.com/watch?v=Q11Bd2x-0bM
   url: http://abronxtalethemusical.com
   tickets:
     -
@@ -34,7 +34,7 @@
   theater: John Golden Theatre
   address: 252 West 45th Street, New York, NY 10036
   preview: 2017-04-01
-  opening: 2017-14-27
+  opening: 2017-04-27
   closing:
   accolades:
   trailer:
@@ -68,6 +68,28 @@
       url: http://www.ticketmaster.com/artist/1858715
       label: ticketmaster.com
 -
+  key: amelie
+  title: "Amélie"
+  scheduleTitle: Amelie
+  synopsis: "A captivating new musical, based on the French film of the same name."
+  duration: TBA
+  advisory: "Children under the age of 4 are not permitted in the theatre."
+  lowest:
+  theater: Walter Kerr Theatre
+  address: 219 West 48th Street, New York, NY 10036
+  preview: 2017-03-09
+  opening: 2017-04-03
+  closing:
+  accolades:
+  trailer: https://www.youtube.com/watch?v=9j5ML4bM21Y
+  url: http://www.ameliebroadway.com
+  tickets:
+    -
+      title: $50-$160 Tickets
+      type: regular
+      url: http://www.ticketmaster.com/artist/2308642
+      label: ticketmaster.com
+-
   key: anastasia
   title: Anastasia
   scheduleTitle:
@@ -89,6 +111,28 @@
       title: $69-$159 Tickets
       type: regular
       url: https://www.telecharge.com/Broadway/Anastasia/Schedules-Prices
+      label: telecharge.com
+-
+  key: bandstand
+  title: Bandstand
+  scheduleTitle: Bandstand
+  synopsis: "Laura Osnes and Corey Cott star in this new musical set amidst the 1940s swing scene."
+  duration: 2 hrs 30 mins 1 intermission
+  advisory: "Children under the age of 4 are not permitted in the theatre."
+  lowest:
+  theater: Bernard B. Jacobs Theatre
+  address: 242 W 45th St, New York, NY 10036
+  preview: 2017-03-31
+  opening: 2017-04-26
+  closing:
+  accolades:
+  trailer:
+  url: http://www.bandstandbroadway.com
+  tickets:
+    -
+      title: $59-$159 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/Bandstand/Schedules-Prices
       label: telecharge.com
 -
   key: beautiful
@@ -206,50 +250,6 @@
       type: regular
       url: http://www.ticketmaster.com/Charlie-and-the-Chocolate-Factory-NY-tickets/artist/2272474
       label: ticketmaster.com
--
-  key: cherry-orchard
-  title: The Cherry Orchard
-  scheduleTitle: The Cherry Orchard
-  synopsis: Chekhov's classic returns to Broadway, adapted by Stephen Karam.
-  lowest: $35
-  duration: TBA
-  advisory: Children under the age of 4 are not permitted in the theatre.
-  theater: American Airlines Theatre
-  address: 227 West 42nd Street, New York, NY 10036
-  preview: 2016-09-15
-  opening: 2016-10-16
-  closing: 2016-12-04
-  limited: true
-  accolades:
-  trailer: https://www.youtube.com/watch?v=GODc1p4M5cM
-  url: http://www.roundabouttheatre.org/Shows-Events/The-Cherry-Orchard.aspx
-  tickets:
-    -
-      title: $35 Mobile Lottery
-      type: mobile
-      url: http://www.todaytix.com/us/nyc/shows/the-cherry-orchard/
-      label: todaytix.com
-    -
-      title: $47 General Rush
-      type: rush
-    -
-      title: 50% Off Student Rush
-      type: fiftyOffStudentRush
-    -
-      title: $25 Hiptix
-      type: hipTix
-      url: http://hiptix.com
-      label: hiptix.com
-    -
-      title: $10 First Previews
-      type: firstPreviews
-      url: http://roundabouttheatre.org
-      label: roundabouttheatre.org
-    -
-      title: $57-$142 Tickets
-      type: regular
-      url: hhttp://www.roundabouttheatre.org/tickets/reserve.aspx?pid=22366
-      label: roundabouttheatre.org
 -
   key: chicago
   title: Chicago
@@ -372,6 +372,11 @@
   trailer: https://www.youtube.com/watch?v=q2QcP4ZoHWo
   url: http://theencounterbroadway.com
   tickets:
+    -
+      title: $40 Digital Lottery
+      type: digital
+      url: http://theencounterbroadwaylottery.com
+      label: heencounterbroadwaylottery.com
     -
       title: $40 Student Rush
       type: studentRush
@@ -513,7 +518,7 @@
 -
   key: great-comet
   title: "Natasha, Pierre and the Great Comet of 1812"
-  scheduleTitle: "Natasha, Pierre and the Great Comet of 1812"
+  scheduleTitle: "Natasha, Pierre..."
   synopsis: "The acclaimed musical, based on a passage from War and Peace, arrives on Broadway starring Josh Groban."
   duration: 2 hr 30 min 1 intermission
   advisory: "May be inappropriate for 12 and under. Children under the age of 4 are not permitted in the theatre."
@@ -528,14 +533,19 @@
   trailer:
   url: http://greatcometbroadway.com
   tickets:
-      -
-        title: $39 Rush Tickets
-        type: rush
-      -
-        title: $59-$299 Tickets
-        type: regular
-        url: https://www.telecharge.com/Broadway/the-great-comet
-        label: telecharge.com
+    -
+      title: $39 Digital Lottery
+      type: digital
+      url: http://greatcometbroadway.com/lottery.php
+      label: greatcometbroadway.com
+    -
+      title: $39 Rush Tickets
+      type: rush
+    -
+      title: $59-$299 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/the-great-comet
+      label: telecharge.com
 -
   key: groundhog-day
   title: Groundhog Day
@@ -600,7 +610,7 @@
   address: 261 West 47th Street, New York, NY 10036
   preview: 2016-09-20
   opening: 2016-10-13
-  closing:
+  closing: 2016-12-11
   limited: false
   callout:
   accolades:
@@ -725,7 +735,7 @@
 -
   key: illusionists
   title: "The Illusionists: Turn of the Century"
-  scheduleTitle: "The Illusionists: Turn of the Century"
+  scheduleTitle: "The Illusionists"
   synopsis: "The Illusionists return to Broadway with a thrilling and spectacular new show."
   duration: 2 hrs 10 mins 1 intermission
   advisory: "Children under the age of 4 are not permitted in the theatre. 11am Family Matinees run approximately 90 minutes with no intermission."
@@ -740,6 +750,11 @@
   trailer: https://www.youtube.com/watch?v=7GrV7Pp9cH8
   url: http://www.theillusionistslive.com/turnofthecentury
   tickets:
+    -
+      title: $35 Digital Lottery
+      type: digital
+      url: https://lottery.broadwaydirect.com/show/the-illusionists/
+      label: broadwaydirect.com
     -
       title: $69-$159 Tickets
       type: regular
@@ -763,6 +778,11 @@
   trailer: https://www.youtube.com/watch?v=D2l-Ikn9DEI
   url: http://www.intransitbroadway.com
   tickets:
+    -
+      title: $39 Mobile Lottery
+      type: mobile
+      url: https://www.todaytix.com/shows/nyc/2967-in-transit/lottery
+      label: TodayTIX
     -
       title: $89-$129 Tickets
       type: regular
@@ -892,6 +912,9 @@
   url: http://liaisonsbroadway.com
   tickets:
     -
+      title: $40 General Rush
+      type: rush
+    -
       title: $77-$250 Tickets
       type: regular
       url: https://www.telecharge.com/Broadway/Les-Liaisons-Dangereuses/
@@ -899,7 +922,7 @@
 -
   key: lion-king
   title: The Lion King
-  scheduleTitle: The Lion King
+  scheduleTitle: Lion King
   synopsis: An award-winning score and innovative puppetry bring the classic story of young royal heir Simba to life.
   duration: 2 hrs 30 mins 1 intermission
   advisory: All guests require a ticket, regardless of age. We recommend that children be at least six years old to attend.
@@ -1183,7 +1206,7 @@
 -
   key: phantom-of-the-opera
   title: The Phantom of the Opera
-  scheduleTitle: The Phantom of the Opera
+  scheduleTitle: Phantom of the Opera
   synopsis: Andrew Lloyd Webber's masterwork is a timeless story of seduction and despair.
   duration: 2 hrs 30 mins 1 intermission
   advisory: May be appropriate for ages 4 and older. Children under 4 are not permitted into the theatre.
@@ -1212,6 +1235,28 @@
       url: https://www.telecharge.com/Broadway/The-Phantom-of-the-Opera/Schedules-Prices
       label: telecharge.com
 -
+  key: the-play-that-goes-wrong
+  title: The Play That Goes Wrong
+  scheduleTitle: The Play That Goes Wrong
+  synopsis: "London's Olivier Award-winning comedy arrives on Broadway."
+  duration: TBA
+  advisory: "Children under the age of 4 are not permitted in the theatre."
+  theater: Lyceum Theatre
+  address: 149 West 45th Street, New York, NY 10036
+  preview: 2017-03-07
+  opening: 2017-04-02
+  closing:
+  limited: false
+  accolades:
+  trailer:
+  url: http://www.broadwaygoeswrong.com
+  tickets:
+      -
+        title: $30-$139 Tickets
+        type: regular
+        url: https://www.telecharge.com/Broadway/The-Play-That-Goes-Wrong/Schedules-Prices
+        label: telecharge.com
+-
   key: present
   title: The Present
   scheduleTitle:
@@ -1234,6 +1279,28 @@
         type: regular
         url: https://www.telecharge.com/Broadway/the-present
         label: telecharge.com
+-
+  key: present-laughter
+  title: Present Laughter
+  scheduleTitle: Present Laughter
+  synopsis: "Kevin Kline returns to Broadway in Noël Coward's classic comedy."
+  duration: TBA
+  advisory: "Children under the age of 4 are not permitted in the theatre."
+  theater: St. James Theatre
+  address: 246 West 44th Street, New York, NY 10036
+  preview: 2017-03-10
+  opening: 2017-04-05
+  closing:
+  limited: false
+  accolades:
+  trailer:
+  url: http://laughteronbroadway.com
+  tickets:
+      -
+        title: $59-$150 Tickets
+        type: regular
+        url: http://www.ticketmaster.com/Present-Laughter-NY-tickets/artist/2306316
+        label: ticketmaster.com
 -
   key: price
   title: The Price
@@ -1326,10 +1393,37 @@
   opening: 2017-03-02
   closing:
   limited:
-  accolades:
+  accolades: NY Times Critic's Pick
   trailer: https://www.youtube.com/watch?v=bk0hovVTZBg
   url: http://www.significantotherbroadway.com
   tickets:
+    -
+      title: $49-$147 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/Significant-Other/Schedules-Prices
+      label: telecharge.com
+-
+  key: six-degrees-of-separation
+  title: Six Degrees of Separation
+  scheduleTitle:
+  synopsis: "Allison Janney and John Benjamin Hickey lead the Broadway revival of John Guare's iconic drama."
+  duration:
+  advisory: "Children under the age of 4 are not permitted in the theatre."
+  theater: Ethel Barrymore Theatre
+  address: 243 West 47th Street, New York, NY 10036
+  preview: 2017-04-05
+  opening: 2017-04-25
+  closing: 2017-07-16
+  limited: true
+  accolades:
+  trailer: https://www.youtube.com/watch?v=bk0hovVTZBg
+  url: http://sixdegreesbroadway.com
+  tickets:
+    -
+      title: $79-$149 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/Six-Degrees-of-Separation/Schedules-Prices
+      label: telecharge.com
 -
   key: something-rotten
   title: Something Rotten!
