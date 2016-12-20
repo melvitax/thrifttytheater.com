@@ -498,7 +498,6 @@
   synopsis: "Sally Field and Joe Mantello star in a new production of Tennessee Williams' classic."
   duration: TBA
   advisory: "Children under 4 are not permitted in the theatre"
-  lowest: $32
   theater: Belasco Theatre
   address: 111 West 44th Street, New York, NY 10036
   preview: 2017-02-07
@@ -796,8 +795,8 @@
       label: ticketmaster.com
 -
   key: jitney
-  title: "Jitney"
-  scheduleTitle:
+  title: Jitney
+  scheduleTitle: Jitney
   synopsis: "Legendary playwright August Wilson's American Century Cycle play makes its Broadway premiere."
   duration: TBA
   advisory: "Children under the age of 4 are not permitted in the theatre."
@@ -806,8 +805,8 @@
   address: 261 West 47th Street, New York, NY 10036
   preview: 2016-12-28
   opening: 2017-01-19
-  closing:
-  limited: false
+  closing: 2017-03-12
+  limited: true
   accolades:
   trailer:
   url: http://manhattantheatreclub.com/2016-17-season/
