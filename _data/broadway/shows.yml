@@ -30,7 +30,6 @@
   synopsis: "Laurie Metcalf stars in Lucas Hnath's sequel to Ibsen's classic."
   duration: TBA
   advisory: "Children under the age of 4 are not permitted in the theatre."
-  lowest:
   theater: John Golden Theatre
   address: 252 West 45th Street, New York, NY 10036
   preview: 2017-04-01
@@ -38,8 +37,13 @@
   closing:
   accolades:
   trailer:
-  url:
+  url: http://dollshousepart2.com
   tickets:
+   -
+      title: $60-$147 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/A-Dolls-House/Schedules-Prices
+      label: telecharge.com
 -
   key: aladdin
   title: Aladdin
@@ -530,7 +534,7 @@
   closing:
   limited: false
   accolades:
-  trailer:
+  trailer: https://www.youtube.com/watch?v=4lGARXirty8&feature=youtu.be
   url: http://greatcometbroadway.com
   tickets:
     -
@@ -593,42 +597,6 @@
       type: digital
       url: http://hamiltonbroadway.com/lottery
       label: hamiltonbroadway.com/
-    -
-      title: $57-$277 Tickets
-      type: regular
-      url: http://www.ticketmaster.com/artist/2095830
-      label: ticketmaster.com
--
-  key: heisenberg
-  title: Heisenberg
-  scheduleTitle: Heisenberg
-  synopsis: "Simon Stephens' two-hander, starring Mary-Louise Parker and Denis Arndt, transfers to Broadway."
-  duration: 1 hr 20 mins 0 intermission
-  advisory: Children under the age of 4 are not permitted in the theatre.
-  lowest: $30
-  theater: Samuel J Friedman Theatre
-  address: 261 West 47th Street, New York, NY 10036
-  preview: 2016-09-20
-  opening: 2016-10-13
-  closing: 2016-12-11
-  limited: false
-  callout:
-  accolades:
-  trailer: https://www.youtube.com/watch?v=LYTZduFpOCQ
-  url: http://www.manhattantheatreclub.com
-  tickets:
-    -
-      title: $27 Student Rush
-      type: studentRush
-    -
-      title: $30 Under 30
-      type: thirtyUnderThirty
-      url: http://www.mtc-nyc.org/30under30/index.htm
-      label: mtc-nyc.org
-    - title: $30 TodayTix App Rush
-      type: todayTixRush
-      url: https://www.todaytix.com/us/nyc/rush/heisenberg/
-      label: todaytix.com
     -
       title: $57-$277 Tickets
       type: regular
@@ -1516,9 +1484,8 @@
   scheduleTitle:
   synopsis: Patti LuPone and Christine Ebersole star in this new musical about beauty titans Helena Rubinstein and Elizabeth Arden.
   duration: TBA
-  advisory: Children under the age of 4 are not permitted in the theatre.
+  advisory: Ages 13+; children under 5 not permitted in the theatre.
   notice:
-  lowest:
   theater: Nederlander Theatre
   address: 208 W. 41st Street, New York, NY 10036
   preview: 2017-03-07
@@ -1526,10 +1493,14 @@
   closing:
   limited: false
   accolades:
-  trailer:
+  trailer: https://www.youtube.com/watch?v=V_yOFgwCstU
   url: http://warpaintmusical.com
   tickets:
-
+    -
+      title: $79-$169 Tickets
+      type: regular
+      url: http://www.ticketmaster.com/War-Paint-NY-tickets/artist/2303827
+      label: ticketmaster.com
 -
   key: wicked
   title: Wicked
