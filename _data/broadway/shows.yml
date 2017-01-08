@@ -1392,42 +1392,6 @@
       url: https://www.telecharge.com/Broadway/Six-Degrees-of-Separation/Schedules-Prices
       label: telecharge.com
 -
-  key: something-rotten
-  title: Something Rotten!
-  scheduleTitle: Something Rotten!
-  synopsis: Visit the Renaissance in this hilarious musical about the Bottom Brothers, who are desperate to write a hit play in the shadow of The Bard.
-  duration: 2 hrs 30 mins 1 intermission
-  advisory: Appropriate for ages 8+. Children under the age of 4 are not permitted in the theatre.
-  lowest: $35
-  theater: St James Theatre
-  address: 246 W 44th St, New York, NY 10036
-  preview: 2015-03-23
-  opening: 2015-04-22
-  closing:
-  limited: false
-  accolades: WINNER! 1 Tony Award
-  trailer: https://www.youtube.com/watch?v=S6z43ZH3p2I
-  url: http://www.rottenbroadway.com/
-  tickets:
-    -
-      title: $35 Digital Lottery
-      type: digital
-      url: http://lottery.rottenbroadway.com
-      label: lottery.rottenbroadway.com
-    -
-      title: $35 Rush
-      type: rush
-    -
-      title: $42 Tix4students
-      type: tix4students
-      url: https://www.tix4students.com/events/something-rotten-ny/
-      label: tix4students.com
-    -
-      title: $52-$225 Tickets
-      type: regular
-      url: http://www.ticketmaster.com/Something-Rotten-Ny-tickets/artist/2177532
-      label: ticketmaster.com
--
   key: sunset-boulevard
   title: Sunset Boulevard
   scheduleTitle:
