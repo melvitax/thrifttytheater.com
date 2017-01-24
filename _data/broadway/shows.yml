@@ -284,35 +284,6 @@
       url: https://www.telecharge.com/Broadway/Chicago/Schedules-Prices
       label: telecharge.com
 -
-  key: color-purple
-  title: The Color Purple
-  scheduleTitle: The Color Purple
-  synopsis: Jennifer Hudson, Cynthia Erivo & Danielle Brooks star in this landmark musical, based on Alice Walker's novel.
-  duration: 2 hrs 20 mins 1 intermission
-  advisory: May be inappropriate for 8 and under. Children under the age of 4 are not permitted in the theatre.
-  theater: Bernard B. Jacobs Theatre
-  address: 242 W 45th St, New York, NY, 10036
-  preview: 2015-11-10
-  opening: 2015-12-10
-  closing:
-  limited: false
-  lowest: $35
-  accolades: WINNER! Tony Award Best Musical Revival
-  trailer: https://www.youtube.com/watch?v=2Y-JeZxIT8U
-  url: http://www.colorpurple.com
-  tickets:
-    -
-      title: $35 Rush
-      type: rush
-    -
-      title: $30 Standing Room
-      type: rush
-    -
-      title: $75-$195 Tickets
-      type: regular
-      url: https://www.telecharge.com/Broadway/The-Color-Purple/Ticket
-      label: telecharge.com
--
   key: come-from-away
   title: Come From Away
   scheduleTitle:
@@ -357,110 +328,6 @@
       title: $49-$250 Tickets
       type: regular
       url: https://www.telecharge.com/Broadway/Dear-Evan-Hansen-Music-Box-Theatre/
-      label: telecharge.com
--
-  key: encounter
-  title: The Encounter
-  scheduleTitle: The Encounter
-  synopsis: "Simon McBurney brings his latest solo show to Broadway."
-  duration: 2 hrs with no intermission
-  advisory: "May be inappropriate for 12 and under. Children under the age of 4 are not permitted in the theatre."
-  lowest: $89
-  theater: John Golden Theatre
-  address: 252 West 45th Street, New York, NY 10036
-  preview: 2016-09-20
-  opening: 2016-09-29
-  closing: 2017-01-08
-  limited: true
-  accolades:
-  trailer: https://www.youtube.com/watch?v=q2QcP4ZoHWo
-  url: http://theencounterbroadway.com
-  tickets:
-    -
-      title: $40 Digital Lottery
-      type: digital
-      url: http://theencounterbroadwaylottery.com
-      label: heencounterbroadwaylottery.com
-    -
-      title: $40 Student Rush
-      type: studentRush
-    -
-      title: $47.25 Tix4Students
-      type: tix4students
-      url: https://www.tix4students.com
-      label: Tix4Students.com
-    -
-      title: $89-$250 Tickets
-      type: regular
-      url: https://www.telecharge.com/Broadway/the-encounter
-      label: telecharge.com
--
-  key: falsettos
-  title: Falsettos
-  scheduleTitle: Falsettos
-  synopsis: "William Finn and James Lapine's Tony-winning musical returns to Broadway."
-  duration: 2 hrs with no intermission
-  advisory: Recommended for 12+. Children under the age of 4 are not permitted in the theatre.
-  lowest: $32
-  theater: Walter Kerr Theatre
-  address: 219 West 48th St, New York, NY 10036
-  preview: 2016-09-29
-  opening: 2016-10-27
-  closing: 2017-01-08
-  limited: true
-  accolades:
-  trailer: https://www.youtube.com/watch?v=xo4Swuflf68
-  url: http://www.lct.org/shows/falsettos/
-  tickets:
-    -
-      title: $40 Digital Lottery
-      type: digitalFewDays
-      label: jujamcyn.com
-      url: http://www.jujamcyn.com/lottery/falsettos.html
-    -
-      title: $32 Student Rush
-      type: studentRush
-    -
-      title: $32 Linctix
-      type: lincTix
-      url: http://lct.org/linctixMain.htm
-      label: lct.org
-    -
-      title: $79-$189 Tickets
-      type: regular
-      url: http://www.ticketmaster.com/Falsettos-tickets/artist/979819
-      label: ticketmaster.com
--
-  key: fiddler-on-the-roof
-  title: Fiddler on the Roof
-  scheduleTitle: Fiddler on the Roof
-  synopsis: The beloved theatrical masterpiece that tells the heartwarming story of fathers and daughters.
-  duration: 2 hrs 45 mins 1 intermission
-  advisory: Children under the age of 4 are not permitted in the theatre.
-  callout: Final Performance December 31
-  theater: Broadway Theatre
-  address: 1681 Broadway, New York, NY, 10019
-  preview: 2015-11-20
-  opening: 2015-12-20
-  closing: 2016-12-31
-  lowest: $37
-  limited: false
-  accolades:
-  trailer: https://www.youtube.com/watch?v=7uQsbR-CyWk
-  url: http://www.fiddlermusical.com/
-  tickets:
-    -
-      title: $37 Genral Rush
-      type: rush
-    -
-      title: $35 Tix4Students
-      type: tix4students
-      url: https://www.tix4students.com/event/fiddler-on-the-roof/
-      label: tix4students.com
-    -
-      title: $35-$227 Tickets
-      type: regular
-      url: https://www.telecharge.com/Broadway/Fiddler-on-the-Roof/Schedules-Prices
       label: telecharge.com
 -
   key: front-page
@@ -700,34 +567,6 @@
       url: https://www.telecharge.com/Broadway/The-Humans/Schedules-Prices
       label: telecharge.com
 -
-  key: illusionists
-  title: "The Illusionists: Turn of the Century"
-  scheduleTitle: "The Illusionists"
-  synopsis: "The Illusionists return to Broadway with a thrilling and spectacular new show."
-  duration: 2 hrs 10 mins 1 intermission
-  advisory: "Children under the age of 4 are not permitted in the theatre. 11am Family Matinees run approximately 90 minutes with no intermission."
-  lowest: $69
-  theater: Palace Theatre
-  address: 1564 Broadway, New York, NY 10036
-  preview: 2016-11-25
-  opening: 2016-11-25
-  closing: 2017-01-01
-  limited: true
-  accolades:
-  trailer: https://www.youtube.com/watch?v=7GrV7Pp9cH8
-  url: http://www.theillusionistslive.com/turnofthecentury
-  tickets:
-    -
-      title: $35 Digital Lottery
-      type: digital
-      url: https://lottery.broadwaydirect.com/show/the-illusionists/
-      label: broadwaydirect.com
-    -
-      title: $69-$159 Tickets
-      type: regular
-      url: http://www.ticketmaster.com/The-Illusionists-Turn-of-the-tickets/artist/2253409
-      label: ticketmaster.com
--
   key: in-transit
   title: In Transit
   scheduleTitle: In Transit
@@ -755,44 +594,6 @@
       type: regular
       url: https://www.telecharge.com/Broadway/In-Transit/
       label: telecharge.com
--
-  key: jersey-boys
-  title: Jersey Boys
-  scheduleTitle: Jersey Boys
-  synopsis: The Tony-winning story of how Frankie Valli and The Four Seasons became international pop superstars.
-  duration: 2 hrs 30 mins 1 intermission
-  advisory: May be inappropriate for ages 12 and under. Strong language. Children under the age of 4 are not permitted in the theatre.
-  lowest: $32
-  theater: August Wilson Theatre
-  address: 245 W 52nd St, New York, NY, 10019
-  preview: 2005-10-04
-  opening: 2005-11-06
-  closing: 2017-01-15
-  limited: false
-  accolades:
-  trailer: https://www.youtube.com/watch?v=KqeBH2OIrPY
-  url: http://www.jerseyboysinfo.com/broadway/
-  tickets:
-    -
-      title: $32 Digital Lottery
-      type: digitalFewDays
-      label: jerseyboysinfo.com/broadway/lottery
-    -
-      title: $27 Student Rush
-      type: studentRush
-    -
-      title: $27 Standing Room
-      type: standingRoom
-    -
-      title: $34 Tix4Students
-      type: tix4students
-      url: https://www.tix4students.com/events/jersey-boys-ny/
-      label: tix4students.com
-    -
-      title: $47-$297 Tickets
-      type: regular
-      url: http://www.ticketmaster.com/Jersey-Boys-New-York-NY-tickets/artist/2197820?brand=jerseyboysnyc
-      label: ticketmaster.com
 -
   key: jitney
   title: Jitney
@@ -860,32 +661,6 @@
       type: regular
       url: http://www.ticketmaster.com/artist/2173343
       label: ticketmaster.com
--
-  key: les-liaisons-dangereuses
-  title: Les Liaisons Dangereuses
-  scheduleTitle: Les Liasons Dangereuses
-  synopsis: "Janet McTeer and Liev Schreiber star in the Broadway revival of Christopher Hampton's classic."
-  duration: 2 hrs 45 mins 1 intermission
-  advisory: "May be inappropriate for 12 and under. Children under the age of 4 are not permitted in the theatre."
-  lowest: $77
-  theater: Booth Theatre
-  address: 222 West 45th Street, New York, NY 10036
-  preview: 2016-10-08
-  opening: 2016-10-30
-  closing: 2017-01-22
-  limited: true
-  accolades:
-  trailer: https://www.youtube.com/watch?v=JPuzPEjM3Ow
-  url: http://liaisonsbroadway.com
-  tickets:
-    -
-      title: $40 General Rush
-      type: rush
-    -
-      title: $77-$250 Tickets
-      type: regular
-      url: https://www.telecharge.com/Broadway/Les-Liaisons-Dangereuses/
-      label: telecharge.com
 -
   key: lion-king
   title: The Lion King
@@ -990,46 +765,6 @@
       url: https://www.roundabouttheatre.org/tickets/reserve.aspx?pid=22368
       label: telecharge.com
 -
-  key: matilda
-  title: Matilda
-  scheduleTitle: Matilda
-  synopsis: Roald Dahl's classic children's story comes to musical life on Broadway.
-  duration: 2 hrs 40 mins 1 intermission
-  advisory: Minimum age is 6 years old. Child must have a ticket.
-  lowest: $32
-  theater: Shubert Theatre
-  address: 225 W 44th St, New York, NY, 10036
-  preview: 2013-03-04
-  opening: 2013-04-11
-  closing: 2017-01-01
-  limited: false
-  callout: Final Performance Jan 1st
-  accolades: WINNER! 7 Olivier Awards (Best Musical)
-  trailer: https://www.youtube.com/watch?v=1Mgnt4Zdptw
-  url: http://us.matildathemusical.com/
-  tickets:
-    -
-      title: $32 Digital Lottery
-      type: digital
-      url:  http://www.matildalottery.com/
-      label: matildalottery.com
-    -
-      title: $32 General Rush
-      type: rush
-    -
-      title: $27 Standing Room
-      type: standingRoom
-    -
-      title: $39 Tix4Students
-      type: tix4students
-      url: https://www.tix4students.com/event/matilda-the-musical/
-      label: tix4students.com
-    -
-      title: $39-$277 Tickets
-      type: regular
-      url: https://www.telecharge.com/Broadway/Matilda-The-Musical/Schedules-Prices
-      label: telecharge.com
--
   key: miss-saigon
   title: Miss Saigon
   scheduleTitle:
@@ -1051,32 +786,6 @@
         title: $39-$250 Tickets
         type: regular
         url: https://www.telecharge.com/Broadway/Miss-Saigon/
-        label: telecharge.com
--
-  key: oh-hello
-  title: "Oh, Hello on Broadway"
-  scheduleTitle: "Oh, Hello"
-  synopsis: "Nick Kroll and John Mulaney's popular alter egos Gil Faizon and George St. Geegland make their Broadway debuts!"
-  duration: TBA
-  advisory: "May be inappropriate for 12 and under. Children under the age of 4 are not permitted in the theatre."
-  lowest: $37
-  theater: Lyceum Theatre
-  address: 149 West 45th Street, New York, NY 10036
-  preview: 2016-09-23
-  opening: 2016-10-10
-  closing: 2017-01-08
-  limited: true
-  accolades: "New York Times Critic's Pick"
-  trailer: https://www.youtube.com/watch?v=kn0_W_Badn4
-  url: http://ohhellobroadway.com
-  tickets:
-      -
-        title: $37 General Rush
-        type: rush
-      -
-        title: $59-$250 Tickets
-        type: regular
-        url: https://www.telecharge.com/Broadway/OH
         label: telecharge.com
 -
   key: on-your-feet
