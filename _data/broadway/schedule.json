@@ -3,7 +3,7 @@
   "result": {
     "extractorData": {
       "url": "http://www.playbill.com/article/weekly-schedule-of-current-broadway-shows-com-142774",
-      "resourceId": "213c4ea99feb20ff10ac1e978be9f5e6",
+      "resourceId": "b8d2adc35c311d61d86cbb5b80cf0cb7",
       "data": [
         {
           "group": [
@@ -25,7 +25,7 @@
               ],
               "wed": [
                 {
-                  "text": "1pm, 7pm"
+                  "text": "7pm"
                 }
               ],
               "thu": [
@@ -45,7 +45,7 @@
               ],
               "sun": [
                 {
-                  "text": "3pm"
+                  "text": "1pm, 6:30pm"
                 }
               ]
             },
@@ -193,12 +193,12 @@
               ],
               "wed": [
                 {
-                  "text": "2pm"
+                  "text": "DARK"
                 }
               ],
               "thu": [
                 {
-                  "text": "DARK"
+                  "text": "2pm"
                 }
               ],
               "fri": [
@@ -262,48 +262,6 @@
             {
               "show": [
                 {
-                  "text": "The Color Purple"
-                }
-              ],
-              "mon": [
-                {
-                  "text": "DARK"
-                }
-              ],
-              "tue": [
-                {
-                  "text": "7pm"
-                }
-              ],
-              "wed": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "thu": [
-                {
-                  "text": "7pm"
-                }
-              ],
-              "fri": [
-                {
-                  "text": "8pm"
-                }
-              ],
-              "sat": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "sun": [
-                {
-                  "text": "3pm"
-                }
-              ]
-            },
-            {
-              "show": [
-                {
                   "text": "Dear Evan Hansen"
                 }
               ],
@@ -340,90 +298,6 @@
               "sun": [
                 {
                   "text": "2pm, 7:30pm"
-                }
-              ]
-            },
-            {
-              "show": [
-                {
-                  "text": "The Encounter"
-                }
-              ],
-              "mon": [
-                {
-                  "text": "DARK"
-                }
-              ],
-              "tue": [
-                {
-                  "text": "7pm"
-                }
-              ],
-              "wed": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "thu": [
-                {
-                  "text": "7pm"
-                }
-              ],
-              "fri": [
-                {
-                  "text": "8pm"
-                }
-              ],
-              "sat": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "sun": [
-                {
-                  "text": "3pm"
-                }
-              ]
-            },
-            {
-              "show": [
-                {
-                  "text": "Falsettos"
-                }
-              ],
-              "mon": [
-                {
-                  "text": "DARK"
-                }
-              ],
-              "tue": [
-                {
-                  "text": "7pm"
-                }
-              ],
-              "wed": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "thu": [
-                {
-                  "text": "7pm"
-                }
-              ],
-              "fri": [
-                {
-                  "text": "8pm"
-                }
-              ],
-              "sat": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "sun": [
-                {
-                  "text": "3pm"
                 }
               ]
             },
@@ -514,90 +388,6 @@
             {
               "show": [
                 {
-                  "text": "Holiday Inn"
-                }
-              ],
-              "mon": [
-                {
-                  "text": "DARK"
-                }
-              ],
-              "tue": [
-                {
-                  "text": "8pm"
-                }
-              ],
-              "wed": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "thu": [
-                {
-                  "text": "8pm"
-                }
-              ],
-              "fri": [
-                {
-                  "text": "8pm"
-                }
-              ],
-              "sat": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "sun": [
-                {
-                  "text": "2pm"
-                }
-              ]
-            },
-            {
-              "show": [
-                {
-                  "text": "The Humans"
-                }
-              ],
-              "mon": [
-                {
-                  "text": "DARK"
-                }
-              ],
-              "tue": [
-                {
-                  "text": "7pm"
-                }
-              ],
-              "wed": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "thu": [
-                {
-                  "text": "7pm"
-                }
-              ],
-              "fri": [
-                {
-                  "text": "8pm"
-                }
-              ],
-              "sat": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "sun": [
-                {
-                  "text": "3pm"
-                }
-              ]
-            },
-            {
-              "show": [
-                {
                   "text": "In Transit"
                 }
               ],
@@ -640,48 +430,6 @@
             {
               "show": [
                 {
-                  "text": "Jersey Boys"
-                }
-              ],
-              "mon": [
-                {
-                  "text": "DARK"
-                }
-              ],
-              "tue": [
-                {
-                  "text": "7pm"
-                }
-              ],
-              "wed": [
-                {
-                  "text": "2pm, 7pm"
-                }
-              ],
-              "thu": [
-                {
-                  "text": "7pm"
-                }
-              ],
-              "fri": [
-                {
-                  "text": "8pm"
-                }
-              ],
-              "sat": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "sun": [
-                {
-                  "text": "3pm"
-                }
-              ]
-            },
-            {
-              "show": [
-                {
                   "text": "Jitney"
                 }
               ],
@@ -697,7 +445,7 @@
               ],
               "wed": [
                 {
-                  "text": "7pm"
+                  "text": "2pm, 8pm"
                 }
               ],
               "thu": [
@@ -712,12 +460,12 @@
               ],
               "sat": [
                 {
-                  "text": "8pm"
+                  "text": "2pm, 8pm"
                 }
               ],
               "sun": [
                 {
-                  "text": "2pm, 7pm"
+                  "text": "2pm"
                 }
               ]
             },
@@ -729,7 +477,7 @@
               ],
               "mon": [
                 {
-                  "text": "DARK"
+                  "text": "8pm"
                 }
               ],
               "tue": [
@@ -739,7 +487,7 @@
               ],
               "wed": [
                 {
-                  "text": "2pm, 8pm"
+                  "text": "DARK"
                 }
               ],
               "thu": [
@@ -759,49 +507,7 @@
               ],
               "sun": [
                 {
-                  "text": "3pm"
-                }
-              ]
-            },
-            {
-              "show": [
-                {
-                  "text": "Les Liasons Dangereuses"
-                }
-              ],
-              "mon": [
-                {
-                  "text": "DARK"
-                }
-              ],
-              "tue": [
-                {
-                  "text": "7pm"
-                }
-              ],
-              "wed": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "thu": [
-                {
-                  "text": "7pm"
-                }
-              ],
-              "fri": [
-                {
-                  "text": "8pm"
-                }
-              ],
-              "sat": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "sun": [
-                {
-                  "text": "3pm"
+                  "text": "2pm, 7:30pm"
                 }
               ]
             },
@@ -823,7 +529,7 @@
               ],
               "wed": [
                 {
-                  "text": "2pm, 7pm"
+                  "text": "7pm"
                 }
               ],
               "thu": [
@@ -843,7 +549,7 @@
               ],
               "sun": [
                 {
-                  "text": "3pm"
+                  "text": "1pm, 6:30pm"
                 }
               ]
             },
@@ -886,48 +592,6 @@
               "sun": [
                 {
                   "text": "3pm"
-                }
-              ]
-            },
-            {
-              "show": [
-                {
-                  "text": "Oh, Hello"
-                }
-              ],
-              "mon": [
-                {
-                  "text": "8pm"
-                }
-              ],
-              "tue": [
-                {
-                  "text": "8pm"
-                }
-              ],
-              "wed": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "thu": [
-                {
-                  "text": "8pm"
-                }
-              ],
-              "fri": [
-                {
-                  "text": "8pm"
-                }
-              ],
-              "sat": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "sun": [
-                {
-                  "text": "DARK"
                 }
               ]
             },
@@ -986,12 +650,12 @@
               ],
               "tue": [
                 {
-                  "text": "7pm"
+                  "text": "DARK"
                 }
               ],
               "wed": [
                 {
-                  "text": "7pm"
+                  "text": "DARK"
                 }
               ],
               "thu": [
@@ -1095,7 +759,7 @@
               ],
               "sun": [
                 {
-                  "text": "5:45pm"
+                  "text": "3pm"
                 }
               ]
             },
@@ -1230,11 +894,11 @@
       ]
     },
     "pageData": {
-      "resourceId": "213c4ea99feb20ff10ac1e978be9f5e6",
+      "resourceId": "b8d2adc35c311d61d86cbb5b80cf0cb7",
       "statusCode": 200,
-      "timestamp": 1483836467850
+      "timestamp": 1485264443848
     },
-    "timestamp": 1483836468530,
+    "timestamp": 1485264444528,
     "sequenceNumber": 0
   }
 }
