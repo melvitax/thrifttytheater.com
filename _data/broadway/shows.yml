@@ -325,6 +325,11 @@
   url: http://dearevanhansen.com
   tickets:
     -
+      title: $40 Digital Lottery
+      type: digital
+      url: https://www.dearevanhansenlottery.com
+      label: dearevanhansenlottery.com
+    -
       title: $49-$250 Tickets
       type: regular
       url: https://www.telecharge.com/Broadway/Dear-Evan-Hansen-Music-Box-Theatre/
@@ -490,6 +495,28 @@
       title: $79-$425 Tickets
       type: regular
       url: https://www.telecharge.com/Broadway/Hello/
+      label: telecharge.com
+-
+  key: indecent
+  title: Indecent
+  scheduleTitle: Indecent
+  synopsis: "A deeply moving new play with music, inspired by true events."
+  duration: TBA
+  advisory: "May be inappropriate for 12 and under. Children under the age of 4 are not permitted in the theatre."
+  theater: Cort Theatre
+  address: 138 West 48th Street , New York, NY 10036
+  preview: 2017-04-04
+  opening: 2017-04-18
+  closing: 2017-09-10
+  limited: true
+  accolades:
+  trailer: https://www.youtube.com/watch?v=wOmcZ4I7zm0
+  url: http://indecentbroadway.com
+  tickets:
+    -
+      title: $39-$129 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/Indecent/Schedules-Prices
       label: telecharge.com
 -
   key: in-transit
@@ -760,7 +787,7 @@
   closing:
   limited:
   accolades:
-  trailer:
+  trailer: https://www.youtube.com/watch?v=icyzdw5MCTc
   url: http://www.lct.org/shows/oslo-broadway/
   tickets:
       -
@@ -891,10 +918,10 @@
   address: 246 West 44th Street, New York, NY 10036
   preview: 2017-03-10
   opening: 2017-04-05
-  closing:
-  limited: false
+  closing: 2017-07-02
+  limited: true
   accolades:
-  trailer:
+  trailer: https://www.youtube.com/watch?v=CHaOeEZ767g
   url: http://laughteronbroadway.com
   tickets:
       -
@@ -946,6 +973,23 @@
         type: regular
         url: http://www.roundabouttheatre.org/tickets/reserve.aspx?pid=22367
         label: roundabouttheatre.org
+-
+  key: prince-of-broadway
+  title: Prince of Broadway
+  scheduleTitle: Prince of Broadway
+  synopsis: "A new musical that celebrates legendary director Harold Prince's 60-year career."
+  duration: TBA
+  advisory: "Children under the age of 4 are not permitted in the theatre."
+  theater: Samuel J Friedman Theatre
+  address: 261 West 47th Street, New York, NY 10036
+  preview: 2017-08-03
+  opening: 2017-08-24
+  closing:
+  limited: false
+  accolades:
+  trailer:
+  url:
+  tickets:
 -
   key: school-of-rock
   title: School of Rock
@@ -1026,6 +1070,28 @@
       url: https://www.telecharge.com/Broadway/Six-Degrees-of-Separation/Schedules-Prices
       label: telecharge.com
 -
+  key: sunday-in-the-park-with-george
+  title: Sunday in the Park with George
+  scheduleTitle: Sunday in the Park with George
+  synopsis: "Jake Gyllenhaal stars in the Broadway revival on Stephen Sondheim and James Lapine's Pulitzer Prize-winning musical."
+  duration:
+  advisory: "Children under the age of 4 are not permitted in the theatre."
+  theater: Hudson Theatre
+  address: 145 W. 44th St., New York, NY
+  preview: 2017-02-11
+  opening: 2017-02-23
+  closing: 2017-04-23
+  limited: true
+  accolades:
+  trailer:
+  url: http://www.thehudsonbroadway.com/?mid=1274111764&ml=32906750
+  tickets:
+    -
+      title: $49-$159 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/Sunday-in-the-Park-with-George/
+      label: telecharge.com
+-
   key: sunset-boulevard
   title: Sunset Boulevard
   scheduleTitle:
@@ -1048,6 +1114,28 @@
       type: regular
       url: http://www.ticketmaster.com/Sunset-Boulevard-NY-tickets/artist/2298800
       label: ticketmaster.com
+-
+  key: sweat
+  title: Sweat
+  scheduleTitle: Sweat
+  synopsis: "Lynn Nottage's stunning new play transfers to Broadway after a successful run at The Public Theater."
+  duration:
+  advisory: Children under the age of 4 are not permitted in the theatre.
+  theater: Studio 54
+  address: 254 West 54th Street, New York, NY 10019
+  preview: 2017-03-04
+  opening: 2017-03-26
+  closing: 2017-09-17
+  limited: true
+  accolades:
+  trailer:
+  url: http://www.sweatbroadway.com
+  tickets:
+    -
+      title: $59-$149 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/Sweat/
+      label: telecharge.com
 -
   key: waitress
   title: Waitress
