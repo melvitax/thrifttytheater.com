@@ -222,7 +222,7 @@
   url: http://www.catsthemusical.com/broadway
   tickets:
     -
-      title: $40 Digital
+      title: $40 Digital Lottery
       type: digital
       url: https://lottery.broadwaydirect.com/show/cats/
       label: broadwaydirect.com
@@ -570,8 +570,8 @@
     -
       title: $30 Under 30
       type: thirtyUnderThirty
-      url: http://www.mtc-nyc.org/30under30/
-      label: mtc-nyc.org
+      url: http://www.manhattantheatreclub.com/30under30/
+      label: manhattantheatreclub.com
     -
       title: $60-$140 Tickets
       type: regular
@@ -665,8 +665,8 @@
     -
       title: $30 Under 30
       type: thirtyUnderThirty
-      url: http://www.mtc-nyc.org/30under30/
-      label: mtc-nyc.org
+      url: http://www.manhattantheatreclub.com/30under30/
+      label: manhattantheatreclub.com
     -
       title: $70-$150 Tickets
       type: regular
@@ -903,6 +903,9 @@
   url: http://www.thepresentbroadway.com
   tickets:
       -
+        title: $45 General Rush
+        type: rush
+      -
         title: $79-$274 Tickets
         type: regular
         url: https://www.telecharge.com/Broadway/the-present
@@ -988,8 +991,21 @@
   limited: false
   accolades:
   trailer:
-  url:
+  url: http://www.manhattantheatreclub.com/2017-18-season/prince-of-broadway/
   tickets:
+    -
+      title: $30 Regular Rush
+      type: rush
+    -
+      title: $30 Under 30
+      type: thirtyUnderThirty
+      url: http://www.manhattantheatreclub.com/30under30/
+      label: manhattantheatreclub.com
+    -
+      title: Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/Prince-of-Broadway/Overview
+      label: telecharge.com
 -
   key: school-of-rock
   title: School of Rock
