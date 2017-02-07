@@ -3,7 +3,7 @@
   "result": {
     "extractorData": {
       "url": "http://www.playbill.com/article/weekly-schedule-of-current-broadway-shows-com-142774",
-      "resourceId": "6f831816d8bafac7d4bde16775e7e777",
+      "resourceId": "5480656e74aa9dfb2eb0c5bad99ac8b9",
       "data": [
         {
           "group": [
@@ -193,12 +193,12 @@
               ],
               "wed": [
                 {
-                  "text": "2pm, 7:30pm"
+                  "text": "DARK"
                 }
               ],
               "thu": [
                 {
-                  "text": "DARK"
+                  "text": "2pm"
                 }
               ],
               "fri": [
@@ -213,7 +213,7 @@
               ],
               "sun": [
                 {
-                  "text": "2pm"
+                  "text": "2pm, 7pm"
                 }
               ]
             },
@@ -304,6 +304,48 @@
             {
               "show": [
                 {
+                  "text": "The Glass Menagerie"
+                }
+              ],
+              "mon": [
+                {
+                  "text": "DARK"
+                }
+              ],
+              "tue": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "wed": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "thu": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "fri": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "sat": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "sun": [
+                {
+                  "text": "DARK"
+                }
+              ]
+            },
+            {
+              "show": [
+                {
                   "text": "Hamilton"
                 }
               ],
@@ -314,12 +356,12 @@
               ],
               "tue": [
                 {
-                  "text": "7pm"
+                  "text": "DARK"
                 }
               ],
               "wed": [
                 {
-                  "text": "2pm, 8pm"
+                  "text": "8pm"
                 }
               ],
               "thu": [
@@ -472,7 +514,7 @@
             {
               "show": [
                 {
-                  "text": "Lion King"
+                  "text": "The Lion King"
                 }
               ],
               "mon": [
@@ -633,7 +675,7 @@
               ],
               "sun": [
                 {
-                  "text": "DARK"
+                  "text": "3pm"
                 }
               ]
             },
@@ -739,7 +781,7 @@
               ],
               "wed": [
                 {
-                  "text": "2pm, 7pm"
+                  "text": "2pm"
                 }
               ],
               "thu": [
@@ -759,14 +801,14 @@
               ],
               "sun": [
                 {
-                  "text": "2pm"
+                  "text": "1pm, 6pm"
                 }
               ]
             },
             {
               "show": [
                 {
-                  "text": "Sunset Boulevard"
+                  "text": "Sunday in the Park with George"
                 }
               ],
               "mon": [
@@ -786,7 +828,49 @@
               ],
               "thu": [
                 {
+                  "text": "X"
+                }
+              ],
+              "fri": [
+                {
+                  "text": "X"
+                }
+              ],
+              "sat": [
+                {
                   "text": "8pm"
+                }
+              ],
+              "sun": [
+                {
+                  "text": "DARK"
+                }
+              ]
+            },
+            {
+              "show": [
+                {
+                  "text": "Sunset Boulevard"
+                }
+              ],
+              "mon": [
+                {
+                  "text": "DARK"
+                }
+              ],
+              "tue": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "wed": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "thu": [
+                {
+                  "text": "X"
                 }
               ],
               "fri": [
@@ -843,7 +927,7 @@
               ],
               "sun": [
                 {
-                  "text": "2pm"
+                  "text": "3pm"
                 }
               ]
             },
@@ -894,11 +978,11 @@
       ]
     },
     "pageData": {
-      "resourceId": "6f831816d8bafac7d4bde16775e7e777",
+      "resourceId": "5480656e74aa9dfb2eb0c5bad99ac8b9",
       "statusCode": 200,
-      "timestamp": 1485865263274
+      "timestamp": 1486473802794
     },
-    "timestamp": 1485865264101,
+    "timestamp": 1486473803499,
     "sequenceNumber": 0
   }
 }
