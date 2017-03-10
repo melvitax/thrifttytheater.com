@@ -130,7 +130,7 @@
   opening: 2017-04-26
   closing:
   accolades:
-  trailer:
+  trailer: https://www.youtube.com/watch?v=uVZnU2Kp_dk
   url: http://www.bandstandbroadway.com
   tickets:
     -
@@ -351,7 +351,7 @@
   closing:
   limited: false
   accolades:
-  trailer:
+  trailer: https://www.youtube.com/watch?v=Fe9a_3usRQc
   url: http://glassmenagerieonbroadway.com
   tickets:
     -
@@ -413,7 +413,7 @@
   closing:
   limited: false
   accolades:
-  trailer:
+  trailer: https://www.youtube.com/watch?v=uvJ3MlvNyDM
   url: http://groundhogdaymusical.com
   tickets:
     -
@@ -465,7 +465,7 @@
   closing:
   limited: false
   accolades:
-  trailer:
+  trailer: https://www.youtube.com/watch?v=f-C0XAT9wnI
   url: http://www.hellodollyonbroadway.com
   tickets:
     -
@@ -856,7 +856,7 @@
   closing:
   limited: false
   accolades:
-  trailer:
+  trailer: https://www.youtube.com/watch?v=t0y1vemrpCM
   url: http://www.broadwaygoeswrong.com
   tickets:
       -
@@ -932,7 +932,7 @@
   closing: 2017-05-07
   limited: true
   accolades:
-  trailer:
+  trailer: https://www.youtube.com/watch?v=ouc-oO6hF-w
   url: http://www.roundabouttheatre.org/Shows-Events/Arthur-Millers-The-Price.aspx
   tickets:
       -
@@ -1113,7 +1113,7 @@
   closing: 2017-05-28
   limited: true
   accolades:
-  trailer:
+  trailer: https://www.youtube.com/watch?v=t7j5WSf9euk
   url: http://sunsetboulevardthemusical.com
   tickets:
     -
@@ -1146,6 +1146,11 @@
   trailer:
   url: http://www.sweatbroadway.com
   tickets:
+    -
+      title: $32 Mobile Rush
+      type: todayTixRush
+      url: https://www.todaytix.com/shows/nyc/3756-sweat/rush/
+      label: todaytix.com
     -
       title: $59-$149 Tickets
       type: regular
