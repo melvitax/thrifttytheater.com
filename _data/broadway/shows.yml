@@ -302,6 +302,9 @@
   url: http://comefromaway.com
   tickets:
     -
+      title: $38 Rush
+      type: rush
+    -
       title: $47-$157 Tickets
       type: regular
       url: https://www.telecharge.com/Broadway/Come-From-Away/Schedules-Prices
@@ -351,6 +354,9 @@
   trailer:
   url: http://glassmenagerieonbroadway.com
   tickets:
+    -
+      title: $30 Rush Tickets
+      type: rush
     -
       title: $32 Linctix
       type: lincTix
@@ -706,6 +712,9 @@
   url: http://www.saigonbroadway.com
   tickets:
       -
+        title: $39 Rush Tickets
+        type: rush
+      -
         title: $39-$250 Tickets
         type: regular
         url: https://www.telecharge.com/Broadway/Miss-Saigon/
@@ -899,6 +908,11 @@
   url: http://laughteronbroadway.com
   tickets:
       -
+        title: $42 Digital Lottery
+        type: digital
+        url: http://laughteronbroadway.com/lottery
+        label: laughteronbroadway.com
+      -
         title: $59-$150 Tickets
         type: regular
         url: http://www.ticketmaster.com/Present-Laughter-NY-tickets/artist/2306316
@@ -1030,6 +1044,9 @@
   url: http://www.significantotherbroadway.com
   tickets:
     -
+      title: $35 Rush Tickets
+      type: rush
+    -
       title: $49-$147 Tickets
       type: regular
       url: https://www.telecharge.com/Broadway/Significant-Other/Schedules-Prices
@@ -1074,6 +1091,9 @@
   url: http://www.thehudsonbroadway.com/?mid=1274111764&ml=32906750
   tickets:
     -
+      title: $41 Rush Tickets
+      type: rush
+    -
       title: $49-$159 Tickets
       type: regular
       url: https://www.telecharge.com/Broadway/Sunday-in-the-Park-with-George/
@@ -1096,6 +1116,14 @@
   trailer:
   url: http://sunsetboulevardthemusical.com
   tickets:
+    -
+      title: $42 Rush Tickets
+      type: rush
+    -
+      title: $55 Digital Lottery
+      type: digital
+      url: http://lottery.broadwaydirect.com/show/sunset
+      label: broadwaydirect.com
     -
       title: $79-$199 Tickets
       type: regular
@@ -1168,6 +1196,9 @@
   trailer: https://www.youtube.com/watch?v=V_yOFgwCstU
   url: http://warpaintmusical.com
   tickets:
+    -
+      title: $40 Rush Tickets
+      type: rush
     -
       title: $79-$169 Tickets
       type: regular
