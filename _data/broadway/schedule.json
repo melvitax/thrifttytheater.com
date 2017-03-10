@@ -3,34 +3,34 @@
   "result": {
     "extractorData": {
       "url": "http://www.playbill.com/article/weekly-schedule-of-current-broadway-shows-com-142774",
-      "resourceId": "5480656e74aa9dfb2eb0c5bad99ac8b9",
+      "resourceId": "cc30376eab3636fb6b62aa0e7fe34d74",
       "data": [
         {
           "group": [
             {
               "show": [
                 {
-                  "text": "Aladdin"
+                  "text": "Amelie"
                 }
               ],
               "mon": [
                 {
-                  "text": "DARK"
+                  "text": "X"
                 }
               ],
               "tue": [
                 {
-                  "text": "7pm"
+                  "text": "X"
                 }
               ],
               "wed": [
                 {
-                  "text": "7pm"
+                  "text": "X"
                 }
               ],
               "thu": [
                 {
-                  "text": "7pm"
+                  "text": "8pm"
                 }
               ],
               "fri": [
@@ -40,12 +40,12 @@
               ],
               "sat": [
                 {
-                  "text": "2pm, 8pm"
+                  "text": "8pm"
                 }
               ],
               "sun": [
                 {
-                  "text": "1pm, 6:30pm"
+                  "text": "DARK"
                 }
               ]
             },
@@ -225,7 +225,7 @@
               ],
               "mon": [
                 {
-                  "text": "8pm"
+                  "text": "DARK"
                 }
               ],
               "tue": [
@@ -235,7 +235,7 @@
               ],
               "wed": [
                 {
-                  "text": "DARK"
+                  "text": "2pm, 8pm"
                 }
               ],
               "thu": [
@@ -262,7 +262,7 @@
             {
               "show": [
                 {
-                  "text": "Dear Evan Hansen"
+                  "text": "Come From Away"
                 }
               ],
               "mon": [
@@ -272,12 +272,12 @@
               ],
               "tue": [
                 {
-                  "text": "7pm"
+                  "text": "8pm"
                 }
               ],
               "wed": [
                 {
-                  "text": "7pm"
+                  "text": "2pm, 8pm"
                 }
               ],
               "thu": [
@@ -297,7 +297,49 @@
               ],
               "sun": [
                 {
-                  "text": "2pm, 7:30pm"
+                  "text": "DARK"
+                }
+              ]
+            },
+            {
+              "show": [
+                {
+                  "text": "Dear Evan Hansen"
+                }
+              ],
+              "mon": [
+                {
+                  "text": "DARK"
+                }
+              ],
+              "tue": [
+                {
+                  "text": "7pm"
+                }
+              ],
+              "wed": [
+                {
+                  "text": "2pm, 8pm"
+                }
+              ],
+              "thu": [
+                {
+                  "text": "7pm"
+                }
+              ],
+              "fri": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "sat": [
+                {
+                  "text": "2pm, 8pm"
+                }
+              ],
+              "sun": [
+                {
+                  "text": "3pm"
                 }
               ]
             },
@@ -319,12 +361,12 @@
               ],
               "wed": [
                 {
-                  "text": "8pm"
+                  "text": "2pm, 8pm"
                 }
               ],
               "thu": [
                 {
-                  "text": "8pm"
+                  "text": "DARK"
                 }
               ],
               "fri": [
@@ -334,12 +376,12 @@
               ],
               "sat": [
                 {
-                  "text": "8pm"
+                  "text": "2pm, 8pm"
                 }
               ],
               "sun": [
                 {
-                  "text": "DARK"
+                  "text": "3pm"
                 }
               ]
             },
@@ -356,12 +398,12 @@
               ],
               "tue": [
                 {
-                  "text": "DARK"
+                  "text": "7pm"
                 }
               ],
               "wed": [
                 {
-                  "text": "8pm"
+                  "text": "2pm, 8pm"
                 }
               ],
               "thu": [
@@ -381,7 +423,7 @@
               ],
               "sun": [
                 {
-                  "text": "2pm"
+                  "text": "DARK"
                 }
               ]
             },
@@ -445,7 +487,7 @@
               ],
               "wed": [
                 {
-                  "text": "2pm, 7pm"
+                  "text": "7pm"
                 }
               ],
               "thu": [
@@ -529,7 +571,7 @@
               ],
               "wed": [
                 {
-                  "text": "7pm"
+                  "text": "2pm, 7pm"
                 }
               ],
               "thu": [
@@ -549,7 +591,49 @@
               ],
               "sun": [
                 {
-                  "text": "1pm, 6:30pm"
+                  "text": "3pm"
+                }
+              ]
+            },
+            {
+              "show": [
+                {
+                  "text": "Miss Saigon"
+                }
+              ],
+              "mon": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "tue": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "wed": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "thu": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "fri": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "sat": [
+                {
+                  "text": "2pm, 8pm"
+                }
+              ],
+              "sun": [
+                {
+                  "text": "DARK"
                 }
               ]
             },
@@ -603,12 +687,12 @@
               ],
               "mon": [
                 {
-                  "text": "DARK"
+                  "text": "2pm"
                 }
               ],
               "tue": [
                 {
-                  "text": "7pm"
+                  "text": "DARK"
                 }
               ],
               "wed": [
@@ -650,12 +734,12 @@
               ],
               "tue": [
                 {
-                  "text": "7pm"
+                  "text": "DARK"
                 }
               ],
               "wed": [
                 {
-                  "text": "DARK"
+                  "text": "2pm, 7pm"
                 }
               ],
               "thu": [
@@ -675,7 +759,7 @@
               ],
               "sun": [
                 {
-                  "text": "3pm"
+                  "text": "2pm, 7pm"
                 }
               ]
             },
@@ -724,6 +808,48 @@
             {
               "show": [
                 {
+                  "text": "The Play That Goes Wrong"
+                }
+              ],
+              "mon": [
+                {
+                  "text": "X"
+                }
+              ],
+              "tue": [
+                {
+                  "text": "X"
+                }
+              ],
+              "wed": [
+                {
+                  "text": "X"
+                }
+              ],
+              "thu": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "fri": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "sat": [
+                {
+                  "text": "2pm, 8pm"
+                }
+              ],
+              "sun": [
+                {
+                  "text": "3pm, 7:30pm"
+                }
+              ]
+            },
+            {
+              "show": [
+                {
                   "text": "The Present"
                 }
               ],
@@ -760,6 +886,90 @@
               "sun": [
                 {
                   "text": "3pm"
+                }
+              ]
+            },
+            {
+              "show": [
+                {
+                  "text": "Present Laughter"
+                }
+              ],
+              "mon": [
+                {
+                  "text": "X"
+                }
+              ],
+              "tue": [
+                {
+                  "text": "X"
+                }
+              ],
+              "wed": [
+                {
+                  "text": "X"
+                }
+              ],
+              "thu": [
+                {
+                  "text": "X"
+                }
+              ],
+              "fri": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "sat": [
+                {
+                  "text": "2pm, 8pm"
+                }
+              ],
+              "sun": [
+                {
+                  "text": "DARK"
+                }
+              ]
+            },
+            {
+              "show": [
+                {
+                  "text": "The Price"
+                }
+              ],
+              "mon": [
+                {
+                  "text": "DARK"
+                }
+              ],
+              "tue": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "wed": [
+                {
+                  "text": "2pm, 8pm"
+                }
+              ],
+              "thu": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "fri": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "sat": [
+                {
+                  "text": "2pm, 8pm"
+                }
+              ],
+              "sun": [
+                {
+                  "text": "2pm"
                 }
               ]
             },
@@ -808,49 +1018,49 @@
             {
               "show": [
                 {
-                  "text": "Sunday in the Park with George"
+                  "text": "Significant Other"
                 }
               ],
               "mon": [
                 {
-                  "text": "X"
+                  "text": "DARK"
                 }
               ],
               "tue": [
                 {
-                  "text": "X"
+                  "text": "7pm"
                 }
               ],
               "wed": [
                 {
-                  "text": "X"
+                  "text": "2:30pm, 8pm"
                 }
               ],
               "thu": [
                 {
-                  "text": "X"
+                  "text": "7pm"
                 }
               ],
               "fri": [
                 {
-                  "text": "X"
+                  "text": "8pm"
                 }
               ],
               "sat": [
                 {
-                  "text": "8pm"
+                  "text": "2:30pm, 8pm"
                 }
               ],
               "sun": [
                 {
-                  "text": "DARK"
+                  "text": "3pm"
                 }
               ]
             },
             {
               "show": [
                 {
-                  "text": "Sunset Boulevard"
+                  "text": "Sunday in the Park with George"
                 }
               ],
               "mon": [
@@ -865,7 +1075,7 @@
               ],
               "wed": [
                 {
-                  "text": "8pm"
+                  "text": "2pm, 8pm"
                 }
               ],
               "thu": [
@@ -886,6 +1096,90 @@
               "sun": [
                 {
                   "text": "3pm"
+                }
+              ]
+            },
+            {
+              "show": [
+                {
+                  "text": "Sunset Boulevard"
+                }
+              ],
+              "mon": [
+                {
+                  "text": "DARK"
+                }
+              ],
+              "tue": [
+                {
+                  "text": "DARK"
+                }
+              ],
+              "wed": [
+                {
+                  "text": "2pm, 8pm"
+                }
+              ],
+              "thu": [
+                {
+                  "text": "7pm"
+                }
+              ],
+              "fri": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "sat": [
+                {
+                  "text": "2pm, 8pm"
+                }
+              ],
+              "sun": [
+                {
+                  "text": "3pm"
+                }
+              ]
+            },
+            {
+              "show": [
+                {
+                  "text": "Sweat"
+                }
+              ],
+              "mon": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "tue": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "wed": [
+                {
+                  "text": "2pm, 8pm"
+                }
+              ],
+              "thu": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "fri": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "sat": [
+                {
+                  "text": "2pm, 8pm"
+                }
+              ],
+              "sun": [
+                {
+                  "text": "DARK"
                 }
               ]
             },
@@ -934,7 +1228,7 @@
             {
               "show": [
                 {
-                  "text": "Wicked"
+                  "text": "War Paint"
                 }
               ],
               "mon": [
@@ -944,12 +1238,12 @@
               ],
               "tue": [
                 {
-                  "text": "7pm"
+                  "text": "8pm"
                 }
               ],
               "wed": [
                 {
-                  "text": "7pm"
+                  "text": "2pm, 8pm"
                 }
               ],
               "thu": [
@@ -969,7 +1263,49 @@
               ],
               "sun": [
                 {
+                  "text": "DARK"
+                }
+              ]
+            },
+            {
+              "show": [
+                {
+                  "text": "Wicked"
+                }
+              ],
+              "mon": [
+                {
+                  "text": "7pm"
+                }
+              ],
+              "tue": [
+                {
+                  "text": "7pm"
+                }
+              ],
+              "wed": [
+                {
                   "text": "2pm, 7pm"
+                }
+              ],
+              "thu": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "fri": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "sat": [
+                {
+                  "text": "2pm, 8pm"
+                }
+              ],
+              "sun": [
+                {
+                  "text": "DARK"
                 }
               ]
             }
@@ -978,11 +1314,11 @@
       ]
     },
     "pageData": {
-      "resourceId": "5480656e74aa9dfb2eb0c5bad99ac8b9",
+      "resourceId": "cc30376eab3636fb6b62aa0e7fe34d74",
       "statusCode": 200,
-      "timestamp": 1486473802794
+      "timestamp": 1489172832648
     },
-    "timestamp": 1486473803499,
+    "timestamp": 1489172833307,
     "sequenceNumber": 0
   }
 }
