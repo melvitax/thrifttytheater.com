@@ -10,6 +10,48 @@
             {
               "show": [
                 {
+                  "text": "Aladdin"
+                }
+              ],
+              "mon": [
+                {
+                  "text": "DARK"
+                }
+              ],
+              "tue": [
+                {
+                  "text": "7pm"
+                }
+              ],
+              "wed": [
+                {
+                  "text": "7pm"
+                }
+              ],
+              "thu": [
+                {
+                  "text": "7pm"
+                }
+              ],
+              "fri": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "sat": [
+                {
+                  "text": "2pm, 8pm"
+                }
+              ],
+              "sun": [
+                {
+                  "text": "1pm, 6:30pm"
+                }
+              ]
+            },
+            {
+              "show": [
+                {
                   "text": "Amelie"
                 }
               ],
