@@ -39,7 +39,10 @@
   trailer:
   url: http://dollshousepart2.com
   tickets:
-   -
+    -
+      title: $30 Rush Tickets
+      type: rush
+    -
       title: $60-$147 Tickets
       type: regular
       url: https://www.telecharge.com/Broadway/A-Dolls-House/Schedules-Prices
@@ -89,6 +92,14 @@
   url: http://www.ameliebroadway.com
   tickets:
     -
+      title: $45 Digital Lottery
+      type: digital
+      url: http://ameliebroadway.com/lottery.php
+      label: ameliebroadway.com
+    -
+      title: $39 Rush Tickets
+      type: rush
+    -
       title: $50-$160 Tickets
       type: regular
       url: http://www.ticketmaster.com/artist/2308642
@@ -112,6 +123,11 @@
   url: http://anastasiabroadway.com
   tickets:
     -
+      title: $42 Digital Lottery
+      type: digital
+      url: http://anastasiabroadwaylottery.com
+      label: anastasiabroadwaylottery.com
+    -
       title: $69-$159 Tickets
       type: regular
       url: https://www.telecharge.com/Broadway/Anastasia/Schedules-Prices
@@ -133,6 +149,9 @@
   trailer: https://www.youtube.com/watch?v=uVZnU2Kp_dk
   url: http://www.bandstandbroadway.com
   tickets:
+    -
+      title: $35 Rush Tickets
+      type: rush
     -
       title: $59-$159 Tickets
       type: regular
@@ -305,6 +324,9 @@
       title: $38 Rush
       type: rush
     -
+      title: $32 Standing Room
+      type: standingRoom
+    -
       title: $47-$157 Tickets
       type: regular
       url: https://www.telecharge.com/Broadway/Come-From-Away/Schedules-Prices
@@ -417,6 +439,14 @@
   url: http://groundhogdaymusical.com
   tickets:
     -
+      title: $39 Digital Lottery
+      type: digital
+      url: http://groundhogdaymusical.com/lottery
+      label: groundhogdaymusical.com
+    -
+      title: $39 Rush Rickets
+      type: rush
+    -
       title: $89-$149 Tickets
       type: regular
       url: http://www.ticketmaster.com/artist/2298314
@@ -469,6 +499,9 @@
   url: http://www.hellodollyonbroadway.com
   tickets:
     -
+      title: $47 Standing Room
+      type: standingRoom
+    -
       title: $79-$425 Tickets
       type: regular
       url: https://www.telecharge.com/Broadway/Hello/
@@ -490,6 +523,9 @@
   trailer: https://www.youtube.com/watch?v=wOmcZ4I7zm0
   url: http://indecentbroadway.com
   tickets:
+    -
+      title: $30 Rush Tickets
+      type: rush
     -
       title: $39-$129 Tickets
       type: regular
@@ -795,7 +831,7 @@
   address: 213 W 42nd St, New York, NY 10036
   preview: 2016-04-16
   opening: 2016-05-26
-  closing:
+  closing: 2017-04-16
   limited: false
   accolades:
   trailer: https://www.youtube.com/watch?v=cxkdJTTf_u8
@@ -859,11 +895,14 @@
   trailer: https://www.youtube.com/watch?v=t0y1vemrpCM
   url: http://www.broadwaygoeswrong.com
   tickets:
-      -
-        title: $30-$139 Tickets
-        type: regular
-        url: https://www.telecharge.com/Broadway/The-Play-That-Goes-Wrong/Schedules-Prices
-        label: telecharge.com
+    -
+      title: $30 Rush Tickets
+      type: rush
+    -
+      title: $30-$139 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/The-Play-That-Goes-Wrong/Schedules-Prices
+      label: telecharge.com
 -
   key: present
   title: The Present
@@ -1069,6 +1108,14 @@
   url: http://sixdegreesbroadway.com
   tickets:
     -
+      title: $32 Digital Lottery
+      type: digital
+      url: http://sixdegreesbroadway.com/lottery.php
+      label: sixdegreesbroadway.com
+    -
+      title: $32 Rush Tickets
+      type: rush
+    -
       title: $79-$149 Tickets
       type: regular
       url: https://www.telecharge.com/Broadway/Six-Degrees-of-Separation/Schedules-Prices
@@ -1201,6 +1248,11 @@
   trailer: https://www.youtube.com/watch?v=V_yOFgwCstU
   url: http://warpaintmusical.com
   tickets:
+    -
+      title: $40 Digital Lottery
+      type: digital
+      url: https://lottery.broadwaydirect.com/show/war-paint/
+      label: broadwaydirect.com
     -
       title: $40 Rush Tickets
       type: rush
