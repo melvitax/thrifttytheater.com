@@ -26,7 +26,7 @@
 -
   key: a-dolls-house
   title: "A Doll's House, Part 2"
-  scheduleTitle:
+  scheduleTitle: "A Doll's House, Part 2"
   synopsis: "Laurie Metcalf stars in Lucas Hnath's sequel to Ibsen's classic."
   duration: TBA
   advisory: "Children under the age of 4 are not permitted in the theatre."
@@ -107,7 +107,7 @@
 -
   key: anastasia
   title: Anastasia
-  scheduleTitle:
+  scheduleTitle: Anastasia
   synopsis: "The stage adaptation of the 1997 film arrives on Broadway, featuring a score by Ahrens and Flaherty."
   duration: 2 hrs 30 mins 1 intermission
   advisory: "Ages 7+; children under 4 are not permitted in the theatre"
@@ -253,7 +253,7 @@
 -
   key: charlie-and-the-chocolate-factory
   title: "Charlie and the Chocolate Factory"
-  scheduleTitle:
+  scheduleTitle: "Charlie and the Chocolate Factory"
   synopsis: "The new musical based on Roald Dahl's classic novel arrives on Broadway!"
   duration: TBA
   advisory: "Children under the age of 4 are not permitted in the theatre."
@@ -423,7 +423,7 @@
 -
   key: groundhog-day
   title: Groundhog Day
-  scheduleTitle:
+  scheduleTitle: "Groundhog Day"
   synopsis: "Andy Karl stars as TV weather man Phil Connors in this new musical based on the popular film of the same name."
   duration: 2 hr 30 min 1 intermission
   advisory: "Children under the age of 4 are not permitted in the theatre."
@@ -483,7 +483,7 @@
 -
   key: hello-dolly
   title: "Hello Dolly!"
-  scheduleTitle:
+  scheduleTitle: "Hello, Dolly!"
   synopsis: "Bette Midler returns to Broadway in this musical classic!"
   duration: TBA
   advisory: "Children under the age of 4 are not permitted in the theatre."
@@ -509,7 +509,7 @@
 -
   key: indecent
   title: Indecent
-  scheduleTitle: Indecent
+  scheduleTitle: "Indecent"
   synopsis: "A deeply moving new play with music, inspired by true events."
   duration: TBA
   advisory: "May be inappropriate for 12 and under. Children under the age of 4 are not permitted in the theatre."
@@ -657,7 +657,7 @@
 -
   key: little-foxes
   title: The Little Foxes
-  scheduleTitle:
+  scheduleTitle: "The Little Foxes"
   synopsis: "Laura Linney and Cynthia Nixon star in Lillian Hellman's family drama."
   duration: TBA
   advisory: "Children under the age of 4 are not permitted in the theatre."
@@ -791,7 +791,7 @@
 -
   key: oslo
   title: "Oslo"
-  scheduleTitle:
+  scheduleTitle: Oslo
   synopsis: "A darkly comic epic that brings dozens of diplomats and world leaders together."
   duration: TBA
   advisory: "May be inappropriate for 12 and under. Children under the age of 4 are not permitted in the theatre."
@@ -1093,7 +1093,7 @@
 -
   key: six-degrees
   title: Six Degrees of Separation
-  scheduleTitle:
+  scheduleTitle: "Degrees of Separation"
   synopsis: "Allison Janney and John Benjamin Hickey lead the Broadway revival of John Guare's iconic drama."
   duration:
   advisory: "Children under the age of 4 are not permitted in the theatre."
