@@ -3,10 +3,52 @@
   "result": {
     "extractorData": {
       "url": "http://www.playbill.com/article/weekly-schedule-of-current-broadway-shows-com-142774",
-      "resourceId": "0ab4f44a45eb8db7e46709060cfca063",
+      "resourceId": "ed0323e316746812b10c8b5ff9151273",
       "data": [
         {
           "group": [
+            {
+              "show": [
+                {
+                  "text": "1984"
+                }
+              ],
+              "mon": [
+                {
+                  "text": "DARK"
+                }
+              ],
+              "tue": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "wed": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "thu": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "fri": [
+                {
+                  "text": "8pm"
+                }
+              ],
+              "sat": [
+                {
+                  "text": "2pm, 8pm"
+                }
+              ],
+              "sun": [
+                {
+                  "text": "DARK"
+                }
+              ]
+            },
             {
               "show": [
                 {
@@ -52,48 +94,6 @@
             {
               "show": [
                 {
-                  "text": "Amelie"
-                }
-              ],
-              "mon": [
-                {
-                  "text": "DARK"
-                }
-              ],
-              "tue": [
-                {
-                  "text": "7:30pm"
-                }
-              ],
-              "wed": [
-                {
-                  "text": "2pm, 7:30pm"
-                }
-              ],
-              "thu": [
-                {
-                  "text": "7:30pm"
-                }
-              ],
-              "fri": [
-                {
-                  "text": "8pm"
-                }
-              ],
-              "sat": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "sun": [
-                {
-                  "text": "3pm"
-                }
-              ]
-            },
-            {
-              "show": [
-                {
                   "text": "Anastasia"
                 }
               ],
@@ -109,7 +109,7 @@
               ],
               "wed": [
                 {
-                  "text": "2pm, 7:30pm"
+                  "text": "2pm"
                 }
               ],
               "thu": [
@@ -129,7 +129,7 @@
               ],
               "sun": [
                 {
-                  "text": "3pm"
+                  "text": "2pm, 7:30pm"
                 }
               ]
             },
@@ -487,7 +487,7 @@
               ],
               "wed": [
                 {
-                  "text": "2pm, 8pm"
+                  "text": "2pm"
                 }
               ],
               "thu": [
@@ -507,7 +507,7 @@
               ],
               "sun": [
                 {
-                  "text": "3pm"
+                  "text": "2pm, 7:30pm"
                 }
               ]
             },
@@ -515,48 +515,6 @@
               "show": [
                 {
                   "text": "A Doll's House, Part 2"
-                }
-              ],
-              "mon": [
-                {
-                  "text": "DARK"
-                }
-              ],
-              "tue": [
-                {
-                  "text": "7pm"
-                }
-              ],
-              "wed": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "thu": [
-                {
-                  "text": "7pm"
-                }
-              ],
-              "fri": [
-                {
-                  "text": "8pm"
-                }
-              ],
-              "sat": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "sun": [
-                {
-                  "text": "3pm"
-                }
-              ]
-            },
-            {
-              "show": [
-                {
-                  "text": "The Glass Menagerie"
                 }
               ],
               "mon": [
@@ -613,7 +571,7 @@
               ],
               "wed": [
                 {
-                  "text": "2pm, 8pm"
+                  "text": "8pm"
                 }
               ],
               "thu": [
@@ -633,7 +591,7 @@
               ],
               "sun": [
                 {
-                  "text": "3pm"
+                  "text": "2pm, 7pm"
                 }
               ]
             },
@@ -655,7 +613,7 @@
               ],
               "wed": [
                 {
-                  "text": "2pm, 8pm"
+                  "text": "8pm"
                 }
               ],
               "thu": [
@@ -781,7 +739,7 @@
               ],
               "wed": [
                 {
-                  "text": "2pm, 8pm"
+                  "text": "8pm"
                 }
               ],
               "thu": [
@@ -801,7 +759,7 @@
               ],
               "sun": [
                 {
-                  "text": "DARK"
+                  "text": "2pm, 7:30pm"
                 }
               ]
             },
@@ -1186,48 +1144,6 @@
             {
               "show": [
                 {
-                  "text": "The Price"
-                }
-              ],
-              "mon": [
-                {
-                  "text": "DARK"
-                }
-              ],
-              "tue": [
-                {
-                  "text": "8pm"
-                }
-              ],
-              "wed": [
-                {
-                  "text": "8pm"
-                }
-              ],
-              "thu": [
-                {
-                  "text": "8pm"
-                }
-              ],
-              "fri": [
-                {
-                  "text": "8pm"
-                }
-              ],
-              "sat": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "sun": [
-                {
-                  "text": "2pm"
-                }
-              ]
-            },
-            {
-              "show": [
-                {
                   "text": "School of Rock"
                 }
               ],
@@ -1524,11 +1440,11 @@
       ]
     },
     "pageData": {
-      "resourceId": "0ab4f44a45eb8db7e46709060cfca063",
+      "resourceId": "ed0323e316746812b10c8b5ff9151273",
       "statusCode": 200,
-      "timestamp": 1494006655721
+      "timestamp": 1495724958393
     },
-    "timestamp": 1494006656570,
+    "timestamp": 1495724958661,
     "sequenceNumber": 0
   }
 }
