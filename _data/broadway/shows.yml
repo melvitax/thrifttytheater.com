@@ -332,6 +332,9 @@
       url: https://www.dearevanhansenlottery.com
       label: dearevanhansenlottery.com
     -
+      title: $42 Standing room
+      type: standingRoom
+    -
       title: $49-$250 Tickets
       type: regular
       url: https://www.telecharge.com/Broadway/Dear-Evan-Hansen-Music-Box-Theatre/
@@ -848,6 +851,9 @@
         type: digital
         url: http://laughteronbroadway.com/lottery
         label: laughteronbroadway.com
+      -
+        title: $42 General Rush
+        type: rush
       -
         title: $59-$150 Tickets
         type: regular
