@@ -3,7 +3,7 @@
   "result": {
     "extractorData": {
       "url": "http://www.playbill.com/article/weekly-schedule-of-current-broadway-shows-com-142774",
-      "resourceId": "43a2325e56570eff32bfc788e740a502",
+      "resourceId": "2bea4ca9d34036d43389c8b8de7f0b46",
       "data": [
         {
           "group": [
@@ -30,7 +30,7 @@
               ],
               "thu": [
                 {
-                  "text": "8pm"
+                  "text": "OPENING"
                 }
               ],
               "fri": [
@@ -1228,48 +1228,6 @@
             {
               "show": [
                 {
-                  "text": "Six Degrees of Separation"
-                }
-              ],
-              "mon": [
-                {
-                  "text": "DARK"
-                }
-              ],
-              "tue": [
-                {
-                  "text": "7pm"
-                }
-              ],
-              "wed": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "thu": [
-                {
-                  "text": "7pm"
-                }
-              ],
-              "fri": [
-                {
-                  "text": "8pm"
-                }
-              ],
-              "sat": [
-                {
-                  "text": "2pm, 8pm"
-                }
-              ],
-              "sun": [
-                {
-                  "text": "3pm"
-                }
-              ]
-            },
-            {
-              "show": [
-                {
                   "text": "Sunset Boulevard"
                 }
               ],
@@ -1482,11 +1440,11 @@
       ]
     },
     "pageData": {
-      "resourceId": "43a2325e56570eff32bfc788e740a502",
+      "resourceId": "2bea4ca9d34036d43389c8b8de7f0b46",
       "statusCode": 200,
-      "timestamp": 1497896956431
+      "timestamp": 1497973236836
     },
-    "timestamp": 1497896956676,
+    "timestamp": 1497973237181,
     "sequenceNumber": 0
   }
 }
