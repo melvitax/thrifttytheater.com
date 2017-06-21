@@ -924,36 +924,6 @@
       url: https://www.telecharge.com/Broadway/School-of-Rock/Schedules-Prices
       label: telecharge.com
 -
-  key: six-degrees
-  title: Six Degrees of Separation
-  scheduleTitle: Six Degrees of Separation
-  synopsis: "Allison Janney and John Benjamin Hickey lead the Broadway revival of John Guare's iconic drama."
-  duration:
-  advisory: "Children under the age of 4 are not permitted in the theatre."
-  theater: Ethel Barrymore Theatre
-  address: 243 West 47th Street, New York, NY 10036
-  preview: 2017-04-05
-  opening: 2017-04-25
-  closing: 2017-07-16
-  limited: true
-  accolades:
-  trailer: https://www.youtube.com/watch?v=bk0hovVTZBg
-  url: http://sixdegreesbroadway.com
-  tickets:
-    -
-      title: $32 Digital Lottery
-      type: digital
-      url: http://sixdegreesbroadway.com/lottery.php
-      label: sixdegreesbroadway.com
-    -
-      title: $32 Rush Tickets
-      type: rush
-    -
-      title: $79-$149 Tickets
-      type: regular
-      url: https://www.telecharge.com/Broadway/Six-Degrees-of-Separation/Schedules-Prices
-      label: telecharge.com
--
   key: sunset-boulevard
   title: Sunset Boulevard
   scheduleTitle: Sunset Boulevard
