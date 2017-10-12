@@ -1,32 +1,4 @@
 -
-  key: "1984"
-  title: "1984"
-  scheduleTitle: "1984"
-  synopsis: "The stage adaptation of George Orwell's chilling dystopian masterpiece arrives on Broadway."
-  duration: 1hr 41min no intermissions
-  advisory: "Warning: This production contains flashing lights, strobe effects, loud noises, gunshots, smoking, and graphic depictions of violence and torture. It is not suitable for children under 14."
-  lowest: $39
-  theater: Hudson Theatre
-  address: 145 W. 44th St. New York, NY
-  preview: 2017-05-18
-  opening: 2017-06-22
-  closing: 2017-10-08
-  limited: true
-  accolades:
-  trailer:
-  url: http://www.revisedtruth.com
-  tickets:
-    -
-      title: $19 Mobile Lottery
-      type: mobile
-      url: http://www.todaytix.com/us/nyc/shows/1984/
-      label: todaytix.com
-    -
-      title: $35-$149 Tickets
-      type: regular
-      url: https://www.telecharge.com/Broadway/1984/Schedules-Prices
-      label: telecharge.com
--
   key: aladdin
   title: Aladdin
   scheduleTitle: Aladdin
@@ -82,29 +54,51 @@
       url: https://www.telecharge.com/Broadway/Anastasia/Schedules-Prices
       label: telecharge.com
 -
-  key: bandstand
-  title: Bandstand
-  scheduleTitle: Bandstand
-  synopsis: "Laura Osnes and Corey Cott star in this new musical set amidst the 1940s swing scene."
-  duration: 2 hrs 30 mins 1 intermission
+  key: angels-in-america
+  title: "Angels in America"
+  scheduleTitle: Angels In America
+  synopsis: "Nathan Lane and Andrew Garfield star in the National Theatre's production of Tony Kushner's landmark play."
+  duration: NA
   advisory: "Children under the age of 4 are not permitted in the theatre."
-  lowest:
-  theater: Bernard B. Jacobs Theatre
-  address: 242 W 45th St, New York, NY 10036
-  preview: 2017-03-31
-  opening: 2017-04-26
-  closing:
+  lowest: $99
+  theater: Neil Simon Theatre
+  address: 250 West 52nd Street, New York, NY
+  preview: 2018-02-23
+  opening: 2018-03-21
+  closing: 2018-07-01
   accolades:
-  trailer: https://www.youtube.com/watch?v=uVZnU2Kp_dk
-  url: http://www.bandstandbroadway.com
+  trailer:
+  url: http://angelsbroadway.com
   tickets:
     -
-      title: $35 Rush Tickets
+      title: $99-$498 Tickets
+      type: regular
+      url: http://www.ticketmaster.com/Angels-in-America-NY-tickets/artist/2419828?list_view=1&tm_link=tm_homeA_header_search
+      label: ticketmaster.com
+-
+  key: the-bands-visit
+  title: "The Band's Visit"
+  scheduleTitle: "The Band's Visit"
+  synopsis: "The critically acclaimed new musical that celebrates the deeply human ways music and laughter connect us all."
+  duration: 1 hrs 30 mins 0 intermission
+  advisory: "Ages 12+; Children under the age of 4 are not permitted in the theatre."
+  lowest: $40
+  theater: Ethel Barrymore Theatre
+  address: 243 West 47th Street, New York, NY 10036
+  preview: 2017-10-07
+  opening: 2017-11-09
+  closing:
+  accolades:
+  trailer: https://www.youtube.com/watch?v=2EZ9TDPg9XE
+  url: https://thebandsvisitmusical.com
+  tickets:
+    -
+      title: $40 Rush Tickets
       type: rush
     -
-      title: $59-$159 Tickets
+      title: $49-$189 Tickets
       type: regular
-      url: https://www.telecharge.com/Broadway/Bandstand/Schedules-Prices
+      url: https://www.telecharge.com/Broadway/The-Bands-Visit/Overview
       label: telecharge.com
 -
   key: beautiful
@@ -197,6 +191,28 @@
       url: https://www.telecharge.com/Broadway/A-Bronx-Tale-The-Musical
       label: telecharge.com
 -
+  key: carousel
+  title: "Carousel"
+  scheduleTitle: "Carousel"
+  synopsis: "Rodgers and Hammerstein's classic returns to Broadway starring Jessie Mueller and Joshua Henry."
+  duration: TBA
+  advisory: "Children under the age of 4 are not permitted in the theatre."
+  lowest: $69
+  theater: Imperial Theatre
+  address: 249 West 45th Street, New York, NY 10036
+  preview: 2018-02-28
+  opening: 2018-04-12
+  closing:
+  accolades:
+  trailer:
+  url: http://carouselbroadway.com
+  tickets:
+    -
+      title: $69-$169 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/Carousel/Overview
+      label: telecharge.com
+-
   key: cats
   title: Cats
   scheduleTitle: Cats
@@ -208,7 +224,7 @@
   address: 250 W 52nd St, New York, NY, 10019
   preview: 2016-07-14
   opening: 2016-08-01
-  closing:
+  closing: 2017-12-30
   limited: false
   accolades:
   trailer: https://www.youtube.com/watch?v=n1m-KyDuzws
@@ -231,7 +247,7 @@
   synopsis: "The new musical based on Roald Dahl's classic novel arrives on Broadway!"
   duration: TBA
   advisory: "Children under the age of 4 are not permitted in the theatre."
-  lowest: $69
+  lowest: $40
   theater: Lunt-Fontanne Theatre
   address: 205 West 46th St, New York, NY 10036
   preview: 2017-03-28
@@ -242,6 +258,11 @@
   trailer: https://www.youtube.com/watch?v=UkPjFrn6Q08
   url: http://www.charlieonbroadway.com
   tickets:
+    -
+      title: $40 Digital Lottery
+      type: digital
+      url: https://lottery.broadwaydirect.com/show/charlie/
+      label: broadwaydirect.com
     -
       title: $40 Rush
       type: rush
@@ -280,11 +301,65 @@
       url: https://www.telecharge.com/Broadway/Chicago/Schedules-Prices
       label: telecharge.com
 -
+  key: the-children
+  title: The Children
+  scheduleTitle: The Children
+  synopsis: "Manhattan Theatre Club presents Lucy Kirkwood's drama."
+  duration: TBA
+  advisory: "Children under the age of 4 are not permitted in the theatre."
+  lowest: $30
+  theater: Samuel J Friedman Theatre
+  address: 261 West 47th Street, New York, NY 10036
+  preview: 2017-11-18
+  opening: 2017-12-04
+  closing:
+  limited: false
+  accolades:
+  trailer:
+  url: https://www.manhattantheatreclub.com/2017-18-season/the-children/
+  tickets:
+    -
+      title: $30 Regular Rush
+      type: rush
+    -
+      title: $30 Under 30
+      type: thirtyUnderThirty
+      url: http://www.manhattantheatreclub.com/30under30/
+      label: manhattantheatreclub.com
+    -
+      title: $60-$140 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/The-Children/Overview
+      label: telecharge.com
+-
+  key: children-of-a-lesser-god
+  title: Children of a Lesser God
+  scheduleTitle: Children of a Lesser God
+  synopsis: "Kenny Leon directs the Broadway revival of Mark Medoff's drama."
+  duration: 2 h 35 m 1 intermission
+  advisory: "Children under the age of 4 are not permitted in the theatre."
+  lowest: $60
+  theater: Studio 54
+  address: 254 West 54th Street, New York, NY 10019
+  preview: 2018-03-22
+  opening: 2018-04-11
+  closing:
+  limited: false
+  accolades:
+  trailer:
+  url: http://childrenofalessergodbroadway.com
+  tickets:
+    -
+      title: $55-$149 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/Children-of-a-Lesser-God/Overview
+      label: telecharge.com
+-
   key: come-from-away
   title: Come From Away
   scheduleTitle: Come From Away
   synopsis: "When the world stopped, their stories moved us all."
-  duration: TBA
+  duration: 1 h 50 m 0 intermissions
   advisory: "Children under the age of 4 are not permitted in the theatre."
   lowest: $47
   theater: Schoenfeld Theatre
@@ -315,7 +390,7 @@
   synopsis: "Pasek and Paul's new musical follows Evan as he searches for the things in life that we all need."
   duration: 2 hrs, 30 mins, 1 intermission
   advisory: "May be inappropriate for 12 and under. (Strong language; subject matter.) Children under the age of 4 are not permitted in the theatre."
-  lowest: $49
+  lowest: $40
   theater: Music Box Theatre
   address: 239 West 45th St, New York, NY 10036
   preview: 2016-11-14
@@ -340,29 +415,27 @@
       url: https://www.telecharge.com/Broadway/Dear-Evan-Hansen-Music-Box-Theatre/
       label: telecharge.com
 -
-  key: a-dolls-house
-  title: "A Doll's House, Part 2"
-  scheduleTitle: "A Doll's House, Part 2"
-  synopsis: "Laurie Metcalf stars in Lucas Hnath's sequel to Ibsen's classic."
+  key: escape-to-margaritaville
+  title: Escape to Margaritaville
+  scheduleTitle: Escape to Margaritaville
+  synopsis: "A new musical featuring both original songs and your most-loved Jimmy Buffett classics."
   duration: TBA
-  advisory: "Children under the age of 4 are not permitted in the theatre."
-  theater: John Golden Theatre
-  address: 252 West 45th Street, New York, NY 10036
-  preview: 2017-04-01
-  opening: 2017-04-27
-  closing: 2017-07-23
+  advisory: "Children under 4 are not permitted in the theatre"
+  theater: Marquis Theatre
+  address: 211 West 45th Street, New York NY 10036
+  preview: 2018-02-16
+  opening: 2018-03-15
+  closing:
+  limited: false
   accolades:
-  trailer: https://www.youtube.com/watch?v=J7ExGZ2yFPA
-  url: http://dollshousepart2.com
+  trailer: https://www.youtube.com/watch?v=NVQABqcJ4HA
+  url: http://escapetomargaritavillemusical.com
   tickets:
     -
-      title: $30 Rush Tickets
-      type: rush
-    -
-      title: $60-$147 Tickets
+      title: $79-169
       type: regular
-      url: https://www.telecharge.com/Broadway/A-Dolls-House/Schedules-Prices
-      label: telecharge.com
+      url: http://www.ticketmaster.com/escape-to-margaritaville-ny-new-york-new-york/artist/2380001
+      label: ticketmaster.com
 -
   key: farinelli-and-the-king
   title: Farinelli and the King
@@ -377,45 +450,14 @@
   closing: 2018-03-25
   limited: true
   accolades:
-  trailer:
+  trailer: https://www.youtube.com/watch?v=Be1-_FcIVqU
   url: http://www.farinelliandthekingbroadway.com
   tickets:
     -
-      title: $32-157
+      title: $32-167
       type: regular
       url: https://www.telecharge.com/Broadway/Farinelli-and-the-King/Schedules-Prices
       label: telecharge.com
--
-  key: groundhog-day
-  title: Groundhog Day
-  scheduleTitle: "Groundhog Day"
-  synopsis: "Andy Karl stars as TV weather man Phil Connors in this new musical based on the popular film of the same name."
-  duration: 2 hr 30 min 1 intermission
-  advisory: "Children under the age of 4 are not permitted in the theatre."
-  lowest: $89
-  theater: August Wilson Theatre
-  address: 245 West 52nd Street, New York, NY 10019
-  preview: 2017-03-16
-  opening: 2017-04-17
-  closing:
-  limited: false
-  accolades:
-  trailer: https://www.youtube.com/watch?v=uvJ3MlvNyDM
-  url: http://groundhogdaymusical.com
-  tickets:
-    -
-      title: $39 Digital Lottery
-      type: digital
-      url: http://groundhogdaymusical.com/lottery
-      label: groundhogdaymusical.com
-    -
-      title: $39 Rush Rickets
-      type: rush
-    -
-      title: $89-$149 Tickets
-      type: regular
-      url: http://www.ticketmaster.com/artist/2298314
-      label: ticketmaster.com
 -
   key: hamilton
   title: Hamilton
@@ -446,6 +488,29 @@
       url: http://www.ticketmaster.com/artist/2095830
       label: ticketmaster.com
 -
+  key: harry-potter
+  title: Harry Potter and the Cursed Child
+  scheduleTitle: Harry Potter and the Cursed Child
+  synopsis: "The eighth story in the Harry Potter series arrives on Broadway!"
+  duration: TBA
+  advisory: "Children under the age of 4 are not permitted in the theatre."
+  lowest: $20
+  theater: Lyric Theatre
+  address: 213 West 42nd Street, New York, NY 10036
+  preview: 2018-03-16
+  opening: 2018-04-22
+  closing:
+  limited: false
+  accolades:
+  trailer:
+  url: https://www.harrypottertheplay.com/us/
+  tickets:
+    -
+      title: $20-199 Tickets
+      type: regular
+      url: https://www.harrypottertheplay.com/us/ticket-info/
+      label: harrypottertheplay.com
+-
   key: hello-dolly
   title: "Hello Dolly!"
   scheduleTitle: "Hello, Dolly!"
@@ -472,30 +537,87 @@
       url: https://www.telecharge.com/Broadway/Hello/
       label: telecharge.com
 -
-  key: indecent
-  title: Indecent
-  scheduleTitle: "Indecent"
-  synopsis: "A deeply moving new play with music, inspired by true events."
+  key: home-for-the-holidays
+  title: Home for the Holidays
+  scheduleTitle: Home for the Holidays
+  synopsis: "Celebrate the holiday season with Bianca Ryan, Josh Kaufman and Candice Glover."
   duration: TBA
-  advisory: "May be inappropriate for 12 and under. Children under the age of 4 are not permitted in the theatre."
-  theater: Cort Theatre
-  address: 138 West 48th Street , New York, NY 10036
-  preview: 2017-04-04
-  opening: 2017-04-18
-  closing: 2017-09-10
+  advisory: "Children under the age of 4 are not permitted in the theatre."
+  theater: August Wilson Theatre
+  address: 245 West 52nd Street, New York, NY 10019
+  preview: 2017-11-17
+  opening: 2017-11-21
+  closing: 2017-12-30
   limited: true
   accolades:
-  trailer: https://www.youtube.com/watch?v=wOmcZ4I7zm0
-  url: http://indecentbroadway.com
+  trailer:
+  url: http://holidaysonbroadway.com
   tickets:
     -
-      title: $30 Rush Tickets
+      title: $99-$299 Tickets
+      type: regular
+      url: http://www.ticketmaster.com/artist/2425338
+      label: ticketmaster.com
+-
+  key: the-iceman-cometh
+  title: The Iceman Cometh
+  scheduleTitle: The Iceman Cometh
+  synopsis: "Denzel Washington stars in the Broadway revival of Eugene O'Neill's classic."
+  duration: 4 h 15 m 0 intermissions
+  advisory: "Children under the age of 4 are not permitted in the theatre."
+  theater: Bernard B. Jacobs Theatre
+  address: 242 W 45th St, New York, NY 10036
+  preview: 2018-03-22
+  opening: 2018-04-26
+  closing: 2018-07-01
+  limited: true
+  accolades:
+  trailer:
+  url: http://icemanonbroadway.com
+  tickets:
+    -
+      title: $79-$199 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/The-Iceman-Cometh/Overview
+      label: telecharge.com
+-
+  key: john-lithgow-stories-by-heart
+  title: "John Lithgow: Stories By Heart"
+  scheduleTitle: "John Lithgow: Stories By Heart"
+  synopsis: "Tony winner John Lithgow brings his intimate and imaginative solo play to Broadway."
+  duration: TBA
+  advisory: "Children under the age of 4 are not permitted in the theatre."
+  theater: American Airlines Theatre
+  address: 227 West 42nd Street, New York, NY 10036
+  preview: 2017-12-21
+  opening: 2018-01-11
+  closing: 2018-03-04
+  limited: true
+  accolades:
+  trailer:
+  url: https://www.roundabouttheatre.org/Shows-Events/John-Lithgow-Stories-by-Heart.aspx
+  tickets:
+    -
+      title: $37 General Rush
       type: rush
     -
-      title: $39-$129 Tickets
+      title: 50% Off Student Rush
+      type: fiftyOffStudentRush
+    -
+      title: $25 Hiptix
+      type: hipTix
+      url: http://hiptix.com
+      label: hiptix.com
+    -
+      title: $10 First Previews
+      type: firstPreviews
+      url: http://roundabouttheatre.org
+      label: roundabouttheatre.org
+    -
+      title: $29–$129 Tickets
       type: regular
-      url: https://www.telecharge.com/Broadway/Indecent/Schedules-Prices
-      label: telecharge.com
+      url: https://www.roundabouttheatre.org/tickets/reserve.aspx?pid=24834
+      label: roundabouttheatre.com
 -
   key: junk
   title: Junk
@@ -510,9 +632,27 @@
   closing:
   limited: false
   accolades:
-  trailer:
+  trailer: https://www.youtube.com/watch?v=5vXY19xWH2k
   url: http://www.lct.org/shows/junk/
   tickets:
+    -
+      title: $32 General Rush
+      type: rush
+    -
+      title: $32 Linctix
+      type: lincTix
+      url: http://lct.org
+      label: lct.org
+    -
+      title: $39 Digital Lottery
+      type: digital
+      url: http://junkbroadwaylottery.com
+      label: junkbroadwaylottery.com
+    -
+      title: $77–$147 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/Junk/Overview
+      label: telecharge.com
 -
   key: kinky-boots
   title: Kinky Boots
@@ -550,6 +690,29 @@
       url: http://www.ticketmaster.com/artist/2173343
       label: ticketmaster.com
 -
+  key: latin-history-for-morons
+  title: Latin History for Morons
+  scheduleTitle: Latin History for Morons
+  synopsis: "John Leguizamo's outrageously funny one-man show about uncovering the truth, and recovering from the past."
+  duration: 1 hrs 35 mins 0 intermissions
+  advisory: "Recommended for 13 +. Children under the age of 4 are not permitted in the theatre."
+  lowest: $30
+  theater: Studio 54
+  address: 254 West 54th Street, New York, NY 10019
+  preview: 2017-10-19
+  opening: 2018-11-15
+  closing: 2018-02-04
+  limited: true
+  accolades:
+  trailer: https://www.youtube.com/watch?v=CthHb59D4L0
+  url: https://www.latinhistorybroadway.com
+  tickets:
+    -
+      title: $55-$149 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/Latin-History-for-Morons/Overview
+      label: telecharge.com
+-
   key: lion-king
   title: The Lion King
   scheduleTitle: The Lion King
@@ -578,79 +741,73 @@
       url: http://www.ticketmaster.com/artist/1039581
       label: ticketmaster.com
 -
-  key: little-foxes
-  title: The Little Foxes
-  scheduleTitle: "The Little Foxes"
-  synopsis: "Laura Linney and Cynthia Nixon star in Lillian Hellman's family drama."
-  duration: 2hrs 35min 2 intermissions
-  advisory: "Children under the age of 4 are not permitted in the theatre."
-  lowest:
-  theater: Samuel J Friedman Theatre
-  address: 261 West 47th Street, New York, NY 10036
-  preview: 2017-03-29
-  opening: 2017-04-19
-  closing: 2017-07-02
-  limited: false
+  key: m-butterfly
+  title: "M. Butterfly"
+  scheduleTitle: "M. Butterfly"
+  synopsis: "Clive Owen stars in David Henry Hwang’s modern classic, a remarkable love story of international espionage and personal betrayal."
+  duration: 2 hrs 1 intermission
+  advisory: "Recommended for 16 + (This production may be inappropriate for ages 15 and under due to strong language and nudity.) Children under the age of 4 are not permitted in the theatre."
+  lowest: $30
+  theater: Cort Theatre
+  address: 138 West 48th Street, New York, NY 10036
+  preview: 2017-10-07
+  opening: 2017-10-26
+  closing:
+  limited:
   accolades:
-  trailer:
-  url: http://manhattantheatreclub.com/2016-17-season/
+  trailer: https://www.youtube.com/watch?v=8VcdycSNlM0
+  url: https://mbutterflybroadway.com
   tickets:
     -
-      title: $30 Student Rush
-      type: studentRush
-    -
-      title: $30 Under 30
-      type: thirtyUnderThirty
-      url: http://www.manhattantheatreclub.com/30under30/
-      label: manhattantheatreclub.com
-    -
-      title: $70-$150 Tickets
+      title: $39-$149 Tickets
       type: regular
-      url: https://www.telecharge.com/Broadway/Lillian-Hellmans-The-Little-Foxes/Schedules-Prices
+      url: https://www.telecharge.com/Broadway/M-Butterfly/Overview
       label: telecharge.com
 -
-  key: marvins-room
-  title: Marvin's Room
-  scheduleTitle:
-  synopsis: Scott McPherson's family drama makes it Broadway premiere.
+  key: mean-girls
+  title: "Mean Girls"
+  scheduleTitle: "Mean Girls"
+  synopsis: "Roxie Hart. Evita. Mrs. Lovett. Mama Rose. Every great musical has one."
   duration: TBA
   advisory: "Children under the age of 4 are not permitted in the theatre."
-  lowest: $35
-  theater: American Airlines Theatre
-  address: 227 West 42nd Street, New York, NY 10036
-  preview: 2017-06-08
-  opening: 2017-06-29
-  closing: 2017-08-27
-  limited: true
+  lowest: $30
+  theater: August Wilson Theatre
+  address: 245 West 52nd Street, New York, NY 10019
+  preview: 2018-03-12
+  opening: 2018-04-08
+  closing:
+  limited:
   accolades:
-  trailer:
-  url: https://www.roundabouttheatre.org/Shows-Events/Marvins-Room.aspx
+  trailer: https://www.youtube.com/watch?v=jyAZO-NROiI
+  url: http://meangirlsonbroadway.com
   tickets:
     -
-      title: $35 Mobile Lottery
-      type: mobile
-      url: http://www.todaytix.com/us/nyc/shows/the-cherry-orchard/
-      label: todaytix.com
-    -
-      title: $47 General Rush
-      type: rush
-    -
-      title: 50% Off Student Rush
-      type: fiftyOffStudentRush
-    -
-      title: $25 Hiptix
-      type: hipTix
-      url: http://hiptix.com
-      label: hiptix.com
-    -
-      title: $10 First Previews
-      type: firstPreviews
-      url: http://roundabouttheatre.org
-      label: roundabouttheatre.org
-    -
-      title: $47–$147 Tickets
+      title: $99-$401 Tickets
       type: regular
-      url: https://www.roundabouttheatre.org/tickets/reserve.aspx?pid=22368
+      url: http://www.ticketmaster.com/Mean-Girls-NY-tickets/artist/2412229
+      label: ticketmaster.com
+-
+  key: meteor-shower
+  title: "Meteor Shower"
+  scheduleTitle: "Meteor Shower"
+  synopsis: "Amy Schumer makes her Broadway debut in Steve Martin's new comedy."
+  duration: 1 hr 30 mins 0 intermissions
+  advisory: "Recommended for ages 12+. Children under 4 are not permitted in the theatre."
+  lowest: $30
+  theater: Booth Theatre
+  address: 222 West 45th Street, New York, NY 10036
+  preview: 2017-11-01
+  opening: 2017-11-29
+  closing: 2018-01-21
+  limited:
+  accolades:
+  trailer:
+  url: http://meteoronbroadway.com
+  tickets:
+    -
+      title: $59-$169 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/Meteor-Shower/Overview
       label: telecharge.com
 -
   key: miss-saigon
@@ -679,100 +836,82 @@
         url: https://www.telecharge.com/Broadway/Miss-Saigon/
         label: telecharge.com
 -
-  key: great-comet
-  title: "Natasha, Pierre and the Great Comet of 1812"
-  scheduleTitle: "Natasha, Pierre & The Great Comet of 1812"
-  synopsis: "The acclaimed musical, based on a passage from War and Peace, arrives on Broadway starring Josh Groban."
+  key: my-fair-lady
+  title: "My Fair Lady"
+  scheduleTitle: "My Fair Lady"
+  synopsis: "Lerner and Loewe's classic musical returns to Broadway."
   duration: 2 hr 30 min 1 intermission
   advisory: "May be inappropriate for 12 and under. Children under the age of 4 are not permitted in the theatre."
   lowest: $39
-  theater: Imperial Theatre
-  address: 249 West 45th Street, New York, NY 10036
-  preview: 2016-10-18
-  opening: 2016-11-14
-  closing:
-  limited: false
-  accolades:
-  trailer: https://www.youtube.com/watch?v=4lGARXirty8&feature=youtu.be
-  url: http://greatcometbroadway.com
-  tickets:
-    -
-      title: $39 Digital Lottery
-      type: digital
-      url: http://greatcometbroadway.com/lottery.php
-      label: greatcometbroadway.com
-    -
-      title: $39 Rush Tickets
-      type: rush
-    -
-      title: $59-$299 Tickets
-      type: regular
-      url: https://www.telecharge.com/Broadway/the-great-comet
-      label: telecharge.com
--
-  key: on-your-feet
-  title: "On Your Feet!"
-  scheduleTitle: "On Your Feet!"
-  synopsis: The story of international sensations Gloria and Emilio Estefan, set to their smash hits!
-  duration: 2 hrs 15 mins 1 intermission
-  advisory: Recommended for children ages 6 and up.  Everyone entering the theater, regardless of age, must have a ticket.
-  lowest: $40
-  theater: The Marquis Theatre
-  address: 1535 Broadway, New York, NY 10036
-  preview: 2015-10-05
-  opening: 2015-11-05
-  closing:
-  limited: false
-  accolades:
-  trailer: https://www.youtube.com/watch?v=rnUZa9_antE
-  url: http://www.onyourfeetmusical.com/
-  tickets:
-    -
-      title: $40 Digital Lottery
-      type: regular
-      url: https://lottery.broadwaydirect.com/show/on-your-feet/
-      label: broadwaydirect.com
-    -
-      title: $46 Tix4Students
-      type: tix4students
-      url: https://www.tix4students.com/events/on-your-feet/
-      label: tix4students.com
-    -
-      title: $79-$179 Tickets
-      type: regular
-      url: http://www.ticketmaster.com/artist/2081628
-      label: ticketmaster.com
--
-  key: oslo
-  title: "Oslo"
-  scheduleTitle: Oslo
-  synopsis: "A darkly comic epic that brings dozens of diplomats and world leaders together."
-  duration: TBA
-  advisory: "May be inappropriate for 12 and under. Children under the age of 4 are not permitted in the theatre."
-  lowest: $32
   theater: Vivian Beaumont Theater
   address: 150 West 65th Street, New York, NY 10023
-  preview: 2017-03-23
-  opening: 2017-04-17
-  closing: 2017-06-18
+  preview: 2018-03-15
+  opening: 2018-04-19
+  closing:
+  limited: false
+  accolades:
+  trailer:
+  url: http://www.lct.org/shows/my-fair-lady/
+  tickets:
+    -
+      title: $32 Student Rush
+      type: rush
+    -
+      title: $32 Linctix
+      type: lincTix
+      url: http://lct.org
+      label: lct.org
+    -
+      title: Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/My-Fair-Lady/Schedules-Prices
+      label: telecharge.com
+-
+  key: once-on-this-island
+  title: "Once on This Island"
+  scheduleTitle: "Once on This Island"
+  synopsis: "Michael Arden directs the Broadway revival of Ahrens and Flaherty's musical."
+  duration: 1 hrs 30 mins 0 intermissions
+  advisory: Might not be suitable for children under 10 years of age. Children under the age of 4 are not permitted in the theatre.
+  lowest: $40
+  theater: Circle In The Square Theatre
+  address: 235 West 50th Street, New York, NY 10019
+  preview: 2017-11-09
+  opening: 2017-12-03
+  closing:
+  limited: false
+  accolades:
+  trailer:
+  url: http://www.onceonthisisland.com
+  tickets:
+    -
+      title: $59-$159 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/Once-On-This-Island/Overview
+      label: telecharge.com
+-
+  key: the-parisian-woman
+  title: "The Parisian Woman"
+  scheduleTitle: The Parisian Woman
+  synopsis: "Uma Thurman makes her Broadway debut in Beau Willimon's power play."
+  duration: 1 hr 30 min 0 intermissions
+  advisory: "Recommended for 14 +. Children under the age of 4 are not permitted in the theatre."
+  lowest: $32
+  theater: Hudson Theatre
+  address: 145 W. 44th St., New York, NY
+  preview: 2017-11-09
+  opening: 2017-11-20
+  closing:
   limited:
   accolades:
-  trailer: https://www.youtube.com/watch?v=icyzdw5MCTc
-  url: http://www.lct.org/shows/oslo-broadway/
+  trailer:
+  url:
   tickets:
       -
-        title: $32 Student Rush
-        type: rush
-      -
-        title: $32 Linctix
-        type: lincTix
-        url: http://lct.org
-        label: lct.org
-      -
-        title: $59-$250 Tickets
+        title: $69-$250 Tickets
         type: regular
-        url: https://www.telecharge.com/Broadway/OH
-        label: telecharge.com
+        url: https://us.atgtickets.com/Online/default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=324BD0BB-D955-4C97-A7E9-2B65C7B8A00A&doWork::WScontent::search=1&SessionSecurity::referrer=TELECHARGE
+        label: atgtickets.com
 -
   key: phantom-of-the-opera
   title: The Phantom of the Opera
@@ -830,36 +969,6 @@
       url: https://www.telecharge.com/Broadway/The-Play-That-Goes-Wrong/Schedules-Prices
       label: telecharge.com
 -
-  key: present-laughter
-  title: Present Laughter
-  scheduleTitle: Present Laughter
-  synopsis: "Kevin Kline returns to Broadway in Noël Coward's classic comedy."
-  duration: TBA
-  advisory: "Children under the age of 4 are not permitted in the theatre."
-  theater: St. James Theatre
-  address: 246 West 44th Street, New York, NY 10036
-  preview: 2017-03-10
-  opening: 2017-04-05
-  closing: 2017-07-02
-  limited: true
-  accolades:
-  trailer: https://www.youtube.com/watch?v=CHaOeEZ767g
-  url: http://laughteronbroadway.com
-  tickets:
-      -
-        title: $42 Digital Lottery
-        type: digital
-        url: http://laughteronbroadway.com/lottery
-        label: laughteronbroadway.com
-      -
-        title: $42 General Rush
-        type: rush
-      -
-        title: $59-$150 Tickets
-        type: regular
-        url: http://www.ticketmaster.com/Present-Laughter-NY-tickets/artist/2306316
-        label: ticketmaster.com
--
   key: prince-of-broadway
   title: Prince of Broadway
   scheduleTitle: Prince of Broadway
@@ -889,6 +998,37 @@
       type: regular
       url: https://www.telecharge.com/Broadway/Prince-of-Broadway/Overview
       label: telecharge.com
+-
+  key: saint-joan
+  title: Saint Joan
+  scheduleTitle: Saint Joan
+  synopsis: "Condola Rashad stars in the Broadway revival of George Bernard Shaw's drama."
+  duration: TBA
+  advisory: Children under the age of 4 are not permitted in the theatre.
+  lowest: $37
+  theater: Samuel J Friedman Theatre
+  address: 261 West 47th Street, New York, NY 10036
+  preview: 2018-14-03
+  opening: 2018-04-25
+  closing:
+  limited: false
+  accolades:
+  trailer:
+  url: https://www.manhattantheatreclub.com
+  tickets:
+      -
+        title: $30 Regular Rush
+        type: rush
+      -
+        title: $30 Under 30
+        type: thirtyUnderThirty
+        url: http://www.manhattantheatreclub.com/30under30/
+        label: manhattantheatreclub.com
+      -
+        title: Tickets
+        type: regular
+        url: https://www.telecharge.com/Broadway/Saint-Joan/Schedules-Prices
+        label: telecharge.com
 -
   key: school-of-rock
   title: School of Rock
@@ -924,70 +1064,35 @@
       url: https://www.telecharge.com/Broadway/School-of-Rock/Schedules-Prices
       label: telecharge.com
 -
-  key: sunset-boulevard
-  title: Sunset Boulevard
-  scheduleTitle: Sunset Boulevard
-  synopsis: Glenn Close revisits her Tony Award-winning performance of Norma Desmond in this acclaimed revival.
-  duration: TBA
-  advisory: Children under the age of 4 are not permitted in the theatre.
+  key: spongebob-squarepants
+  title: "SpongeBob SquarePants"
+  scheduleTitle: "SpongeBob SquarePants"
+  synopsis: "SpongeBob, Patrick and more hit the stage in this new musical based on the popular cartoon."
+  duration: 2 hrs 30 mins 1 intermission
+  advisory: "This show is appropriate for ages 5+. Children under the age of 4 are not permitted in the theatre."
   lowest: $79
   theater: Palace Theatre
   address: 1564 Broadway, New York, NY 10036
-  preview: 2017-02-02
-  opening: 2017-02-09
-  closing: 2017-06-25
-  limited: true
+  preview: 2017-11-06
+  opening: 2017-12-04
+  closing:
+  limited: false
   accolades:
-  trailer: https://www.youtube.com/watch?v=t7j5WSf9euk
-  url: http://sunsetboulevardthemusical.com
+  trailer: https://www.youtube.com/watch?v=kUPUpLpCZ8A
+  url: http://spongebobbroadway.com
   tickets:
     -
-      title: $42 Rush Tickets
-      type: rush
-    -
-      title: $55 Digital Lottery
-      type: digital
-      url: http://lottery.broadwaydirect.com/show/sunset
-      label: broadwaydirect.com
-    -
-      title: $79-$199 Tickets
+      title: $49-$199 Tickets
       type: regular
-      url: http://www.ticketmaster.com/Sunset-Boulevard-NY-tickets/artist/2298800
+      url: http://www.ticketmaster.com/artist/2382692
       label: ticketmaster.com
--
-  key: sweat
-  title: Sweat
-  scheduleTitle: Sweat
-  synopsis: "Lynn Nottage's stunning new play transfers to Broadway after a successful run at The Public Theater."
-  duration:
-  advisory: Children under the age of 4 are not permitted in the theatre.
-  theater: Studio 54
-  address: 254 West 54th Street, New York, NY 10019
-  preview: 2017-03-04
-  opening: 2017-03-26
-  closing: 2017-09-17
-  limited: true
-  accolades:
-  trailer:
-  url: http://www.sweatbroadway.com
-  tickets:
-    -
-      title: $32 Mobile Rush
-      type: todayTixRush
-      url: https://www.todaytix.com/shows/nyc/3756-sweat/rush/
-      label: todaytix.com
-    -
-      title: $59-$149 Tickets
-      type: regular
-      url: https://www.telecharge.com/Broadway/Sweat/
-      label: telecharge.com
 -
   key: the-terms-of-my-surrender
   title: The Terms of My Surrender
   scheduleTitle: The Terms of My Surrender
   synopsis: "Michael Moore to Debut Solo Show The Terms of My Surrender on Broadway"
   duration: 1 hr 30 mins
-  advisory: Children under the age of 4 are not permitted in the theatre.
+  advisory: Recommended for 12+. Children under the age of 4 are not permitted in the theatre.
   theater: Belasco Theatre
   address: 111 West 44th Street, New York, NY 10036
   preview: 2017-07-28
@@ -995,15 +1100,39 @@
   closing: 2017-10-22
   limited: true
   accolades:
-  trailer:
+  trailer: https://www.youtube.com/watch?v=IX11-mzUcw0
   url: http://michaelmooreonbroadway.com
   tickets:
+    -
+      title: $35 Tickets
+      type: rush
     -
       title: $29-$149 Tickets
       type: regular
       url: https://www.telecharge.com/Broadway/The-Terms-of-My-Surrender/Schedules-Prices
       label: telecharge.com
-
+-
+  key: three-tall-women
+  title: Three Tall Women
+  scheduleTitle: Three Tall Women
+  synopsis: "Laurie Metcalf, Glenda Jackson and Alison Pill star in the Broadway premiere of Edward Albee's most personal work."
+  duration: TBA
+  advisory: Children under the age of 4 are not permitted in the theatre.
+  theater: John Golden Theatre
+  address: 252 West 45th Street, New York, NY 10036
+  preview: 2018-02-27
+  opening: 2018-03-29
+  closing:
+  limited:
+  accolades:
+  trailer:
+  url:
+  tickets:
+    -
+      title: $49-$149 Tickets
+      type: regular
+      url: https://www.telecharge.com/Broadway/Three-Tall-Women/Schedules-Prices
+      label: telecharge.com
 -
   key: time-and-the-conways
   title: Time and the Conways
@@ -1037,6 +1166,51 @@
       type: firstPreviews
       url: http://roundabouttheatre.org
       label: roundabouttheatre.org
+    -
+      title: $52-$201
+      type: regular
+      url: http://boxoffice.broadway.com/CalPoh/Index?pOrderID=124593412&pXref=279D816B-7DEE-4091-92DF-AB8C0E5BFE05
+      label: rbroadway.com
+-
+  key: travesties
+  title: Travesties
+  scheduleTitle: Travesties
+  synopsis: "Tom Stoppard's stirring drama returns to Broadway starring Tom Hollander."
+  duration: TBA
+  advisory: Recommended for 8+. Children under the age of 4 are not permitted in the theatre.
+  notice:
+  lowest: $32
+  theater: American Airlines Theatre
+  address: 227 West 42nd Street, New York, NY 10036
+  preview: 2018-03-29
+  opening: 2018-04-24
+  closing:
+  limited: false
+  accolades:
+  trailer:
+  url: https://www.roundabouttheatre.org/Shows-Events/Travesties.aspx
+  tickets:
+    -
+      title: $37 General Rush
+      type: rush
+    -
+      title: 50% Off Student Rush
+      type: fiftyOffStudentRush
+    -
+      title: $25 Hiptix
+      type: hipTix
+      url: http://hiptix.com
+      label: hiptix.com
+    -
+      title: $10 First Previews
+      type: firstPreviews
+      url: http://roundabouttheatre.org
+      label: roundabouttheatre.org
+    -
+      title: Tickets
+      type: regular
+      url: https://www.roundabouttheatre.org/Shows-Events/Travesties.aspx
+      label: roundabouttheatre.com
 -
   key: waitress
   title: Waitress
