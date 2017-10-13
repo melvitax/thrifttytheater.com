@@ -122,11 +122,6 @@
       title: $40 Rush
       type: rush
     -
-      title: $46 tix4Students
-      type: tix4students
-      url: https://www.tix4students.com/event/beautiful/
-      label: tix4students.com
-    -
       title: $69-$299 Tickets
       type: regular
       url: https://www.telecharge.com/Broadway/Beautiful-The-Carole-King-Musical/Schedules-Prices
@@ -155,7 +150,7 @@
     -
       title: $50 Digital Lottery
       type: digitalOneWeek
-      url: https://jujamcyn.turnkeysurveyor.com/se/4D0A7D497B91C3FD
+      url: http://www.luckyseat.com/book-of-mormon/
       label: jujamcyn.com
     -
       title: $27 Standing Room
@@ -404,7 +399,7 @@
     -
       title: $40 Digital Lottery
       type: digital
-      url: https://www.dearevanhansenlottery.com
+      url: http://www.dearevanhansenlottery.com
       label: dearevanhansenlottery.com
     -
       title: $42 Standing room
@@ -679,11 +674,6 @@
     -
       title: $27 Standing Room
       type: standingRoom
-    -
-      title: $49 Tix4Students
-      type: tix4students
-      url: https://www.tix4students.com/events/kinky-boots-ny/
-      label: tix4students.com
     -
       title: $55-$249 Tickets
       type: regular
