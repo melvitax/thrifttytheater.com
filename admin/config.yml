@@ -1,0 +1,35 @@
+# config.yml
+
+backend:
+  name: git-gateway
+  branch: master
+  repo: melvitax/showhacker.com 
+media_folder: 'assets/uploads'
+publish_mode: editorial_workflow
+collections:
+  - label: "Global"
+    name: "global"
+    files:
+      - label: "Shows"
+        name: "shows"
+        file: "_data/shows.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Poster, name: poster, widget: image}
+          - {label: Description, name: description, widget: string}
+          - {label: Duration, name: duration, widget: string}
+          - {label: Theater, name: theater, widget: string}
+          - {label: Address, name: address, widget: string}
+          - {label: Preview, name: preview, widget: date}
+          - {label: Opening, name: opening, widget: date}
+          - {label: Closing, name: closing, widget: date}
+          - {label: Accolades, name: accolades, widget: string}
+          - {label: Trailer, name: trailer, widget: string}
+          - {label: Website, name: website, widget: string}
+          - label: Tickets
+            name: tickets
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Type, name: type, widget: string}
+              - {label: URL, name: url, widget: string}

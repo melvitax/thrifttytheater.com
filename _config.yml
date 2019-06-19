@@ -14,7 +14,7 @@ thanks:
     url: https://github.com/ianrose
 markdown: kramdown
 url: http://showhacker.com
-exclude: ['node_modules', 'bower_components', 'README.md', 'package.json', 'bower.json']
+exclude: ["node_modules", "bower_components", "package.json", "bower.json", "Gemfile", "Gemfile.lock", "README.md", "LICENSE"]
 timezone: 'America/New_York'
 googleanalytics: 'UA-3488813-17'
 fonts:
