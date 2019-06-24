@@ -13,7 +13,7 @@
   tickets:
     -
       title: $30 Lottery
-      type: digital
+      type: digitalLottery
       url: https://lottery.broadwaydirect.com/show/aladdin/
     -
       title: $55-$357 Tickets
@@ -59,7 +59,7 @@
       url: 
     -
       title: $50 Lottery
-      type: digital
+      type: digitalLottery
       url: http://www.luckyseat.com/book-of-mormon/
     -
       title: $27 Standing Room
@@ -134,7 +134,7 @@
   tickets:
     -
       title: $40 Lottery
-      type: digital
+      type: digitalLottery
       url: http://www.dearevanhansenlottery.com
     -
       title: $42 Standing room
@@ -159,7 +159,7 @@
   tickets:
     -
       title: $10 Lottery
-      type: digital
+      type: digitalLottery
       url: http://hamiltonbroadway.com/lottery
     -
       title: $57-$277 Tickets
@@ -197,7 +197,7 @@
   tickets:
     -
       title: $37 Lottery
-      type: digital
+      type: digitalLottery
       url: http://lottery.kinkybootsthemusical.com
     -
       title: $27 Standing Room
@@ -239,7 +239,7 @@
   tickets:
     -
       title: $30 Lottery
-      type: digital
+      type: digitalLottery
       url: http://lionking.com/lottery
     -
       title: $122-$217 Tickets
@@ -302,7 +302,7 @@
   tickets:
     -
       title: $28 Lottery
-      type: digital
+      type: digitalLottery
       url: http://www.phantombroadwaylottery.com
     -
       title: $26 Standing Room
@@ -352,7 +352,7 @@
       url:
     -
       title: $35 Lottery
-      type: digital
+      type: digitalLottery
       url: https://lottery.broadwaydirect.com/show/wicked/
     -
       title: $69 Student Rush
