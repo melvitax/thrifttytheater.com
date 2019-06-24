@@ -17,19 +17,34 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Poster, name: poster, widget: image}
           - {label: Description, name: description, widget: string}
-          - {label: Duration, name: duration, widget: string}
           - {label: Theater, name: theater, widget: string}
           - {label: Address, name: address, widget: string}
-          - {label: Preview, name: preview, widget: date}
-          - {label: Opening, name: opening, widget: date}
-          - {label: Closing, name: closing, widget: date}
-          - {label: Accolades, name: accolades, widget: string}
+          - {label: Preview, name: preview, widget: date, format: "YYYY-MM-DD", default: ""}
+          - {label: Opening, name: opening, widget: date, format: "YYYY-MM-DD", default: ""}
+          - {label: Closing, name: closing, widget: date, format: "YYYY-MM-DD", default: ""}
+          - {label: Tony Award, name: tony, widget: boolean}
           - {label: Trailer, name: trailer, widget: string}
           - {label: Website, name: website, widget: string}
           - label: Tickets
             name: tickets
-            widget: list
+            widget: object
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Type, name: type, widget: string}
+              - label: Type 
+                name: type
+                widget: list
+                allow_add: false
+                fields: 
+                  - {label: Digital Lottery, name: digitalLottery, widget: text}
+                  - {label: Lottery, name: lottery, widget: text}
+                  - {label: Rush, name: rush, widget: text}
+                  - {label: Digital Rush, name: digitalRush, widget: text}
+                  - {label: Standing Room, name: standing, widget: text}
+                  - {label: Linctix, name: linctix, widget: text}
+                  - {label: Hiptix, name: hiptix, widget: text}
+                  - {label: Linctix, name: linctix, widget: text}
+                  - {label: $30 Under, name: thirty, widget: text}
+                  - {label: $10 First Preview, name: firstPreview, widget: text}
+                  - {label: Regular, name: regular, widget: text}
               - {label: URL, name: url, widget: string}
+              

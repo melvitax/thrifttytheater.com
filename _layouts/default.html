@@ -3,16 +3,17 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-	<html>
+	<html lang="en">
 		{% include head.html %}
 		<body>
 			<header class="header">
-	    		<h1 class="header__title">{{site.name}}</h1>
-					<nav class="nav">
-					<span class="nav__btn nav__current">Current</span><span class="nav__btn nav__upcoming">Upcoming</span><span class="nav__btn nav__all">All</span>
-					</nav>
+				<div class="jumbotron text-center m-0 p-0" style="background: url('../assets/joe-yates-165101-unsplash.jpg') center center/cover no-repeat;">
+					<div class="container py-5 px-3 mw-100" style="background-color: rgba(0, 0, 0, 0.7);">
+						<h1 class="display-4 text-light">{{site.title}}</h1>
+						<p class="lead text-muted">Lifehacking broadway prices. Bringing the arts to the people.</p>
+					</div>
+				</div>
 			</header>
-			{% include player.html %}
 			{{ content }}
 			{% include footer.html %}
 			{% include scripts.html %}

@@ -6,16 +6,16 @@
   <meta name="author" content="{{site.author.name}}">
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="author" href="/humans.txt">
-  <link rel="apple-touch-icon" href="/images/icon.jpg">
-  <link rel="icon" sizes="192x192" href="/images/icon.jpg">
+  <link rel="apple-touch-icon" href="/assets/icon.jpg">
+  <link rel="icon" sizes="192x192" href="/assets/icon.jpg">
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@{{site.twitter}}">
   <meta name="twitter:creator" content="@{{site.author.twitter}}">
   <!-- Facebook -->
-  <meta name="og:site_name" content="{{site.name}}">
+  <meta name="og:site_name" content="{{site.title}}">
   <meta name="og:url" content="{{site.url}}">
   <meta name="og:type" content="article">
   <!-- Shared -->
@@ -23,8 +23,17 @@
   <meta name="og:description" content="{{site.description}}">
   <meta name="og:image" content="{{site.socialimage}}">
 
+  <!-- CSS: Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CSS: VideoJS -->
+  <link rel="stylesheet" href="https://vjs.zencdn.net/7.5.5/video-js.css" >
+  <!-- CSS: Font Awesome -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- CSS: Main -->
+  <link rel="stylesheet" type="text/css" href="/styles/main.css">
+
   <!-- Fallback for Font family below in noscript [*] -->
-  <script type="text/javascript">
+  <script>
     WebFontConfig = {
       google: { families: [ '{{ site.fonts | join: ", " }}' ] }
     };
@@ -37,10 +46,7 @@
       var s = document.getElementsByTagName('script')[0];
       s.parentNode.insertBefore(wf, s);
     })(); </script>
-  <!-- Styles -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="/styles/main.css">
-  <link rel="stylesheet" href="/vendor/video.js/video-js.min.css">
+
   <!-- [*] Web fonts for no-js -->
   <noscript>
     <link href='http://fonts.googleapis.com/css?family={{ site.fonts | join: ", " }}' rel='stylesheet' type='text/css'>

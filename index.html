@@ -2,164 +2,113 @@
 layout: default
 title: show.hacker
 ---
-<div class="expandable-rows" >
+<main>
+	<div class="album py-5 bg-light">
+		<div class="container">
+			<div class="row card-columns">
 
 	{% assign market = 'broadway' %}
 	{% assign scheduleData = site.data[market].schedule.result.extractorData.data[0].group %}
 	{% assign ticketType = site.data[market].ticketType %}
+
 	{% for show in site.data[market].shows %}
+
 	{% assign timeZone = " 00:00:00 -0500" %}
-	{% assign now = site.time %}
 	{% capture previewDate %}{{show.preview}} 00:00:00 -0500{% endcapture %}
 	{% capture openingDate %}{{show.opening}} 00:00:00 -0500{% endcapture %}
 	{% capture closingDate %}{% if show.closing %}{{show.closing}} 00:00:00 -0500{% endif %}{% endcapture %}
-
-	<div class="row" id="{{show.key}}" preview="{{show.preview}}" opening="{{show.opening}}" {% if show.closing %}closing="{{show.closing}}"{% endif %} >
-
-		<div class="row__background-image lazyload" data-bg="/images/{{market}}/{{ show.key }}/header.jpg" ></div>
-
-		<div class="row__content clearfix">
-
-			<header class="collapsed-content">
-
-				<!-- Title -->
-				<h2 class="row-title"><span class="todays-performance"></span> {{ show.title }}</h2>
-
-				<!-- Callout -->
-				<div class="callout">	</div>
-
-				<!-- Tickets -->
-				<ul class="tickets">
-					{% for ticket in show.tickets %}
-						<li class="ticket">
-							<div class="ticket__title">{{ticket.title}} {%  if ticket.url %}
-							<a class="ticket__button" href="{{ticket.url}}">{{ticket.label}}</a>
-							{% endif %}</div>
-							<div class="ticket__description">{{ticketType[ticket.type]}}</div>
-						</li>
-					{% endfor %}
-				</il>
-
-			</header>
-
-			<div class="expanded-content">
-
-				<aside>
-
+	
+	<div class="col-lg-3 col-md-4 col-sm-5" >
+		<div class="card mb-3 shadow-sm" id="show{{forloop.index}}" data-preview="{{show.preview}}" data-opening="{{show.opening}}" {% if show.closing %}data-closing="{{show.closing}}"{% endif %}>
+			<div class="row no-gutters"> 
 				<!-- Poster -->
-				<div class="poster">
-					{% if show.trailer %}
-					<a class="js-player-link" href="{{show.trailer}}">
-						<img class="lazyload" data-src="/images/{{market}}/{{ show.key }}/poster.jpg" width="230" height="355" alt="poster" />
-						<button class="button button--txt button--invert button--play">
-				      <svg  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-				viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
-				      <path d="M15,10.001c0,0.299-0.305,0.514-0.305,0.514l-8.561,5.303C5.51,16.227,5,15.924,5,15.149V4.852
-				      c0-0.777,0.51-1.078,1.135-0.67l8.561,5.305C14.695,9.487,15,9.702,15,10.001z"/>
-				    </button>
-					</a>
-					{% else %}
-						<script type="text/javascript">console.log('missing trailer for: {{show.title | url_encode}}')</script>
-						<img class="lazyload missing" data-src="/images/{{market}}/{{ show.key }}/poster.jpg" width="230" height="355" alt="poster" />
-					{% endif %}
+				<a class="poster-link w-100 d-table position-relative" aria-disabled="true" data-toggle="modal" data-target="#show{{forloop.index}}Info">
+					<img class="card-img-top grow w-100 h-50" src="/assets/uploads/{{ show.poster }}" width="230" height="355" alt="poster" />
+				</a>
+				<!-- Tony -->
+				{% if show.tony %}<div class="badge badge-light badge-tony text-wrap position-absolute" style="top: 2em; left: 50%; transform: translateX(-50%)">TONY AWARD</div>{% endif %}
+				<!-- Title -->
+				<div class="card-body">
+					<h5 class="card-title mb-0">{{ show.title }}</h5>
 				</div>
-
-				<!-- Website button -->
-				{% if show.url %}
-				<div class="website">
-					<a href="{{show.url}}">Website</a>
-				</div>
-				{% else %}
-				<script type="text/javascript">console.log('missing website for: {{show.title | url_encode }}')</script>
-				{% endif %}
-
-			</aside>
-
-				<div class="content">
-
-					<!-- Accolades -->
-					<div class="accolades">
-						{% if show.accolades %}{{show.accolades}}{% endif %}
-					</div>
-
-					<!-- Theater -->
-					<div class="theater">
-						<strong>{{ show.theater }}</strong><br />
-					{{show.address}}<br />
-					<a href="https://www.google.com/maps/place/{{show.address | url_encode}}">Map</a>
-					</div>
-
-					<!-- Schedule -->
-					{% for schedule in scheduleData %}
-						{% if show.scheduleTitle == schedule.show[0].text %}
-							<ul class="timetable">
-								<li class="day">
-									<span class="day__name">sun</span>
-									<span class="day__time">{{schedule.sun[0].text | replace: ', ', '<br />' }}</span>
-								</li>
-								<li class="day">
-									<span class="day__name">mon</span>
-									<span class="day__time">{{schedule.mon[0].text | replace: ', ', '<br />' }}</span>
-								</li>
-								<li class="day">
-									<span class="day__name">tue</span>
-									<span class="day__time">{{schedule.tue[0].text | replace: ', ', '<br />'}}</span>
-								</li>
-								<li class="day">
-									<span class="day__name">wed</span>
-									<span class="day__time">{{schedule.wed[0].text | replace: ', ', '<br />' }}</span>
-								</li>
-								<li class="day">
-									<span class="day__name">thu</span>
-									<span class="day__time">{{schedule.thu[0].text | replace: ', ', '<br />' }}</span>
-								</li>
-								<li class="day">
-									<span class="day__name">fri</span>
-									<span class="day__time">{{schedule.fri[0].text | replace: ', ', '<br />'}}</span>
-								</li>
-								<li class="day">
-									<span class="day__name">sat</span>
-									<span class="day__time">{{schedule.sat[0].text | replace: ', ', '<br />'}}</span>
-								</li>
-							</ul>
-							{% break %}
-						{% endif %}
+				<!-- Tickets -->
+				<div class="list-group list-group-flush w-100 ">
+					{% for ticket in show.tickets %}
+					<a class="list-group-item list-group-item-action" href="{{ticket.url}}">{{ticket.title}} {% include icon-{{ticket.type}}.svg %}</a>
 					{% endfor %}
-
-					<!-- Synopsis -->
-					{% if show.synopsis %}
-					<div class="synopsis">
-						{{show.synopsis}}
-					</div>
+				</div>
+				<!-- Dates -->
+				<ul class="list-group list-group-flush list-dates w-100 list-group-date">
+					<li class="list-group-item d-flex justify-content-between text-muted list-group-date-preview"><small >Previews:</small> <small >{{previewDate | date: "%b %-d, %Y"}}</small></li>
+					<li class="list-group-item d-flex justify-content-between text-muted list-group-date-opens"><small >Opens:</small><small> {{openingDate | date: "%b %-d, %Y"}}</small></li>
+					{% if show.closing %}
+					<li class="list-group-item d-flex justify-content-between text-muted list-group-date-closes"><small >Closes:</small><small> {{closingDate | date: "%b %-d, %Y"}}</small></li>
 					{% endif %}
-
-					<!-- Meta -->
-					<ul class="meta-list">
-						<li class="meta"><strong class="meta__type">Duration:</strong>&nbsp; {{show.duration}}</li>
-						<li class="meta"><strong class="meta__type">Preview:</strong>&nbsp; {{previewDate | date: "%b %-d, %Y"}}</li>
-						<li class="meta"><strong class="meta__type">Opening:</strong>&nbsp; {{openingDate | date: "%b %-d, %Y"}}</li>
-						{% if show.closing %}
-						<li class="meta"><strong class="meta__type">Closing:</strong>&nbsp; {{closingDate | date: "%b %-d, %Y"}}</li>
-						{% endif %}
-					</ul>
-
-					<!-- Content Advisory -->
-					<div class="advisory">
-						{{show.advisory}}
+				</ul>
+				<!-- Modal Window -->
+				<div class="modal fade" id="show{{forloop.index}}Info" tabindex="-1" role="dialog" aria-labelledby="show{{forloop.index}}InfoLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="show{{forloop.index}}InfoLabel">{{show.title}}</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<!-- Trailer -->
+							<div class="modal-video w-100" style="overflow: hidden; height: 0; padding-bottom: 56.25%;">
+								{% assign trailer = show.trailer | split: "v=" %}
+								{% assign videoID = trailer[1] %}
+								{% assign src = 'https://www.youtube.com/embed/' | append: videoID | append: '?showinfo=0&modestbranding=0&color=white&autoplay=0' %}
+								<iframe width="560" height="315" data-src="{{src}}" class="js-player w-100 h-100"></iframe>
+							</div>
+							<div class="modal-body">
+								<!-- Description -->
+								<p>{{show.description}}</p>
+								<p class="text-muted"><a href="https://www.google.com/maps/place/{{show.address | url_encode}}">{{ show.theater }}</a>{% if show.url %}<span class="float-right"><a href="{{show.url}}">Website</a></span>{% endif %}</p>
+								<!-- Schedule -->
+								<h5>Schedule</h5>
+								{% for schedule in scheduleData %}
+								{% if show.title == schedule.show[0].text %}
+								<table class="table table-sm">
+									<thead>
+										<tr>
+										<th scope="col">sun</th>
+										<th scope="col">mon</th>
+										<th scope="col">tue</th>
+										<th scope="col">wed</th>
+										<th scope="col">thu</th>
+										<th scope="col">fri</th>
+										<th scope="col">sat</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+										<td>{{schedule.sun[0].text | replace: ', ', '<br />' }}</td>
+										<td>{{schedule.mon[0].text | replace: ', ', '<br />' }}</td>
+										<td>{{schedule.tue[0].text | replace: ', ', '<br />' }}</td>
+										<td>{{schedule.wed[0].text | replace: ', ', '<br />' }}</td>
+										<td>{{schedule.thu[0].text | replace: ', ', '<br />' }}</td>
+										<td>{{schedule.fri[0].text | replace: ', ', '<br />' }}</td>
+										<td>{{schedule.sat[0].text | replace: ', ', '<br />' }}</td>
+										</tr>
+									</tbody>
+								</table>
+								{% break %}
+								{% endif %}
+								{% endfor %}
+							</div>
+						</div>
 					</div>
-
-					</div><!-- content -->
-
-					<nav class="close-row">
-						<button class="button button--txt button--invert">
-						<svg width="24px" height="14px" viewBox="0 0 24 14" version="1.1">
-			        <g id="up-arrow" fill="#000000"><path d="M3.91701963,0.720582595 L12.0036915,8.48487391 L20.0903634,0.720582595 C21.1932794,-0.276114529 22.4513901,-0.20358979 23.3473801,0.720582595 C24.2495779,1.64268285 24.1916386,3.20092866 23.3473801,4.06708126 C22.5072602,4.93323385 13.6321999,13.3958348 13.6321999,13.3958348 C13.1831702,13.857921 12.5934309,14.0900002 12.0036915,14.0900002 C11.4139521,14.0900002 10.8242127,13.857921 10.3710446,13.3958348 C10.3710446,13.3958348 1.50012282,4.93323385 0.655864346,4.06708126 C-0.19046339,3.20092866 -0.246333436,1.64268285 0.655864346,0.720582595 C1.55806213,-0.20358979 2.81410353,-0.276114529 3.91701963,0.720582595 Z" id="Shape" transform="translate(12.001241, 7.045000) rotate(-180.000000) translate(-12.001241, -7.045000) "></path></g>
-						</svg>
-					</button>
-					</nav>
-
-			</div><!-- row-content -->
-		</div><!-- overlay -->
-	</div><!-- row -->
+				</div>
+			</div>
+		</div>
+	</div>
+	
+		
 	{% endfor %}
-</div>
+
+			</div>
+		</div>
+	</div>
+</main>

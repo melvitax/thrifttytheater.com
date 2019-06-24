@@ -4,9 +4,7 @@
   "description": "Broadway web app",
   "main": "index.html",
   "scripts": {
-    "postinstall": "bower-installer",
-    "test": "jshint ./public/**/*.js & csslint-cli ./www/css/",
-    "dev": "jekyll serve --watch & browser-sync start --no-open --files 'styles/**/*' --reload-delay 1000 --proxy 'localhost:4000'"
+    "dev": "bundle exec jekyll serve --watch & browser-sync start --no-open --files 'styles/**/*' --reload-delay 1000 --proxy 'localhost:4000'"
   },
   "repository": {
     "type": "git",
@@ -24,8 +22,6 @@
   "homepage": "https://github.com/melvitax/showhacker.com#readme",
   "devDependencies": {
     "browser-sync": "^2.11.2",
-    "bower-installer": "^1.2.0",
-    "csslint-cli": "0.0.3",
-    "jshint": "^2.9.1"
+    "csslint-cli": "0.0.3"
   }
 }
