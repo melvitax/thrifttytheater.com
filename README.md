@@ -2,15 +2,15 @@
 
 ![Sample Project Screenshot](https://raw.githubusercontent.com/melvitax/showhacker.com/gh-pages/_Screenshot.jpg "Sample Project Screenshot")
 
-An open source guide to low price theater tickets. Many theaters offer day-off RUSH tickets, student discounts, lottery tickets and even discounts if you are unde 30, no kidding. show.hacker shows a calendar grid with the pertinent deadlines and links to take action. Feel free to contribute to this project.
+Show.Hacker aggragates discounted Broadway theater ticket info in a simple concise way. Feel free to contribute to this project with code or just maintainig data up tp date.
 
-## Let's Hack Broadway!
+## For Developers Who Want To Contribute
 
-This project runs on Jekyll and can easily be updated on GitHub via the browser or through the command line. Just create a GitHub account if you don't have one, fork the project, make your changes and make a pull request.
+This project runs on the Jekyll static site generator and is hosted as a GitHub page. Pull requests are welcomed for fixing bugs or adding new features.
 
 If you want to develop locally instead, follow the instructions bellow. This project uses NodeJS and Bower to set things up in a local dev environment.
 
-## To Develop Locally
+### To Develop Locally
 
 This project requires
 [Git](https://git-scm.com)  
@@ -21,6 +21,6 @@ $ git clone https://github.com/melvitax/showhacker.com  
 $ npm install  
 $ npm run dev
 
-## Deploy
+## For Non-Developers
 
-Commit and push to GitHub
+I'm working on a CMS that will allow contributors to add or edit content without any need for coding.

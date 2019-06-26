@@ -22,27 +22,35 @@ title: show.hacker
 		<div class="card mb-3 shadow-sm" id="show{{forloop.index}}" data-preview="{{show.preview}}" data-opening="{{show.opening}}" {% if show.closing %}data-closing="{{show.closing}}"{% endif %}>
 			<div class="row no-gutters"> 
 				<!-- Poster -->
-				<a class="poster-link w-100 d-table position-relative" aria-disabled="true" data-toggle="modal" data-target="#show{{forloop.index}}Info">
+				<a class="poster-link w-100 d-table position-relative" aria-disabled="true" data-toggle="modal" data-target="#show{{forloop.index}}Info" style="z-index:1">
 					<img class="card-img-top grow w-100 h-50" src="/assets/uploads/{{ show.poster }}" width="230" height="355" alt="poster" />
 				</a>
 				<!-- Tony -->
-				{% if show.tony %}<div class="badge badge-light badge-tony text-wrap position-absolute" style="top: 2em; left: 50%; transform: translateX(-50%)">TONY AWARD</div>{% endif %}
+				{% if show.tonyaward %}<div class="badge badge-light badge-tony text-wrap position-absolute" style="top: 2em; left: 50%; transform: translateX(-50%); z-index: 2">TONY AWARD</div>{% endif %}
+				<!-- NYT Critic's Pick -->
+				{% if show.criticspick %}<div class="position-absolute" style="top: -16px; left: -22px; z-index: 2; width: 64px; height: 0; padding-top: 64px; overflow: hidden; background: url('assets/criticspick.png') center center/cover no-repeat">New York Times Critic's Pick</div>{% endif %}
+
+				
 				<!-- Title -->
-				<div class="card-body">
+				<div class="card-body d-none">
 					<h5 class="card-title mb-0">{{ show.title }}</h5>
 				</div>
 				<!-- Tickets -->
-				<div class="list-group list-group-flush w-100 ">
+				<div class="list-group list-group-flush w-100" style="z-index:0">
 					{% for ticket in show.tickets %}
-					<a class="list-group-item list-group-item-action" href="{{ticket.url}}">{{ticket.title}} {% include icon-{{ticket.type}}.svg %}</a>
+						{% if ticket.info contains "http" %}
+						<a class="list-group-item list-group-item-action" href="{{ticket.info}}">{{ticket.title}} {% include icon-{{ticket.type}}.svg %}</a>
+						{% else %}
+						<a tabindex="0" class="btn list-group-item list-group-item-action" role="button" data-toggle="popover" title="{{ticket.title}}" data-content="{{ticket.info}}">{{ticket.title}} {% include icon-{{ticket.type}}.svg %}</a>
+						{% endif %}
 					{% endfor %}
 				</div>
 				<!-- Dates -->
 				<ul class="list-group list-group-flush list-dates w-100 list-group-date">
-					<li class="list-group-item d-flex justify-content-between text-muted list-group-date-preview"><small >Previews:</small> <small >{{previewDate | date: "%b %-d, %Y"}}</small></li>
-					<li class="list-group-item d-flex justify-content-between text-muted list-group-date-opens"><small >Opens:</small><small> {{openingDate | date: "%b %-d, %Y"}}</small></li>
+					<li class="list-group-item d-flex justify-content-between text-muted list-group-date-previews"><small>Previews:</small> <small >{{previewDate | date: "%b %-d, %Y"}}</small></li>
+					<li class="list-group-item d-flex justify-content-between text-muted list-group-date-opening"><small>Opening:</small><small> {{openingDate | date: "%b %-d, %Y"}}</small></li>
 					{% if show.closing %}
-					<li class="list-group-item d-flex justify-content-between text-muted list-group-date-closes"><small >Closes:</small><small> {{closingDate | date: "%b %-d, %Y"}}</small></li>
+					<li class="list-group-item d-flex justify-content-between text-muted list-group-date-closing"><small>Closing:</small><small> {{closingDate | date: "%b %-d, %Y"}}</small></li>
 					{% endif %}
 				</ul>
 				<!-- Modal Window -->
@@ -56,20 +64,22 @@ title: show.hacker
 								</button>
 							</div>
 							<!-- Trailer -->
+							{% if show.trailer %}
 							<div class="modal-video w-100" style="overflow: hidden; height: 0; padding-bottom: 56.25%;">
 								{% assign trailer = show.trailer | split: "v=" %}
 								{% assign videoID = trailer[1] %}
 								{% assign src = 'https://www.youtube.com/embed/' | append: videoID | append: '?showinfo=0&modestbranding=0&color=white&autoplay=0' %}
 								<iframe width="560" height="315" data-src="{{src}}" class="js-player w-100 h-100"></iframe>
 							</div>
+							{% endif %}
 							<div class="modal-body">
 								<!-- Description -->
 								<p>{{show.description}}</p>
 								<p class="text-muted"><a href="https://www.google.com/maps/place/{{show.address | url_encode}}">{{ show.theater }}</a>{% if show.url %}<span class="float-right"><a href="{{show.url}}">Website</a></span>{% endif %}</p>
 								<!-- Schedule -->
-								<h5>Schedule</h5>
 								{% for schedule in scheduleData %}
 								{% if show.title == schedule.show[0].text %}
+								<h5 class="text-schedule-title">Schedule</h5>
 								<table class="table table-sm">
 									<thead>
 										<tr>

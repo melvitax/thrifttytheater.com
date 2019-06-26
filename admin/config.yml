@@ -38,13 +38,14 @@ collections:
                   - {label: Digital Lottery, name: digitalLottery, widget: text}
                   - {label: Lottery, name: lottery, widget: text}
                   - {label: Rush, name: rush, widget: text}
+                  - {label: Student Rush, name: studentRush, widget: text}
                   - {label: Digital Rush, name: digitalRush, widget: text}
                   - {label: Standing Room, name: standing, widget: text}
                   - {label: Linctix, name: linctix, widget: text}
                   - {label: Hiptix, name: hiptix, widget: text}
                   - {label: Linctix, name: linctix, widget: text}
                   - {label: $30 Under, name: thirty, widget: text}
-                  - {label: $10 First Preview, name: firstPreview, widget: text}
+                  - {label: Access 10, name: access10, widget: text}
                   - {label: Regular, name: regular, widget: text}
-              - {label: URL, name: url, widget: string}
+              - {label: URL or Info, name: info, widget: string}
               

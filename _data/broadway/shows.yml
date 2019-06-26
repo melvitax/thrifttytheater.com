@@ -1,4 +1,30 @@
 -
+  title: Ain't Too Proud
+  poster: proud.jpg
+  description: Jukebox musical that follows The Temptations journey from the war torn streets of 1960's Detroit to the Rock & Roll Hall of Fame
+  theater: Imperial Theatre
+  address: 249 West 45th Street, New York, NY 10019
+  preview: 2019-02-28
+  opening: 2019-03-21
+  closing: 
+  tonyaward: true
+  criticspick: true
+  trailer: https://www.youtube.com/watch?v=570vC-BJNvc
+  url: https://www.ainttooproudmusical.com
+  tickets:
+    -
+      title: $42 Digital Lottery
+      type: digitalLottery
+      info: https://ainttooproudlottery.com/
+    -
+      title: $29 Student Rush
+      type: studentRush
+      info: "On sale when the Imperial Theatre box office opens at 10 AM Monday-Saturday, 12 PM Sunday on a first-come, first-served basis. Cash or credit card with valid student ID. Limit 2 tickets per person."
+    -
+      title: $49-$199 Tickets
+      type: regular
+      info: https://www.telecharge.com/Broadway/Aint-Too-Proud-The-Life-and-Times-of-The-Temptations/Ticket
+-
   title: Aladdin
   poster: aladdin.jpg
   description: "The beloved story of Aladdin is brought to thrilling theatrical life."
@@ -7,18 +33,107 @@
   preview: 2014-02-26
   opening: 2014-03-20
   closing: 
-  tony: true
+  tonyaward: true
+  criticspick:
   trailer: https://www.youtube.com/watch?v=W0b3KVTDryQ
   url: http://www.aladdinthemusical.com
   tickets:
     -
-      title: $30 Lottery
+      title: $30 Digital Lottery
       type: digitalLottery
-      url: https://lottery.broadwaydirect.com/show/aladdin/
+      info: https://lottery.broadwaydirect.com/show/aladdin/
     -
       title: $55-$357 Tickets
       type: regular
-      url: http://www.ticketmaster.com/artist/1858715
+      info: http://www.ticketmaster.com/artist/1858715
+-
+  title: All My Sons
+  poster: sons.jpg
+  description: Arthur Miller’s poignant work spotlights family discord in this drama set at the end of World War II and the price they must pay for mistakes
+  theater: American Airlines Theatre
+  address: 227 West 42nd Street, New York, NY 10019
+  preview: 2019-04-04
+  opening: 2019-04-22
+  closing: 2019-06-30
+  tony:
+  trailer: https://www.youtube.com/watch?v=aVzwrFcIvv0
+  url: https://www.roundabouttheatre.org/get-tickets/2018-2019-season/arthur-millers-all-my-sons
+  tickets:
+    -
+      title: $39 Digital Rush
+      type: digitalRush
+      info: https://www.todaytix.com/x/nyc/shows/13699-all-my-sons
+    -
+      title: $29–$50 Rush
+      type: rush
+      info: "A limited number of mezzanine tickets offered when the box office opens on the day of performance only."
+    -
+      title: 50% Student Rush
+      type: studentRush
+      info: "Half price of best seats available 30 minutes prior to curtain call. One ticket per valid student ID. Seat Locations determined at the discretion of the box office."
+    -
+      title: $25 Hiptix
+      type: hiptix
+      info: http://roundabouttheatre.org/hiptix
+    -
+      title: $10 Hiptix High
+      type: hiptixHigh
+      info: https://www.roundabouttheatre.org/education/audience-resources/hiptix-high/
+    - 
+      title: $10 Access 10
+      type: access10
+      info: "A limited quantity of $10 tickets for the first four preview performances. For information on purchasing Access10 tickets, please call Audience Services at 212-719-1300."
+    - 
+      title: 40% Blue Star
+      type: blueStar
+      info: " 40% off tickets to U.S. military personnel, spouses, and children, as well as U.S. veterans. Mention RTCBLUE at box office, when calling 212-719-1300 or in the Appeal Code box when ordering tickets online."
+    -
+      title: $59-169 Tickets
+      type: regular
+      info: https://www.roundabouttheatre.org/get-tickets/2018-2019-season/arthur-millers-all-my-sons/performances
+-
+  title: American Utopia
+  poster: utopia.jpg
+  description: Following a sold-out world tour, David Byrne's acclaimed theatrical concert comes to Broadway.
+  theater: Hudson Theatre
+  address: 141 W. 44th St. New York, NY 10036
+  preview: 2019-10-04
+  opening: 2019-10-20
+  closing: 2020-01-19
+  tony:
+  trailer: https://www.youtube.com/watch?time_continue=1&v=X1P2U34QrQ8
+  url: https://americanutopiabroadway.com/
+  tickets:
+    -
+      title: $59-$159 Tickets
+      type: regular
+      info: http://www.thehudsonbroadway.com/whatson/david-byrnes-american-utopia/
+-
+  title: Be More Chill
+  poster: chill.jpg
+  description: The new musical from Joe Tracz and Joe Iconis arrives on Broadway.
+  theater: Lyceum Theatre
+  address: 149 West 45th Street, New York, NY 10019
+  preview: 2019-02-13
+  opening: 2019-03-10
+  closing: 2019-08-11
+  tonyaward:
+  criticspick: 
+  trailer: https://www.youtube.com/watch?v=LppcJZ0cJYU
+  url: http://bemorechillmusical.com
+  tickets:
+    -
+      title: $40 Rush
+      type: rush
+      info: "On sale when the Lyceum Theatre box office opens 10 am Monday-Saturday, noon Sunday, on a first come, first-served basis on day of performance. Cash or Credit, 2 tickets per person max."
+    -
+      title: $40 Digital Lottery
+      type: digitalLottery
+      info: http://bemorechilllottery.com/
+    -
+      title: $49-$165 Tickets
+      type: regular
+      info: https://www.telecharge.com/Broadway/Be-More-Chill/Ticket
 -
   title: "Beautiful"
   poster: beautiful.jpg
@@ -28,18 +143,95 @@
   preview: 2013-11-21
   opening: 2014-01-12
   closing:
-  tony: true
+  tonyaward: true
+  criticspick:
   trailer: https://www.youtube.com/watch?v=WVjyzo92mqU
   url: http://www.beautifulonbroadway.com
   tickets:
     -
+      title: $40 Digital Lottery
+      type: digitalLottery
+      info: https://beautifullottery.com/
+    -
       title: $40 Rush
       type: rush
-      url: 
+      info: "On sale when the Sondheim Theatre box office opens at 10 AM Monday–Saturday, noon Sunday, on a first-come, first-served basis for Tuesday, Wednesday, Thursday and Sunday evening performances. Cash or credit, 2 tickets per person max. "
     -
       title: $69-$299 Tickets
       type: regular
-      url: https://www.telecharge.com/Broadway/Beautiful-The-Carole-King-Musical/Schedules-Prices
+      info: https://www.telecharge.com/Broadway/Beautiful-The-Carole-King-Musical/Schedules-Prices
+-
+  title: Beetlejuice
+  poster: beetlejuice.jpg
+  description: A musical comedy based on the Tim Burton's fan-favorite film.
+  theater: Cadillac Winter Garden Theatre
+  address: 1634 Broadway, New York, NY 10019
+  preview: 2019-03-28
+  opening: 2019-04-25
+  closing:
+  tonyaward: 
+  criticspick:
+  trailer: https://www.youtube.com/watch?v=KIY3Cxz37ag
+  url: https://beetlejuicebroadway.com/
+  tickets:
+    -
+      title: $43 Digital Lottery
+      type: digitalLottery
+      info: http://www.beetlejuicelottery.com/
+    -
+      title: $43 Rush
+      type: rush
+      info: "On sale when the Winter Garden Theatre box office opens at 10 AM Monday–Saturday, noon Sunday, on a first-come, first-served basis. Cash or credit, 2 tickets per peerson max. Seat Locations determined at the discretion of the box office."
+    - 
+      title: $59-$300 Tickets
+      type: regular
+      info: https://www.telecharge.com/Broadway/Beetlejuice/Ticket
+-
+  title: Birthday Candles
+  poster: birthdaycandles.jpg
+  description: Debra Messing stars in the Broadway premiere of Noah Haidle's poignant new play.
+  theater: American Airlines Theatre
+  address: 227 West 42nd Street, New York, NY 10036
+  preview: 2020-04-02
+  opening: 2020-04-21
+  closing: 2020-06-21
+  tonyaward: 
+  criticspick:
+  trailer: 
+  url: https://www.roundabouttheatre.org/get-tickets/2019-2020-season/birthday-candles/
+  tickets:
+    -
+      title: $39 Digital Rush
+      type: digitalRush
+      info: "coming soon"
+    -
+      title: $29–$50 Rush
+      type: rush
+      info: "A limited number of mezzanine tickets offered when the box office opens on the day of performance only."
+    -
+      title: 50% Student Rush
+      type: studentRush
+      info: "Half price of best seats available 30 minutes prior to curtain call. One ticket per valid student ID. Seat Locations determined at the discretion of the box office."
+    -
+      title: $25 Hiptix
+      type: hiptix
+      info: http://roundabouttheatre.org/hiptix
+    -
+      title: $10 Hiptix High
+      type: hiptixHigh
+      info: https://www.roundabouttheatre.org/education/audience-resources/hiptix-high/
+    - 
+      title: $10 Access 10
+      type: access10
+      info: "A limited quantity of $10 tickets for the first four preview performances. For information on purchasing Access10 tickets, please call Audience Services at 212-719-1300."
+    - 
+      title: 40% Blue Star
+      type: blueStar
+      info: " 40% off tickets to U.S. military personnel, spouses, and children, as well as U.S. veterans. Mention RTCBLUE at box office, when calling 212-719-1300 or in the Appeal Code box when ordering tickets online."
+    -
+      title: Tickets
+      type: regular
+      info: "coming soon"
 -
   title: The Book of Mormon
   poster: mormon.jpg
@@ -49,26 +241,67 @@
   preview: 2011-02-24
   opening: 2011-03-24
   closing:
-  tony: true
+  tonyaward: true
+  criticspick:
   trailer: https://www.youtube.com/watch?v=GHQITfI9878
   url: http://www.bookofmormonbroadway.com/
   tickets:
     -
-      title: $32 Lottery
-      type: lottery
-      url: 
-    -
       title: $50 Lottery
       type: digitalLottery
-      url: http://www.luckyseat.com/book-of-mormon/
+      info: http://www.luckyseat.com/book-of-mormon/
     -
       title: $27 Standing Room
       type: standing
-      url:
+      info: "Available at the O’Neill theater box office 2 hours prior to the performance based on availability. Cash or credit. 2 Tickets per person limit. Standing room at back of the orchestra section."
     -
       title: $69-$477 Tickets
       type: regular
-      url: http://www.ticketmaster.com/artist/1714389
+      info: http://www.ticketmaster.com/artist/1714389
+-
+  title: Burn This
+  poster: burn.jpg
+  description: Adam Driver and Keri Russell star in the first-ever Broadway revival of Lanford Wilson's drama.
+  theater: Hudson Theatre
+  address: 141 W. 44th St., New York, NY 10036
+  preview: 2019-03-15
+  opening: 2019-04-16
+  closing: 2019-07-14
+  trailer: 
+  url: https://burnthisplay.com/
+  tonyaward: false
+  criticspick:
+  tickets:
+    -
+      title: $39 Digital Lottery
+      type: digitalLottery
+      info: https://www.todaytix.com/x/nyc/shows/14600-burn-this
+    -
+      title: $49-$289 Tickets
+      type: regular
+      info: http://www.thehudsonbroadway.com/whatson/burn-this/
+-
+  title: The Cher Show
+  poster: cher.jpg
+  description: Cher's life story is brought to the stage in this new musical featuring her beloved chart-topping hits.
+  theater: Neil Simon Theatre
+  address: 250 West 52nd Street, New York, NY 10019
+  preview: 2018-11-01
+  opening: 2018-12-03
+  closing: 
+  trailer: https://www.youtube.com/watch?v=Lvv-empfWxM
+  url: https://thechershowbroadway.com
+  tonyaward: false
+  criticspick:
+  tickets:
+    -
+      title: $30 Digital Lottery
+      type: digitalLottery
+      info: https://lottery.broadwaydirect.com/show/cher/
+    -
+      title: $69-$159 Tickets
+      type: regular
+      info: https://www.ticketmaster.com/artist/2486304
 -
   title: Chicago
   poster: chicago.jpg
@@ -78,22 +311,23 @@
   preview: 1996-10-23
   opening: 1996-11-14
   closing:
-  trailer: https://www.youtube.com/watch?v=WB9OygOaTbI
+  trailer: https://www.youtube.com/watch?v=Xx_eoxvYvc8
   url: http://www.chicagothemusical.com
-  tony: true
+  tonyaward: true
+  criticspick:
   tickets:
     -
-      title: $37 Rush
+      title: $49 Rush
       type: rush
-      url:
+      info: "On sale when the Ambassador Theatre box office opens 10 AM Monday–Saturday, noon Sunday on a first-come, first-served basis. Cash or credit. 2 Tickets per person limit. Seat location determined at the discretion of the box office. Number of Tickets Available: 25. Rush tickets not available for Saturday evening performances."
     -
       title: $27 Standing Room
       type: standing
-      url:
+      info: "Available at the Ambassador Theatre box office at 10 AM on the day of the performance only if the show is sold out. Cash or credit. 2 Tickets per person limit. Standing positions at the back of the orchestra."
     -
-      title: $49-$240 Tickets
+      title: $49-$159 Tickets
       type: regular
-      url: https://www.telecharge.com/Broadway/Chicago/Schedules-Prices
+      info: https://www.telecharge.com/Broadway/Chicago/Schedules-Prices
 -
   title: Come From Away
   poster: come.jpg
@@ -103,22 +337,27 @@
   preview: 2017-02-08
   opening: 2017-03-12
   closing:
-  tony: false
-  trailer: https://www.youtube.com/watch?v=SvEp8ajBiwI
+  tonyaward: true
+  criticspick: true
+  trailer: https://www.youtube.com/watch?v=bijwE0ZBdrM
   url: http://comefromaway.com
   tickets:
     -
+      title: $49 Digital Lottery
+      type: digitalLottery
+      info: "http://comefromawaylottery.com/"
+    -
       title: $38 Rush
       type: rush
-      url:
+      info: "On sale when the Gerald Schoenfeld Theatre box office opens 10 AM Monday–Saturday, noon on Sunday on a first-come, first-served basis. Cash or credit. Photo ID required. 2 Tickets per person limit. Seat location determined at the discretion of the box office. May be partial view."
     -
       title: $32 Standing Room
       type: standing
-      url:
+      info: "Available when the Gerald Schoenfeld Theatre box office opens 10 AM Monday–Saturday, noon on Sunday on a first-come, first-served basis when the show is sold out. Cash or credit. 2 Tickets per person limit. Standing room at back of the orchestra section."
     -
       title: $47-$157 Tickets
       type: regular
-      url: https://www.telecharge.com/Broadway/Come-From-Away/Schedules-Prices
+      info: https://www.telecharge.com/Broadway/Come-From-Away/Schedules-Prices
 -
   title: "Dear Evan Hansen"
   poster: evan.jpg
@@ -128,22 +367,183 @@
   preview: 2016-11-14
   opening: 2016-12-04
   closing:
-  tony: true
+  tonyaward: true
+  criticspick: true
   trailer: https://www.youtube.com/watch?v=p3L5uw3ZWSw
   url: http://dearevanhansen.com
   tickets:
     -
-      title: $40 Lottery
+      title: $42 Digital Lottery
       type: digitalLottery
-      url: http://www.dearevanhansenlottery.com
+      info: http://www.dearevanhansenlottery.com
     -
       title: $42 Standing room
       type: standing
-      url:
+      info: "A limited number of standing room tickets are available for select performances through the digital lottery."
     -
       title: $49-$250 Tickets
       type: regular
-      url: https://www.telecharge.com/Broadway/Dear-Evan-Hansen-Music-Box-Theatre/
+      info: https://www.telecharge.com/Broadway/Dear-Evan-Hansen-Music-Box-Theatre/
+-
+  title: "Derren Brown: Secret"
+  poster: secret.jpg
+  description: Derren Brown's acclaimed magic show arrives on Broadway.
+  theater: Cort Theatre
+  address: 138 West 48th Street, New York, NY 10036
+  preview: 2019-09-09
+  opening: 2019-09-15
+  closing: 2020-01-04
+  tonyaward: false
+  criticspick: true
+  trailer: 
+  url: https://derrenbrownsecret.com
+  tickets:
+    -
+      title: $49-$179 Tickets
+      type: regular
+      info: https://www.telecharge.com/Broadway/Derren-Brown-Secret/Ticket
+-
+  title: The Ferryman
+  poster: ferryman.jpg
+  description: Jez Butterworth's drama arrives on Broadway following an acclaimed run in London's West End.
+  theater: Bernard B. Jacobs Theatre
+  address: 242 W 45th St, New York, NY 10036
+  preview: 2018-10-02
+  opening: 2018-10-21
+  closing:
+  tonyaward: true
+  criticspick: true
+  trailer: https://www.youtube.com/watch?v=NPbphxKj4pQ
+  url: https://theferrymanbroadway.com
+  tickets:
+    -
+      title: $40 Rush
+      type: rush
+      info: "Available when the Bernard B. Jacobs box office opens 10 AM Monday-Saturday, 12 PM Sunday,  on the day of the performance on a first-come, first-served basis. Cash or credit. 2 Tickets per person limit. Seating Locations determined at the discretion of the box office "
+    -
+      title: $49-$189 Tickets
+      type: regular
+      info: https://www.telecharge.com/Broadway/The-Ferryman/Ticket
+-
+  title: Frankie and Johnny in the Clair de Lune
+  poster: frankie.jpg
+  description: Audra McDonald and Michael Shannon star in the Broadway revival of Terrence McNally's two-hander.
+  theater: Broadhurst Theatre
+  address: 235 West 44th Street, New York, NY 10036
+  preview: 2019-05-04
+  opening: 2019-05-30
+  closing: 2019-08-25
+  tonyaward: 
+  criticspick: true
+  trailer: https://www.youtube.com/watch?v=WJFbJi2S32A
+  url: https://www.frankieandjohnnybroadway.com/
+  tickets:
+    -
+      title: $40 Rush
+      type: rush
+      info: "Available when the Broadhurst Theatre box office opens 10 AM Monday- Saturday, 12 PM Sunday on the day of the performance on a first-come, first-served basis. Cash or credit. 4 tickets per peson limit. Seating location determined at the discretion of the box office."
+    -
+      title: $49-$159 Tickets
+      type: regular
+      info: https://www.telecharge.com/Broadway/Frankie-and-Johnny-in-the-Clair-de-Lune/Ticket
+-
+  title: Freestyle Love Supreme
+  poster: freestyle.jpg
+  description: A high-energy production that blends hip-hop, improvisational theater, music and vocal stylings. Conceived by Lin-Manuel Miranda, Thomas Kail and Anthony Veneziale
+  theater: Booth Theatre
+  address: 222 West 45th Street, New York, NY 10036
+  preview: 2019-09-13
+  opening: 2019-10-02
+  closing: 2020-01-05
+  tonyaward: 
+  criticspick:
+  trailer: 
+  url: https://freestylelovesupreme.com
+  tickets:
+    - 
+      title: $59-$199 Tickets
+      type: regular
+      info: https://www.telecharge.com/Broadway/freestyle-love-supreme/Ticket
+-
+  title: Frozen
+  poster: frozen.jpg
+  description: Disney's hit film comes to life on Broadway in an all-new production created for the stage.
+  theater: St. James Theatre
+  address: 246 West 44th Street, New York, NY 10036
+  preview: 2018-02-22
+  opening: 2018-03-22
+  closing:
+  tonyaward: 
+  criticspick:
+  trailer: https://www.youtube.com/watch?v=-5FNiQ-wWD0
+  url: https://frozenthemusical.com
+  tickets:
+    -
+      title: $30 Digital Lottery
+      type: digitalLottery
+      info: http://www.luckyseat.com/frozen/
+    -
+      title: $99-$159 Tickets
+      type: regular
+      info: https://www.ticketmaster.com/artist/2398608
+-
+  title: Girl From the North Country
+  poster: girl.jpg
+  description: Conor McPherson's acclaimed new work features the music of Bob Dylan.
+  theater: Belasco Theatre
+  address: 111 West 44th Street, New York, NY 10036
+  preview: 2020-02-07
+  opening: 2020-03-05
+  closing:
+  tonyaward: 
+  criticspick: true
+  trailer: 
+  url: https://northcountryonbroadway.com/
+  tickets:
+-
+  title: Grand Horizons
+  poster: garndhorizons.jpg
+  description: Second Stage presents Bess Wohl's Broadway-debut drama.
+  theater: The Helen Hayes Theater
+  address: 240 West 44th Street, New York, NY 10019
+  preview: 2019-12-20
+  opening: 2020-01-23
+  closing:
+  tonyaward: 
+  criticspick: 
+  trailer: 
+  url: 
+  tickets:
+-
+  title: Hadestown
+  poster: hadestown.jpg
+  description: A celebrated new musical that follows the mythical quest of Orpheus to overcome Hades and regain the favor of his one true love.
+  heater: Walter Kerr Theatre
+  address: 219 West 48th Street, New York, NY 10036
+  preview: 2019-03-22
+  opening: 2019-04-17
+  closing:
+  tonyaward: true
+  criticspick: true
+  trailer: https://www.youtube.com/watch?v=NREQfz2uTck
+  url: https://www.hadestown.com/
+  tickets:
+    -
+      title: $42 Digital Lottery
+      type: digitalLottery
+      info: https://beta.luckyseat.com/shows/hadestown-newyork
+    -
+      title: $42 Rush
+      type: rush
+      info: "Available on the day of the performance at the Walter Kerr Theatre box office on a first-come, first-served basis. 12pm for matinee performances, 5pm for evening performances. Cash or credit. Limit to 1 ticket per person. Seating location determined at the discretion of the box office."
+    -
+      title: $39 Standing Room
+      type: standing
+      info: "Available on a first-come, first-serve basis on the day of the performance when the performance is sold out. 10 am Monday-Saturday, noon on Sunday at Walter Kerr Theatre box office. Cash or credit. 2 tickets per person limit. Standing room at back of the orchestra section"
+    -
+      title: $99-$159 Tickets
+      type: regular
+      info: "https://www.ticketmaster.com/hadestown-ny-tickets/artist/2580967"
 -
   title: Hamilton
   poster: hamilton.jpg
@@ -153,18 +553,19 @@
   preview: 2015-07-13
   opening: 2015-08-06
   closing:
-  tony: true
+  tonyaward: true
+  criticspick: true
   trailer: https://www.youtube.com/watch?v=NBkI_9cr1Ws
   url: http://www.hamiltonbroadway.com
   tickets:
     -
       title: $10 Lottery
       type: digitalLottery
-      url: http://hamiltonbroadway.com/lottery
+      info: https://lottery.broadwaydirect.com/show/hamilton/
     -
       title: $57-$277 Tickets
       type: regular
-      url: http://www.ticketmaster.com/artist/2095830
+      info: http://www.ticketmaster.com/artist/2095830
 -
   title: Harry Potter and the Cursed Child
   poster: harry.jpg
@@ -174,56 +575,189 @@
   preview: 2018-03-16
   opening: 2018-04-22
   closing:
-  tony: false
-  trailer:
+  tonyaward: true
+  criticspick: true
+  trailer: https://www.youtube.com/watch?v=2R4gKN-YCz0
   url: https://www.harrypottertheplay.com/us/
   tickets:
     -
-      title: $20-199 Tickets
+      title: $40 Friday Lottery
+      type: digitalLottery
+      info: https://www.todaytix.com/x/nyc/shows/8728-harry-potter-and-the-cursed-child
+    -
+      title: $95-$250 Tickets
       type: regular
-      url: https://www.harrypottertheplay.com/us/ticket-info/
+      info: https://www.harrypottertheplay.com/us/ticket-info/
 -
-  title: Kinky Boots
-  poster: kinky.jpg
-  description: Broadway’s huge-hearted hit is the winner of six Tonys including Best Musical!
-  theater: Al Hirschfeld Theatre
-  address: 302 W 45th St, New York, NY, 10036
-  preview: 2013-03-03
-  opening: 2013-04-04
-  closing:
-  tony: true
-  trailer: https://www.youtube.com/watch?v=wQe5jySdUko
-  url: http://www.kinkybootsthemusical.com/
+  title: The Height of the Storm
+  poster: heightofstorm.jpg
+  description: Jonathan Pryce and Eileen Atkins star in Florian Zeller's acclaimed work.
+  theater: Samuel J Friedman Theatre
+  address: 261 West 47th Street, New York, NY 10036
+  preview: 2019-09-10
+  opening: 2019-09-24
+  closing: 
+  tonyaward: 
+  criticspick:
+  trailer: 
+  url: https://www.manhattantheatreclub.com/2019-20-season/the-height-of-the-storm/
+  tickets:
+-
+  title: The Inheritance
+  poster: inheritance.jpg
+  description: Matthew Lopez's acclaimed two-part play gives a panoramic view of gay life in New York City.
+  theater: Ethel Barrymore Theatre
+  address: 243 West 47th Street, New York, NY 10019
+  preview: 2019-09-27
+  opening: 2019-11-17
+  closing: 2020-01-26
+  tonyaward: 
+  criticspick:
+  trailer: https://www.youtube.com/watch?v=8gGf1771NCQ
+  url: https://theinheritanceplay.com
   tickets:
     -
-      title: $37 Lottery
-      type: digitalLottery
-      url: http://lottery.kinkybootsthemusical.com
-    -
-      title: $27 Standing Room
-      type: standing
-      url:
-    -
-      title: $55-$249 Tickets
+      title: $59-$199 Part 1
       type: regular
-      url: http://www.ticketmaster.com/artist/2173343
+      info: https://www.telecharge.com/Broadway/The-Inheritance-Part-1/Ticket
+    -
+      title: $59-$199 Part 2
+      type: regular
+      info: https://www.telecharge.com/Broadway/The-Inheritance-Part-2/Ticket
 -
-  title: Latin History for Morons
-  poster: latin.jpg
-  description: "John Leguizamo's outrageously funny one-man show about uncovering the truth, and recovering from the past."
+  title: Ink
+  poster: ink.jpg
+  description: James Graham's electrifying and exhilarating new play, based on real events.
+  theater: Samuel J Friedman Theatre
+  address: 261 West 47th Street, New York, NY 10036
+  preview: 2019-04-02
+  opening: 2019-04-24
+  closing: 2020-07-07
+  tonyaward: 
+  criticspick: true
+  trailer: https://www.youtube.com/watch?v=N_PV70u46RA
+  url: https://inkbroadway.com
+  tickets:
+    -
+      title: $30 Under 35
+      type: thirtyunder35
+      info: http://www.manhattantheatreclub.com/season-tickets/30-under-35/
+    -
+      title: $30 Student
+      type: student
+      info: "Student tickets are available at the box office on the day of the show when the box office opens. Tickets are $30 (including all fees), payable by cash or credit card, and are available to students with an ID from a degree or diploma granting institution. Tickets are subject to availability and are limited to two per valid ID. Note that students aged 35 or under may prefer to purchase their tickets through the 30 Under 35 program instead."
+    -
+      title: $35 Digital Rush
+      type: digitalRush
+      info: https://www.todaytix.com/x/nyc/shows/15204-ink/rush
+    -
+      title: $$79-$189
+      type: regular
+      info: https://www.telecharge.com/Broadway/INK/Ticket
+-
+  title: Jagged Little Pill
+  poster: jagged.jpg
+  description: The acclaimed new musical featuring the music of singer-songwriter Alanis Morissette.
+  theater: Broadhurst Theatre
+  address: 235 West 44th Street, New York, NY 10036
+  preview: 2019-11-03
+  opening: 2019-12-05
+  closing:
+  tonyaward: 
+  criticspick:
+  trailer: https://www.youtube.com/watch?v=QwFiyS_4QKE
+  url: https://jaggedlittlepill.com
+  tickets:
+    -
+      title: $89-$179 Tickets
+      type: regular
+      info: https://www.telecharge.com/Broadway/Jagged-Little-Pill/Ticket
+-
+  title: King Kong
+  poster: kong.jpg
+  description: Something big has arrived on Broadway!
+  theater: Broadway Theatre
+  address: 1681 Broadway, New York, NY 10019
+  preview: 2018-10-05
+  opening: 2018-11-08
+  closing: 2019-08-18
+  tonyaward: 
+  criticspick:
+  trailer: https://www.youtube.com/watch?v=rT3omqgy-Vc
+  url: https://kingkongbroadway.com
+  tickets:
+    -
+      title: $49 Digital Lottery
+      type: digitalLottery
+      info: https://kingkonglottery.com/
+    -
+      title: $49 Rush
+      type: rush
+      info: "Available on the day of the performance when the Broadway Theatre box office opens at 10 AM Monday-Saturday, 12 PM Sunday on a first-come, first-served basis. Cash or credit. Limit 2 tickets per person. Seating locations determined at the discretion of the box office, may be partial view."
+    -
+      title: $69-$200 Tickets
+      type: regular
+      info: https://www.telecharge.com/Broadway/King-Kong/Ticket
+-
+  title: Kiss Me, Kate
+  poster: kate.jpg
+  description: Kelli O'Hara stars in the Broadway revival of this classic Cole Porter musical.
   theater: Studio 54
   address: 254 West 54th Street, New York, NY 10019
-  preview: 2017-10-19
-  opening: 2018-11-15
-  closing: 2018-02-04
-  tony: false
-  trailer: https://www.youtube.com/watch?v=CthHb59D4L0
-  url: https://www.latinhistorybroadway.com
+  preview: 2019-02-14
+  opening: 2019-03-14
+  closing: 2019-06-30
+  tonyaward: 
+  criticspick: true
+  trailer: https://www.youtube.com/watch?v=jeRNt3Mk2_0
+  url: https://www.roundabouttheatre.org/get-tickets/2018-2019-season/kiss-me-kate
   tickets:
     -
-      title: $55-$149 Tickets
+      title: $39 Digital Rush
+      type: digitalRush
+      info: https://www.todaytix.com/x/nyc/shows/11265-kiss-me%2C-kate
+    -
+      title: $29–$50 Rush
+      type: rush
+      info: "A limited number of mezzanine tickets offered when the box office opens on the day of performance only."
+    -
+      title: 50% Student Rush
+      type: studentRush
+      info: "Half price of best seats available 30 minutes prior to curtain call. One ticket per valid student ID. Seat Locations determined at the discretion of the box office."
+    -
+      title: $25 Hiptix
+      type: hiptix
+      info: http://roundabouttheatre.org/hiptix
+    -
+      title: $10 Hiptix High
+      type: hiptixHigh
+      info: https://www.roundabouttheatre.org/education/audience-resources/hiptix-high/
+    - 
+      title: $10 Access 10
+      type: access10
+      info: "A limited quantity of $10 tickets for the first four preview performances. For information on purchasing Access10 tickets, please call Audience Services at 212-719-1300."
+    - 
+      title: 40% Blue Star
+      type: blueStar
+      info: " 40% off tickets to U.S. military personnel, spouses, and children, as well as U.S. veterans. Mention RTCBLUE at box office, when calling 212-719-1300 or in the Appeal Code box when ordering tickets online."
+    -
+      title: $59-$352 Tickets
       type: regular
-      url: https://www.telecharge.com/Broadway/Latin-History-for-Morons/Overview
+      info: https://www.roundabouttheatre.org/get-tickets/2018-2019-season/kiss-me-kate/performances
+-
+  title: Linda Vista
+  poster: lindavista.jpg
+  description: Second Stage presents the New York premiere of Tracy Letts' dark comedy.
+  theater: The Helen Hayes Theater
+  address: 240 West 44th Street, New York, NY 10019
+  preview: 2019-09-19
+  opening: 2019-10-10
+  closing: 
+  tonyaward: 
+  criticspick:
+  trailer: 
+  url: 
+  tickets:
 -
   title: The Lion King
   poster: lion.jpg
@@ -233,18 +767,19 @@
   preview: 1997-10-15
   opening: 1997-11-13
   closing:
-  tony: true
+  tonyaward: true
+  criticspick:
   trailer: https://www.youtube.com/watch?v=vKDEwHv43uo
   url: http://www.lionking.com
   tickets:
     -
       title: $30 Lottery
       type: digitalLottery
-      url: http://lionking.com/lottery
+      info: https://lottery.broadwaydirect.com/show/the-lion-king/
     -
       title: $122-$217 Tickets
       type: regular
-      url: http://www.ticketmaster.com/artist/1039581
+      info: http://www.ticketmaster.com/artist/1039581
 -
   title: "Mean Girls"
   poster: mean.jpg
@@ -254,14 +789,49 @@
   preview: 2018-03-12
   opening: 2018-04-08
   closing:
-  tony: false
+  tonyaward: 
+  criticspick:
   trailer: https://www.youtube.com/watch?v=jyAZO-NROiI
   url: http://meangirlsonbroadway.com
   tickets:
     -
+      title: $42 Digital Lottery
+      type: digitalLottery
+      info: http://www.luckyseat.com/mean-girls/
+    -
+      title: $42 Rush
+      type: rush
+      info: " Available when the August Wilson Theatre box office opens at 10 AM Monday-Saturday, 12 PM Sunday on the day of the performance on a first-come, first-served basis. Cash or credit. 2 tickets per person limit. Seating location determined at the discretion of the box office, may be partial view."
+    - 
+      title: $42 Pink
+      type: pink
+      info: "On Wednesday performances, a limited number of $32.50 tickets will be available only to customers wearing pink. Beginning when the box office opens at 10am outside the main entrance of the August Wilson Theatre. Cash or credit. Photo ID required. 2 tickets per person limit."
+    -
       title: $99-$401 Tickets
       type: regular
-      url: http://www.ticketmaster.com/Mean-Girls-NY-tickets/artist/2412229
+      info: http://www.ticketmaster.com/Mean-Girls-NY-tickets/artist/2412229
+- 
+  title: "Moulin Rouge!"
+  poster: moulinrouge.jpg
+  description: "Baz Luhrmann's revolutionary film comes to life."
+  theater: Al Hirschfeld Theatre
+  address: 302 West 45th Street, New York, NY 10036
+  preview: 2019-06-28
+  opening: 2019-07-25
+  closing: 
+  tonyaward: 
+  criticspick:
+  trailer: https://www.youtube.com/watch?v=NN0jO6MxFyM
+  url: https://moulinrougemusical.com
+  tickets:
+    - 
+      title: $34 Digital Lottery
+      type: digitalLottery
+      info: https://www.luckyseat.com/shows/moulinrouge-newyork
+    -
+      title: $99-$179 Tickets
+      type: regular
+      info: https://www.ticketmaster.com/moulin-rouge-the-musical-ny-tickets/artist/2571914
 -
   title: "My Fair Lady"
   poster: fair.jpg
@@ -270,23 +840,68 @@
   address: 150 West 65th Street, New York, NY 10023
   preview: 2018-03-15
   opening: 2018-04-19
-  closing:
-  tony: false
-  trailer:
+  closing: 2019-07-07
+  tonyaward: 
+  criticspick: true
+  trailer: https://www.youtube.com/watch?v=Or6waf4F6cs
   url: http://www.lct.org/shows/my-fair-lady/
   tickets:
     -
+      title: $39 Digital Lottery
+      type: digitalLottery
+      info: http://myfairladylottery.com/
+    -
       title: $32 Student Rush
-      type: rush
-      url:
+      type: studentRush
+      info: "Open to current college/university students. Available 2 hours before curtain, subject to availability. 1 ticket per ID. Cash or credit."
     -
       title: $32 Linctix
       type: linctix
-      url: http://lct.org
+      info: http://lct.org
     -
-      title: Tickets
+      title: $97-$187 Tickets
       type: regular
-      url: https://www.telecharge.com/Broadway/My-Fair-Lady/Schedules-Prices
+      info: https://www.telecharge.com/Broadway/My-Fair-Lady/Schedules-Prices
+-
+  title: My Name is Lucy Barton
+  poster: lucybarton.jpg
+  description: Laura Linney stars in this solo play, based on Elizabeth Strout's bestselling novel of the same name.
+  theater: Samuel J Friedman Theatre
+  address: 261 West 47th Street, New York, NY 10036
+  preview: 2020-01-06
+  opening: 2020-01-15
+  closing: 2020-03-01
+  tonyaward: 
+  criticspick:
+  trailer: 
+  url: 
+  tickets:
+-
+  title: Oklahoma!
+  poster: oklahoma.jpg
+  description: Daniel Fish's innovative new production of Rodgers and Hammerstein's classic arrives on Broadway.
+  theater: Circle In The Square Theatre
+  address: 235 West 50th Street, New York, NY 10019
+  preview: 1919-03-19
+  opening: 1919-04-07
+  closing: 2020-01-19
+  tonyaward: true
+  criticspick: true
+  trailer: https://www.youtube.com/watch?v=finQak8aDk8
+  url: https://oklahomabroadway.com/
+  tickets:
+  -
+    title: $40 Digital Lottery
+    type: digitalLottery
+    info: https://oklahomabroadwaylottery.com/
+  -
+    title: $40 Standing Room
+    type: standing
+    info: "On sale at the Circle in the Square Theatre box office on a first-come, first-serve basis on the day of the performance when the show is sold out. 10 AM Monday–Saturday; noon Sunday. Cash or credit with photo ID. 2 tickets per person limit. Standing positions at the back of the orchestra."
+  -
+    title: $49-$129 Tickets
+    type: regular
+    info: https://oklahomabroadway.com/tickets
 -
   title: The Phantom of the Opera
   poster: phantom.jpg
@@ -296,22 +911,255 @@
   preview: 1988-01-09
   opening: 1988-01-26
   closing:
-  tony: false
+  tonyaward: true
+  criticspick:
   trailer: https://www.youtube.com/watch?v=zqXaNYJ3JGg
   url: http://www.thephantomoftheopera.com/new-york
   tickets:
     -
-      title: $28 Lottery
+      title: $40 Digital Lottery
       type: digitalLottery
-      url: http://www.phantombroadwaylottery.com
+      info: http://www.phantombroadwaylottery.com
     -
-      title: $26 Standing Room
+      title: $27 Standing Room
       type: standing
-      url:
+      info: "On sale when the Majestic Theatre box office opens on a first-come, first-serve basis only if the performance is sold out. 10 AM Monday–Saturday; noon Sunday. Credit card. 2 tickets per person limit. Seat locations determined at the discretion of the box office."
     -
-      title: $27-$225 Tickets
+      title: $29-$179 Tickets
       type: regular
-      url: https://www.telecharge.com/Broadway/The-Phantom-of-the-Opera/Schedules-Prices
+      info: https://www.telecharge.com/Broadway/The-Phantom-of-the-Opera/Schedules-Prices
+-
+  title: "Pretty Woman: The Musical"
+  poster: prettywoman.jpg
+  description: A new musical based on one of the most beloved romantic comedies of all time.
+  theater: Nederlander Theatre
+  address: 208 W. 41st Street, New York, NY 10036
+  preview: 2018-06-20
+  opening: 2018-08-16
+  closing: 
+  tonyaward: 
+  criticspick:
+  trailer: https://www.youtube.com/watch?v=XgZ_PDaFC58
+  url: https://prettywomanthemusical.com/
+  tickets:
+    -
+      title: $42 Digital Lottery
+      type: digitalLottery
+      info: https://lottery.broadwaydirect.com/show/pretty/
+    - 
+      title: $42 Rush
+      type: rush
+      info: "On sale when the Nederlander Theatre box office opens on a first-come, first-served basis. 10 AM Monday–Saturday, 12 PM Sunday. Cash or credit. 2 tickets per person limit. Seat locations determined at the discretion of the box office; may be partial view."
+    -
+      title: $79-$169 Tickets
+      type: regular
+      info: https://www.ticketmaster.com/artist/2443794
+-
+  title: The Prom
+  poster: prom.jpg
+  description: A new musical comedy about big Broadway stars, a small town, and a love that unites them all.
+  theater: Longacre Theatre
+  address: 220 West 48th Street, New York, NY 10036
+  preview: 2018-10-23
+  opening: 2018-11-15
+  closing: 2019-08-11
+  tonyaward: 
+  criticspick: true
+  trailer: https://www.youtube.com/watch?v=j6krfT1fIg8
+  url: https://theprommusical.com
+  tickets:
+    -
+      title: $40 Rush
+      type: rush
+      info: "On sale when the Longacre Theatre box office opens on a first-come, first-served basis. 10 AM Monday–Saturday, 12 PM Sunday. Cash or credit. 2 tickets per person limit. Seat locations determined at the discretion of the box office; may be partial view"
+    -
+      title: $49-$159 Tickets
+      type: regular
+      info: https://www.telecharge.com/Broadway/The-Prom/Ticket
+-
+  title: The Rose Tattoo
+  poster: rose.jpg
+  description: "Marisa Tomei stars in the Broadway revival of Tennesse Williams' Tony-winning play."
+  theater: American Airlines Theatre
+  address: 227 West 42nd Street, New York, NY 10036
+  preview: 2019-09-19
+  opening: 2019-10-15
+  closing:
+  tonyaward: 
+  criticspick:
+  trailer: 
+  url: https://www.roundabouttheatre.org/get-tickets/2019-2020-season/the-rose-tattoo/
+  tickets:
+    -
+      title: $39 Digital Rush
+      type: digitalRush
+      info: "coming soon"
+    -
+      title: $29–$50 Rush
+      type: rush
+      info: "A limited number of mezzanine tickets offered when the box office opens on the day of performance only."
+    -
+      title: 50% Student Rush
+      type: studentRush
+      info: "Half price of best seats available 30 minutes prior to curtain call. One ticket per valid student ID. Seat Locations determined at the discretion of the box office."
+    -
+      title: $25 Hiptix
+      type: hiptix
+      info: http://roundabouttheatre.org/hiptix
+    -
+      title: $10 Hiptix High
+      type: hiptixHigh
+      info: https://www.roundabouttheatre.org/education/audience-resources/hiptix-high/
+    - 
+      title: $10 Access 10
+      type: access10
+      info: "A limited quantity of $10 tickets for the first four preview performances. For information on purchasing Access10 tickets, please call Audience Services at 212-719-1300."
+    - 
+      title: 40% Blue Star
+      type: blueStar
+      info: " 40% off tickets to U.S. military personnel, spouses, and children, as well as U.S. veterans. Mention RTCBLUE at box office, when calling 212-719-1300 or in the Appeal Code box when ordering tickets online."
+    -
+      title: Tickets
+      type: regular
+      info: "coming soon"
+-
+  title: Sea Wall/A Life
+  poster: seawall.jpg
+  description: Two brilliant actors. Two beautiful stories. One breathtaking theatrical event.
+  theater: Hudson Theatre
+  address: 141 W. 44th St., New York, NY 10036
+  preview: 2019-07-26
+  opening: 2019-08-08
+  closing: 2019-09-29
+  tonyaward: 
+  criticspick: true
+  trailer: https://www.youtube.com/watch?v=SJFkiRE3aW0
+  url: https://seawallalife.com/
+  tickets:
+    -
+      title: $49-$169 Tickets
+      type: regular
+      url: http://www.thehudsonbroadway.com/whatson/sea-wall-a-life/
+-
+  title: The Sound Inside
+  poster: soundinside.jpg
+  description: Mary Louise Parker returns to Broadway in Adam Rapp's drama.
+  theater: Studio 54
+  address: 254 West 54th Street, New York, NY 10019
+  preview: 2019-09-14
+  opening: 2019-10-17
+  closing: 2020-01-12
+  tonyaward: 
+  criticspick: true
+  trailer: https://www.youtube.com/watch?v=UjJYZc-56Kw
+  url: https://soundinsidebroadway.com
+  tickets:
+-
+  title: Take Me Out
+  poster: takemeout.jpg
+  description: Richard Greenberg's groundbreaking play returns to Broadway.
+  theater: The Helen Hayes Theater
+  address: 240 West 44th Street, New York, NY 10019
+  preview: 2020-03-31
+  opening: 2020-04-23
+  closing: 
+  tonyaward: 
+  criticspick: 
+  trailer: 
+  url: 
+  tickets:
+-
+  title: "Tina: The Tina Turner Musical"
+  poster: tina.jpg
+  description: The thrilling hit musical, telling the story of Tina Turner, arrives on Broadway.
+  theater: Lunt-Fontanne Theatre
+  address: 205 West 46th Street, New York, NY 10036
+  preview: 2019-10-12
+  opening: 2019-11-07
+  closing: 
+  tonyaward: 
+  criticspick: 
+  trailer: https://www.youtube.com/watch?v=7rXaK_w0O8w
+  url: https://tinaonbroadway.com
+  tickets:
+    -
+      title: $79-$159 Tickets
+      type: regular
+      info: https://www.ticketmaster.com/tina-the-tina-turner-musical-ny-tickets/artist/2612545
+-
+  title: To Kill a Mockingbird
+  poster: mockingbird.jpg
+  description: The world premier of Academy Award winner Aaron Sorkin's new play, directed by Tony winner Bartlett Sher.
+  theater: Shubert Theatre
+  address: 225 West 44th Street, New York, NY 10036
+  preview: 2018-11-01
+  opening: 2018-12-13
+  closing: 
+  tonyaward: 
+  criticspick: true
+  trailer: https://www.youtube.com/watch?v=RuGyut6C4Es
+  url: https://tokillamockingbirdbroadway.com
+  tickets:
+    -
+      title: $39 Rush
+      type: rush
+      info: "On sale when the Sam S. Shubert Theatre box office opens on a first-come, first-served basis. 10 AM (12 PM on Sundays). Cash or credit. 2 tickets per person limit 2. Seat Locations: Orchestra ($49) and Balcony ($39) maybe partial view."
+    - 
+      title: $39 Standing Room
+      type: standing
+      info: "Available at the Sam S. Shubert Theatre box office on the day of the performance if the performance is sold out. 10am Monday- Saturday, 12pm Sunday. Cash or credit. 2 tickets per person limit. Seat locations at back of the orchestra section. Available only if the performance is sold out."
+    - 
+      title: $10 NYC Schools
+      type: schools
+      info: https://www.broadwayinbound.com/to-kill-a-mockingbird-10-tickets-for-nyc-public-schools/
+    -
+      title: $89-$199 Tickets
+      type: regular
+      info: https://www.telecharge.com/Broadway/To-Kill-a-Mockingbird/Ticket
+-
+  title: Tony Stone
+  poster: tonystone.jpg
+  description: April Matthis stars in this new play about the first woman to go pro in the Negro Leagues.
+  theater: Laura Pels Theatre
+  address: 111 West 46th Street, New York, NY 10036
+  preview: 2019-05-23
+  opening: 2019-06-20
+  closing: 2019-08-11
+  tonyaward: 
+  criticspick: true
+  trailer: https://www.youtube.com/watch?v=KJ9aD9FNf10
+  url: https://www.roundabouttheatre.org/get-tickets/2018-2019-season/toni-stone/
+  tickets:
+    -
+      title: $79-$89 Tickets
+      type: regular
+      info: https://www.roundabouttheatre.org/get-tickets/2018-2019-season/toni-stone/performances
+-
+  title: Tootsie
+  poster: tootsie.jpg
+  description: A new musical adaptation of the popular 1982 film arrives on Broadway!
+  theater: Marquis Theatre
+  address: 1535 Broadway at 45th Street, New York, NY 10019
+  preview: 2019-03-29
+  opening: 2010-04-23
+  closing: 
+  tonyaward: true
+  criticspick: true
+  trailer: https://www.youtube.com/watch?v=1s9bhiYdd7E
+  url: https://tootsiemusical.com
+  tickets:
+    -
+      title: $42 Digital Lottery
+      type: digitalLottery
+      info: https://lottery.broadwaydirect.com/show/tootsie-ny/
+    -
+      title: $42 Rush
+      type: rush
+      info: "On sale when the Marquis Theatre box office opens on a first-come, first-served basis. 10 AM (12 PM on Sundays). Cash or credit. 2 tickets per person limit. Seat locations determined at the discretion of the box office"
+    -
+      title: $79-$149 Tickets
+      type: regular
+      info: https://www.ticketmaster.com/tootsie-ny-tickets/artist/2532136
 -
   title: Waitress
   poster: waitress.jpg
@@ -321,18 +1169,59 @@
   preview: 2016-03-25
   opening: 2016-04-24
   closing:
-  tony: false
+  tonyaward: false
+  criticspick:
   trailer: https://www.youtube.com/watch?v=Y3uw2qppi4s
   url: http://waitressthemusical.com
   tickets:
+    - 
+      title: $40 Rush
+      type: rush
+      info: "On sale when the Brooks Atkinson Theatre box office opens on a first-come, first-served basis. 10 AM (12 PM on Sundays). Cash or credit. 2 tickets per person limit. Seat locations determined at the discretion of the box office"
     -
       title: $32 Standing Room
       type: standing
-      url:
+      info: "Available on the day of performance at the Brooks Atkinson box office on a first-come, first-serve basis when the show is sold out. Cash or credit. 2 tickets per person limit. Seat locations at back of the orchestra section"
     -
       title: $67-$252 Tickets
       type: regular
-      url: http://www.ticketmaster.com/artist/2164438
+      info: http://www.ticketmaster.com/artist/2164438
+-
+  title: What the Constitution Means to Me
+  poster: constitution.jpg
+  description: Heidi Schreck's acclaimed play transfers to Broadway.
+  theater: The Helen Hayes Theater
+  address: 240 West 44th Street, New York, NY 10019
+  preview: 2019-03-14
+  opening: 2019-03-31
+  closing: 2019-08-24
+  tonyaward: 
+  criticspick: true
+  trailer: https://www.youtube.com/watch?v=58EwGMEAbkg
+  url: https://constitutionbroadway.com
+  tickets:
+    -
+      title: $42 Rush
+      type: rush
+      info: "On sale when the Helen Hayes Theater box office opens on a first-come, first-served basis. 10 AM (12 PM on Sundays). Cash or credit. 2 tickets per person limit. Seat locations determined at the discretion of the box office"
+    -
+      title: $49-$169 Tickets
+      type: regular
+      info: https://www.telecharge.com/broadway/What-the-Constitution-Means-to-Me/Ticket
+-
+  title: Who's Afraid of Virginia Woolf?
+  poster: virginiawoolf.jpg
+  description: Laurie Metcalf and Eddie Izzard star in the Broadway revival of Edward Albee's classic.
+  theater: Booth Theatre
+  address: 222 West 45th Street, New York, NY 10019
+  preview: 2020-03-02
+  opening: 2020-04-09
+  closing: 
+  tonyaward: 
+  criticspick:
+  trailer: 
+  url: 
+  tickets:
 -
   title: Wicked
   poster: wicked.jpg
@@ -342,23 +1231,24 @@
   preview: 2003-10-08
   opening: 2003-10-30
   closing:
-  tony: true
+  tonyaward: true
+  criticspick:
   trailer: https://www.youtube.com/watch?v=KR1MWFti-IY
   url: http://www.wickedthemusical.com
   tickets:
     -
       title: $30 Lottery
       type: lottery
-      url:
-    -
-      title: $35 Lottery
-      type: digitalLottery
-      url: https://lottery.broadwaydirect.com/show/wicked/
+      info: "2 ½ hours prior to show time, people who present themselves at the Gershwin Theatre box office will have their names placed in a hat. 30 minutes later, names will be drawn for 26 orchestra seats at $30.00 each. This lottery is available only in-person at the box office, with a limit of two tickets per person, cash only. Photo-ID required."
     -
       title: $69 Student Rush
-      type: rush
-      url:
+      type: studentRush
+      info: "Tickets at the student ($69) rate are available in-person at the Gershwin Theatre box office with a valid college, university ID. Limited 2 tickets per ID. Subject to availability – not available for all performances."
+    -
+      title: $79 Military
+      type: military
+      info: "Tickets at the military rates ($79) are available in-person at the Gershwin Theatre box office with a valid military ID. Tickets at the military rate are also available online at www.GovX.com. Subject to availability. Limit 2 tickets per ID"
     -
       title: $92-$232 Tickets
       type: regular
-      url: http://www.ticketmaster.com/artist/965961
+      info: http://www.ticketmaster.com/artist/965961
