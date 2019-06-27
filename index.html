@@ -3,7 +3,17 @@ layout: default
 title: show.hacker
 ---
 <main>
+	
 	<div class="album py-5 bg-light">
+
+		<div class="text-center pb-5 px-3">
+			<div class="btn-group btn-group-sm " role="group" aria-label="Filter Shows">
+				<button type="button" class="btn btn-secondary btn-filter-show" id="filter-current">Now Playing</button>
+				<button type="button" class="btn btn-secondary btn-filter-show" id="filter-upcoming">Coming Soon</button>
+				<button type="button" class="btn btn-secondary btn-filter-show" id="filter-all">All Shows</button>
+			</div>
+		</div>
+
 		<div class="container">
 			<div class="row card-columns">
 
@@ -18,7 +28,7 @@ title: show.hacker
 	{% capture openingDate %}{{show.opening}} 00:00:00 -0500{% endcapture %}
 	{% capture closingDate %}{% if show.closing %}{{show.closing}} 00:00:00 -0500{% endif %}{% endcapture %}
 	
-	<div class="col-lg-3 col-md-4 col-sm-5" >
+	<div class="col-xl-2 col-lg-3 col-md-3 col-6" >
 		<div class="card mb-3 shadow-sm" id="show{{forloop.index}}" data-preview="{{show.preview}}" data-opening="{{show.opening}}" {% if show.closing %}data-closing="{{show.closing}}"{% endif %}>
 			<div class="row no-gutters"> 
 				<!-- Poster -->
@@ -39,18 +49,18 @@ title: show.hacker
 				<div class="list-group list-group-flush w-100" style="z-index:0">
 					{% for ticket in show.tickets %}
 						{% if ticket.info contains "http" %}
-						<a class="list-group-item list-group-item-action" href="{{ticket.info}}">{{ticket.title}} {% include icon-{{ticket.type}}.svg %}</a>
+							<a class="list-group-item list-group-item-action pr-5" href="{{ticket.info}}">{{ticket.title}} {% include icon-{{ticket.type}}.svg %}</a>
 						{% else %}
-						<a tabindex="0" class="btn list-group-item list-group-item-action" role="button" data-toggle="popover" title="{{ticket.title}}" data-content="{{ticket.info}}">{{ticket.title}} {% include icon-{{ticket.type}}.svg %}</a>
+							<a tabindex="0" class="btn list-group-item list-group-item-action pr-5" role="button" data-toggle="popover" title="{{ticket.title}}" data-content="{{ticket.info}}">{{ticket.title}} {% include icon-{{ticket.type}}.svg %}</a>
 						{% endif %}
 					{% endfor %}
 				</div>
 				<!-- Dates -->
 				<ul class="list-group list-group-flush list-dates w-100 list-group-date">
-					<li class="list-group-item d-flex justify-content-between text-muted list-group-date-previews"><small>Previews:</small> <small >{{previewDate | date: "%b %-d, %Y"}}</small></li>
-					<li class="list-group-item d-flex justify-content-between text-muted list-group-date-opening"><small>Opening:</small><small> {{openingDate | date: "%b %-d, %Y"}}</small></li>
+					<li class="list-group-item text-muted list-group-date-previews"><small class="d-inline-block pr-1">Previews:</small> <small class="d-inline-block">{{previewDate | date: "%b %-d, %Y"}}</small></li>
+					<li class="list-group-itemtext-muted list-group-date-opening"><small class="d-inline-block pr-1">Opening:</small><small class="d-inline-block"> {{openingDate | date: "%b %-d, %Y"}}</small></li>
 					{% if show.closing %}
-					<li class="list-group-item d-flex justify-content-between text-muted list-group-date-closing"><small>Closing:</small><small> {{closingDate | date: "%b %-d, %Y"}}</small></li>
+					<li class="list-group-item text-muted list-group-date-closing"><small class="d-inline-block pr-1">Closing:</small><small class="d-inline-block"> {{closingDate | date: "%b %-d, %Y"}}</small></li>
 					{% endif %}
 				</ul>
 				<!-- Modal Window -->

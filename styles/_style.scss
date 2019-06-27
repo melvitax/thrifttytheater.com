@@ -18,3 +18,10 @@
   color: #007bff !important;
   cursor: pointer;
 }
+
+.list-group-item svg {
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+}

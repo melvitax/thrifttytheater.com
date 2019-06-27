@@ -4,27 +4,6 @@ $( document ).ready(function() {
   var today = now.getDay();
   var cards = document.querySelectorAll(".card");
 
-  function setCookie(c_name, value, exdays) {
-    'use strict';
-    var exdate = new Date();
-    exdate.setDate(exdate.getDate() + exdays);
-    var c_value = escape(value) + ((exdays == null) ? "" : "; expires=" + exdate.toUTCString());
-    document.cookie = c_name + "=" + c_value;
-  }
-
-  function getCookie(c_name) {
-    'use strict';
-    var i, x, y, ARRcookies = document.cookie.split(";");
-    for (i = 0; i < ARRcookies.length; i++) {
-        x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
-        y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);
-        x = x.replace(/^\s+|\s+$/g, "");
-        if (x == c_name) {
-            return unescape(y);
-        }
-    }
-  }
-
   for(var i = 0; i < cards.length; i++) {
     var card = cards[i];
 
@@ -38,17 +17,23 @@ $( document ).ready(function() {
     if (now < previewDate) {
       $('.list-group-date-previews', card).removeClass('text-muted').addClass('text-success')
       $('.list-group-date-opening', card).removeClass('text-muted').addClass('text-success')
+      $(card).addClass('filter-upcoming')
+    } else{
+      $(card).addClass('filter-current')
     }
-    // Show In previews
+    $(card).addClass('filter-all')
+
+
+    // Show is in previews
     if (now > previewDate && now < openingDate) {
       $('.list-group-date-previews', card).innerHTML("In Previews Now")
     }
-    // Show started
+    // Show has started
     if (now >= openingDate) {
       $('.list-group-date-previews', card).remove();
       $('.list-group-date-opening', card).remove();
     }
-    // Show ending
+    // Show is ending
     if (closing != undefined) {
       var closingDate = new Date(closing);
       if (now > closingDate) {
@@ -58,12 +43,12 @@ $( document ).ready(function() {
         $('.list-group-date-closing', card).removeClass('text-muted').addClass('text-danger')
       }
     }
-    // Show missing video
+    // Show is missing video
     if (!$('.modal-video', card).length) {
       console.log($('.card-title', card).text()+' missing trailer')
     }
 
-    // Show missing schedule
+    // Show is missing schedule
     if (!$('.text-schedule-title', card).length) {
       console.log($('.card-title', card).text()+' missing schedule')
     }
@@ -89,5 +74,43 @@ $( document ).ready(function() {
     $('iframe', this).attr('src', "")
   })
 
+  // Nav
+  $('.btn-filter-show').each(function (index, value) {
+    console.log($(this).text());
+    $(this).click(function() {
+      $('.btn-filter-show').removeClass("active")
+      $(this).addClass("active")
+      setCookie('selectedFilter', $(this).attr('id'), 365)
+      $('.card.filter-all').parent().hide()
+      $('.card.'+$(this).attr('id')).parent().show()
+    })
+  });
+  var selectedFilter = getCookie('selectedFilter')
+  if (!selectedFilter) {
+    selectedFilter = 'filter-current'
+  }
+  $('#'+selectedFilter).trigger( "click" )
+
+
+  function setCookie(c_name, value, exdays) {
+    'use strict';
+    var exdate = new Date();
+    exdate.setDate(exdate.getDate() + exdays);
+    var c_value = escape(value) + ((exdays == null) ? "" : "; expires=" + exdate.toUTCString());
+    document.cookie = c_name + "=" + c_value;
+  }
+
+  function getCookie(c_name) {
+    'use strict';
+    var i, x, y, ARRcookies = document.cookie.split(";");
+    for (i = 0; i < ARRcookies.length; i++) {
+        x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
+        y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);
+        x = x.replace(/^\s+|\s+$/g, "");
+        if (x == c_name) {
+            return unescape(y);
+        }
+    }
+  }
 
 });
