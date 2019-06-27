@@ -1,6 +1,6 @@
 # show.hacker
 
-![show hcaker website](https://raw.githubusercontent.com/melvitax/showhacker.com/master/assets/socialimage.jpg "show hcaker website")
+![Sample Project Screenshot](https://raw.githubusercontent.com/melvitax/showhacker.com/master/_Screenshot.jpg "Sample Project Screenshot")
 
 Show.Hacker aggragates discounted Broadway theater ticket info in a simple concise way. Feel free to contribute to this project with code or just maintainig data up tp date.
 
@@ -16,8 +16,8 @@ This project requires
 - [Jekyll](https://jekyllrb.com)
 
 ```
-$ git clone https://github.com/melvitax/showhacker.com  
-$ npm install  
+$ git clone https://github.com/melvitax/showhacker.com
+$ npm install
 $ npm run dev
 ```
 
