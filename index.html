@@ -4,7 +4,7 @@ title: show.hacker
 ---
 <main>
 	
-	<div class="album py-5 bg-light">
+	<div class="py-5 bg-light">
 
 		<div class="text-center pb-5 px-3">
 			<div class="btn-group btn-group-sm " role="group" aria-label="Filter Shows">
@@ -28,15 +28,15 @@ title: show.hacker
 	{% capture openingDate %}{{show.opening}} 00:00:00 -0500{% endcapture %}
 	{% capture closingDate %}{% if show.closing %}{{show.closing}} 00:00:00 -0500{% endif %}{% endcapture %}
 	
-	<div class="col-xl-2 col-lg-3 col-md-3 col-6" >
+	<div class="col-xl-2 col-lg-3 col-md-3 col-6 pt-4" >
 		<div class="card mb-3 shadow-sm" id="show{{forloop.index}}" data-preview="{{show.preview}}" data-opening="{{show.opening}}" {% if show.closing %}data-closing="{{show.closing}}"{% endif %}>
 			<div class="row no-gutters"> 
 				<!-- Poster -->
 				<a class="poster-link w-100 d-table position-relative" aria-disabled="true" data-toggle="modal" data-target="#show{{forloop.index}}Info" style="z-index:1">
-					<img class="card-img-top grow w-100 h-50" src="/assets/uploads/{{ show.poster }}" width="230" height="355" alt="poster" />
+					<img class="card-img-top grow w-100 h-100" src="/assets/uploads/{{ show.poster }}" width="230" height="355" alt="poster" />
 				</a>
 				<!-- Tony -->
-				{% if show.tonyaward %}<div class="badge badge-light badge-tony text-wrap position-absolute" style="top: 2em; left: 50%; transform: translateX(-50%); z-index: 2">TONY AWARD</div>{% endif %}
+				{% if show.tonyaward %}<div class="text-wrap text-muted text-monospace  text-center position-absolute w-100" style="top: -1.8em; z-index: 2"><small>TONY AWARD</small></div>{% endif %}
 				<!-- NYT Critic's Pick -->
 				{% if show.criticspick %}<div class="position-absolute" style="top: -16px; left: -22px; z-index: 2; width: 64px; height: 0; padding-top: 64px; overflow: hidden; background: url('assets/criticspick.png') center center/cover no-repeat">New York Times Critic's Pick</div>{% endif %}
 
