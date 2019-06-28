@@ -26,7 +26,7 @@ $( document ).ready(function() {
 
     // Show is in previews
     if (now > previewDate && now < openingDate) {
-      $('.list-group-date-previews', card).innerHTML("In Previews Now")
+      $('.list-group-date-previews', card).text("In Previews Now")
     }
     // Show has started
     if (now >= openingDate) {
