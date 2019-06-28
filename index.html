@@ -27,12 +27,13 @@ title: show.hacker
 	{% capture previewDate %}{{show.preview}} 00:00:00 -0500{% endcapture %}
 	{% capture openingDate %}{{show.opening}} 00:00:00 -0500{% endcapture %}
 	{% capture closingDate %}{% if show.closing %}{{show.closing}} 00:00:00 -0500{% endif %}{% endcapture %}
+	{% assign showIndex = forloop.index %}
 	
 	<div class="col-md-3 col-6 pt-4" >
-		<div class="card mb-3 shadow-sm" id="show{{forloop.index}}" data-preview="{{show.preview}}" data-opening="{{show.opening}}" {% if show.closing %}data-closing="{{show.closing}}"{% endif %}>
+		<div class="card mb-3 shadow-sm" id="show{{showIndex}}" data-preview="{{show.preview}}" data-opening="{{show.opening}}" {% if show.closing %}data-closing="{{show.closing}}"{% endif %}>
 			<div class="row no-gutters"> 
 				<!-- Poster -->
-				<a class="poster-link w-100 d-table position-relative" aria-disabled="true" data-toggle="modal" data-target="#show{{forloop.index}}Info" style="z-index:1">
+				<a class="poster-link w-100 d-table position-relative" aria-disabled="true" data-toggle="modal" data-target="#show{{showIndex}}Info" style="z-index:1">
 					<img class="card-img-top grow w-100 h-100" src="/assets/uploads/{{ show.poster }}" width="230" height="355" alt="poster" />
 				</a>
 				<!-- Tony Award -->
@@ -47,16 +48,16 @@ title: show.hacker
 				<div class="list-group list-group-flush w-100" style="z-index:0">
 					{% for ticket in show.tickets %}
 						{% if ticket.type == "access" %}
-						<a class="list-group-item list-group-item-action pr-5" data-toggle="collapse" href="#show{{forloop.index}}TicketAccess" role="button" aria-expanded="false" aria-controls="show{{forloop.index}}TicketAcces">{{ticket.title}} {% include icon-{{ticket.type}}.svg %}</a>
-						<div class="collapse" id="show{{forloop.index}}TicketAccess">
-							{% for accessItem in site.data[market].access %}
-								{% if accessItem.info contains "http" %}
-									<a class="list-group-item list-group-item-action pr-5" href="{{accessItem.info}}">{{accessItem.title}} {% include icon-{{accessItem.type}}.svg %}</a>
-								{% else %}
-									<a tabindex="0" class="btn list-group-item list-group-item-action pr-5" role="button" data-toggle="popover" title="{{accessItem.title}}" data-content="{{accessItem.info}}">{{accessItem.title}} {% include icon-{{accessItem.type}}.svg %}</a>
-								{% endif %}
-							{% endfor %}
-						  </div>
+							<a class="list-group-item list-group-item-action pr-5" data-toggle="collapse" href="#show{{showIndex}}TicketAccess" role="button" aria-expanded="false" aria-controls="show{{showIndex}}TicketAcces">{{ticket.title}} {% include icon-{{ticket.type}}.svg %}</a>
+							<div class="collapse multi-collapse" id="show{{showIndex}}TicketAccess">
+								{% for accessItem in site.data[market].access %}
+									{% if accessItem.info contains "http" %}
+										<a class="list-group-item list-group-item-action pr-5" href="{{accessItem.info}}">{{accessItem.title}} {% include icon-{{accessItem.type}}.svg %}</a>
+									{% else %}
+										<a tabindex="0" class="btn list-group-item list-group-item-action pr-5" role="button" data-toggle="popover" title="{{accessItem.title}}" data-content="{{accessItem.info}}">{{accessItem.title}} {% include icon-{{accessItem.type}}.svg %}</a>
+									{% endif %}
+								{% endfor %}
+							</div>
 						{% elsif ticket.info contains "http" %}
 							<a class="list-group-item list-group-item-action pr-5" href="{{ticket.info}}">{{ticket.title}} {% include icon-{{ticket.type}}.svg %}</a>
 						{% else %}
