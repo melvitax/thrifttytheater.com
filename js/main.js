@@ -4,6 +4,11 @@ $( document ).ready(function() {
   var today = now.getDay();
   var cards = document.querySelectorAll(".card");
 
+var missing_current_schedule = []
+var missing_current_trailer = []
+var missing_upcoming_schedule = []
+var missing_upcoming_trailer = []
+
   for(var i = 0; i < cards.length; i++) {
     var card = cards[i];
 
@@ -43,17 +48,33 @@ $( document ).ready(function() {
         $('.list-group-date-closing', card).removeClass('text-muted').addClass('text-danger')
       }
     }
-    // Show is missing video
+    // Check for missing items
+    var key = (now < openingDate) ? "upcoming" : "current"
     if (!$('.modal-video', card).length) {
-      console.log($('.card-title', card).text()+' missing trailer')
+      if  (now < openingDate) {
+        missing_upcoming_trailer.push($('.card-title', card).text())
+      } else {
+        missing_current_trailer.push($('.card-title', card).text())
+      }
     }
-
-    // Show is missing schedule
     if (!$('.text-schedule-title', card).length) {
-      console.log($('.card-title', card).text()+' missing schedule')
+      if  (now < openingDate) {
+        missing_upcoming_schedule.push($('.card-title', card).text())
+      } else {
+        missing_current_schedule.push($('.card-title', card).text())
+      }
     }
 
   }
+
+  console.log("-- MISING CURRENT SCHEDULE")
+  console.log("   "+JSON.stringify(missing_current_schedule ))
+  console.log("-- MISING CURRENT TRAILER")
+  console.log(JSON.stringify(missing_current_trailer))
+  console.log("-- MISING UPCOMING SCHEDULE")
+  console.log("   "+JSON.stringify(missing_upcoming_schedule))
+  console.log("-- MISING UPCOMING TRAILER")
+  console.log(JSON.stringify(missing_upcoming_trailer))
 
   // Enable Popovers
   $('[data-toggle="popover"]').popover()
