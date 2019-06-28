@@ -86,10 +86,14 @@ title: show.hacker
 							<!-- Trailer -->
 							{% if show.trailer %}
 							<div class="modal-video w-100" style="overflow: hidden; height: 0; padding-bottom: 56.25%;">
-								{% assign trailer = show.trailer | split: "v=" %}
-								{% assign videoID = trailer[1] %}
-								{% assign src = 'https://www.youtube.com/embed/' | append: videoID | append: '?showinfo=0&modestbranding=0&color=white&autoplay=0' %}
-								<iframe width="560" height="315" data-src="{{src}}" class="js-player w-100 h-100"></iframe>
+								{% if show.trailer contains "youtube.com" %}
+									{% assign trailer = show.trailer | split: "v=" %}
+									{% assign videoID = trailer[1] %}
+									{% assign src = 'https://www.youtube.com/embed/' | append: videoID | append: '?showinfo=0&modestbranding=0&color=white&autoplay=0' %}
+									<iframe width="560" height="315" data-src="{{src}}" class="js-player w-100 h-100"></iframe>
+								{% elsif show.trailer contains "vimeo.com" %}
+								<iframe width="560" height="315" data-src="{{show.trailer}}" class="js-player w-100 h-100"></iframe>
+								{% endif %}
 							</div>
 							{% endif %}
 							<div class="modal-body">

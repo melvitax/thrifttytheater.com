@@ -67,14 +67,14 @@ var missing_upcoming_trailer = []
 
   }
 
-  console.log("-- MISING CURRENT SCHEDULE")
+  console.log("MISING CURRENT SCHEDULE")
   console.log("   "+JSON.stringify(missing_current_schedule ))
-  console.log("-- MISING CURRENT TRAILER")
-  console.log(JSON.stringify(missing_current_trailer))
-  console.log("-- MISING UPCOMING SCHEDULE")
+  console.log("MISING CURRENT TRAILER")
+  console.log("   "+JSON.stringify(missing_current_trailer))
+  console.log("MISING UPCOMING SCHEDULE")
   console.log("   "+JSON.stringify(missing_upcoming_schedule))
-  console.log("-- MISING UPCOMING TRAILER")
-  console.log(JSON.stringify(missing_upcoming_trailer))
+  console.log("MISING UPCOMING TRAILER")
+  console.log("   "+JSON.stringify(missing_upcoming_trailer))
 
   // Enable Popovers
   $('[data-toggle="popover"]').popover()
