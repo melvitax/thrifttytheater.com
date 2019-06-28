@@ -76,7 +76,6 @@ $( document ).ready(function() {
 
   // Nav
   $('.btn-filter-show').each(function (index, value) {
-    console.log($(this).text());
     $(this).click(function() {
       $('.btn-filter-show').removeClass("active")
       $(this).addClass("active")
