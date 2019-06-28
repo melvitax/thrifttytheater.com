@@ -1,0 +1,24 @@
+-
+  title: $29–$50 Rush
+  type: rush
+  info: "A limited number of mezzanine tickets offered when the box office opens on the day of performance only."
+-
+  title: 50% Student Rush
+  type: studentRush
+  info: "Half price of best seats available 30 minutes prior to curtain call. One ticket per valid student ID. Seat Locations determined at the discretion of the box office."
+-
+  title: $25 Hiptix
+  type: hiptix
+  info: http://roundabouttheatre.org/hiptix
+-
+  title: $10 Hiptix High
+  type: hiptixHigh
+  info: https://www.roundabouttheatre.org/education/audience-resources/hiptix-high/
+- 
+  title: $10 Access 10
+  type: access10
+  info: "A limited quantity of $10 tickets for the first four preview performances. For information on purchasing Access10 tickets, please call Audience Services at 212-719-1300."
+- 
+  title: 40% Blue Star
+  type: blueStar
+  info: " 40% off tickets to U.S. military personnel, spouses, and children, as well as U.S. veterans. Mention RTCBLUE at box office, when calling 212-719-1300 or in the Appeal Code box when ordering tickets online."
