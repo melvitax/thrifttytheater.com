@@ -4,7 +4,7 @@
   "description": "Broadway web app",
   "main": "index.html",
   "scripts": {
-    "dev": "bundle exec jekyll serve --watch & browser-sync start --no-open --files '_site/css/style.css' --files '_site/index.html' --reload-delay 2000 --proxy 'localhost:4000'"
+    "dev": "bundle exec jekyll serve --watch & browser-sync start --no-open --files '_site/**/*.*' --reload-delay 2000 --proxy 'localhost:4000'"
   },
   "repository": {
     "type": "git",
