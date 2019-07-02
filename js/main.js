@@ -16,7 +16,7 @@ var missing_upcoming_trailer = []
     var previewDate = new Date(card.getAttribute('data-preview'));
     var openingDate = new Date(card.getAttribute('data-opening'));
     var closing = card.getAttribute('data-closing');
-    var twoWeeks = 12096e5 // two weeks in milliseconds
+    var closingWindow = 2.419e+9 // four weeks in milliseconds
 
     // Show hasn't started
     if (now < previewDate) {
@@ -44,7 +44,7 @@ var missing_upcoming_trailer = []
       if (now > closingDate) {
         console.log($('.card-title', card).text()+' show ended');
         $(card).parent().remove();
-      } else if (now > new Date(closingDate - twoWeeks)) {
+      } else if (now > new Date(closingDate - closingWindow)) {
         $('.list-group-date-closing', card).removeClass('text-muted').addClass('text-danger')
       }
     }
