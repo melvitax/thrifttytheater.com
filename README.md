@@ -1,8 +1,8 @@
-# show.hacker
+# Show Hacker
 
 ![Sample Project Screenshot](https://raw.githubusercontent.com/melvitax/showhacker.com/master/_Screenshot.jpg "Sample Project Screenshot")
 
-Show.Hacker aggragates discounted Broadway theater ticket info in a simple concise way. Feel free to contribute to this project with code or just maintainig data up tp date.
+Show Hacker aggragates discounted Broadway theater ticket info in a simple concise way. Feel free to contribute to this project with code or just maintainig data up tp date.
 
 ## For Developers Who Want To Contribute
 
