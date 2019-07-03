@@ -49,6 +49,7 @@ collections:
       - label: "Ticket Types"
         name: "ticketTypes"
         file: "_data/broadway/ticketTypes.yml"
+        widget: list
         create: true
         fields:
           - {label: "Label", name: "label", widget: string}
