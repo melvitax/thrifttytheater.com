@@ -38,9 +38,10 @@ collections:
                     name: ticket
                     widget: relation
                     collection: broadway
+                    entry: tickets
                     searchFields: ["tickets"]
-                    displayFields: ["tickets.label"]
-                    valueField: "tickets.name"
+                    displayFields: ["label"]
+                    valueField: "name"
                   - {label: URL or Info, name: info, widget: string}
       - label: Tickets
         name: "tickets"
