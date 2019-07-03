@@ -7,8 +7,8 @@ backend:
 media_folder: 'assets/uploads'
 publish_mode: editorial_workflow
 collections:
-  - label: "Global"
-    name: "global"
+  - label: "Broadway"
+    name: "broadway"
     files:
       - label: "Shows"
         name: "shows"
@@ -35,21 +35,19 @@ collections:
                 widget: list
                 fields:
                   - {label: Title, name: title, widget: string}
-                  - label: Type 
-                    name: type
-                    widget: list
-                    allow_add: false
-                    fields: 
-                      - {label: Digital Lottery, name: digitalLottery, widget: string}
-                      - {label: Lottery, name: lottery, widget: string}
-                      - {label: Rush, name: rush, widget: string}
-                      - {label: Student Rush, name: studentRush, widget: string}
-                      - {label: Digital Rush, name: digitalRush, widget: string}
-                      - {label: Standing Room, name: standing, widget: string}
-                      - {label: Linctix, name: linctix, widget: string}
-                      - {label: Hiptix, name: hiptix, widget: string}
-                      - {label: $30 Under, name: thirty, widget: string}
-                      - {label: Access, name: access, widget: string}
-                      - {label: Regular, name: regular, widget: string}
+                  - label: Ticket Type 
+                    name: ticketType
+                    widget: relation
+                    collection: ticketTypes
+                    searchFields: ["label", "name"]
+                    displayFields: ["label"]
+                    valueField: "value"
                   - {label: URL or Info, name: info, widget: string}
+    - label: Ticket Types
+      name: ticketTypes
+      file: "_data.broadway/ticketType.yml"
+       create: true
+      fields:
+        - {label: Label, name: label, widget: string}
+        - {label: Name, name: name, widget: string}
               
