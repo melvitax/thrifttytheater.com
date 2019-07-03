@@ -12,8 +12,18 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.6.0/Youtube.min.js" integrity="sha256-YJbYbf82My5W9mjSfNyUOnnhafQPNI/3b0wt3rFL/es=" crossorigin="anonymous"></script>
 <!-- Main -->
 <script async src="/js/main.js"></script>
-<!-- Netlify -->
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<!-- Netlify CMS -->
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 <!-- Google Analytics -->
 {% if site.googleanalytics %}
 <script>
