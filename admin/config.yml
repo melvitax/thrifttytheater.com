@@ -52,7 +52,6 @@ collections:
         widget: list
         create: true
         fields:
-          -
             - {label: "Label", name: "label", widget: string}
             - {label: "Name", name: "name", widget: string}
                 
