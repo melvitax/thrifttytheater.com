@@ -36,22 +36,19 @@ collections:
                 fields:
                   - {label: Title, name: title, widget: string}
                   - label: Ticket Type 
-                    name: ticketType
+                    name: ticket
                     widget: relation
-                    collection: ticketTypes
+                    collection: tickets
                     searchFields: ["label", "name"]
                     displayFields: ["label"]
                     valueField: "name"
                   - {label: URL or Info, name: info, widget: string}
   - label: Ticket Types
-    name: ticketTypes
-    files:
-      - label: "Ticket Types"
-        name: "ticketTypes"
-        file: "_data/broadway/ticketTypes.yml"
-        widget: list
-        create: true
-        fields:
-            - {label: "Label", name: "label", widget: string}
-            - {label: "Name", name: "name", widget: string}
+    name: tickets
+    folder: "_data/tickets"
+    create: true
+    format: yml
+    fields:
+        - {label: "Label", name: "label", widget: string}
+        - {label: "Name", name: "name", widget: string}
                 
