@@ -12,7 +12,7 @@ collections:
     files:
       - label: "Shows"
         name: "shows"
-        file: "_data/broadway/shows.yml"
+        file: "_data/shows.yml"
         fields:
           - label: "Show"
             name: "show"
@@ -43,17 +43,13 @@ collections:
                     displayFields: ["label"]
                     valueField: "name"
                   - {label: URL or Info, name: info, widget: string}
-  - label: Tickets
-    name: "tickets"
-    files:
-      - label: Ticket
+      - label: "Ticket"
         name: "tickets"
         file: "_data/tickets.yml"
         fields:
-          - label: Ticket
-            name: ticket
+          - 
             widget: list
             fields:
               - {label: "Label", name: "label", widget: string}
               - {label: "Name", name: "name", widget: string}
-                
+ 
