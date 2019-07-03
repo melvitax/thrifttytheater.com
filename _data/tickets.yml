@@ -1,11 +1,3 @@
-- {label: Digital Lottery, name: digitalLottery}
-- {label: Lottery, name: lottery}
-- {label: Rush, name: rush}
-- {label: Student Rush, name: studentRush}
-- {label: Digital Rush, name: digitalRush}
-- {label: Standing Room, name: standing}
-- {label: Linctix, name: linctix}
-- {label: Hiptix, name: hiptix}
-- {label: $30 Under, name: thirty}
-- {label: Access, name: access}
-- {label: Regular, name: regular}
+ticket:
+  - label: test
+    name: test
