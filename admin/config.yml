@@ -45,7 +45,7 @@ collections:
                   - {label: URL or Info, name: info, widget: string}
       - label: Ticket Types
         name: ticketTypes
-        file: "_data.broadway/ticketType.yml"
+        file: "_data/broadway/ticketType.yml"
         create: true
         fields:
           - {label: Label, name: label, widget: string}
