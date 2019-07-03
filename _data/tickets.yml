@@ -1,5 +1,5 @@
-ticket:
-  - label: test
-    name: test
-  - label: dos
-    name: dos
+tickets:
+  - label: Digital Lottery
+    name: digitalLottery
+  - label: Student Rush
+    name: studentRush
