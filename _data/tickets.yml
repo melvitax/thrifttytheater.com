@@ -1,3 +1,5 @@
 ticket:
   - label: test
     name: test
+  - label: dos
+    name: dos
