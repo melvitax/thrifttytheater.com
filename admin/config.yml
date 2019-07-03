@@ -44,13 +44,16 @@ collections:
                     valueField: "name"
                   - {label: URL or Info, name: info, widget: string}
   - label: Tickets
-    name: tickets
-    file: "_data/tickets.yml"
-    fields:
+    name: 
+    files:
       - label: Ticket
-        name: ticket
-        widget: list
-        fields:
-          - {label: "Label", name: "label", widget: string}
-          - {label: "Name", name: "name", widget: string}
+      name: "tickets"
+      file: "_data/tickets.yml"
+      fields:
+        - label: Ticket
+          name: ticket
+          widget: list
+          fields:
+            - {label: "Label", name: "label", widget: string}
+            - {label: "Name", name: "name", widget: string}
                 
