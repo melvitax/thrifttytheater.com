@@ -5,7 +5,6 @@ backend:
   branch: master
   repo: melvitax/showhacker.com 
 media_folder: 'assets/uploads'
-publish_mode: editorial_workflow
 collections:
   - label: "Broadway"
     name: "broadway"
@@ -51,5 +50,6 @@ collections:
             label: tickets
             widget: list
             fields:
-              - {label: ticket, name: ticket}
+              - {label: "Label", name: "label", widget: string}
+              - {label: "Name", name: "name", widget: string}
                 
