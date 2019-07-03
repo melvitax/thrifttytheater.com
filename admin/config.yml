@@ -48,6 +48,7 @@ collections:
     folder: "_data/tickets"
     create: true
     format: yml
+    identifier_field: name
     fields:
         - {label: "Label", name: "ticketLabel", widget: string}
         - {label: "Name", name: "ticketValue", widget: string}
