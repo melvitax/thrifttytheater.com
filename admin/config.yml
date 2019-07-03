@@ -39,9 +39,9 @@ collections:
                     name: ticket
                     widget: relation
                     collection: tickets
-                    searchFields: ["label", "name"]
-                    displayFields: ["label"]
-                    valueField: "name"
+                    searchFields: ["ticketLabel", "ticketValue"]
+                    displayFields: ["ticketLabel"]
+                    valueField: "ticketValue"
                   - {label: URL or Info, name: info, widget: string}
   - label: Ticket
     name: tickets
@@ -49,6 +49,6 @@ collections:
     create: true
     format: yml
     fields:
-        - {label: "Label", name: "label", widget: string}
-        - {label: "Name", name: "name", widget: string}
+        - {label: "Label", name: "ticketLabel", widget: string}
+        - {label: "Name", name: "ticketValue", widget: string}
                 
