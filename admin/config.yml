@@ -40,16 +40,16 @@ collections:
                     widget: list
                     allow_add: false
                     fields: 
-                      - {label: Digital Lottery, name: digitalLottery, widget: text}
-                      - {label: Lottery, name: lottery, widget: text}
-                      - {label: Rush, name: rush, widget: text}
-                      - {label: Student Rush, name: studentRush, widget: text}
-                      - {label: Digital Rush, name: digitalRush, widget: text}
-                      - {label: Standing Room, name: standing, widget: text}
-                      - {label: Linctix, name: linctix, widget: text}
-                      - {label: Hiptix, name: hiptix, widget: text}
-                      - {label: $30 Under, name: thirty, widget: text}
-                      - {label: Access, name: access, widget: text}
-                      - {label: Regular, name: regular, widget: text}
+                      - {label: Digital Lottery, name: digitalLottery, widget: string}
+                      - {label: Lottery, name: lottery, widget: string}
+                      - {label: Rush, name: rush, widget: string}
+                      - {label: Student Rush, name: studentRush, widget: string}
+                      - {label: Digital Rush, name: digitalRush, widget: string}
+                      - {label: Standing Room, name: standing, widget: string}
+                      - {label: Linctix, name: linctix, widget: string}
+                      - {label: Hiptix, name: hiptix, widget: string}
+                      - {label: $30 Under, name: thirty, widget: string}
+                      - {label: Access, name: access, widget: string}
+                      - {label: Regular, name: regular, widget: string}
                   - {label: URL or Info, name: info, widget: string}
               
