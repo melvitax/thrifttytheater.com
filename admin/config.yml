@@ -12,7 +12,7 @@ collections:
     files:
       - label: "Shows"
         name: "shows"
-        file: "_data/shows.yml"
+        file: "_data/broadway/shows.yml"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Poster, name: poster, widget: image}
@@ -22,7 +22,8 @@ collections:
           - {label: Preview, name: preview, widget: date, format: "YYYY-MM-DD", default: ""}
           - {label: Opening, name: opening, widget: date, format: "YYYY-MM-DD", default: ""}
           - {label: Closing, name: closing, widget: date, format: "YYYY-MM-DD", default: ""}
-          - {label: Tony Award, name: tony, widget: boolean}
+          - {label: Tony Award, name: tonyaward, widget: boolean}
+          - {label: Critic's Pick, name: criticspick, widget: boolean}
           - {label: Trailer, name: trailer, widget: string}
           - {label: Website, name: website, widget: string}
           - label: Tickets
@@ -43,9 +44,8 @@ collections:
                   - {label: Standing Room, name: standing, widget: text}
                   - {label: Linctix, name: linctix, widget: text}
                   - {label: Hiptix, name: hiptix, widget: text}
-                  - {label: Linctix, name: linctix, widget: text}
                   - {label: $30 Under, name: thirty, widget: text}
-                  - {label: Access 10, name: access10, widget: text}
+                  - {label: Access, name: access, widget: text}
                   - {label: Regular, name: regular, widget: text}
               - {label: URL or Info, name: info, widget: string}
               
