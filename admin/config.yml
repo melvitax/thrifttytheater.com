@@ -37,24 +37,11 @@ collections:
         widget: list
         fields:
           - {label: Title, name: title, widget: string}
-          - label: Ticket Type 
-            name: ticket
-            widget: relation
-            collection: ticketTypes
-            searchFields: ["label"]
-            displayFields: ["label"]
-            valueField: "slug"
+          - label: Type 
+            name: type
+            widget: "select"
+            options: ["access", "digitalLottery", "digitalRush", "linctix", "lottery", "military", "pink", "regular", "rush", "schools", "standing", "student", "studentRush", "thirty", "thirtyUnder35", "thirtyUnder"]
           - {label: URL or Info, name: info, widget: string}
-  - label: Ticket Types
-    label_singular: Ticket Type
-    name: "ticketTypes"
-    folder: "_data/ticketTypes"
-    format: yml
-    create: true
-    identifier_field: label
-    fields:
-      - {label: "Label", name: "label", widget: string}
-      - {label: "Slug", name: "slug", widget: string}
   - label: Theaters
     label_singular: Theater
     name: "theaters"
@@ -73,22 +60,8 @@ collections:
     create: true
     fields:
       - {label: Title, name: title, widget: string}
-      - label: Access Type 
-        name: accessType
-        widget: relation
-        collection: accessTypes
-        searchFields: ["label"]
-        displayFields: ["label"]
-        valueField: "slug"
+      - label: "Type"
+        name: "type"
+        widget: "select"
+        options: ["rush", "studentRush", "hiptix", "hiptixHigh", "access10", "blueStar"]
       - {label: URL or Info, name: info, widget: string}
-  - label: Access Types
-    label_singular: Access Type
-    name: "accessTypes"
-    folder: "_data/accessTypes"
-    format: yml
-    create: true
-    identifier_field: label
-    fields:
-      - {label: "Label", name: "label", widget: string}
-      - {label: "Slug", name: "slug", widget: string}
-                
