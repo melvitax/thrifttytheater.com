@@ -20,9 +20,9 @@ collections:
         name: theater
         widget: relation
         collection: theaters
-        searchFields: ["label"]
-        displayFields: ["label"]
-        valueField: "label"
+        searchFields: ["theater"]
+        displayFields: ["theater"]
+        valueField: "theater"
       - {label: Address, name: address, widget: string}
       - {label: Preview, name: preview, widget: date, format: "YYYY-MM-DD", default: ""}
       - {label: Opening, name: opening, widget: date, format: "YYYY-MM-DD", default: ""}
@@ -40,9 +40,9 @@ collections:
             name: ticket
             widget: relation
             collection: tickets
-            searchFields: ["label"]
-            displayFields: ["label"]
-            valueField: "label"
+            searchFields: ["title"]
+            displayFields: ["title"]
+            valueField: "title"
           - {label: URL or Info, name: info, widget: string}
   - label: Tickets
     label_singular: Ticket
@@ -50,17 +50,28 @@ collections:
     folder: "_data/tickets"
     format: yml
     create: true
-    identifier_field: label
+    identifier_field: title
     fields:
-      - {label: "Label", name: "label", widget: string}
-  - label: Access Roundabout Tikcets
-    label_singular: Access Roundabout Ticket
+      - {label: "Title", name: "title", widget: string}
+      - {label: "Info", name: "info", widget: string}
+  - label: Access Tickets
+    label_singular: Access Ticket
     name: "access"
-    folder: "_data/tickets"
+    folder: "_data/access"
     format: yml
     create: true
-    identifier_field: label
+    identifier_field: title
     fields:
-      - {label: "Label", name: "label", widget: string}
+      - {label: "Title", name: "title", widget: string}
+      - {label: "Info", name: "info", widget: string}
+  - label: Theaters
+    label_singular: Theater
+    name: "theaters"
+    folder: "_data/theaters"
+    format: yml
+    create: true
+    identifier_field: theater
+    fields:
+      - {label: "Theater", name: "theater", widget: string}
       - {label: "Address", name: "address", widget: string}
                 
