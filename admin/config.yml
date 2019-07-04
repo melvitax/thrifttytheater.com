@@ -7,6 +7,7 @@ backend:
 media_folder: 'assets/uploads'
 collections:
   - label: "Shows"
+    label_singular: Show
     name: "shows"
     folder: "_data/shows"
     format: yml
@@ -15,7 +16,13 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Poster, name: poster, widget: image}
       - {label: Description, name: description, widget: string}
-      - {label: Theater, name: theater, widget: string}
+      - label: Theater
+        name: theater
+        widget: relation
+        collection: theaters
+        searchFields: ["label"]
+        displayFields: ["label"]
+        valueField: "label"
       - {label: Address, name: address, widget: string}
       - {label: Preview, name: preview, widget: date, format: "YYYY-MM-DD", default: ""}
       - {label: Opening, name: opening, widget: date, format: "YYYY-MM-DD", default: ""}
@@ -35,15 +42,25 @@ collections:
             collection: tickets
             searchFields: ["label"]
             displayFields: ["label"]
-            valueField: "name"
+            valueField: "label"
           - {label: URL or Info, name: info, widget: string}
   - label: Tickets
+    label_singular: Ticket
     name: "tickets"
     folder: "_data/tickets"
     format: yml
     create: true
-    identifier_field: name
+    identifier_field: label
     fields:
       - {label: "Label", name: "label", widget: string}
-      - {label: "Name", name: "name", widget: string}
+  - label: Access Roundabout Tikcets
+    label_singular: Access Roundabout Ticket
+    name: "access"
+    folder: "_data/tickets"
+    format: yml
+    create: true
+    identifier_field: label
+    fields:
+      - {label: "Label", name: "label", widget: string}
+      - {label: "Address", name: "address", widget: string}
                 
