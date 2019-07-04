@@ -12,6 +12,7 @@ collections:
     folder: "_data/shows"
     format: yml
     create: true
+    identifier_field: title
     fields: 
       - {label: Title, name: title, widget: string}
       - {label: Poster, name: poster, widget: image}
@@ -50,7 +51,7 @@ collections:
     folder: "_data/ticketTypes"
     format: yml
     create: true
-    identifier_field: slug
+    identifier_field: label
     fields:
       - {label: "Label", name: "label", widget: string}
       - {label: "Slug", name: "slug", widget: string}
@@ -86,7 +87,7 @@ collections:
     folder: "_data/accessTypes"
     format: yml
     create: true
-    identifier_field: title
+    identifier_field: label
     fields:
       - {label: "Label", name: "label", widget: string}
       - {label: "Slug", name: "slug", widget: string}
