@@ -39,31 +39,21 @@ collections:
           - label: Ticket Type 
             name: ticket
             widget: relation
-            collection: tickets
-            searchFields: ["title"]
-            displayFields: ["title"]
-            valueField: "title"
+            collection: ticketTypes
+            searchFields: ["label"]
+            displayFields: ["label"]
+            valueField: "slug"
           - {label: URL or Info, name: info, widget: string}
-  - label: Tickets
-    label_singular: Ticket
-    name: "tickets"
-    folder: "_data/tickets"
+  - label: Ticket Types
+    label_singular: Ticket Type
+    name: "ticketTypes"
+    folder: "_data/ticketTypes"
     format: yml
     create: true
-    identifier_field: title
+    identifier_field: slug
     fields:
-      - {label: "Title", name: "title", widget: string}
-      - {label: "Info", name: "info", widget: string}
-  - label: Access Tickets
-    label_singular: Access Ticket
-    name: "access"
-    folder: "_data/access"
-    format: yml
-    create: true
-    identifier_field: title
-    fields:
-      - {label: "Title", name: "title", widget: string}
-      - {label: "Info", name: "info", widget: string}
+      - {label: "Label", name: "label", widget: string}
+      - {label: "Slug", name: "slug", widget: string}
   - label: Theaters
     label_singular: Theater
     name: "theaters"
@@ -74,4 +64,30 @@ collections:
     fields:
       - {label: "Theater", name: "theater", widget: string}
       - {label: "Address", name: "address", widget: string}
+  - label: Access Tickets
+    label_singular: Access Ticket
+    name: "accessTickets"
+    folder: "_data/accessTickets"
+    format: yml
+    create: true
+    fields:
+      - {label: Title, name: title, widget: string}
+      - label: Access Type 
+        name: accessType
+        widget: relation
+        collection: accessTypes
+        searchFields: ["label"]
+        displayFields: ["label"]
+        valueField: "slug"
+      - {label: URL or Info, name: info, widget: string}
+  - label: Access Types
+    label_singular: Access Type
+    name: "accessTypes"
+    folder: "_data/accessTypes"
+    format: yml
+    create: true
+    identifier_field: title
+    fields:
+      - {label: "Label", name: "label", widget: string}
+      - {label: "Slug", name: "slug", widget: string}
                 
