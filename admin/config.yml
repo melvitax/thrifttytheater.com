@@ -19,6 +19,7 @@ collections:
       - {label: Description, name: description, widget: string}
       - label: Theater
         name: theater
+        required: false
         widget: relation
         collection: theaters
         searchFields: ["theater"]
@@ -27,20 +28,38 @@ collections:
       - {label: Address, name: address, widget: string}
       - {label: Preview, name: preview, widget: date, format: "YYYY-MM-DD", default: ""}
       - {label: Opening, name: opening, widget: date, format: "YYYY-MM-DD", default: ""}
-      - {label: Closing, name: closing, widget: date, format: "YYYY-MM-DD", default: ""}
+      - {label: Closing, name: closing, widget: date, format: "YYYY-MM-DD", default: "", required: false}
       - {label: Tony Award, name: tonyaward, widget: boolean}
       - {label: Critic's Pick, name: criticspick, widget: boolean}
-      - {label: Trailer, name: trailer, widget: string}
-      - {label: Website, name: website, widget: string}
+      - {label: Trailer, name: trailer, widget: string, required: false}
+      - {label: Website, name: website, widget: string, required: false}
       - label: Tickets
+        label_singular: Ticket
         name: tickets
+        required: false
         widget: list
         fields:
           - {label: Title, name: title, widget: string}
           - label: Type 
             name: type
             widget: "select"
-            options: ["access", "digitalLottery", "digitalRush", "linctix", "lottery", "military", "pink", "regular", "rush", "schools", "standing", "student", "studentRush", "thirty", "thirtyUnder35", "thirtyUnder"]
+            options: 
+              - { label: "Access Roundabout", value: "access" }
+              - { label: "Digital Lottery", value: "digitalLottery" }
+              - { label: "Digital Rush", value: "digitalRush" }
+              - { label: "Lictix", value: "linctix" }
+              - { label: "Lottery", value: "lottery" }
+              - { label: "Military", value: "military" }
+              - { label: "Pink Shirt", value: "pink" }
+              - { label: "Regular Tickets", value: "regular" }
+              - { label: "Rush Tickets", value: "rush" }
+              - { label: "NYC Schools", value: "schools" }
+              - { label: "Standing Room", value: "standing" }
+              - { label: "Student Discount", value: "student" }
+              - { label: "Student Rush", value: "studentRush" }
+              - { label: "Thirty", value: "thirty" }
+              - { label: "Thirty Under 35", value: "thirtyUnder35" }
+              - { label: "Thirty Under", value: "thirtyUnder" }
           - {label: URL or Info, name: info, widget: string}
   - label: Theaters
     label_singular: Theater
@@ -63,5 +82,11 @@ collections:
       - label: "Type"
         name: "type"
         widget: "select"
-        options: ["rush", "studentRush", "hiptix", "hiptixHigh", "access10", "blueStar"]
+        options: 
+          - { label: "Rush", value: "rush" }
+          - { label: "Student Rush", value: "studentRush" }
+          - { label: "Hiptix", value: "hiptix" }
+          - { label: "Hiptix High", value: "hiptixHigh" }
+          - { label: "Access 10", value: "access10" }
+          - { label: "Blue Star", value: "blueStar" }
       - {label: URL or Info, name: info, widget: string}
