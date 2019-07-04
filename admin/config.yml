@@ -42,13 +42,13 @@ collections:
                     displayFields: ["tickets.label"]
                     valueField: "tickets.name"
                   - {label: URL or Info, name: info, widget: string}
-      - label: Tickets
-        name: "tickets"
-        folder: "_data/tickets"
-        format: yml
-        create: true
-        identifier_field: name
-        fields:
-          - {label: "Label", name: "label", widget: string}
-          - {label: "Name", name: "name", widget: string}
+  - label: Tickets
+    name: "tickets"
+    folder: "_data/tickets"
+    format: yml
+    create: true
+    identifier_field: name
+    fields:
+      - {label: "Label", name: "label", widget: string}
+      - {label: "Name", name: "name", widget: string}
                 
