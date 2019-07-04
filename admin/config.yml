@@ -38,19 +38,17 @@ collections:
                     name: ticket
                     widget: relation
                     collection: broadway
-                    entry: tickets
-                    searchFields: ["tickets"]
+                    searchFields: ["tickets.label"]
                     displayFields: ["tickets.label"]
                     valueField: "tickets.name"
                   - {label: URL or Info, name: info, widget: string}
       - label: Tickets
         name: "tickets"
-        file: "_data/tickets.yml"
+        folder: "_data/tickets"
+        format: yml
+        create: true
+        identifier_field: name
         fields:
-          - name: tickets
-            label: tickets
-            widget: list
-            fields:
-              - {label: "Label", name: "label", widget: string}
-              - {label: "Name", name: "name", widget: string}
+          - {label: "Label", name: "label", widget: string}
+          - {label: "Name", name: "name", widget: string}
                 
