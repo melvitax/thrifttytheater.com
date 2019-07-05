@@ -22,9 +22,9 @@ collections:
         required: false
         widget: relation
         collection: theaters
-        searchFields: ["theater"]
-        displayFields: ["theater"]
-        valueField: "theater"
+        searchFields: ["title"]
+        displayFields: ["title"]
+        valueField: "title"
       - {label: Preview, name: preview, widget: date, format: "YYYY-MM-DD", default: ""}
       - {label: Opening, name: opening, widget: date, format: "YYYY-MM-DD", default: ""}
       - {label: Closing, name: closing, widget: date, format: "YYYY-MM-DD", default: "", required: false}
@@ -66,14 +66,14 @@ collections:
     folder: "_data/theaters"
     format: yml
     create: true
-    identifier_field: theater
+    identifier_field: title
     fields:
-      - {label: "Theater", name: "theater", widget: string}
+      - {label: "Name", name: "title", widget: string}
       - {label: "Address", name: "address", widget: string}
   - label: Access Tickets
     label_singular: Access Ticket
-    name: "accessTickets"
-    folder: "_data/accessTickets"
+    name: "access"
+    folder: "_data/access"
     format: yml
     create: true
     fields:

@@ -17,11 +17,12 @@ title: Show Hacker
 		<div class="container">
 			<div class="row card-columns">
 
-	{% assign market = 'broadway' %}
-	{% assign scheduleData = site.data[market].schedule.result.extractorData.data[0].group %}
-	{% assign ticketType = site.data[market].ticketType %}
+	{% assign showtimesData = site.data.showtimes.result.extractorData.data[0].group %}
 
-	{% for show in site.data[market].shows %}
+	{% assign show_folder = site.data.shows | sort %}
+	{% for show_hash in show_folder %}
+	{% assign show = show_hash[1] %}
+	{% assign access_folder = site.data.access | sort %}
 
 	{% assign timeZone = " 00:00:00 -0500" %}
 	{% capture previewDate %}{{show.preview}} 00:00:00 -0500{% endcapture %}
@@ -34,7 +35,7 @@ title: Show Hacker
 			<div class="row no-gutters"> 
 				<!-- Poster -->
 				<a class="poster-link w-100 d-table position-relative" aria-disabled="true" data-toggle="modal" data-target="#show{{showIndex}}Info" style="z-index:1">
-					<img class="card-img-top grow w-100 h-100" src="/assets/uploads/{{ show.poster }}" width="230" height="355" alt="poster" />
+					<img class="card-img-top grow w-100 h-100" src="{{ show.poster }}" width="230" height="355" alt="poster" />
 				</a>
 				<!-- Tony Award -->
 				{% if show.tonyaward %}<div class="text-wrap text-muted text-monospace  text-center position-absolute w-100" style="top: -1.8em; z-index: 2"><small>TONY AWARD</small></div>{% endif %}
@@ -47,10 +48,12 @@ title: Show Hacker
 				<!-- Tickets -->
 				<div class="list-group list-group-flush w-100" style="z-index:0">
 					{% for ticket in show.tickets %}
-						{% if ticket.type == "accessRoundabout" %}
+						{% if ticket.type == "access" %}
 							<a class="list-group-item list-group-item-action pr-5" data-toggle="collapse" href="#show{{showIndex}}TicketAccess" role="button" aria-expanded="false" aria-controls="show{{showIndex}}TicketAcces">{{ticket.title}} {% include icon-{{ticket.type}}.svg %}</a>
 							<div class="collapse multi-collapse" id="show{{showIndex}}TicketAccess">
-								{% for accessItem in site.data[market].access %}
+								
+								{% for access_hash in access_folder %}
+									{% assign accessItem =  access_hash[1] %}
 									{% if accessItem.info contains "http" %}
 										<a class="list-group-item list-group-item-action pr-5" href="{{accessItem.info}}">{{accessItem.title}} {% include icon-{{accessItem.type}}.svg %}</a>
 									{% else %}
@@ -99,11 +102,21 @@ title: Show Hacker
 							<div class="modal-body">
 								<!-- Description -->
 								<p>{{show.description}}</p>
-								<p class="text-muted"><a href="https://www.google.com/maps/place/{{show.address | url_encode}}">{{ show.theater }}</a>{% if show.url %}<span class="float-right"><a href="{{show.url}}">Website</a></span>{% endif %}</p>
-								<!-- Schedule -->
-								{% for schedule in scheduleData %}
-								{% if show.title == schedule.show[0].text %}
-								<h5 class="text-schedule-title">Schedule</h5>
+								<p class="text-muted">
+									{% for theater_hash in site.data.theaters %}
+										{% assign theater = theater_hash[1] %}
+										{% if theater.title == show.theater %}
+										<a href="https://www.google.com/maps/place/{{theater.address | url_encode}}">{{ theater.title }}</a>
+										{% endif %}
+									{% endfor %}
+									{% if show.website %}
+									<span class="float-right"><a href="{{show.website}}">Website</a></span>
+									{% endif %}
+								</p>
+								<!-- Showtimes -->
+								{% for showtimes in showtimesData %}
+								{% if show.title == showtimes.show[0].text %}
+								<h5 class="text-schedule-title">Showtimes</h5>
 								<table class="table table-sm">
 									<thead>
 										<tr>
@@ -118,13 +131,13 @@ title: Show Hacker
 									</thead>
 									<tbody>
 										<tr>
-										<td>{{schedule.sun[0].text | replace: ', ', '<br />' }}</td>
-										<td>{{schedule.mon[0].text | replace: ', ', '<br />' }}</td>
-										<td>{{schedule.tue[0].text | replace: ', ', '<br />' }}</td>
-										<td>{{schedule.wed[0].text | replace: ', ', '<br />' }}</td>
-										<td>{{schedule.thu[0].text | replace: ', ', '<br />' }}</td>
-										<td>{{schedule.fri[0].text | replace: ', ', '<br />' }}</td>
-										<td>{{schedule.sat[0].text | replace: ', ', '<br />' }}</td>
+										<td>{{showtimes.sun[0].text | replace: ', ', '<br />' }}</td>
+										<td>{{showtimes.mon[0].text | replace: ', ', '<br />' }}</td>
+										<td>{{showtimes.tue[0].text | replace: ', ', '<br />' }}</td>
+										<td>{{showtimes.wed[0].text | replace: ', ', '<br />' }}</td>
+										<td>{{showtimes.thu[0].text | replace: ', ', '<br />' }}</td>
+										<td>{{showtimes.fri[0].text | replace: ', ', '<br />' }}</td>
+										<td>{{showtimes.sat[0].text | replace: ', ', '<br />' }}</td>
 										</tr>
 									</tbody>
 								</table>
