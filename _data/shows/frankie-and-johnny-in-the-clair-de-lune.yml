@@ -1,0 +1,25 @@
+title: Frankie and Johnny in the Clair de Lune
+poster: /assets/uploads/frankie.jpg
+description: >-
+  Audra McDonald and Michael Shannon star in the Broadway revival of Terrence
+  McNally's two-hander.
+theater: Broadhurst Theatre
+preview: '2019-05-04'
+opening: '2019-05-30'
+closing: '2019-08-25'
+tonyaward: false
+criticspick: true
+trailer: 'https://www.youtube.com/watch?v=WJFbJi2S32A'
+website: 'https://www.frankieandjohnnybroadway.com/'
+tickets:
+  - info: >-
+      Available when the Broadhurst Theatre box office opens 10 AM Monday-
+      Saturday, 12 PM Sunday on the day of the performance on a first-come,
+      first-served basis. Cash or credit. 4 tickets per peson limit. Seating
+      location determined at the discretion of the box office.
+    title: $40 Rush
+    type: rush
+  - info: >-
+      https://www.telecharge.com/Broadway/Frankie-and-Johnny-in-the-Clair-de-Lune/Ticket
+    title: $49-$159 Tickets
+    type: regular
