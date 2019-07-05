@@ -7,21 +7,13 @@
   cursor: pointer;
 }
 
-.list-group-item-action svg {
-  width: 1em;
-  height: 1em;
-  float: right;
-  position: relative;
-  top: 0.2em;
+.list-group-item-action  {
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: 90% center
 }
 .list-group-item-action:hover{
-  color: #007bff !important;
+  color: black;
+  background-color: rgb(231, 244, 248);
   cursor: pointer;
-}
-
-.list-group-item svg {
-  position: absolute;
-  right: 1em;
-  top: 50%;
-  transform: translateY(-50%);
 }

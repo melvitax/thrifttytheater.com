@@ -49,22 +49,21 @@ title: Show Hacker
 				<div class="list-group list-group-flush w-100" style="z-index:0">
 					{% for ticket in show.tickets %}
 						{% if ticket.type == "access" %}
-							<a class="list-group-item list-group-item-action pr-5" data-toggle="collapse" href="#show{{showIndex}}TicketAccess" role="button" aria-expanded="false" aria-controls="show{{showIndex}}TicketAcces">{{ticket.title}} {% include icon-{{ticket.type}}.svg %}</a>
+							<a class="list-group-item list-group-item-action pr-5" style="background-image: url(assets/icon-{{ticket.type}}.svg)" data-toggle="collapse" href="#show{{showIndex}}TicketAccess" role="button" aria-expanded="false" aria-controls="show{{showIndex}}TicketAcces">{{ticket.title}}</a>
 							<div class="collapse multi-collapse" id="show{{showIndex}}TicketAccess">
-								
 								{% for access_hash in access_folder %}
 									{% assign accessItem =  access_hash[1] %}
 									{% if accessItem.info contains "http" %}
-										<a class="list-group-item list-group-item-action pr-5" href="{{accessItem.info}}">{{accessItem.title}} {% include icon-{{accessItem.type}}.svg %}</a>
+										<a class="list-group-item list-group-item-action pr-5" style="background-image: url(assets/icon-{{ticket.type}}.svg)" href="{{accessItem.info}}">{{accessItem.title}}</a>
 									{% else %}
-										<a tabindex="0" class="btn list-group-item list-group-item-action pr-5" role="button" data-toggle="popover" title="{{accessItem.title}}" data-content="{{accessItem.info}}">{{accessItem.title}} {% include icon-{{accessItem.type}}.svg %}</a>
+										<a tabindex="0" class="btn list-group-item list-group-item-action pr-5" style="background-image: url(assets/icon-{{ticket.type}}.svg)" role="button" data-toggle="popover" title="{{accessItem.title}}" data-content="{{accessItem.info}}">{{accessItem.title}}</a>
 									{% endif %}
 								{% endfor %}
 							</div>
 						{% elsif ticket.info contains "http" %}
-							<a class="list-group-item list-group-item-action pr-5" href="{{ticket.info}}">{{ticket.title}} {% include icon-{{ticket.type}}.svg %}</a>
+							<a class="list-group-item list-group-item-action pr-5" style="background-image: url(assets/icon-{{ticket.type}}.svg)" href="{{ticket.info}}">{{ticket.title}}</a>
 						{% else %}
-							<a tabindex="0" class="btn list-group-item list-group-item-action pr-5" role="button" data-toggle="popover" title="{{ticket.title}}" data-content="{{ticket.info}}">{{ticket.title}} {% include icon-{{ticket.type}}.svg %}</a>
+							<a tabindex="0" class="btn list-group-item list-group-item-action pr-5" style="background-image: url(assets/icon-{{ticket.type}}.svg)" role="button" data-toggle="popover" title="{{ticket.title}}" data-content="{{ticket.info}}">{{ticket.title}}</a>
 						{% endif %}
 					{% endfor %}
 				</div>
