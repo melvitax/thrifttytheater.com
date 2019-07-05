@@ -27,3 +27,6 @@ tickets:
       room at back of the orchestra section.
     title: $32 Standing Room
     type: standing
+  - info: 'https://www.telecharge.com/Broadway/Come-From-Away/Schedules-Prices'
+    title: $47-$157 Tickets
+    type: regular
