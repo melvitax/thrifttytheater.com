@@ -1,0 +1,24 @@
+title: The Prom
+poster: /assets/uploads/prom.jpg
+description: >-
+  A new musical comedy about big Broadway stars, a small town, and a love that
+  unites them all.
+theater: Longacre Theatre
+preview: '2018-10-23'
+opening: '2018-11-15'
+closing: '2019-08-11'
+tonyaward: false
+criticspick: true
+trailer: 'https://www.youtube.com/watch?v=j6krfT1fIg8'
+website: 'https://theprommusical.com'
+tickets:
+  - info: >-
+      On sale when the Longacre Theatre box office opens on a first-come,
+      first-served basis. 10 AM Monday–Saturday, 12 PM Sunday. Cash or credit. 2
+      tickets per person limit. Seat locations determined at the discretion of
+      the box office; may be partial view.
+    title: $40 Rush
+    type: rush
+  - info: 'https://www.telecharge.com/Broadway/The-Prom/Ticket'
+    title: $49-$159 Tickets
+    type: regular
