@@ -1,0 +1,24 @@
+title: Hadestown
+poster: /assets/uploads/hadestown.jpg
+description: >-
+  A celebrated new musical that follows the mythical quest of Orpheus to
+  overcome Hades and regain the favor of his one true love.
+theater: Walter Kerr Theatre
+preview: '2019-03-22'
+opening: '2019-04-17'
+closing: ''
+tonyaward: true
+criticspick: true
+trailer: 'https://www.youtube.com/watch?v=NREQfz2uTck'
+website: 'https://www.hadestown.com/'
+tickets:
+  - info: 'https://beta.luckyseat.com/shows/hadestown-newyork'
+    title: $42 Digital Lottery
+    type: digitalLottery
+  - info: >-
+      Available on the day of the performance at the Walter Kerr Theatre box
+      office on a first-come, first-served basis. 12pm for matinee performances,
+      5pm for evening performances. Cash or credit. Limit to 1 ticket per
+      person. Seating location determined at the discretion of the box office.
+    title: $42 Rush
+    type: rush
