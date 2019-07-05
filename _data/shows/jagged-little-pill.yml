@@ -1,0 +1,17 @@
+title: Jagged Little Pill
+poster: /assets/uploads/jagged.jpg
+description: >-
+  The acclaimed new musical featuring the music of singer-songwriter Alanis
+  Morissette.
+theater: Broadhurst Theatre
+preview: '2019-11-03'
+opening: '2019-12-05'
+closing: ''
+tonyaward: false
+criticspick: false
+trailer: 'https://www.youtube.com/watch?v=QwFiyS_4QKE'
+website: 'https://jaggedlittlepill.com'
+tickets:
+  - info: 'https://www.telecharge.com/Broadway/Jagged-Little-Pill/Ticket'
+    title: $89-$179 Tickets
+    type: regular
