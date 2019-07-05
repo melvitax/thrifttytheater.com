@@ -1,0 +1,28 @@
+title: Waitress
+poster: /assets/uploads/waitress.jpg
+description: Sara Bareilles scores this new musical based on the movie of the same name.
+theater: Brooks Atkinson Theatre
+preview: '2016-03-25'
+opening: '2016-04-24'
+closing: ''
+tonyaward: false
+criticspick: false
+trailer: 'https://www.youtube.com/watch?v=Y3uw2qppi4s'
+website: 'http://waitressthemusical.com'
+tickets:
+  - info: >-
+      On sale when the Brooks Atkinson Theatre box office opens on a first-come,
+      first-served basis. 10 AM (12 PM on Sundays). Cash or credit. 2 tickets
+      per person limit. Seat locations determined at the discretion of the box
+      office.
+    title: $40 Rush
+    type: rush
+  - info: >-
+      Available on the day of performance at the Brooks Atkinson box office on a
+      first-come, first-serve basis when the show is sold out. Cash or credit. 2
+      tickets per person limit. Seat locations at back of the orchestra section.
+    title: $32 Standing Room
+    type: standing
+  - info: 'http://www.ticketmaster.com/artist/2164438'
+    title: $67-$252 Tickets
+    type: regular
