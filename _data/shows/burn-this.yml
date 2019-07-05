@@ -1,0 +1,20 @@
+title: Burn This
+poster: /assets/uploads/burn.jpg
+description: >-
+  Adam Driver and Keri Russell star in the first-ever Broadway revival of
+  Lanford Wilson's drama.
+theater: Hudson Theatre
+preview: '2019-03-15'
+opening: '2019-04-16'
+closing: '2019-07-14'
+tonyaward: false
+criticspick: false
+trailer: 'https://player.vimeo.com/video/319037010?color=ffffff&byline=0&portrait=0'
+website: 'https://burnthisplay.com/'
+tickets:
+  - info: 'https://www.todaytix.com/x/nyc/shows/14600-burn-this'
+    title: $39 Digital Lottery
+    type: digitalLottery
+  - info: 'http://www.thehudsonbroadway.com/whatson/burn-this/'
+    title: $49-$289 Tickets
+    type: regular
