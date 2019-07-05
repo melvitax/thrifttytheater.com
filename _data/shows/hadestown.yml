@@ -22,3 +22,13 @@ tickets:
       person. Seating location determined at the discretion of the box office.
     title: $42 Rush
     type: rush
+  - info: >-
+      Available on a first-come, first-serve basis on the day of the performance
+      when the performance is sold out. 10 am Monday-Saturday, noon on Sunday at
+      Walter Kerr Theatre box office. Cash or credit. 2 tickets per person
+      limit. Standing room at back of the orchestra section.
+    title: $39 Standing Room
+    type: standing
+  - info: 'https://www.ticketmaster.com/hadestown-ny-tickets/artist/2580967'
+    title: $99-$159 Tickets
+    type: regular
