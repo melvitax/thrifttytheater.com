@@ -1,0 +1,14 @@
+title: Freestyle Love Supreme
+poster: /assets/uploads/freestyle.jpg
+description: ' high-energy production that blends hip-hop, improvisational theater, music and vocal stylings. Conceived by Lin-Manuel Miranda, Thomas Kail and Anthony Veneziale'
+theater: Booth Theatre
+preview: '2019-09-13'
+opening: '2019-10-02'
+closing: '2020-01-05'
+tonyaward: false
+criticspick: false
+website: 'https://freestylelovesupreme.com'
+tickets:
+  - info: 'https://www.telecharge.com/Broadway/freestyle-love-supreme/Ticket'
+    title: $59-$199 Tickets
+    type: regular
