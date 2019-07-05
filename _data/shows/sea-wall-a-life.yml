@@ -1,0 +1,17 @@
+title: Sea Wall/A Life
+poster: /assets/uploads/seawall.jpg
+description: >-
+  Two brilliant actors. Two beautiful stories. One breathtaking theatrical
+  event.
+theater: Hudson Theatre
+preview: '2019-07-26'
+opening: '2019-08-08'
+closing: '2019-09-29'
+tonyaward: false
+criticspick: true
+trailer: 'https://www.youtube.com/watch?v=SJFkiRE3aW0'
+website: 'https://seawallalife.com/'
+tickets:
+  - info: 'http://www.thehudsonbroadway.com/whatson/sea-wall-a-life/'
+    title: $49-$169 Tickets
+    type: regular
