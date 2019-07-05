@@ -1,0 +1,20 @@
+title: The Inheritance
+poster: /assets/uploads/inheritance.jpg
+description: >-
+  Matthew Lopez's acclaimed two-part play gives a panoramic view of gay life in
+  New York City.
+theater: Ethel Barrymore Theatre
+preview: '2019-09-27'
+opening: '2019-11-17'
+closing: '2020-01-26'
+tonyaward: false
+criticspick: false
+trailer: 'https://www.youtube.com/watch?v=8gGf1771NCQ'
+website: 'https://theinheritanceplay.com'
+tickets:
+  - info: 'https://www.telecharge.com/Broadway/The-Inheritance-Part-1/Ticket'
+    title: $59-$199 Part 1
+    type: regular
+  - info: 'https://www.telecharge.com/Broadway/The-Inheritance-Part-2/Ticket'
+    title: $59-$199 Part 2
+    type: regular
