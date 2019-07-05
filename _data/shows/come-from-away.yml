@@ -1,0 +1,29 @@
+title: Come From Away
+poster: /assets/uploads/come.jpg
+description: 'When the world stopped, their stories moved us all.'
+theater: Schoenfeld Theatre
+preview: '2017-02-08'
+opening: '2017-03-12'
+closing: ''
+tonyaward: true
+criticspick: true
+trailer: 'https://www.youtube.com/watch?v=bijwE0ZBdrM'
+website: 'http://comefromaway.com'
+tickets:
+  - info: 'http://comefromawaylottery.com'
+    title: $49 Digital Lottery
+    type: digitalLottery
+  - info: >-
+      On sale when the Gerald Schoenfeld Theatre box office opens 10 AM
+      Monday–Saturday, noon on Sunday on a first-come, first-served basis. Cash
+      or credit. Photo ID required. 2 Tickets per person limit. Seat location
+      determined at the discretion of the box office. May be partial view.
+    title: $38 Rush
+    type: rush
+  - info: >-
+      Available when the Gerald Schoenfeld Theatre box office opens 10 AM
+      Monday–Saturday, noon on Sunday on a first-come, first-served basis when
+      the show is sold out. Cash or credit. 2 Tickets per person limit. Standing
+      room at back of the orchestra section.
+    title: $32 Standing Room
+    type: standing
