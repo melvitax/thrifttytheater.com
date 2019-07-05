@@ -1,0 +1,26 @@
+title: My Fair Lady
+poster: /assets/uploads/fair.jpg
+description: Lerner and Loewe's classic musical returns to Broadway.
+theater: Vivian Beaumont Theater
+preview: '2018-03-15'
+opening: '2018-04-19'
+closing: '2019-07-07'
+tonyaward: false
+criticspick: true
+trailer: 'https://www.youtube.com/watch?v=Or6waf4F6cs'
+website: 'http://www.lct.org/shows/my-fair-lady/'
+tickets:
+  - info: 'http://myfairladylottery.com/'
+    title: $39 Digital Lottery
+    type: digitalLottery
+  - info: >-
+      Open to current college/university students. Available 2 hours before
+      curtain, subject to availability. 1 ticket per ID. Cash or credit.
+    title: $32 Student Rush
+    type: studentRush
+  - info: 'http://lct.org'
+    title: $32 Linctix
+    type: linctix
+  - info: 'https://www.telecharge.com/Broadway/My-Fair-Lady/Schedules-Prices'
+    title: $97-$187 Tickets
+    type: regular
