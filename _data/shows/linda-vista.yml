@@ -1,0 +1,22 @@
+title: Linda Vista
+poster: /assets/uploads/lindavista.jpg
+description: Second Stage presents the New York premiere of Tracy Letts' dark comedy.
+theater: The Helen Hayes Theater
+preview: '2019-09-19'
+opening: '2019-10-10'
+closing: ''
+tonyaward: false
+criticspick: false
+website: 'https://2st.com/shows/linda-vista'
+tickets:
+  - info: >-
+      $25, one hour prior to curtain. 1 ticket per full-time high school or
+      college student ID.
+    title: $25 Student
+    type: student
+  - info: 'https://2st.com/buy-tickets/rush-30-under-30'
+    title: $30 Under 30
+    type: thirtyUnder
+  - info: 'https://cart.2st.com/events'
+    title: $30-$79 Tickets
+    type: regular
