@@ -1,0 +1,19 @@
+title: Take Me Out
+poster: /assets/uploads/takemeout.jpg
+description: Richard Greenberg's groundbreaking play returns to Broadway.
+theater: The Helen Hayes Theater
+preview: '2020-03-31'
+opening: '2020-04-23'
+closing: ''
+tonyaward: false
+criticspick: false
+website: 'https://2st.com/shows/take-me-out'
+tickets:
+  - info: >-
+      $25, one hour prior to curtain. 1 ticket per full-time high school or
+      college student ID.
+    title: $25 Student
+    type: studentRush
+  - info: 'https://2st.com/buy-tickets/rush-30-under-30'
+    title: $30 Under 30
+    type: thirtyUnder
