@@ -1,0 +1,19 @@
+title: Moulin Rouge!
+poster: /assets/uploads/moulinrouge.jpg
+description: Baz Luhrmann's revolutionary film comes to life.
+theater: Al Hirschfeld Theatre
+preview: '2019-06-28'
+opening: '2019-07-25'
+closing: ''
+tonyaward: false
+criticspick: false
+trailer: 'https://www.youtube.com/watch?v=NN0jO6MxFyM'
+website: 'https://moulinrougemusical.com'
+tickets:
+  - info: 'https://www.luckyseat.com/shows/moulinrouge-newyork'
+    title: $34 Digital Lottery
+    type: digitalLottery
+  - info: >-
+      https://www.ticketmaster.com/moulin-rouge-the-musical-ny-tickets/artist/2571914
+    title: $99-$179 Tickets
+    type: regular
