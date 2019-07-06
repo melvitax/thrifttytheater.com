@@ -35,16 +35,26 @@ title: Show Hacker
 			<div class="row no-gutters"> 
 				<!-- Poster -->
 				<a class="poster-link w-100 d-table position-relative" aria-disabled="true" data-toggle="modal" data-target="#show{{showIndex}}Info" style="z-index:1">
+					{% if show.poster and show.poster != blank and show.poster != ""  %}
 					<img class="card-img-top grow w-100 h-100" src="{{ show.poster }}" width="230" height="355" alt="poster" />
+					{% else %}
+					<img class="card-img-top grow w-100 h-100" src="/assets/default.jpg" width="230" height="355" alt="poster" />					
+					{% endif %}
 				</a>
 				<!-- Tony Award -->
 				{% if show.tonyaward %}<div class="text-wrap text-muted text-monospace  text-center position-absolute w-100" style="top: -1.8em; z-index: 2"><small>TONY AWARD</small></div>{% endif %}
 				<!-- NYT Critic's Pick -->
 				{% if show.criticspick %}<div class="position-absolute" style="top: -16px; left: -22px; z-index: 2; width: 64px; height: 0; padding-top: 64px; overflow: hidden; background: url('assets/criticspick.png') center center/cover no-repeat">New York Times Critic's Pick</div>{% endif %}
 				<!-- Title -->
+				{% if show.poster and show.poster != blank and show.poster != ""   %}
 				<div class="card-body d-none">
-					<h5 class="card-title mb-0">{{ show.title }}</h5>
+					<h4 class="card-title mb-0">{{ show.title }}</h4>
 				</div>
+				{% else %}
+				<div class="card-body position-absolute w-100 text-center text-uppercase text-light font-weight-bold" style="z-index: 1; top:50%;">
+					<h4 class="card-title mb-0">{{ show.title }}</h4>
+				</div>
+				{% endif %}
 				<!-- Tickets -->
 				<div class="list-group list-group-flush w-100" style="z-index:0">
 					{% for ticket in show.tickets %}
