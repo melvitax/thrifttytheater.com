@@ -6,7 +6,18 @@
   box-shadow: 0 10px 50px rgba(0, 0, 0, .5);
   cursor: pointer;
 }
-
+.icon-play {
+  display: none;
+}
+.poster-link:hover .icon-play {
+    display: block;
+    position: absolute;
+    width: 70%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
 .list-group-item-action  {
   background-size: 18px 18px;
   background-repeat: no-repeat;

@@ -34,11 +34,14 @@ title: Show Hacker
 		<div class="card mb-3 shadow-sm" id="show{{showIndex}}" data-preview="{{show.preview}}" data-opening="{{show.opening}}" {% if show.closing %}data-closing="{{show.closing}}"{% endif %}>
 			<div class="row no-gutters"> 
 				<!-- Poster -->
-				<a class="poster-link w-100 d-table position-relative" aria-disabled="true" data-toggle="modal" data-target="#show{{showIndex}}Info" style="z-index:1">
+				<a class="poster-link grow w-100 d-table position-relative" aria-disabled="true" data-toggle="modal" data-target="#show{{showIndex}}Info" style="z-index:1">
 					{% if show.poster and show.poster != blank and show.poster != ""  %}
-					<img class="card-img-top grow w-100 h-100" src="{{ show.poster }}" width="230" height="355" alt="poster" />
+					<img class="card-img-top w-100 h-100" src="{{ show.poster }}" width="230" height="355" alt="poster" />
 					{% else %}
-					<img class="card-img-top grow w-100 h-100" src="/assets/default.jpg" width="230" height="355" alt="poster" />					
+					<img class="card-img-top  w-100 h-100" src="/assets/default.jpg" width="230" height="355" alt="poster" />					
+					{% endif %}
+					{% if show.trailer %}
+					<img class="icon-play" src="/assets/play.svg" width="120" height="120" alt="play button" />	
 					{% endif %}
 				</a>
 				<!-- Tony Award -->
@@ -97,14 +100,14 @@ title: Show Hacker
 							</div>
 							<!-- Trailer -->
 							{% if show.trailer %}
-							<div class="modal-video w-100" style="overflow: hidden; height: 0; padding-bottom: 56.25%;">
+							<div class="modal-video w-100" style="overflow: hidden; height: 0; padding-top: 56.25%; position: relative;">
 								{% if show.trailer contains "youtube.com" %}
 									{% assign trailer = show.trailer | split: "v=" %}
 									{% assign videoID = trailer[1] %}
 									{% assign src = 'https://www.youtube.com/embed/' | append: videoID | append: '?showinfo=0&modestbranding=0&color=white&autoplay=0' %}
-									<iframe width="560" height="315" data-src="{{src}}" class="js-player w-100 h-100"></iframe>
+									<iframe width="560" height="315" data-src="{{src}}" class="js-player w-100 h-100" style="border: 0; left: 0; position: absolute; top: 0;"></iframe>
 								{% elsif show.trailer contains "vimeo.com" %}
-								<iframe width="560" height="315" data-src="{{show.trailer}}" class="js-player w-100 h-100"></iframe>
+								<iframe width="560" height="315" data-src="{{show.trailer}}" class="js-player w-100 h-100" style="border: 0; left: 0; position: absolute; top: 0;"></iframe>
 								{% endif %}
 							</div>
 							{% endif %}
