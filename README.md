@@ -8,7 +8,7 @@ Show Hacker aggragates discounted Broadway theater ticket info in a simple conci
 
 This project runs on the Jekyll static site generator and is hosted as a GitHub page. Pull requests are welcomed for fixing bugs or adding new features.
 
-If you want to develop locally instead, follow the instructions bellow. This project uses NodeJS and Bower to set things up in a local dev environment.
+If you want to develop locally instead, follow the instructions bellow. This project uses NodeJS to set things up in a local dev environment.
 
 This project requires  
 - [Git](https://git-scm.com)  

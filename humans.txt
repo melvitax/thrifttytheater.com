@@ -16,4 +16,4 @@
 
 # TECHNOLOGY COLOPHON
 
-  HTML5, CSS3, Sass, NodeJS, Bower, Jekyll, GitHub, VideoJS
+  HTML5, CSS3, Sass, NodeJS, Jekyll, GitHub, VideoJS
