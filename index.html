@@ -4,7 +4,7 @@ title: Show Hacker
 ---
 <main>
 	
-	<div class="py-5 bg-light">
+	<div class="py-5 main-content">
 
 		<div class="text-center pb-5 px-3">
 			<div class="btn-group btn-group-sm " role="group" aria-label="Filter Shows">
@@ -67,16 +67,16 @@ title: Show Hacker
 								{% for access_hash in access_folder %}
 									{% assign accessItem =  access_hash[1] %}
 									{% if accessItem.info contains "http" %}
-										<a class="list-group-item list-group-item-action pr-5" style="background-image: url(assets/icon-{{ticket.type}}.svg)" href="{{accessItem.info}}">{{accessItem.title}}</a>
+										<a class="list-group-item list-group-item-action pr-5" href="{{accessItem.info}}">{% include_relative assets/icon-{{ticket.type}}.svg %} {{accessItem.title}}</a>
 									{% else %}
-										<a tabindex="0" class="btn list-group-item list-group-item-action pr-5" style="background-image: url(assets/icon-{{ticket.type}}.svg)" role="button" data-toggle="popover" title="{{accessItem.title}}" data-content="{{accessItem.info}}">{{accessItem.title}}</a>
+										<a tabindex="0" class="btn list-group-item list-group-item-action pr-5" role="button" data-toggle="popover" title="{{accessItem.title}}" data-content="{{accessItem.info}}">{% include_relative assets/icon-{{ticket.type}}.svg %} {{accessItem.title}}</a>
 									{% endif %}
 								{% endfor %}
 							</div>
 						{% elsif ticket.info contains "http" %}
-							<a class="list-group-item list-group-item-action pr-5" style="background-image: url(assets/icon-{{ticket.type}}.svg)" href="{{ticket.info}}">{{ticket.title}}</a>
+							<a class="list-group-item list-group-item-action pr-5" href="{{ticket.info}}">{% include_relative assets/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
 						{% else %}
-							<a tabindex="0" class="btn list-group-item list-group-item-action pr-5" style="background-image: url(assets/icon-{{ticket.type}}.svg)" role="button" data-toggle="popover" title="{{ticket.title}}" data-content="{{ticket.info}}">{{ticket.title}}</a>
+							<a tabindex="0" class="btn list-group-item list-group-item-action pr-5" role="button" data-toggle="popover" title="{{ticket.title}}" data-content="{{ticket.info}}">{% include_relative assets/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
 						{% endif %}
 					{% endfor %}
 				</div>

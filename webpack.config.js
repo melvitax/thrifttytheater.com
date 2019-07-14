@@ -14,6 +14,7 @@ module.exports = {
             { from: './node_modules/jquery/dist/jquery.min.js', to: './vendor/jquery' },
             // Bootstrap
             { from: './node_modules/bootstrap/dist/js/bootstrap.bundle.min.js', to: './vendor/bootstrap' },
+            { from: './node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map', to: './vendor/bootstrap' },
             { from: './node_modules/bootstrap/scss/', to: './vendor/bootstrap/_scss' },
             // Video.js
             { from: './node_modules/video.js/dist/video.min.js', to: './vendor/video.js/' },

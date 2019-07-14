@@ -1,5 +1,70 @@
 // Styles
 
+:root {
+  color-scheme: light dark;
+}
+
+.main-content{
+  background-color: #f8f9fa;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  body {
+    background-color: #000;
+    color: white;
+  }
+  .main-content{
+    background-color: #000;
+  }
+  .card {
+    background-color: #343a40;
+    border: 1px solid #6c757d;
+  }
+  .card svg {
+    fill: #fff;
+  }
+  .list-group-item {
+    background-color: #1f2326;
+    border: 1px solid #6c757d;
+    color: #a7b7c5 !important;
+  }
+  .list-group-item-action {
+    background-color: #343a40;
+    color: white !important;
+  }
+  a.list-group-item-action:hover, a.list-group-item-action:focus {
+    background-color: #6c757d;
+    color: white !important;
+  }
+  .popover {
+    background-color: #dee4e8;
+    color: #000 !important;
+  }
+  .popover-header {
+    background-color: #ecf3f7;
+    color: #000 !important;
+    border-bottom: 1px solid #c0c5c9;
+  }
+  .bs-popover-right > .arrow::after {
+    border-right-color: #dee4e8;
+  }
+  .modal-content {
+    background-color: #1e2225;
+    color: #fff !important;
+  }
+  .modal-header {
+    border-bottom: 1px solid #0c0e0f;
+  }
+  .modal-content table {
+    boder-top: 1px solid #6c757d;
+    color: #fff;
+  }
+  .close {
+    color: #fff;
+    text-shadow: none;
+  }
+}
 
 
 .grow { transition: all .2s ease-in-out; }
@@ -10,6 +75,14 @@
 }
 .icon-play {
   display: none;
+}
+.list-group-item svg {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  right: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%)
 }
 .poster-link:hover .icon-play {
     display: block;
