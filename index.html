@@ -84,7 +84,7 @@ title: Show Hacker
 				<ul class="list-group list-group-flush list-dates w-100 list-group-date">
 					<li class="list-group-item text-muted list-group-date-previews"><small class="d-inline-block pr-1">Previews:</small> <small class="d-inline-block">{{previewDate | date: "%b %-d, %Y"}}</small></li>
 					<li class="list-group-item text-muted list-group-date-opening"><small class="d-inline-block pr-1">Opening:</small><small class="d-inline-block"> {{openingDate | date: "%b %-d, %Y"}}</small></li>
-					{% if show.closing %}
+					{% if show.closing and show.closing != blank and show.closing != "" %}
 					<li class="list-group-item text-muted list-group-date-closing"><small class="d-inline-block pr-1">Closing:</small><small class="d-inline-block"> {{closingDate | date: "%b %-d, %Y"}}</small></li>
 					{% endif %}
 				</ul>
