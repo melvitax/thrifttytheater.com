@@ -4,7 +4,9 @@
   "description": "Broadway web app",
   "main": "index.html",
   "scripts": {
-    "dev": "bundle exec jekyll serve --watch & browser-sync start --no-open --files '_site/**/*.*' --reload-delay 2000 --proxy 'localhost:4000' & webpack --env=dev"
+    "webpack": "webpack --env=dev",  
+    "dev": "bundle exec jekyll serve --watch & browser-sync start --no-open --files '_site/**/*.*' --reload-delay 2000 --proxy 'localhost:4000'", 
+    "build": "bundle exec jekyll build"
   },
   "repository": {
     "type": "git",
