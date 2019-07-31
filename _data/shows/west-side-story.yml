@@ -1,0 +1,16 @@
+title: West Side Story
+poster: /assets/uploads/west-side-story.jpg
+description: >-
+  Ivo van Hove directs a new Broadway revival of Arthur Laurents, Leonard
+  Bernstein and Stephen Sondheim's classic musical.
+theater: Broadway Theatre
+preview: '2019-12-10'
+opening: '2020-02-06'
+closing: ''
+tonyaward: false
+criticspick: false
+website: 'https://westsidestorybway.com'
+tickets:
+  - info: 'https://www.telecharge.com/Broadway/West-Side-Story/Overview'
+    title: $39-$109 Tickets
+    type: regular
