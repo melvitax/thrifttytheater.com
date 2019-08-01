@@ -34,11 +34,11 @@ title: Show Hacker
 		<div class="card mb-3 shadow-sm" id="show{{showIndex}}" data-preview="{{show.preview}}" data-opening="{{show.opening}}" {% if show.closing %}data-closing="{{show.closing}}"{% endif %}>
 			<div class="row no-gutters"> 
 				<!-- Poster -->
-				<a class="poster-link grow w-100 d-table position-relative" aria-disabled="true" data-toggle="modal" data-target="#show{{showIndex}}Info" style="z-index:1">
+				<a class="poster-link grow w-100 d-table position-relative" aria-disabled="true" data-toggle="modal" data-target="#show{{showIndex}}Info" style="z-index:1" title="{{show.title}}">
 					{% if show.poster and show.poster != blank and show.poster != ""  %}
-					<img class="card-img-top w-100 h-100" src="{{ show.poster }}" width="230" height="355" alt="poster" />
+					<img class="card-img-top w-100 h-100" src="{{ show.poster }}" width="230" height="355" alt="{{show.title}}" />
 					{% else %}
-					<img class="card-img-top  w-100 h-100" src="/assets/default.jpg" width="230" height="355" alt="poster" />					
+					<img class="card-img-top  w-100 h-100" src="/assets/default.jpg" width="230" height="355" alt="{{show.title}}" />					
 					{% endif %}
 					{% if show.trailer %}
 					<img class="icon-play" src="/assets/play.svg" width="120" height="120" alt="play button" />	
