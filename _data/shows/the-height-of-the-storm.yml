@@ -4,7 +4,28 @@ description: Jonathan Pryce and Eileen Atkins star in Florian Zeller's acclaimed
 theater: Samuel J Friedman Theatre
 preview: '2019-09-10'
 opening: '2019-09-24'
-closing: ''
+closing: '2019-11-17'
 tonyaward: false
 criticspick: false
-website: 'https://www.manhattantheatreclub.com/2019-20-season/the-height-of-the-storm/'
+trailer: 'https://www.youtube.com/watch?v=cy6fSLiQRS4'
+website: 'https://heightofthestorm.com'
+tickets:
+  - info: 'https://www.telecharge.com/broadway/The-Height-of-the-Storm'
+    title: $79-$169
+    type: regular
+  - info: 'http://www.manhattantheatreclub.com/season-tickets/30-under-35/'
+    title: $30 Under 25
+    type: thirtyUnder35
+  - info: >-
+      Student tickets are available at the box office on the day of the show
+      when the box office opens. Tickets are $30 (including all fees), payable
+      by cash or credit card, and are available to students with an ID from a
+      degree or diploma-granting institution. Tickets are subject to
+      availability and are limited to two per valid ID. Note that students aged
+      35 or under may prefer to purchase their tickets through the 30 Under 35
+      program instead.
+    title: $30 Student Rush
+    type: studentRush
+  - info: 'https://www.todaytix.com/x/nyc/shows/17815-height-of-the-storm'
+    title: $35 Digital Rush
+    type: digitalRush
