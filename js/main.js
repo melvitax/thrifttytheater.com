@@ -31,7 +31,7 @@ var missing_upcoming_trailer = []
 
     // Show is in previews
     if (now > previewDate && now < openingDate) {
-      $('.list-group-date-previews', card).text("In Previews Now")
+      $('.list-group-date-previews', card).html("<small>In Previews Now</small>")
     }
     // Show has started
     if (now >= openingDate) {
