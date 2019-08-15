@@ -19,3 +19,6 @@ tickets:
       https://www.roundabouttheatre.org/get-tickets/2019-2020-season/the-rose-tattoo/performances
     title: $59-$299 Tickets
     type: regular
+  - info: 'https://www.todaytix.com/x/nyc/shows/17632-the-rose-tattoo'
+    title: $39 Mobile Rush
+    type: digitalRush
