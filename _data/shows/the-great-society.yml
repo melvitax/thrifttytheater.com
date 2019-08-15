@@ -15,3 +15,14 @@ tickets:
   - info: 'https://www.telecharge.com/Broadway/The-Great-Society/Ticket'
     title: $109-$139
     type: regular
+  - info: >-
+      Each day, LCT offers $32 student rush tickets beginning two hours before a
+      performance at the Box Office (subject to availability). Student rush
+      tickets are limited to one ticket per performance and you must show a
+      valid college/university ID to purchase a ticket. Please Note: not all
+      performances have student rush tickets. 
+    title: $32 Rush
+    type: studentRush
+  - info: 'https://www.lct.org/linctix/'
+    title: $32 Linctix
+    type: linctix
