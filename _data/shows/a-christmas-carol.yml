@@ -1,0 +1,16 @@
+title: A Christmas Carol
+poster: /assets/uploads/christmas-carol.jpg
+description: >-
+  A new interpretation of Charles Dickens' classic story debuts on Broadway for
+  the holiday season.
+theater: Lyceum Theatre
+preview: '2019-11-07'
+opening: '2019-11-20'
+closing: '2020-01-05'
+tonyaward: false
+criticspick: false
+website: 'https://achristmascarolbroadway.com'
+tickets:
+  - info: 'https://www.telecharge.com/broadway/A-Christmas-Carol/Ticket'
+    title: $69-$169 Tickets
+    type: regular
