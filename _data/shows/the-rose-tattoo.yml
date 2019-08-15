@@ -15,3 +15,7 @@ tickets:
   - info: A range of discounts from Roundabout Theater
     title: $10+ Access
     type: access
+  - info: >-
+      https://www.roundabouttheatre.org/get-tickets/2019-2020-season/the-rose-tattoo/performances
+    title: $59-$299 Tickets
+    type: regular
