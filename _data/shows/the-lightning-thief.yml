@@ -1,0 +1,16 @@
+title: The Lightning Thief
+poster: /assets/uploads/the-lightning-thief.jpeg
+description: The Lightning Thief arrives on Broadway for a limited engagement.
+theater: Longacre Theatre
+preview: '2019-09-20'
+opening: '2019-10-16'
+closing: '2020-01-05'
+tonyaward: false
+criticspick: false
+trailer: 'https://www.youtube.com/watch?v=lc7Y_XL8UWY'
+website: 'https://www.lightningthiefmusical.com'
+tickets:
+  - info: >-
+      https://www.telecharge.com/Broadway/The-Lightning-Thief-The-Percy-Jackson-Musical/
+    title: $39-$129 Tickets
+    type: regular
