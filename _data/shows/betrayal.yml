@@ -15,3 +15,10 @@ tickets:
   - info: 'https://www.telecharge.com/Broadway/Betrayal/Overview'
     title: $25-$169 Tickets
     type: regular
+  - info: >-
+      On sale when the Bernard B. Jacobs Theatre box office opens at 10 AM
+      Monday–Saturday(noon Sunday) on a first-come, first-served basis. Cash or
+      credit card. Limit 2 tickets per person. Seat Locations determined at the
+      discretion of the box office. Subject to availability
+    title: $40 Rush
+    type: rush
