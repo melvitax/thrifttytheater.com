@@ -1,0 +1,20 @@
+title: 'Scotland, PA'
+poster: /assets/uploads/scotland-pa.jpg
+description: >-
+  Roundabout Theatre Company presents the world premiere of Adam Gwon's new
+  musical, based on the 2001 cult film.
+theater: Laura Pels Theatre
+preview: '2019-09-14'
+opening: '2019-10-23'
+closing: '2019-12-08'
+tonyaward: false
+criticspick: false
+website: 'https://www.roundabouttheatre.org/get-tickets/2019-2020-season/scotland-pa/'
+tickets:
+  - info: Roundabout Theater Discounts
+    title: $10 Access
+    type: access
+  - info: >-
+      https://www.roundabouttheatre.org/get-tickets/2019-2020-season/scotland-pa/performances
+    title: $79-$199 Tickets
+    type: regular
