@@ -1,0 +1,14 @@
+title: Slava's Snowshow
+poster: /assets/uploads/slavas-snowshow.jpg
+description: The delightful theatrical spectacle returns to Broadway for the holidays.
+theater: Stephen Sondheim Theatre
+preview: '2019-11-11'
+opening: '2019-11-13'
+closing: '2020-01-05'
+tonyaward: false
+criticspick: false
+website: 'https://slavaonbroadway.com/'
+tickets:
+  - info: 'https://www.telecharge.com/broadway/Slavas-Snowshow/Ticket'
+    title: $59-$139 Tickets
+    type: regular
