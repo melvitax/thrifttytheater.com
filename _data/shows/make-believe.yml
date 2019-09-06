@@ -20,3 +20,6 @@ tickets:
   - info: 'https://cart.2st.com/events'
     title: $59-$79 Tickets
     type: regular
+  - info: 'https://www.todaytix.com/x/nyc/shows/15906-make-believe'
+    title: $20 Digital Rush
+    type: digitalRush
