@@ -13,3 +13,6 @@ tickets:
   - info: 'https://www.telecharge.com/Broadway/The-Sound-Inside/Ticket'
     title: $49-$169 Tickets
     type: regular
+  - info: 'https://www.todaytix.com/x/nyc/shows/17515-the-sound-inside'
+    title: $35 Digital Rush
+    type: digitalRush
