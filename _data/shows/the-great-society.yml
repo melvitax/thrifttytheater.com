@@ -26,3 +26,6 @@ tickets:
   - info: 'https://www.lct.org/linctix/'
     title: $32 Linctix
     type: linctix
+  - info: 'https://www.todaytix.com/x/nyc/shows/17680-the-great-society'
+    title: $35 Digital Rush
+    type: digitalRush
