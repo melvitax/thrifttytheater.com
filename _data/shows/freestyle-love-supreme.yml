@@ -13,3 +13,6 @@ tickets:
   - info: 'https://www.telecharge.com/Broadway/freestyle-love-supreme/Ticket'
     title: $59-$199 Tickets
     type: regular
+  - info: 'https://freestylelovesupreme.com/lottery/'
+    title: $35 Digital Lottery
+    type: digitalLottery
