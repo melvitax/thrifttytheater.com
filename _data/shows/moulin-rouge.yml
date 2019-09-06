@@ -17,3 +17,12 @@ tickets:
       https://www.ticketmaster.com/moulin-rouge-the-musical-ny-tickets/artist/2571914
     title: $99-$179 Tickets
     type: regular
+  - info: >-
+      A limited number of standing room tickets may be available for each
+      Broadway performance. Where: Al Hirschfeld Theatre Box Office. Time:
+      10:30am for matinees, 2:30pm for evening shows. Payment Method: Cash or
+      Credit Card. Tickets Per Person: Limit 2. Seat Locations: Standing room at
+      back or side of the orchestra section. Number of Tickets Available: The
+      amount of standing room tickets may vary from performance to performance.
+    title: $50 Standing Room
+    type: standing
