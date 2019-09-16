@@ -1,0 +1,18 @@
+title: Flying Over Sunset
+description: >-
+  A new musical from James Lapine, Tom Kitt and Michael Korie inspired by the
+  lives of three extraordinary people who experimented with LSD.
+theater: Vivian Beaumont Theater
+preview: '2020-03-12'
+opening: '2020-04-16'
+closing: ''
+tonyaward: false
+criticspick: false
+website: 'https://www.lct.org/shows/flying-over-sunset/'
+tickets:
+  - info: 'https://www.lct.org/shows/flying-over-sunset/'
+    title: $32 Rush
+    type: rush
+  - info: 'https://www.lct.org/linctix/'
+    title: $32 Linctix
+    type: linctix
