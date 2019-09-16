@@ -33,3 +33,6 @@ tickets:
   - info: 'https://www.telecharge.com/Broadway/To-Kill-a-Mockingbird/Ticket'
     title: $89-$199 Tickets
     type: regular
+  - info: 'https://www.lct.org/linctix/'
+    title: $32 Linctix
+    type: linctix
