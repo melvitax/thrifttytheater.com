@@ -22,3 +22,6 @@ tickets:
       discretion of the box office. Subject to availability
     title: $40 Rush
     type: rush
+  - info: 'https://betrayalonbroadway.com/lottery/'
+    title: $40 Digital Lottery
+    type: digitalLottery
