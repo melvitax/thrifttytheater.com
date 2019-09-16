@@ -16,3 +16,6 @@ tickets:
   - info: 'https://www.todaytix.com/x/nyc/shows/17515-the-sound-inside'
     title: $35 Digital Rush
     type: digitalRush
+  - info: 'https://www.lct.org/linctix/'
+    title: $32 Lictix
+    type: linctix
