@@ -12,3 +12,10 @@ tickets:
   - info: 'https://www.telecharge.com/Broadway/Slave-Play/Overview'
     title: $39-$159 Tickets
     type: regular
+  - info: >-
+      Subject to availability, $39 rush tickets will go on sale when the Golden
+      Theatre box office opens each performance day on a first-come,
+      first-served basis. Rush tickets are based on availability and limited to
+      two tickets per person. Cash or credit cards are accepted. 
+    title: $39 Rush Tickets
+    type: rush
