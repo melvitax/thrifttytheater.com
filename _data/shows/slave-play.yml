@@ -2,7 +2,7 @@ title: Slave Play
 poster: /assets/uploads/slave-play.jpg
 description: Jeremy O. Harris' acclaimed work transfers to Broadway.
 theater: John Golden Theater
-preview: '2019-10-10'
+preview: '2019-09-10'
 opening: '2019-10-06'
 closing: '2020-01-05'
 tonyaward: false
@@ -20,3 +20,6 @@ tickets:
       two tickets per person. Cash or credit cards are accepted. 
     title: $39 Rush Tickets
     type: rush
+  - info: 'https://slaveplaybroadway.com/lottery'
+    title: $29 Digital lottery
+    type: digitalLottery
