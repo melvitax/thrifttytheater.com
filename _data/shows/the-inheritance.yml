@@ -18,3 +18,11 @@ tickets:
   - info: 'https://www.telecharge.com/Broadway/The-Inheritance-Part-2/Ticket'
     title: $59-$199 Part 2
     type: regular
+  - info: >-
+      A limited number of rush tickets are available for purchase in-person for
+      $40 at the Ethel Barrymore Theater box office beginning at 10am for that
+      day's performance only. Maximum two tickets per person. Rush tickets are
+      subject to availability and may not be offered at all performances. Rush
+      seating locations will be determined at the discretion of the box office.
+    title: $40 Rush
+    type: rush
