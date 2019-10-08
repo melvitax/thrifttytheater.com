@@ -1,4 +1,5 @@
 title: Plaza Suite
+poster: /assets/uploads/plaza-suite.jpg
 description: >-
   Sarah Jessica Parker and Matthew Broderick star in the Broadway revival of
   Neil Simon's comedy.
@@ -9,4 +10,7 @@ closing: '2020-06-12'
 tonyaward: false
 criticspick: false
 website: 'https://plazasuitebroadway.com'
-tickets: []
+tickets:
+  - info: 'http://www.thehudsonbroadway.com/whatson/plaza-suite/'
+    title: $59-$339 Tickets
+    type: regular
