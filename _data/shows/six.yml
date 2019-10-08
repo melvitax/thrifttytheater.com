@@ -9,3 +9,7 @@ tonyaward: false
 criticspick: false
 trailer: 'https://www.youtube.com/watch?v=4MLoIMkSGks'
 website: 'https://www.sixthemusical.com/broadway'
+tickets:
+  - info: 'https://www.ticketmaster.com/six-new-york-ny-tickets/artist/2677195'
+    title: $49-$149 Tickets
+    type: regular
