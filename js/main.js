@@ -16,10 +16,10 @@ var missing_upcoming_trailer = []
     var previewDate = new Date(card.getAttribute('data-preview'));
     var openingDate = new Date(card.getAttribute('data-opening'));
     var closing = card.getAttribute('data-closing');
-    var closingWindow = 2.419e+9 // four weeks in milliseconds
+    var oneWeek = 60480000 // in milliseconds
 
     // Show hasn't started
-    if (now < previewDate) {
+    if (now < (previewDate - oneWeek)) {
       $('.list-group-date-previews', card).removeClass('text-muted').addClass('text-success')
       $('.list-group-date-opening', card).removeClass('text-muted').addClass('text-success')
       $(card).addClass('filter-upcoming')
@@ -27,7 +27,6 @@ var missing_upcoming_trailer = []
       $(card).addClass('filter-current')
     }
     $(card).addClass('filter-all')
-
 
     // Show is in previews
     if (now > previewDate && now < openingDate) {
@@ -44,7 +43,7 @@ var missing_upcoming_trailer = []
       if (now > closingDate) {
         console.log($('.card-title', card).text()+' show ended');
         $(card).parent().remove();
-      } else if (now > new Date(closingDate - closingWindow)) {
+      } else if (now > new Date(closingDate - (oneWeek*4))) {
         $('.list-group-date-closing', card).removeClass('text-muted').addClass('text-danger')
       }
     }
