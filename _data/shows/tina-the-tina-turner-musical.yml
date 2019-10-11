@@ -16,3 +16,6 @@ tickets:
       https://www.ticketmaster.com/tina-the-tina-turner-musical-ny-tickets/artist/2612545
     title: $79-$159 Tickets
     type: regular
+  - info: 'https://lottery.broadwaydirect.com/show/tina-ny/'
+    title: $45 Digital Lottery
+    type: digitalLottery
