@@ -19,3 +19,6 @@ tickets:
       https://www.roundabouttheatre.org/get-tickets/2019-2020-season/scotland-pa/performances
     title: $79-$199 Tickets
     type: regular
+  - info: 'https://www.todaytix.com/x/nyc/shows/17630-scotland%2C-pa'
+    title: $35 Digital Rush
+    type: digitalRush
