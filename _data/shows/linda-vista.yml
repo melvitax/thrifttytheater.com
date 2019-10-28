@@ -21,3 +21,6 @@ tickets:
   - info: 'https://cart.2st.com/events'
     title: $30-$79 Tickets
     type: regular
+  - info: 'https://www.todaytix.com/x/nyc/shows/17534-linda-vista'
+    title: $35 Digital Rush
+    type: digitalRush
