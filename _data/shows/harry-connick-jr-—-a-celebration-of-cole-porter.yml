@@ -7,6 +7,8 @@ opening: '2019-12-12'
 closing: '2019-12-29'
 tonyaward: false
 criticspick: false
+trailer: 'https://www.youtube.com/watch?v=i86QDo-3LGQ'
+website: 'https://www.harryconnickjr.com/tour'
 tickets:
   - info: 'https://www.ticketmaster.com/harry-connick-jr-tickets/artist/734037'
     title: $105-$235 Tickets
