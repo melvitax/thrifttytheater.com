@@ -17,3 +17,6 @@ tickets:
   - info: 'https://www.lct.org/linctix/'
     title: $32 Linctix
     type: linctix
+  - info: 'https://www.telecharge.com/Broadway/Flying-Over-Sunset/Ticket'
+    title: $87-$177 Tickets
+    type: regular
