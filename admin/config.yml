@@ -59,7 +59,8 @@ collections:
               - { label: "Thirty", value: "thirty" }
               - { label: "Thirty Under 35", value: "thirtyUnder35" }
               - { label: "Thirty Under", value: "thirtyUnder" }
-          - {label: URL or Info, name: info, widget: string}
+          - {label: "URL or Info", name: "info", widget: "string"}
+          - {label: "Highlight", name: "highlight", widget: "boolean", default: false}
   - label: Theaters
     label_singular: Theater
     name: "theaters"
