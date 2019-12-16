@@ -10,7 +10,7 @@ criticspick: false
 trailer: 'https://www.youtube.com/watch?v=HAh71z9W-Xk'
 website: 'https://2st.com/shows/linda-vista'
 tickets:
-  - highlight: false
+  - highlight: true
     info: 'https://www.todaytix.com/x/nyc/shows/17534-linda-vista'
     title: $35 Digital Rush
     type: digitalRush

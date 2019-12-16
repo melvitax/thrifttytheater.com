@@ -12,11 +12,11 @@ criticspick: false
 trailer: 'https://www.youtube.com/watch?time_continue=1&v=X1P2U34QrQ8'
 website: 'https://americanutopiabroadway.com/'
 tickets:
-  - highlight: false
-    info: 'http://www.thehudsonbroadway.com/whatson/david-byrnes-american-utopia/'
-    title: $59-$159 Tickets
-    type: regular
   - highlight: true
     info: 'https://www.todaytix.com/x/nyc/shows/17293-american-utopia'
     title: $39 Digital Rush
     type: digitalRush
+  - highlight: false
+    info: 'http://www.thehudsonbroadway.com/whatson/david-byrnes-american-utopia/'
+    title: $59-$159 Tickets
+    type: regular

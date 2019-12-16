@@ -4,7 +4,7 @@ title: Show Hacker
 ---
 <main>
 	
-	<div class="py-5 main-content">
+	<div class="pb-5 main-content">
 
 		<div class="text-center pb-5 px-3">
 			<div class="btn-group btn-group-sm " role="group" aria-label="Filter Shows">
@@ -34,24 +34,23 @@ title: Show Hacker
 		<div class="card mb-3 shadow-sm" id="show{{showIndex}}" data-preview="{{show.preview}}" data-opening="{{show.opening}}" {% if show.closing %}data-closing="{{show.closing}}"{% endif %}>
 			<div class="row no-gutters"> 
 				<!-- Poster -->
-				<a class="poster-link grow w-100 d-table position-relative" aria-disabled="true" data-toggle="modal" data-target="#show{{showIndex}}Info" style="z-index:1" title="More Info">
+				<a class="poster-link grow w-100 d-table position-relative" aria-disabled="true" data-toggle="modal" data-target="#show{{showIndex}}Info" style="z-index:1" title="{{ show.title }}">
 					{% if show.poster and show.poster != blank and show.poster != ""  %}
 					<img class="card-img-top w-100 h-100" src="{{ show.poster }}" width="230" height="355" alt="{{show.title}}" />
 					{% else %}
-					<img class="card-img-top  w-100 h-100" src="/assets/default.jpg" width="230" height="355" alt="{{show.title}}" />					
+					<img class="card-img-top  w-100 h-100" src="/assets/default.jpg" width="230" height="355" alt="{{show.title}}" />	
 					{% endif %}
 					{% if show.trailer %}
 					<img class="icon-play" src="/assets/play.svg" width="120" height="120" alt="play button" />	
 					{% endif %}
 				</a>
-				<!-- Tony Award -->
-				{% if show.tonyaward %}<div class="text-wrap text-muted text-monospace  text-center position-absolute w-100" style="top: -1.8em; z-index: 2"><small>TONY AWARD</small></div>{% endif %}
-				<!-- NYT Critic's Pick -->
-				{% if show.criticspick %}<div class="position-absolute" style="top: -16px; left: -22px; z-index: 2; width: 64px; height: 0; padding-top: 64px; overflow: hidden; background: url('assets/criticspick.png') center center/cover no-repeat">New York Times Critic's Pick</div>{% endif %}
 				<!-- Title -->
-				<div class="card-body">
-					<h5 class="card-title mb-0">{{ show.title }}</h5>
-				</div>
+				<div class="text-wrap text-muted text-monospace  text-center position-absolute w-100" style="top: -1.8em; z-index: 0"><small>{{ show.title }}</small></div>
+				<!-- Tony Award -->
+				{% if show.tonyaward %}<div class="position-absolute" style="top: -16px; left: -22px; z-index: 2; width: 64px; height: 0; padding-top: 64px; overflow: hidden; background: url('assets/tonyaward.png') center center/cover no-repeat">Tony Award</div>{% endif %}
+				<!-- NYT Critic's Pick -->
+				{% capture badgeOffset %} {% if show.tonyaward %} 22px {% else %} -22px {% endif %}{% endcapture %}
+				{% if show.criticspick %}<div class="position-absolute" style="top: -16px; left: {{ badgeOffset }}; z-index: 2; width: 64px; height: 0; padding-top: 64px; overflow: hidden; background: url('assets/criticspick.png') center center/cover no-repeat">New York Times Critic's Pick</div>{% endif %}
 				<!-- Tickets -->
 				<div class="list-group list-group-flush w-100" style="z-index:0">
 					{% for ticket in show.tickets %}
@@ -68,7 +67,7 @@ title: Show Hacker
 								{% endfor %}
 							</div>
 						{% elsif ticket.info contains "http" %}
-							<a class="list-group-item list-group-item-action pr-5" href="{{ticket.info}}">{% include_relative assets/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
+							<a class="list-group-item list-group-item-action pr-5 {% if ticket.highlight == true %}list-group-item-highlighted {% endif %}" href="{{ticket.info}}">{% include_relative assets/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
 						{% else %}
 							<a tabindex="0" class="btn list-group-item list-group-item-action pr-5" role="button" data-toggle="popover" title="{{ticket.title}}" data-content="{{ticket.info}}">{% include_relative assets/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
 						{% endif %}
