@@ -43,13 +43,6 @@
     background-color: #6c757d;
     color: white !important;
   }
-  .list-group-item-highlighted {
-    background: red;
-    color: white;
-  }
-  a.list-group-item-highlighted:hover {
-    background: rgb(253, 87, 87);
-  }
   .popover {
     background-color: #dee4e8;
     color: #000 !important;
@@ -100,6 +93,13 @@
 }
 .isFavorite .fav-button {
   background-image: url('/assets/heart-solid.svg');
+}
+.list-group-item-highlighted {
+  background: red;
+  color: white;
+}
+a.list-group-item-highlighted:hover {
+  background: rgb(253, 87, 87);
 }
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { 
