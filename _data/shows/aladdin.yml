@@ -10,9 +10,11 @@ criticspick: false
 trailer: 'https://www.youtube.com/watch?v=W0b3KVTDryQ'
 website: 'http://www.aladdinthemusical.com'
 tickets:
-  - info: 'https://lottery.broadwaydirect.com/show/aladdin/'
+  - highlight: true
+    info: 'https://lottery.broadwaydirect.com/show/aladdin/'
     title: $30 Digital Lottery
     type: digitalLottery
-  - info: 'http://www.ticketmaster.com/artist/1858715'
+  - highlight: false
+    info: 'http://www.ticketmaster.com/artist/1858715'
     title: $55-$357 Tickets
     type: regular

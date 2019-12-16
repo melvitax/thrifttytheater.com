@@ -10,15 +10,18 @@ criticspick: false
 trailer: 'https://www.youtube.com/watch?v=GHQITfI9878'
 website: 'http://www.bookofmormonbroadway.com/'
 tickets:
-  - info: 'http://www.luckyseat.com/book-of-mormon/'
+  - highlight: true
+    info: 'http://www.luckyseat.com/book-of-mormon/'
     title: $50 Digital Lottery
     type: digitalLottery
-  - info: >-
+  - highlight: false
+    info: >-
       Available at the O’Neill theater box office 2 hours prior to the
       performance based on availability. Cash or credit. 2 Tickets per person
       limit. Standing room at back of the orchestra section.
     title: $27 Standing Room
     type: standing
-  - info: 'http://www.ticketmaster.com/artist/1714389'
+  - highlight: false
+    info: 'http://www.ticketmaster.com/artist/1714389'
     title: $69-$477 Tickets
     type: regular

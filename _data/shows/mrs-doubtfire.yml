@@ -17,6 +17,7 @@ tonyaward: false
 criticspick: false
 website: 'https://mrsdoubtfirebroadway.com'
 tickets:
-  - info: 'https://www.telecharge.com/Broadway/Mrs-Doubtfire/Ticket'
+  - highlight: false
+    info: 'https://www.telecharge.com/Broadway/Mrs-Doubtfire/Ticket'
     title: $59-$159 Tickets
     type: regular

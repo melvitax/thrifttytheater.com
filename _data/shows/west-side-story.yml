@@ -12,6 +12,7 @@ criticspick: false
 trailer: 'https://www.youtube.com/watch?v=gykFkXKef2k'
 website: 'https://westsidestorybway.com'
 tickets:
-  - info: 'https://www.telecharge.com/Broadway/West-Side-Story/Overview'
+  - highlight: false
+    info: 'https://www.telecharge.com/Broadway/West-Side-Story/Overview'
     title: $39-$109 Tickets
     type: regular

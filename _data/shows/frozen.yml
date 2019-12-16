@@ -12,9 +12,11 @@ criticspick: false
 trailer: 'https://www.youtube.com/watch?v=-5FNiQ-wWD0'
 website: 'https://frozenthemusical.com'
 tickets:
-  - info: 'http://www.luckyseat.com/frozen/'
+  - highlight: true
+    info: 'http://www.luckyseat.com/frozen/'
     title: $30 Digital Lottery
     type: digitalLottery
-  - info: 'https://www.ticketmaster.com/artist/2398608'
+  - highlight: false
+    info: 'https://www.ticketmaster.com/artist/2398608'
     title: $99-$159 Tickets
     type: regular

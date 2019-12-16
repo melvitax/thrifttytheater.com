@@ -10,16 +10,19 @@ criticspick: true
 trailer: 'https://www.youtube.com/watch?v=da0AAFiWxB4'
 website: 'https://slaveplaybroadway.com/'
 tickets:
-  - info: 'https://www.telecharge.com/Broadway/Slave-Play/Overview'
+  - highlight: true
+    info: 'https://slaveplaybroadway.com/lottery'
+    title: $29 Digital lottery
+    type: digitalLottery
+  - highlight: false
+    info: 'https://www.telecharge.com/Broadway/Slave-Play/Overview'
     title: $39-$159 Tickets
     type: regular
-  - info: >-
+  - highlight: false
+    info: >-
       Subject to availability, $39 rush tickets will go on sale when the Golden
       Theatre box office opens each performance day on a first-come,
       first-served basis. Rush tickets are based on availability and limited to
       two tickets per person. Cash or credit cards are accepted. 
     title: $39 Rush Tickets
     type: rush
-  - info: 'https://slaveplaybroadway.com/lottery'
-    title: $29 Digital lottery
-    type: digitalLottery

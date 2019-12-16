@@ -13,6 +13,7 @@ tonyaward: false
 criticspick: false
 website: 'https://americanbuffalonyc.com'
 tickets:
-  - info: 'https://www.telecharge.com/Broadway/American-Buffalo/Ticket'
+  - highlight: false
+    info: 'https://www.telecharge.com/Broadway/American-Buffalo/Ticket'
     title: $89-$179
     type: regular

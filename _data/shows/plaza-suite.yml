@@ -11,6 +11,7 @@ tonyaward: false
 criticspick: false
 website: 'https://plazasuitebroadway.com'
 tickets:
-  - info: 'http://www.thehudsonbroadway.com/whatson/plaza-suite/'
+  - highlight: false
+    info: 'http://www.thehudsonbroadway.com/whatson/plaza-suite/'
     title: $59-$339 Tickets
     type: regular

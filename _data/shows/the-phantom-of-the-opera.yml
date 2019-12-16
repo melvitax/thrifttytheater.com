@@ -12,17 +12,20 @@ criticspick: false
 trailer: 'https://www.youtube.com/watch?v=zqXaNYJ3JGg'
 website: 'http://www.thephantomoftheopera.com/new-york'
 tickets:
-  - info: 'http://www.phantombroadwaylottery.com'
+  - highlight: true
+    info: 'http://www.phantombroadwaylottery.com'
     title: $40 Digital Lottery
     type: digitalLottery
-  - info: >-
+  - highlight: false
+    info: >-
       On sale when the Majestic Theatre box office opens on a first-come,
       first-serve basis only if the performance is sold out. 10 AM
       Monday–Saturday; noon Sunday. Credit card. 2 tickets per person limit.
       Seat locations determined at the discretion of the box office.
     title: $27 Standing Room
     type: standing
-  - info: >-
+  - highlight: false
+    info: >-
       https://www.telecharge.com/Broadway/The-Phantom-of-the-Opera/Schedules-Prices
     title: $29-$179 Tickets
     type: regular

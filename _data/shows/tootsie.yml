@@ -10,16 +10,19 @@ criticspick: true
 trailer: 'https://www.youtube.com/watch?v=1s9bhiYdd7E'
 website: 'https://tootsiemusical.com'
 tickets:
-  - info: 'https://lottery.broadwaydirect.com/show/tootsie-ny/'
+  - highlight: true
+    info: 'https://lottery.broadwaydirect.com/show/tootsie-ny/'
     title: $42 Digital Lottery
     type: digitalLottery
-  - info: >-
+  - highlight: false
+    info: >-
       On sale when the Marquis Theatre box office opens on a first-come,
       first-served basis. 10 AM (12 PM on Sundays). Cash or credit. 2 tickets
       per person limit. Seat locations determined at the discretion of the box
       office.
     title: $42 Rush
     type: rush
-  - info: 'https://www.ticketmaster.com/tootsie-ny-tickets/artist/2532136'
+  - highlight: false
+    info: 'https://www.ticketmaster.com/tootsie-ny-tickets/artist/2532136'
     title: $79-$149 Tickets
     type: regular

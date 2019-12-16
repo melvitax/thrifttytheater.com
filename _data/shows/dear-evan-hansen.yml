@@ -12,14 +12,17 @@ criticspick: true
 trailer: 'https://www.youtube.com/watch?v=p3L5uw3ZWSw'
 website: 'http://dearevanhansen.com'
 tickets:
-  - info: 'http://www.dearevanhansenlottery.com'
+  - highlight: true
+    info: 'http://www.dearevanhansenlottery.com'
     title: $42 Digital Lottery
     type: digitalLottery
-  - info: >-
+  - highlight: false
+    info: >-
       A limited number of standing room tickets are available for select
       performances through the digital lottery.
     title: $42 Standing room
     type: standing
-  - info: 'https://www.telecharge.com/Broadway/Dear-Evan-Hansen-Music-Box-Theatre'
+  - highlight: false
+    info: 'https://www.telecharge.com/Broadway/Dear-Evan-Hansen-Music-Box-Theatre'
     title: $49-$250 Tickets
     type: regular

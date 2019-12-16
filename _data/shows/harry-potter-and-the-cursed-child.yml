@@ -10,10 +10,12 @@ criticspick: true
 trailer: 'https://www.youtube.com/watch?v=2R4gKN-YCz0'
 website: 'https://www.harrypottertheplay.com/us/'
 tickets:
-  - info: >-
+  - highlight: true
+    info: >-
       https://www.todaytix.com/x/nyc/shows/8728-harry-potter-and-the-cursed-child
     title: $40 Friday Lottery
     type: digitalLottery
-  - info: 'https://www.harrypottertheplay.com/us/ticket-info/'
+  - highlight: false
+    info: 'https://www.harrypottertheplay.com/us/ticket-info/'
     title: $95-$250 Tickets
     type: regular

@@ -15,6 +15,7 @@ tonyaward: false
 criticspick: true
 website: 'https://hangmenbroadway.com'
 tickets:
-  - info: 'https://www.telecharge.com/Broadway/Hangmen/Ticket'
+  - highlight: false
+    info: 'https://www.telecharge.com/Broadway/Hangmen/Ticket'
     title: $59-$179 Tickets
     type: regular

@@ -12,6 +12,7 @@ criticspick: false
 trailer: 'https://www.youtube.com/watch?v=VH6dX9MGvSk'
 website: 'https://musicmanonbroadway.com'
 tickets:
-  - info: 'https://www.telecharge.com/Broadway/The-Music-Man/Ticket'
+  - highlight: false
+    info: 'https://www.telecharge.com/Broadway/The-Music-Man/Ticket'
     title: $99-$279 Tickets
     type: regular

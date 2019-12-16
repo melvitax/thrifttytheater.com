@@ -10,12 +10,15 @@ criticspick: true
 trailer: 'https://www.youtube.com/watch?v=UjJYZc-56Kw'
 website: 'https://soundinsidebroadway.com'
 tickets:
-  - info: 'https://www.telecharge.com/Broadway/The-Sound-Inside/Ticket'
-    title: $49-$169 Tickets
-    type: regular
-  - info: 'https://www.todaytix.com/x/nyc/shows/17515-the-sound-inside'
+  - highlight: true
+    info: 'https://www.todaytix.com/x/nyc/shows/17515-the-sound-inside'
     title: $35 Digital Rush
     type: digitalRush
-  - info: 'https://www.lct.org/linctix/'
+  - highlight: false
+    info: 'https://www.telecharge.com/Broadway/The-Sound-Inside/Ticket'
+    title: $49-$169 Tickets
+    type: regular
+  - highlight: false
+    info: 'https://www.lct.org/linctix/'
     title: $32 Lictix
     type: linctix

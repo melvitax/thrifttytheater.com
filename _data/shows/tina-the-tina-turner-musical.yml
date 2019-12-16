@@ -12,10 +12,12 @@ criticspick: false
 trailer: 'https://www.youtube.com/watch?v=7rXaK_w0O8w'
 website: 'https://tinaonbroadway.com'
 tickets:
-  - info: >-
+  - highlight: true
+    info: 'https://lottery.broadwaydirect.com/show/tina-ny/'
+    title: $45 Digital Lottery
+    type: digitalLottery
+  - highlight: false
+    info: >-
       https://www.ticketmaster.com/tina-the-tina-turner-musical-ny-tickets/artist/2612545
     title: $79-$159 Tickets
     type: regular
-  - info: 'https://lottery.broadwaydirect.com/show/tina-ny/'
-    title: $45 Digital Lottery
-    type: digitalLottery

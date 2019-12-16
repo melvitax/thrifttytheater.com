@@ -12,10 +12,12 @@ criticspick: true
 trailer: 'https://www.youtube.com/watch?v=OkCivDFzj_0'
 website: 'https://achristmascarolbroadway.com'
 tickets:
-  - info: 'https://www.telecharge.com/broadway/A-Christmas-Carol/Ticket'
+  - highlight: false
+    info: 'https://www.telecharge.com/broadway/A-Christmas-Carol/Ticket'
     title: $69-$169 Tickets
     type: regular
-  - info: >-
+  - highlight: false
+    info: >-
       On sale when the Lyceum Theatre box office opens on a first-come,
       first-served basis. 10 AM Monday–Saturday, noon on Sunday. Payment Method:
       Cash or credit card. Tickets Per Person: Limit 2. Seat Locations

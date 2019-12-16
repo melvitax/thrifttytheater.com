@@ -12,16 +12,19 @@ criticspick: true
 trailer: 'https://www.youtube.com/watch?v=finQak8aDk8'
 website: 'https://oklahomabroadway.com/'
 tickets:
-  - info: 'https://oklahomabroadwaylottery.com/'
+  - highlight: true
+    info: 'https://oklahomabroadwaylottery.com/'
     title: $40 Digital Lottery
     type: digitalLottery
-  - info: >-
+  - highlight: false
+    info: >-
       On sale at the Circle in the Square Theatre box office on a first-come,
       first-serve basis on the day of the performance when the show is sold out.
       10 AM Monday–Saturday; noon Sunday. Cash or credit with photo ID. 2
       tickets per person limit. Standing positions at the back of the orchestra.
     title: $40 Standing Room
     type: standing
-  - info: 'https://oklahomabroadway.com/tickets'
+  - highlight: false
+    info: 'https://oklahomabroadway.com/tickets'
     title: $49-$129 Tickets
     type: regular

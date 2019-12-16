@@ -10,10 +10,12 @@ criticspick: false
 trailer: 'https://www.youtube.com/watch?v=jyAZO-NROiI'
 website: 'http://meangirlsonbroadway.com'
 tickets:
-  - info: 'http://www.luckyseat.com/mean-girls/'
+  - highlight: true
+    info: 'http://www.luckyseat.com/mean-girls/'
     title: $42 Digital Lottery
     type: digitalLottery
-  - info: >-
+  - highlight: false
+    info: >-
       Available when the August Wilson Theatre box office opens at 10 AM
       Monday-Saturday, 12 PM Sunday on the day of the performance on a
       first-come, first-served basis. Cash or credit. 2 tickets per person
@@ -21,13 +23,15 @@ tickets:
       may be partial view.
     title: $42 Rush
     type: rush
-  - info: >-
+  - highlight: false
+    info: >-
       On Wednesday performances, a limited number of $32.50 tickets will be
       available only to customers wearing pink. Beginning when the box office
       opens at 10am outside the main entrance of the August Wilson Theatre. Cash
       or credit. Photo ID required. 2 tickets per person limit.
     title: $32 Pink
     type: pink
-  - info: 'http://www.ticketmaster.com/Mean-Girls-NY-tickets/artist/2412229'
+  - highlight: false
+    info: 'http://www.ticketmaster.com/Mean-Girls-NY-tickets/artist/2412229'
     title: $99-$401 Tickets
     type: regular

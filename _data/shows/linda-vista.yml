@@ -10,17 +10,21 @@ criticspick: false
 trailer: 'https://www.youtube.com/watch?v=HAh71z9W-Xk'
 website: 'https://2st.com/shows/linda-vista'
 tickets:
-  - info: >-
+  - highlight: false
+    info: 'https://www.todaytix.com/x/nyc/shows/17534-linda-vista'
+    title: $35 Digital Rush
+    type: digitalRush
+  - highlight: false
+    info: >-
       $25, one hour prior to curtain. 1 ticket per full-time high school or
       college student ID.
     title: $25 Student
     type: student
-  - info: 'https://2st.com/buy-tickets/rush-30-under-30'
+  - highlight: false
+    info: 'https://2st.com/buy-tickets/rush-30-under-30'
     title: $30 Under 30
     type: thirtyUnder
-  - info: 'https://cart.2st.com/events'
+  - highlight: false
+    info: 'https://cart.2st.com/events'
     title: $30-$79 Tickets
     type: regular
-  - info: 'https://www.todaytix.com/x/nyc/shows/17534-linda-vista'
-    title: $35 Digital Rush
-    type: digitalRush

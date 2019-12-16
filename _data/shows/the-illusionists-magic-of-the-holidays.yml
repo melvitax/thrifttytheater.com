@@ -17,7 +17,8 @@ criticspick: false
 trailer: 'https://www.youtube.com/watch?v=unUsnbk-2pA'
 website: 'https://www.theillusionistslive.com'
 tickets:
-  - info: >-
+  - highlight: false
+    info: >-
       https://www.ticketmaster.com/the-illusionists-magic-of-the-holidays-ny-tickets/artist/2538275
     title: $49-$149 Tickets
     type: regular

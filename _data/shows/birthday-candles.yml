@@ -12,6 +12,7 @@ criticspick: false
 website: >-
   https://www.roundabouttheatre.org/get-tickets/2019-2020-season/birthday-candles/
 tickets:
-  - info: A range of discounts from Roundabout Theater
+  - highlight: false
+    info: A range of discounts from Roundabout Theater
     title: $10+ Access
     type: access

@@ -11,12 +11,15 @@ tonyaward: false
 criticspick: false
 website: 'https://www.lct.org/shows/flying-over-sunset/'
 tickets:
-  - info: 'https://www.lct.org/shows/flying-over-sunset/'
+  - highlight: false
+    info: 'https://www.lct.org/shows/flying-over-sunset/'
     title: $32 Rush
     type: rush
-  - info: 'https://www.lct.org/linctix/'
+  - highlight: false
+    info: 'https://www.lct.org/linctix/'
     title: $32 Linctix
     type: linctix
-  - info: 'https://www.telecharge.com/Broadway/Flying-Over-Sunset/Ticket'
+  - highlight: false
+    info: 'https://www.telecharge.com/Broadway/Flying-Over-Sunset/Ticket'
     title: $87-$177 Tickets
     type: regular

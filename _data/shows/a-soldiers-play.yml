@@ -12,6 +12,7 @@ criticspick: false
 website: >-
   https://www.roundabouttheatre.org/get-tickets/2019-2020-season/a-soldiers-play/
 tickets:
-  - info: Access Roundabout Discounts
+  - highlight: false
+    info: Access Roundabout Discounts
     title: $10 Access
     type: access

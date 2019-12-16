@@ -9,11 +9,13 @@ tonyaward: false
 criticspick: false
 website: 'https://2st.com/shows/take-me-out'
 tickets:
-  - info: >-
+  - highlight: false
+    info: >-
       $25, one hour prior to curtain. 1 ticket per full-time high school or
       college student ID.
     title: $25 Student
     type: studentRush
-  - info: 'https://2st.com/buy-tickets/rush-30-under-30'
+  - highlight: false
+    info: 'https://2st.com/buy-tickets/rush-30-under-30'
     title: $30 Under 30
     type: thirtyUnder

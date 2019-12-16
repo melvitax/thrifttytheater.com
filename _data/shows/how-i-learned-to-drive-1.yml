@@ -11,10 +11,12 @@ tonyaward: false
 criticspick: false
 website: 'https://manhattantheatreclub.com/2019-20-season/how-i-learned-to-drive/'
 tickets:
-  - info: 'https://manhattantheatreclub.com/season-tickets/30-under-35/'
+  - highlight: false
+    info: 'https://manhattantheatreclub.com/season-tickets/30-under-35/'
     title: $30 under 35
     type: thirtyUnder35
-  - info: >-
+  - highlight: false
+    info: >-
       When available, student rush tickets may be purchased in-person at the
       Friedman Theatre box office on the day of the performance. Tickets are
       $27, which includes a $2 facility fee. Limit two tickets per valid student

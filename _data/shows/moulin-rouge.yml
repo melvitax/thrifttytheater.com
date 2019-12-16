@@ -10,14 +10,17 @@ criticspick: true
 trailer: 'https://www.youtube.com/watch?v=NN0jO6MxFyM'
 website: 'https://moulinrougemusical.com'
 tickets:
-  - info: 'https://www.luckyseat.com/shows/moulinrouge-newyork'
+  - highlight: true
+    info: 'https://www.luckyseat.com/shows/moulinrouge-newyork'
     title: $34 Digital Lottery
     type: digitalLottery
-  - info: >-
+  - highlight: false
+    info: >-
       https://www.ticketmaster.com/moulin-rouge-the-musical-ny-tickets/artist/2571914
     title: $99-$179 Tickets
     type: regular
-  - info: >-
+  - highlight: false
+    info: >-
       A limited number of standing room tickets may be available for each
       Broadway performance. Where: Al Hirschfeld Theatre Box Office. Time:
       10:30am for matinees, 2:30pm for evening shows. Payment Method: Cash or

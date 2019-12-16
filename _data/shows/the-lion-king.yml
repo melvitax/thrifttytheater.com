@@ -12,9 +12,11 @@ criticspick: false
 trailer: 'https://www.youtube.com/watch?v=vKDEwHv43uo'
 website: 'http://www.lionking.com'
 tickets:
-  - info: 'https://lottery.broadwaydirect.com/show/the-lion-king/'
+  - highlight: true
+    info: 'https://lottery.broadwaydirect.com/show/the-lion-king/'
     title: $30 Lottery
     type: digitalLottery
-  - info: 'http://www.ticketmaster.com/artist/1039581'
+  - highlight: false
+    info: 'http://www.ticketmaster.com/artist/1039581'
     title: $122-$217 Tickets
     type: regular

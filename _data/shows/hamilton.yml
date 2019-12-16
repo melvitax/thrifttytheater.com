@@ -12,9 +12,11 @@ criticspick: true
 trailer: 'https://www.youtube.com/watch?v=NBkI_9cr1Ws'
 website: 'http://www.hamiltonbroadway.com'
 tickets:
-  - info: 'https://lottery.broadwaydirect.com/show/hamilton/'
+  - highlight: true
+    info: 'https://lottery.broadwaydirect.com/show/hamilton/'
     title: $10 Lottery
     type: digitalLottery
-  - info: 'http://www.ticketmaster.com/artist/2095830'
+  - highlight: false
+    info: 'http://www.ticketmaster.com/artist/2095830'
     title: $57-$277 Tickets
     type: regular

@@ -12,6 +12,7 @@ criticspick: false
 website: >-
   https://www.roundabouttheatre.org/get-tickets/2019-2020-season/caroline-or-change/
 tickets:
-  - info: 'https://www.roundabouttheatre.org/get-tickets/access-roundabout/'
+  - highlight: false
+    info: 'https://www.roundabouttheatre.org/get-tickets/access-roundabout/'
     title: $10 Access
     type: access
