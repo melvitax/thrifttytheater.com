@@ -96,13 +96,11 @@ body {
 .isFavorite .fav-button {
   background-image: url('/assets/heart-solid.svg');
 }
-.list-group-item-highlighted {
-  background: red;
-  color: white;
+.list-group-flush .list-group-item.list-group-item-highlighted {
+  margin-left: -10px;
+  border-left: 10px solid red;
 }
-a.list-group-item-highlighted:hover {
-  background: rgb(253, 87, 87);
-}
+
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { 
   transform: translateZ(0px) scale(1.05);
