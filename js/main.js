@@ -96,21 +96,19 @@ var missing_upcoming_trailer = []
     $('iframe', this).attr('src', "")
   })
 
-  // Dropdown filter button
-  $('.dropdown-filter').click(function() {
-    setCookie('selectedFilter', $(this).attr('id'), 365)
-    $('.card.filter-all').parent().hide()
-    $('.card.'+$(this).attr('id')).parent().show()
-    $('.btn-filter').text(this.text)
-  })
-  // Read saved filtereted selection and apply it on load
-  var selectedFilter = getCookie('selectedFilter')
-  if (!selectedFilter) {
-    selectedFilter = 'filter-current'
+  // Favorite Shows: Read saved state and update each card
+  var faved = getCookie('favedShows')
+  if (faved) {
+    var array = faved.split(",")
+    if (array) {
+      for(var i = 0; i < array.length; i++) {
+        let rawID = array[i]
+        $('.card__'+rawID).addClass('isFavorite')
+      }
+    }
   }
-  $('#'+selectedFilter).trigger( "click" )
 
-  // Fav show buttons
+  // Fav Shows: Button logic
   $('.fav-button').click(function() {
     var id = $(this).attr('id').split("__")[1]
     $('.card__'+id).toggleClass('isFavorite')
@@ -123,11 +121,11 @@ var missing_upcoming_trailer = []
     if (isFavorite) {
       array.push(id)
     } else {
-      var filtrered = []
+      var filtered = []
       for(var i = 0; i < array.length; i++) {
         var item = array[0]
         if (item != id) {
-          filtrered.push(item)
+          filtered.push(item)
         }
       }
       array = filtered
@@ -135,50 +133,51 @@ var missing_upcoming_trailer = []
     var string = array.join(",")
     setCookie('favedShows', string, 365)
   })
-  // Fav filter button
+
+  // Filter Dropdown: Button logic
+  $('.dropdown-filter').click(function() {
+    var filter = $(this).attr('id')
+    setCookie('selectedFilter', filter, 365)
+    updateUI()
+  })
+
+  // Filter Favorites: Button logic
   $('.fav-filter-button').click(function() {
     $(this).toggleClass('isActive')
     var showFavorites = $(this).hasClass('isActive')
-    if (showFavorites) {
-      $('.card').parent().hide()
-      $('.card.isFavorite').parent().show()
-      setCookie('favFilter', "true", 365)
-    } else {
-      $('.card').parent().show()
-      setCookie('favFilter', "false", 365)
-    }
+    var value = (showFavorites) ? "true" : "false"
+    setCookie('favFilter', value, 365)
+    updateUI()
   })
-  // read fav shows from cookie and display heart in each card
-  var faved = getCookie('favedShows')
-  if (faved) {
-    var array = faved.split(",")
-    if (array) {
-      for(var i = 0; i < array.length; i++) {
-        let rawID = array[i]
-        $('.card__'+rawID).addClass('isFavorite')
-      }
+
+  updateUI()
+  
+  function updateUI() {
+    // Filter Dropdown
+    var selectedFilter = getCookie('selectedFilter')
+    if (!selectedFilter) {
+      selectedFilter = 'filter-current'
+      setCookie('selectedFilter', selectedFilter, 365)
     }
-  }
-  // read fav filter cookie and activate filter if needed
-  var favFilter = getCookie('favFilter')
-  if (!favFilter) {
-    favFilter = "false"
-  }
-  var filterFavorites = (favFilter == "true")
-  if (filterFavorites) {
-    $('.card').parent().hide()
-    $('.card.isFavorite').parent().show()
-    $('.fav-filter-button').addClass('isActive')
-  } else {
-    $('.card').parent().show()
+    var filterName = $('#'+selectedFilter).text()
+    $('.btn-filter').text(filterName)
+    // Filter Favorites
+    var favFilter = getCookie('favFilter')
+    if (!favFilter) {
+      favFilter = "false"
+      setCookie('favFilter', favFilter, 365)
+    }
+    $('.card.filter-all').parent().hide()
+    var filterFavorites = (favFilter == "true")
+    if (filterFavorites) {
+      $('.card.'+selectedFilter+'.isFavorite').parent().show()
+      $('.card.isFavorite').parent().show()
+      $('.fav-filter-button').addClass('isActive')
+    } else {
+      $('.card.'+selectedFilter).parent().show()
+    }
   }
   
-
-  function filterSelection(id) {
-    setCookie('selectedFilter', id, 365);
-    alert(this);
-  }
-
   function setCookie(c_name, value, exdays) {
     'use strict';
     var exdate = new Date();
