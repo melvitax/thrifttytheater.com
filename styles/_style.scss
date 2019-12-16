@@ -4,7 +4,7 @@
   color-scheme: light dark;
 }
 
-.main-content{
+body {
   background-color: #f8f9fa;
 }
 
@@ -14,9 +14,7 @@
     background-color: #000;
     color: white;
   }
-  .main-content{
-    background-color: #000;
-  }
+  
   .jumbotron h1 {
     color: white !important;
   }
@@ -70,6 +68,10 @@
     color: #fff;
     text-shadow: none;
   }
+}
+
+.jumbotron {
+  background-color: transparent;
 }
 .fav-filter-button {
   background-image: url('/assets/heart-all-regular.svg');
