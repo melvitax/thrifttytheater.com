@@ -73,10 +73,10 @@ var missing_upcoming_trailer = []
     console.log("MISING CURRENT TRAILER")
     console.log("   "+JSON.stringify(missing_current_trailer))
   }
-  if (missing_upcoming_schedule.length) {
-    console.log("MISING UPCOMING SCHEDULE")
-    console.log("   "+JSON.stringify(missing_upcoming_schedule))
-  }
+  // if (missing_upcoming_schedule.length) {
+  //   console.log("MISING UPCOMING SCHEDULE")
+  //   console.log("   "+JSON.stringify(missing_upcoming_schedule))
+  // }
   if (missing_upcoming_trailer.length) {
     console.log("MISING UPCOMING TRAILER")
     console.log("   "+JSON.stringify(missing_upcoming_trailer))
