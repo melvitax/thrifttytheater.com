@@ -24,7 +24,7 @@ title: Show Hacker
 	{% assign showIndex = forloop.index %}
 	
 	<div class="col-md-3 col-6 pt-4" >
-		<div class="card mb-3 shadow-sm" id="show{{showIndex}}" data-preview="{{show.preview}}" data-opening="{{show.opening}}" {% if show.closing %}data-closing="{{show.closing}}"{% endif %}>
+		<div class="card mb-3 shadow-sm card__{{slug}}" id="show{{showIndex}}" data-preview="{{show.preview}}" data-opening="{{show.opening}}" {% if show.closing %}data-closing="{{show.closing}}"{% endif %}>
 			<div class="row no-gutters"> 
 				<!-- Poster -->
 				<a class="poster-link grow w-100 d-table position-relative" aria-disabled="true" data-toggle="modal" data-target="#show{{showIndex}}Info" style="z-index:1" title="{{ show.title }}">
@@ -38,9 +38,9 @@ title: Show Hacker
 					{% endif %}
 				</a>
 				<!-- Title -->
-				<div class="text-wrap text-muted text-monospace  text-center position-absolute w-100" style="top: -1.8em; z-index: 0"><small>{{ show.title }}</small></div>
+				<div class="text-wrap text-muted text-monospace  text-center position-absolute w-100 show-title" style="top: -1.8em; z-index: 0"><small>{{ show.title }}</small></div>
 				<!-- Favorite -->
-				<i id="fav-{{slug}}" class="far fa-heart position-absolute" style="top: 16px; right: 16px; z-index: 2; width: 32px; "></i>
+				<div id="fav__{{slug}}" class="fav-button position-absolute" style="top: 16px; right: 16px; z-index: 2; width: 50px; height: 50px;">&nbsp;</div>
 				<!-- Tony Award -->
 				{% if show.tonyaward %}<div class="position-absolute" style="top: -16px; left: -22px; z-index: 2; width: 64px; height: 0; padding-top: 64px; overflow: hidden; background: url('assets/tonyaward.png') center center/cover no-repeat">Tony Award</div>{% endif %}
 				<!-- NYT Critic's Pick -->

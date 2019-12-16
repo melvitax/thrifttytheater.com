@@ -9,9 +9,9 @@ layout: compress
 			<header class="header">
 				<div class="jumbotron text-center m-0 p-0" style="background: none;">
 					<div class="container py-5 px-3 mw-100" >
-						<h1 class="display-4 text-light font-weight-bold">{{site.title}}</h1>
-						<p class="lead text-light">{{site.description}}</p>
-						<div class="dropdown">
+						<h1 class="display-4 font-weight-bold">{{site.title}}</h1>
+						<p class="lead text-secondary">{{site.description}}</p>
+						<div class="dropdown" style="display: inline-block;">
 							<button class="btn btn-secondary dropdown-toggle btn-filter" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							  Now Playing
 							</button>
@@ -20,7 +20,8 @@ layout: compress
 							  <a class="dropdown-item dropdown-filter" id="filter-upcoming" href="#" >Coming Soon</a>
 							  <a class="dropdown-item dropdown-filter" id="filter-all" href="#" >Show All</a>
 							</div>
-						  </div>
+						</div>
+						<div class="fav-filter-button " style="display: inline-block; vertical-align: top; margin-left: 10px;  width: 40px; height: 40px;">&nbsp;</div>
 					</div>
 				</div>
 			</header>

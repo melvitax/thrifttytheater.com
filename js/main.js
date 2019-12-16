@@ -6,7 +6,6 @@ $( document ).ready(function() {
 
 var missing_current_schedule = []
 var missing_current_trailer = []
-var missing_upcoming_schedule = []
 var missing_upcoming_trailer = []
 
   for(var i = 0; i < cards.length; i++) {
@@ -51,35 +50,31 @@ var missing_upcoming_trailer = []
     var key = (now < openingDate) ? "upcoming" : "current"
     if (!$('.modal-video', card).length) {
       if  (now < openingDate) {
-        missing_upcoming_trailer.push($('.card-title', card).text())
+        missing_upcoming_trailer.push($('.show-title', card).text())
       } else {
-        missing_current_trailer.push($('.card-title', card).text())
+        missing_current_trailer.push($('.show-title', card).text())
       }
     }
     if (!$('.text-schedule-title', card).length) {
       if  (now < openingDate) {
-        missing_upcoming_schedule.push($('.card-title', card).text())
+
       } else {
-        missing_current_schedule.push($('.card-title', card).text())
+        missing_current_schedule.push($('.show-title', card).text())
       }
     }
 
   }
   if (missing_current_schedule.length) {
     console.log("MISING CURRENT SCHEDULE")
-    console.log("   "+JSON.stringify(missing_current_schedule )) 
+    console.log(missing_current_schedule.join("\n")) 
   }
   if (missing_current_trailer.length) {
     console.log("MISING CURRENT TRAILER")
-    console.log("   "+JSON.stringify(missing_current_trailer))
+    console.log(missing_current_trailer.join("\n"))
   }
-  // if (missing_upcoming_schedule.length) {
-  //   console.log("MISING UPCOMING SCHEDULE")
-  //   console.log("   "+JSON.stringify(missing_upcoming_schedule))
-  // }
   if (missing_upcoming_trailer.length) {
     console.log("MISING UPCOMING TRAILER")
-    console.log("   "+JSON.stringify(missing_upcoming_trailer))
+    console.log(missing_upcoming_trailer.join("\n"))
   }
 
   // Enable Popovers
@@ -101,18 +96,83 @@ var missing_upcoming_trailer = []
     $('iframe', this).attr('src', "")
   })
 
-  // Nav
+  // Dropdown filter button
   $('.dropdown-filter').click(function() {
     setCookie('selectedFilter', $(this).attr('id'), 365)
     $('.card.filter-all').parent().hide()
     $('.card.'+$(this).attr('id')).parent().show()
     $('.btn-filter').text(this.text)
   })
+  // Read saved filtereted selection and apply it on load
   var selectedFilter = getCookie('selectedFilter')
   if (!selectedFilter) {
     selectedFilter = 'filter-current'
   }
   $('#'+selectedFilter).trigger( "click" )
+
+  // Fav show buttons
+  $('.fav-button').click(function() {
+    var id = $(this).attr('id').split("__")[1]
+    $('.card__'+id).toggleClass('isFavorite')
+    var isFavorite = $('.card__'+id).hasClass('isFavorite')
+    var faved = getCookie('favedShows')
+    var array = []
+    if (faved) {
+      array = faved.split(",")
+    }
+    if (isFavorite) {
+      array.push(id)
+    } else {
+      var filtrered = []
+      for(var i = 0; i < array.length; i++) {
+        var item = array[0]
+        if (item != id) {
+          filtrered.push(item)
+        }
+      }
+      array = filtered
+    }
+    var string = array.join(",")
+    setCookie('favedShows', string, 365)
+  })
+  // Fav filter button
+  $('.fav-filter-button').click(function() {
+    $(this).toggleClass('isActive')
+    var showFavorites = $(this).hasClass('isActive')
+    if (showFavorites) {
+      $('.card').parent().hide()
+      $('.card.isFavorite').parent().show()
+      setCookie('favFilter', "true", 365)
+    } else {
+      $('.card').parent().show()
+      setCookie('favFilter', "false", 365)
+    }
+  })
+  // read fav shows from cookie and display heart in each card
+  var faved = getCookie('favedShows')
+  if (faved) {
+    var array = faved.split(",")
+    if (array) {
+      for(var i = 0; i < array.length; i++) {
+        let rawID = array[i]
+        $('.card__'+rawID).addClass('isFavorite')
+      }
+    }
+  }
+  // read fav filter cookie and activate filter if needed
+  var favFilter = getCookie('favFilter')
+  if (!favFilter) {
+    favFilter = "false"
+  }
+  var filterFavorites = (favFilter == "true")
+  if (filterFavorites) {
+    $('.card').parent().hide()
+    $('.card.isFavorite').parent().show()
+    $('.fav-filter-button').addClass('isActive')
+  } else {
+    $('.card').parent().show()
+  }
+  
 
   function filterSelection(id) {
     setCookie('selectedFilter', id, 365);

@@ -17,6 +17,12 @@
   .main-content{
     background-color: #000;
   }
+  .jumbotron h1 {
+    color: white !important;
+  }
+  .jumbotron p {
+    color: rgb(221, 221, 221) !important;
+  }
   .card {
     background-color: #343a40;
     border: 1px solid #6c757d;
@@ -72,8 +78,29 @@
     text-shadow: none;
   }
 }
-
-
+.fav-filter-button {
+  background-image: url('/assets/heart-all-regular.svg');
+  background-size: 40px 40px;
+}
+.fav-filter-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+.fav-filter-button.isActive {
+  background-image: url('/assets/heart-all-solid.svg');
+}
+.fav-button {
+  background-image: url('/assets/heart-regular.svg');
+  background-size: 50px 50px;
+  transition: scale .2s ease-in-out; 
+}
+.fav-button:hover {
+  cursor: pointer;
+  transform: translateZ(0px) scale(1.15);
+}
+.isFavorite .fav-button {
+  background-image: url('/assets/heart-solid.svg');
+}
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { 
   transform: translateZ(0px) scale(1.05);
