@@ -102,21 +102,22 @@ var missing_upcoming_trailer = []
   })
 
   // Nav
-  $('.btn-filter-show').each(function (index, value) {
-    $(this).click(function() {
-      $('.btn-filter-show').removeClass("active")
-      $(this).addClass("active")
-      setCookie('selectedFilter', $(this).attr('id'), 365)
-      $('.card.filter-all').parent().hide()
-      $('.card.'+$(this).attr('id')).parent().show()
-    })
-  });
+  $('.dropdown-filter').click(function() {
+    setCookie('selectedFilter', $(this).attr('id'), 365)
+    $('.card.filter-all').parent().hide()
+    $('.card.'+$(this).attr('id')).parent().show()
+    $('.btn-filter').text(this.text)
+  })
   var selectedFilter = getCookie('selectedFilter')
   if (!selectedFilter) {
     selectedFilter = 'filter-current'
   }
   $('#'+selectedFilter).trigger( "click" )
 
+  function filterSelection(id) {
+    setCookie('selectedFilter', id, 365);
+    alert(this);
+  }
 
   function setCookie(c_name, value, exdays) {
     'use strict';
