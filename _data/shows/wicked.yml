@@ -41,6 +41,11 @@ tickets:
     title: $79 Military
     type: military
   - highlight: false
+    info: >-
+      https://www.awin1.com/cread.php?awinmid=7219&awinaffid=273851&clickref=&p=%5B%5Bhttps%253A%252F%252Fwww.stubhub.com%252Fwicked-new-york-tickets%252Fperformer%252F9794%252F%5D%5D
+    title: StubHub
+    type: regular
+  - highlight: false
     info: 'http://www.ticketmaster.com/artist/965961'
     title: $92-$232 Tickets
     type: regular
