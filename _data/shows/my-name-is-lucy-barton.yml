@@ -12,14 +12,6 @@ criticspick: false
 website: 'https://www.manhattantheatreclub.com/2019-20-season/my-name-is-lucy-barton'
 tickets:
   - highlight: false
-    info: 'https://www.telecharge.com/Broadway/My-Name-is-Lucy-Barton/Ticket'
-    title: $89-$169 Tickets
-    type: regular
-  - highlight: false
-    info: 'http://www.manhattantheatreclub.com/season-tickets/30-under-35/'
-    title: $30 Under 25
-    type: thirtyUnder35
-  - highlight: false
     info: >-
       Student tickets are available at the box office on the day of the show
       when the box office opens. Tickets are $30 (including all fees), payable
@@ -30,3 +22,11 @@ tickets:
       program instead.
     title: $30 Student Rush
     type: studentRush
+  - highlight: false
+    info: 'http://www.manhattantheatreclub.com/season-tickets/30-under-35/'
+    title: $30 Under 25
+    type: thirtyUnder35
+  - highlight: false
+    info: 'https://www.telecharge.com/Broadway/My-Name-is-Lucy-Barton/Ticket'
+    title: $89-$169 Tickets
+    type: regular
