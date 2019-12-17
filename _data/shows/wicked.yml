@@ -13,6 +13,10 @@ trailer: 'https://www.youtube.com/watch?v=KR1MWFti-IY'
 website: 'http://www.wickedthemusical.com'
 tickets:
   - highlight: true
+    info: 'https://lottery.broadwaydirect.com/show/wicked/'
+    title: $48 Digital Lottery
+    type: digitalLottery
+  - highlight: true
     info: >-
       2.5 hours prior to show time, people who present themselves at the
       Gershwin Theatre box office will have their names placed in a hat. 30
