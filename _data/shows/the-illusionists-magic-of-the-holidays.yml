@@ -17,6 +17,10 @@ criticspick: false
 trailer: 'https://www.youtube.com/watch?v=unUsnbk-2pA'
 website: 'https://www.theillusionistslive.com'
 tickets:
+  - highlight: true
+    info: 'https://lottery.broadwaydirect.com/show/the-illusionists/'
+    title: $35 Digital Lottery
+    type: digitalLottery
   - highlight: false
     info: >-
       https://www.ticketmaster.com/the-illusionists-magic-of-the-holidays-ny-tickets/artist/2538275
