@@ -17,10 +17,6 @@ tickets:
     title: $40 Digital Lottery
     type: digitalLottery
   - highlight: false
-    info: 'https://www.telecharge.com/Broadway/Jagged-Little-Pill/Ticket'
-    title: $89-$179 Tickets
-    type: regular
-  - highlight: false
     info: >-
       Available on the day of the performance. Where: Broadhurst Theatre box
       office Time: 10 AM Tuesday-Saturday, noon Sunday ID: N/A Payment Method:
@@ -29,3 +25,7 @@ tickets:
       to daily availability.
     title: $40 Rush Tickets
     type: rush
+  - highlight: false
+    info: 'https://www.telecharge.com/Broadway/Jagged-Little-Pill/Ticket'
+    title: $89-$179 Tickets
+    type: regular
