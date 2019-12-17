@@ -16,13 +16,13 @@ tickets:
     type: digitalLottery
   - highlight: false
     info: >-
-      https://www.telecharge.com/Broadway/The-Lightning-Thief-The-Percy-Jackson-Musical/
-    title: $39-$129 Tickets
-    type: regular
-  - highlight: false
-    info: >-
       A limited number of rush tickets for the musical will be available in
       person when the Longacre box office opens each day (10 AM
       Mondays–Saturdays and 11 AM Sundays).
     title: $32 Rush
     type: rush
+  - highlight: false
+    info: >-
+      https://www.telecharge.com/Broadway/The-Lightning-Thief-The-Percy-Jackson-Musical/
+    title: $39-$129 Tickets
+    type: regular
