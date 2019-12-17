@@ -8,3 +8,20 @@ closing: '2020-03-01'
 tonyaward: false
 criticspick: false
 website: 'https://2st.com/shows/grand-horizons'
+tickets:
+  - highlight: false
+    info: >-
+      STUDENT ACCESS $25, one hour prior to curtain. 1 ticket per full-time high
+      school or college student ID.
+    title: $25 Student Rush
+    type: studentRush
+  - highlight: false
+    info: >-
+      $30 tickets are available to people age 30 and under for all Second Stage
+      productions! Simply use promo code 30UNDER30 to access tickets.
+    title: $30 Under 30
+    type: thirtyUnder
+  - highlight: false
+    info: 'https://cart.2st.com/events'
+    title: $79-$199 Tickets
+    type: regular
