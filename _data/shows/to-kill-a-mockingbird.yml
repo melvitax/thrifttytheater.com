@@ -29,6 +29,10 @@ tickets:
     title: $39 Standing Room
     type: standing
   - highlight: false
+    info: 'https://www.lct.org/linctix/'
+    title: $32 Linctix
+    type: linctix
+  - highlight: false
     info: >-
       https://www.broadwayinbound.com/to-kill-a-mockingbird-10-tickets-for-nyc-public-schools/
     title: $10 NYC Schools
@@ -37,7 +41,3 @@ tickets:
     info: 'https://www.telecharge.com/Broadway/To-Kill-a-Mockingbird/Ticket'
     title: $89-$199 Tickets
     type: regular
-  - highlight: false
-    info: 'https://www.lct.org/linctix/'
-    title: $32 Linctix
-    type: linctix
