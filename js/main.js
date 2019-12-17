@@ -171,10 +171,10 @@ var missing_upcoming_trailer = []
     var filterFavorites = (favFilter == "true")
     if (filterFavorites) {
       $('.card.'+selectedFilter+'.isFavorite').parent().show()
-      $('.card.isFavorite').parent().show()
       $('.fav-filter-button').addClass('isActive')
     } else {
       $('.card.'+selectedFilter).parent().show()
+      $('.fav-filter-button').removeClass('isActive')
     }
   }
   
