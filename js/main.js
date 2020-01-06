@@ -4,9 +4,10 @@ $( document ).ready(function() {
   var today = now.getDay();
   var cards = document.querySelectorAll(".card");
 
-var missing_current_schedule = []
-var missing_current_trailer = []
-var missing_upcoming_trailer = []
+  var shows_ended = []
+  var missing_current_schedule = []
+  var missing_current_trailer = []
+  var missing_upcoming_trailer = []
 
   for(var i = 0; i < cards.length; i++) {
     var card = cards[i];
@@ -41,6 +42,7 @@ var missing_upcoming_trailer = []
       var closingDate = new Date(closing);
       if (now > closingDate) {
         console.log($('.show-title', card).text()+' show ended');
+        shows_ended.push($('.show-title', card).text())
         $(card).parent().remove();
       } else if (now > new Date(closingDate - (oneWeek*4))) {
         $('.list-group-date-closing', card).removeClass('text-muted').addClass('text-danger')
@@ -64,6 +66,11 @@ var missing_upcoming_trailer = []
     }
 
   }
+  
+  if (shows_ended.length) {
+    console.log("SHOWS ENDED")
+    console.log(shows_ended.join("\n")) 
+  }
   if (missing_current_schedule.length) {
     console.log("MISING CURRENT SCHEDULE")
     console.log(missing_current_schedule.join("\n")) 
@@ -73,7 +80,7 @@ var missing_upcoming_trailer = []
     console.log(missing_current_trailer.join("\n"))
   }
   if (missing_upcoming_trailer.length) {
-    console.log("MISING UPCOMING TRAILER")
+    //console.log("MISING UPCOMING TRAILER")
     console.log(missing_upcoming_trailer.join("\n"))
   }
 
