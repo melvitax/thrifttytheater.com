@@ -40,7 +40,7 @@ var missing_upcoming_trailer = []
     if (closing != undefined) {
       var closingDate = new Date(closing);
       if (now > closingDate) {
-        console.log($('.card-title', card).text()+' show ended');
+        console.log($('.show-title', card).text()+' show ended');
         $(card).parent().remove();
       } else if (now > new Date(closingDate - (oneWeek*4))) {
         $('.list-group-date-closing', card).removeClass('text-muted').addClass('text-danger')
