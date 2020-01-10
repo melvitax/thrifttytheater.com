@@ -12,6 +12,10 @@ criticspick: false
 website: >-
   https://www.roundabouttheatre.org/get-tickets/2019-2020-season/a-soldiers-play/
 tickets:
+  - highlight: true
+    info: 'https://www.todaytix.com/x/nyc/shows/18941-a-soldiers-play-on-broadway'
+    title: $30 Digital Rush
+    type: digitalRush
   - highlight: false
     info: Access Roundabout Discounts
     title: $10 Access
