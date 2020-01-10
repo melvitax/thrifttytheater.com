@@ -11,6 +11,10 @@ tonyaward: false
 criticspick: false
 website: 'https://www.manhattantheatreclub.com/2019-20-season/my-name-is-lucy-barton'
 tickets:
+  - highlight: true
+    info: 'https://www.todaytix.com/x/nyc/shows/19554-my-name-is-lucy-barton'
+    title: $35 Digital Rush
+    type: digitalRush
   - highlight: false
     info: >-
       Student tickets are available at the box office on the day of the show
