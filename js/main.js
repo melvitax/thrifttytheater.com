@@ -41,7 +41,7 @@ $( document ).ready(function() {
     if (closing != undefined) {
       var closingDate = new Date(closing);
       if (now > closingDate) {
-        console.log($('.show-title', card).text()+' show ended');
+        //console.log($('.show-title', card).text()+' show ended');
         shows_ended.push($('.show-title', card).text())
         $(card).parent().remove();
       } else if (now > new Date(closingDate - (oneWeek*4))) {
