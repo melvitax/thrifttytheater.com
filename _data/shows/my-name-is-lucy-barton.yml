@@ -8,8 +8,9 @@ preview: '2020-01-06'
 opening: '2020-01-15'
 closing: '2020-03-01'
 tonyaward: false
-criticspick: false
-website: 'https://www.manhattantheatreclub.com/2019-20-season/my-name-is-lucy-barton'
+criticspick: true
+trailer: 'https://www.youtube.com/watch?v=h1DJTP4-OFU'
+website: 'https://lucybartonplay.com'
 tickets:
   - highlight: true
     info: 'https://www.todaytix.com/x/nyc/shows/19554-my-name-is-lucy-barton'
