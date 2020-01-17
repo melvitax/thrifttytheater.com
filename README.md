@@ -47,7 +47,7 @@ $ gem install bundler -v 2.0.1
 $ bundle install
 ```
 
-### Runningn locally
+### Running locally
 $ npm run dev
 ```
 
