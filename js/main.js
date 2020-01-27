@@ -72,17 +72,17 @@ $( document ).ready(function() {
     console.log(shows_ended.join("\n")) 
   }
   if (missing_current_schedule.length) {
-    console.log("MISING CURRENT SCHEDULE")
+    console.log("SHOWS MISING SCHEDULE")
     console.log(missing_current_schedule.join("\n")) 
   }
   if (missing_current_trailer.length) {
-    console.log("MISING CURRENT TRAILER")
+    console.log("SHOWS MISING TRAILER")
     console.log(missing_current_trailer.join("\n"))
   }
-  if (missing_upcoming_trailer.length) {
-    //console.log("MISING UPCOMING TRAILER")
-    console.log(missing_upcoming_trailer.join("\n"))
-  }
+  // if (missing_upcoming_trailer.length) {
+  //   console.log("MISING UPCOMING TRAILER")
+  //   console.log(missing_upcoming_trailer.join("\n"))
+  // }
 
   // Enable Popovers
   $('[data-toggle="popover"]').popover()
