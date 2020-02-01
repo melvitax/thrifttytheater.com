@@ -13,7 +13,7 @@ trailer: 'https://www.youtube.com/watch?v=NREQfz2uTck'
 website: 'https://www.hadestown.com/'
 tickets:
   - highlight: true
-    info: 'https://beta.luckyseat.com/shows/hadestown-newyork'
+    info: 'https://www.luckyseat.com/shows/hadestown-newyork'
     title: $42 Digital Lottery
     type: digitalLottery
   - highlight: false
