@@ -11,7 +11,7 @@ trailer: 'https://www.youtube.com/watch?v=GHQITfI9878'
 website: 'http://www.bookofmormonbroadway.com/'
 tickets:
   - highlight: true
-    info: 'http://www.luckyseat.com/book-of-mormon/'
+    info: 'https://www.luckyseat.com/shows/bookofmormon-newyork'
     title: $50 Digital Lottery
     type: digitalLottery
   - highlight: false
