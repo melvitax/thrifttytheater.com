@@ -26,7 +26,7 @@ tickets:
     info: 'https://cart.2st.com/events'
     title: $79-$199 Tickets
     type: regular
-  - highlight: false
+  - highlight: true
     info: 'https://www.todaytix.com/x/nyc/shows/19706-grand-horizons-on-broadway'
     title: $35 Digital Rush
     type: digitalRush
