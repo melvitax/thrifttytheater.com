@@ -10,6 +10,10 @@ criticspick: false
 trailer: 'https://www.youtube.com/watch?v=6K0ysf9Wnz8'
 website: 'https://2st.com/shows/grand-horizons'
 tickets:
+  - highlight: true
+    info: 'https://www.todaytix.com/x/nyc/shows/19706-grand-horizons-on-broadway'
+    title: $35 Digital Rush
+    type: digitalRush
   - highlight: false
     info: >-
       STUDENT ACCESS $25, one hour prior to curtain. 1 ticket per full-time high
@@ -26,7 +30,3 @@ tickets:
     info: 'https://cart.2st.com/events'
     title: $79-$199 Tickets
     type: regular
-  - highlight: true
-    info: 'https://www.todaytix.com/x/nyc/shows/19706-grand-horizons-on-broadway'
-    title: $35 Digital Rush
-    type: digitalRush
