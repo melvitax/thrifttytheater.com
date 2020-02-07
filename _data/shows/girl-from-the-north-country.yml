@@ -22,3 +22,7 @@ tickets:
       discretion of the box office. Subject to daily availability.
     title: $39 Rush Tickets
     type: rush
+  - highlight: false
+    info: 'https://www.telecharge.com/Broadway/Girl-From-The-North-Country/Ticket'
+    title: $49-$179 Tickets
+    type: regular
