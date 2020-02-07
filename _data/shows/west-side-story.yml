@@ -13,6 +13,12 @@ trailer: 'https://www.youtube.com/watch?v=gykFkXKef2k'
 website: 'https://westsidestorybway.com'
 tickets:
   - highlight: false
+    info: >-
+      General Rush $40, cash or credit card. Available when the box office
+      opens, subject to availability. 2 tickets per person. 
+    title: $40 Rush Tickets
+    type: rush
+  - highlight: false
     info: 'https://www.telecharge.com/Broadway/West-Side-Story/Overview'
     title: $39-$109 Tickets
     type: regular
