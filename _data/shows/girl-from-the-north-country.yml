@@ -9,3 +9,8 @@ tonyaward: false
 criticspick: true
 trailer: 'https://www.youtube.com/watch?v=qNeHKvoshG4'
 website: 'https://northcountryonbroadway.com/'
+tickets:
+  - highlight: true
+    info: 'https://northcountrylottery.com'
+    title: $39 Digital Lottery
+    type: digitalLottery
