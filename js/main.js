@@ -179,16 +179,24 @@ $( document ).ready(function() {
       setCookie('favFilter', favFilter, 365)
     }
 
-    $('.card.filter-all').parent().hide()
+    //$('.card.filter-all').parent().hide()
     var filterFavorites = (favFilter == "true")
     if (filterFavorites) {
-      $('.card.isFavorite').parent().show()
       $('.fav-filter-button').addClass('isActive')
+      $('.card').each(function(index, card) {
+        if ($(card).hasClass('isFavorite')) {
+          $(card).parent().show()
+        } else {
+          $(card).parent().hide()
+        }
+      })
     } else {
       $('.card.filter-all').parent().show()
       $('.fav-filter-button').removeClass('isActive')
     }
   }
+
+  $('main').removeClass('hide')
   
   function setCookie(c_name, value, exdays) {
     'use strict';

@@ -13,12 +13,13 @@ body {
   body {
     background-color: #000;
     color: white;
+    height: 100%;
   }
   
-  .jumbotron h1 {
+  header h1 {
     color: white !important;
   }
-  .jumbotron p {
+  header p {
     color: rgb(221, 221, 221) !important;
   }
   .card {
@@ -69,10 +70,7 @@ body {
     text-shadow: none;
   }
 }
-.jumbotron {
-  background-color: transparent;
-}
-.jumbotron h1 {
+header h1 {
   font-size: 12vw;
 }
 .fav-filter-button {
@@ -154,3 +152,25 @@ body {
   background-color: rgb(231, 244, 248);
   cursor: pointer;
 }
+
+/***************
+ *  Effects   *
+****************/
+main {
+  min-height: 90%;
+}
+main.hide {
+  opacity: 0;
+}
+h1, .card {
+  -webkit-animation: fadein 1.2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1.2s; /* Firefox < 16 */
+  -ms-animation: fadein 1.2s; /* Internet Explorer */
+   -o-animation: fadein 1.2s; /* Opera < 12.1 */
+      animation: fadein 1.2s;
+}
+@keyframes fadein { from {opacity: 0} to {opacity: 1} }
+@-moz-keyframes fadein { from {opacity: 0} to {opacity: 1} } /* Firefox < 16 */
+@-webkit-keyframes fadein { from {opacity: 0} to {opacity: 1} } /* Safari, Chrome and Opera > 12.1 */
+@-ms-keyframes fadein { from {opacity: 0} to {opacity: 1} } /* IE */
+@-o-keyframes fadein { from {opacity: 0} to {opacity: 1} } /* Opera < 12.1 */
