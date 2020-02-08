@@ -1,6 +1,6 @@
 title: The Lehman Trilogy
 poster: /assets/uploads/the-lehman-trilogy.jpg
-header: ''
+header: /assets/uploads/lehman-header.jpg
 description: >-
   Stefano Massini's acclaimed epic, weaving through two centuries of Lehman
   lineage, comes to Broadway.
@@ -10,6 +10,7 @@ opening: '2020-03-26'
 closing: '2020-07-05'
 tonyaward: false
 criticspick: true
+trailer: 'https://www.youtube.com/watch?v=Z9Q6PrhCLO8'
 website: 'https://thelehmantrilogy.com'
 tickets:
   - highlight: false
