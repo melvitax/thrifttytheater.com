@@ -101,6 +101,9 @@ body {
 .list-group-item.list-group-item-highlighted svg {
   color: rgb(255, 72, 0);
 }
+.list-group-item-action.last {
+  border-radius: 0px 0px .25rem .25rem !important;
+}
 .list-group-date-callout {
   border-radius: 0px 0px .25rem .25rem !important;
 }

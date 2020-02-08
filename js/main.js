@@ -57,6 +57,7 @@ $( document ).ready(function() {
           }
         } else {
           $('.list-group-date-callout', card).remove()
+          $('.list-group-item-action', card).last().addClass('last')
         }
       }
       
