@@ -9,8 +9,8 @@ preview: '2019-11-03'
 opening: '2019-12-05'
 closing: ''
 tonyaward: false
-criticspick: false
-trailer: 'https://www.youtube.com/watch?v=QwFiyS_4QKE'
+criticspick: true
+trailer: 'https://www.youtube.com/watch?v=5teNqef7S88'
 website: 'https://jaggedlittlepill.com'
 tickets:
   - highlight: true
