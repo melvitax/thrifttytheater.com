@@ -80,25 +80,6 @@ $( document ).ready(function() {
   // Remove upcoming from the now playing section
   $('.filter-upcoming').parent().remove()
 
-  // Enable Popovers
-  $('[data-toggle="popover"]').popover()
-  // Hide Popover when clicking anywhere outside popover
-  $('body').on('click', function (e) {
-    if ($(e.target).data('toggle') !== 'popover'
-        && $(e.target).parents('[data-toggle="popover"]').length === 0
-        && $(e.target).parents('.popover.in').length === 0) { 
-        $('[data-toggle="popover"]').popover('hide');
-    }
-  });
-
-  // Add and remove video from Modal
-  $('.modal').on('show.bs.modal', function (e) {
-    $('iframe', this).attr('src', $('iframe', this).attr('data-src')) 
-  })
-  $('.modal').on('hide.bs.modal', function (e) {
-    $('iframe', this).attr('src', "")
-  })
-
   // Favorite Shows: Read saved state and update each card
   var faved = getCookie('favedShows')
   if (faved) {
@@ -121,7 +102,6 @@ $( document ).ready(function() {
     } 
     upcoming_cards_grouped_by_dates[month].push(value.card)
   })
-
   for (date in upcoming_cards_grouped_by_dates) {
     $('#upcoming').append('<h3 class="pv-6 mt-4">'+date+'</h3>')
     $('#upcoming').append('')
@@ -129,12 +109,30 @@ $( document ).ready(function() {
     var rows = []
     for (key in row) {
       var card = row[key]
-      //$('.fav-button', card).hide()
       $('.tickets', card).hide()
       rows.push('<div class="col-md-2 col-6 pt-4" >'+$(card).parent().html()+'</div>')
     }
     $('#upcoming').append('<div class="row card-columns">'+rows.join("\n")+'</div>') 
   }
+
+  // Enable Popovers
+  $('[data-toggle="popover"]').popover()
+  // Hide Popover when clicking anywhere outside popover
+  $('body').on('click', function (e) {
+    if ($(e.target).data('toggle') !== 'popover'
+        && $(e.target).parents('[data-toggle="popover"]').length === 0
+        && $(e.target).parents('.popover.in').length === 0) { 
+        $('[data-toggle="popover"]').popover('hide');
+    }
+  });
+
+  // Add and remove video from Modal
+  $('.modal').on('show.bs.modal', function (e) {
+    $('iframe', this).attr('src', $('iframe', this).attr('data-src')) 
+  })
+  $('.modal').on('hide.bs.modal', function (e) {
+    $('iframe', this).attr('src', "")
+  })
 
   // Fav Shows: Button logic
   $('.fav-button').click(function() {
