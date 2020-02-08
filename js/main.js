@@ -9,47 +9,59 @@ $( document ).ready(function() {
   var missing_current_trailer = []
   var missing_upcoming_trailer = []
 
+  var upcoming_cards = []
+
   for(var i = 0; i < cards.length; i++) {
     var card = cards[i];
-
+    $(card).addClass('filter-all')
     // Set dates for comparison
-    var previewDate = new Date(card.getAttribute('data-preview'));
-    var openingDate = new Date(card.getAttribute('data-opening'));
-    var closing = card.getAttribute('data-closing');
-    var oneWeek = 60480000 // in milliseconds
-
-    // Show hasn't started
-    if (now < (previewDate - oneWeek)) {
-      $('.list-group-date-previews', card).removeClass('text-muted').addClass('text-success')
-      $('.list-group-date-opening', card).removeClass('text-muted').addClass('text-success')
+    var previewDate = new Date(card.getAttribute('data-preview'))
+    var openingDate = new Date(card.getAttribute('data-opening'))
+    var closing = card.getAttribute('data-closing')
+    
+    // Identify upcoming shows
+    if (now < shiftDay(previewDate, -7)) {
       $(card).addClass('filter-upcoming')
+      upcoming_cards.push({date: previewDate, card: $(card)})
+      var previewDateString = moment(new Date(previewDate)).format('MMM Do')
+      $('.list-group-date-callout', card).html('<small>'+previewDateString+'</small>')
+    // Identify current shows
     } else{
       $(card).addClass('filter-current')
-    }
-    $(card).addClass('filter-all')
-
-    // Show is in previews
-    if (now > previewDate && now < openingDate) {
-      $('.list-group-date-previews', card).html("<small>In Previews Now</small>")
-    }
-    // Show has started
-    if (now >= openingDate) {
-      $('.list-group-date-previews', card).remove();
-      $('.list-group-date-opening', card).remove();
-    }
-    // Show is ending
-    if (closing != undefined) {
-      var closingDate = new Date(closing);
-      if (now > closingDate) {
-        //console.log($('.show-title', card).text()+' show ended');
-        shows_ended.push($('.show-title', card).text())
-        $(card).parent().remove();
-      } else if (now > new Date(closingDate - (oneWeek*4))) {
-        $('.list-group-date-closing', card).removeClass('text-muted').addClass('text-danger')
+      // 
+      if (now < previewDate) {
+        var previewDateString = moment(previewDate).fromNow()
+          $('.list-group-date-callout', card).html('<small>Begins '+previewDateString+'</small>')
+          $('.list-group-date-callout', card).addClass('comingsoon')
+      } else if (now >= previewDate && now < openingDate) {
+        $('.list-group-date-callout', card).html("<small>In Previews Now</small>")
+      } else {
+        if (closing != undefined && closing != "") {
+          var closingDate = new Date(closing)
+          // Show ended
+          if (now > closingDate) {
+            shows_ended.push($('.show-title', card).text())
+            $(card).parent().remove();
+          } else {
+            // Show is ending soon
+            if (now > shiftDay(closingDate, -7)) {
+              var closingDateString = moment(closingDate).fromNow()
+              $('.list-group-date-callout', card).html('<small>Ends '+closingDateString+'</small>')
+            } else {
+              var closingDateString = moment(closingDate).format('MMM Do')
+              $('.list-group-date-callout', card).html('<small>Ends '+closingDateString+'</small>')
+            }
+            if (now > shiftDay(closingDate, -30)) {
+              $('.list-group-date-callout', card).addClass('ending')
+            }
+          }
+        } else {
+          $('.list-group-date-callout', card).remove()
+        }
       }
+      
     }
-    // Check for missing items
-    var key = (now < openingDate) ? "upcoming" : "current"
+    // Find any missing trailers and add to array
     if (!$('.modal-video', card).length) {
       if  (now < openingDate) {
         missing_upcoming_trailer.push($('.show-title', card).text())
@@ -57,32 +69,15 @@ $( document ).ready(function() {
         missing_current_trailer.push($('.show-title', card).text())
       }
     }
+    // Find any missing schedule and add to array
     if (!$('.text-schedule-title', card).length) {
-      if  (now < openingDate) {
-
-      } else {
+      if  (now >= openingDate) {
         missing_current_schedule.push($('.show-title', card).text())
       }
     }
-
   }
-  
-  if (shows_ended.length) {
-    console.log("SHOWS ENDED")
-    console.log(shows_ended.join("\n")) 
-  }
-  if (missing_current_schedule.length) {
-    console.log("SHOWS MISING SCHEDULE")
-    console.log(missing_current_schedule.join("\n")) 
-  }
-  if (missing_current_trailer.length) {
-    console.log("SHOWS MISING TRAILER")
-    console.log(missing_current_trailer.join("\n"))
-  }
-  // if (missing_upcoming_trailer.length) {
-  //   console.log("MISING UPCOMING TRAILER")
-  //   console.log(missing_upcoming_trailer.join("\n"))
-  // }
+  // Remove upcoming from the now playing section
+  $('.filter-upcoming').parent().remove()
 
   // Enable Popovers
   $('[data-toggle="popover"]').popover()
@@ -115,6 +110,31 @@ $( document ).ready(function() {
     }
   }
 
+  // Build upcpming section
+  var upcoming_cards_grouped_by_dates = []
+  var sorted_upcoming_cards = upcoming_cards.sort((a, b) => a.date - b.date)
+  $(sorted_upcoming_cards).each(function(index, value) {
+    var month = moment(value.date).format('MMMM YYYY')
+    if (!(month in upcoming_cards_grouped_by_dates)) {
+      upcoming_cards_grouped_by_dates[month] = []
+    } 
+    upcoming_cards_grouped_by_dates[month].push(value.card)
+  })
+
+  for (date in upcoming_cards_grouped_by_dates) {
+    $('#upcoming').append('<h3 class="pv-6 mt-4">'+date+'</h3>')
+    $('#upcoming').append('')
+    var row = upcoming_cards_grouped_by_dates[date]
+    var rows = []
+    for (key in row) {
+      var card = row[key]
+      //$('.fav-button', card).hide()
+      $('.tickets', card).hide()
+      rows.push('<div class="col-md-2 col-6 pt-4" >'+$(card).parent().html()+'</div>')
+    }
+    $('#upcoming').append('<div class="row card-columns">'+rows.join("\n")+'</div>') 
+  }
+
   // Fav Shows: Button logic
   $('.fav-button').click(function() {
     var id = $(this).attr('id').split("__")[1]
@@ -141,13 +161,6 @@ $( document ).ready(function() {
     setCookie('favedShows', string, 365)
   })
 
-  // Filter Dropdown: Button logic
-  $('.dropdown-filter').click(function() {
-    var filter = $(this).attr('id')
-    setCookie('selectedFilter', filter, 365)
-    updateUI()
-  })
-
   // Filter Favorites: Button logic
   $('.fav-filter-button').click(function() {
     $(this).toggleClass('isActive')
@@ -160,27 +173,20 @@ $( document ).ready(function() {
   updateUI()
   
   function updateUI() {
-    // Filter Dropdown
-    var selectedFilter = getCookie('selectedFilter')
-    if (!selectedFilter) {
-      selectedFilter = 'filter-current'
-      setCookie('selectedFilter', selectedFilter, 365)
-    }
-    var filterName = $('#'+selectedFilter).text()
-    $('.btn-filter').text(filterName)
     // Filter Favorites
     var favFilter = getCookie('favFilter')
     if (!favFilter) {
       favFilter = "false"
       setCookie('favFilter', favFilter, 365)
     }
+
     $('.card.filter-all').parent().hide()
     var filterFavorites = (favFilter == "true")
     if (filterFavorites) {
-      $('.card.'+selectedFilter+'.isFavorite').parent().show()
+      $('.card.isFavorite').parent().show()
       $('.fav-filter-button').addClass('isActive')
     } else {
-      $('.card.'+selectedFilter).parent().show()
+      $('.card.filter-all').parent().show()
       $('.fav-filter-button').removeClass('isActive')
     }
   }
@@ -204,6 +210,24 @@ $( document ).ready(function() {
             return unescape(y);
         }
     }
+  }
+
+  function shiftDay(date, offset) {
+    return new Date(date.getFullYear(), date.getMonth(), date.getDate() + offset);
+  }
+
+  // Log to console
+  if (shows_ended.length) {
+    console.log("SHOWS ENDED")
+    console.log(shows_ended.join("\n")) 
+  }
+  if (missing_current_schedule.length) {
+    console.log("SHOWS MISING SCHEDULE")
+    console.log(missing_current_schedule.join("\n")) 
+  }
+  if (missing_current_trailer.length) {
+    console.log("SHOWS MISING TRAILER")
+    console.log(missing_current_trailer.join("\n"))
   }
 
 });

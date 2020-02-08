@@ -61,7 +61,7 @@ body {
     border-bottom: 1px solid #0c0e0f;
   }
   .modal-content table {
-    boder-top: 1px solid #6c757d;
+    border-top: 1px solid #6c757d;
     color: #fff;
   }
   .close {
@@ -69,9 +69,11 @@ body {
     text-shadow: none;
   }
 }
-
 .jumbotron {
   background-color: transparent;
+}
+.jumbotron h1 {
+  font-size: 12vw;
 }
 .fav-filter-button {
   background-image: url('/assets/heart-all-regular.svg');
@@ -96,11 +98,23 @@ body {
 .isFavorite .fav-button {
   background-image: url('/assets/heart-solid.svg');
 }
-.list-group-flush .list-group-item.list-group-item-highlighted {
-  margin-left: -10px;
-  border-left: 10px solid red;
+.list-group-item.list-group-item-highlighted svg {
+  color: rgb(255, 72, 0);
 }
-
+.list-group-date-callout {
+  border-radius: 0px 0px .25rem .25rem !important;
+}
+.filter-current .list-group-date-callout {
+  background-color: #f3f8fb;
+}
+.list-group-date-callout.ending {
+  background-color: rgb(255, 72, 0);
+  color: white !important;
+}
+.list-group-date-callout.comingsoon {
+  background-color: rgb(58, 184, 0);
+  color: white !important;
+}
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { 
   transform: translateZ(0px) scale(1.05);

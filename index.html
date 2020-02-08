@@ -7,6 +7,7 @@ title: Show Hacker
 	<div class="pb-5 main-content">
 
 		<div class="container">
+			<h3 class="pv-6 mt-4">Now Playing</h3>
 			<div class="row card-columns">
 
 	{% assign showtimesData = site.data.showtimes.result.extractorData.data[0].group %}
@@ -23,10 +24,12 @@ title: Show Hacker
 	{% capture closingDate %}{% if show.closing %}{{show.closing}} 00:00:00 -0500{% endif %}{% endcapture %}
 	{% assign showIndex = forloop.index %}
 	
+	<!-- Current Shows -->
 	<div class="col-md-3 col-6 pt-4" >
 		<div class="card mb-3 shadow-sm card__{{slug}}" id="show{{showIndex}}" data-preview="{{show.preview}}" data-opening="{{show.opening}}" {% if show.closing %}data-closing="{{show.closing}}"{% endif %}>
 			<div class="row no-gutters"> 
 				<!-- Poster -->
+
 				<a class="poster-link grow w-100 d-table position-relative" aria-disabled="true" data-toggle="modal" data-target="#show{{showIndex}}Info" style="z-index:1" title="{{ show.title }}">
 					{% if show.poster and show.poster != blank and show.poster != ""  %}
 					<img class="card-img-top w-100 h-100" src="{{ show.poster }}" width="230" height="355" alt="{{show.title}}" />
@@ -37,6 +40,8 @@ title: Show Hacker
 					<img class="icon-play" src="/assets/play.svg" width="120" height="120" alt="play button" />	
 					{% endif %}
 				</a>
+
+
 				<!-- Title -->
 				<div class="text-wrap text-muted text-monospace  text-center position-absolute w-100 show-title" style="top: -1.8em; z-index: 0"><small>{{ show.title }}</small></div>
 				<!-- Favorite -->
@@ -47,7 +52,7 @@ title: Show Hacker
 				{% capture badgeOffset %} {% if show.tonyaward %} 22px {% else %} -22px {% endif %}{% endcapture %}
 				{% if show.criticspick %}<div class="position-absolute" style="top: -16px; left: {{ badgeOffset }}; z-index: 2; width: 64px; height: 0; padding-top: 64px; overflow: hidden; background: url('assets/criticspick.png') center center/cover no-repeat">New York Times Critic's Pick</div>{% endif %}
 				<!-- Tickets -->
-				<div class="list-group list-group-flush w-100" style="z-index:0">
+				<div class="tickets list-group list-group-flush w-100" style="z-index:0">
 					{% for ticket in show.tickets %}
 						{% if ticket.type == "access" %}
 							<a class="list-group-item list-group-item-action pr-5" style="background-image: url(assets/icon-{{ticket.type}}.svg)" data-toggle="collapse" href="#show{{showIndex}}TicketAccess" role="button" aria-expanded="false" aria-controls="show{{showIndex}}TicketAcces">{{ticket.title}}</a>
@@ -70,10 +75,10 @@ title: Show Hacker
 				</div>
 				<!-- Dates -->
 				<ul class="list-group list-group-flush list-dates w-100 list-group-date">
-					<li class="list-group-item text-muted list-group-date-previews"><small class="d-inline-block pr-1">Previews:</small> <small class="d-inline-block">{{previewDate | date: "%b %-d, %Y"}}</small></li>
-					<li class="list-group-item text-muted list-group-date-opening"><small class="d-inline-block pr-1">Opening:</small><small class="d-inline-block"> {{openingDate | date: "%b %-d, %Y"}}</small></li>
 					{% if show.closing and show.closing != blank and show.closing != "" %}
-					<li class="list-group-item text-muted list-group-date-closing"><small class="d-inline-block pr-1">Closing:</small><small class="d-inline-block"> {{closingDate | date: "%b %-d, %Y"}}</small></li>
+					<li class="list-group-item text-muted list-group-date-callout text-center"><small class="d-inline-block pr-1">Ends:</small><small class="d-inline-block"> {{closingDate | date: "%b %-d, %Y"}}</small></li>
+					{% else %}
+					<li class="list-group-item text-muted list-group-date-callout text-center"><small class="d-inline-block pr-1">Starts:</small><small class="d-inline-block"> {{previewDate | date: "%b %-d, %Y"}}</small></li>
 					{% endif %}
 				</ul>
 				<!-- Modal Window -->
@@ -102,18 +107,31 @@ title: Show Hacker
 							<div class="modal-body">
 								<!-- Description -->
 								<p>{{show.description}}</p>
-								<p class="text-muted">
-									{% for theater_hash in site.data.theaters %}
-										{% assign theater = theater_hash[1] %}
-										{% if theater.title == show.theater %}
-										<a href="https://www.google.com/maps/place/{{theater.address | url_encode}}">{{ theater.title }}</a>
-										{% endif %}
-									{% endfor %}
-									{% if show.website %}
-									<span class="float-right"><a href="{{show.website}}">Website</a></span>
-									{% endif %}
+								<hr />
+								<!-- Dates -->
+								<p class="text-muted">Previews: {{previewDate | date: "%b %-d, %Y"}}<br />
+								Opening: {{openingDate | date: "%b %-d, %Y"}}<br />
+								{% if show.closing and show.closing != blank and show.closing != "" %}
+								Closing: {{closingDate | date: "%b %-d, %Y"}}
+								{% endif %}
 								</p>
+								<hr />
+								<!-- Theater and Website -->
+								{% for theater_hash in site.data.theaters %}
+									{% assign theater = theater_hash[1] %}
+									{% if theater.title == show.theater %}
+									<p><strong>{{ theater.title }} <a class="float-right" href="https://www.google.com/maps/place/{{theater.address | url_encode}}">Map</a></strong><br />
+									{{ theater.address }}
+									</p>
+									{% endif %}
+								{% endfor %}
+								{% if show.website %}
+								<hr />
+								<p><a href="{{show.website}}">Official Website</a></p>
+								{% endif %}
+								{% if showtimesData %}
 								<!-- Showtimes -->
+								<hr />
 								{% for showtimes in showtimesData %}
 								{% if show.title == showtimes.show[0].text %}
 								<h5 class="text-schedule-title">Showtimes</h5>
@@ -144,6 +162,7 @@ title: Show Hacker
 								{% break %}
 								{% endif %}
 								{% endfor %}
+								{% endif %}
 							</div>
 						</div>
 					</div>
@@ -152,9 +171,11 @@ title: Show Hacker
 		</div>
 	</div>
 	
-		
 	{% endfor %}
 
+			</div>
+			<div id="upcoming">
+				
 			</div>
 		</div>
 	</div>

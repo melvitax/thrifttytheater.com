@@ -8,20 +8,10 @@ layout: compress
 		<body>
 			<header class="header">
 				<div class="jumbotron text-center m-0 p-0" >
-					<div class="container py-5 px-3 mw-100" >
-						<h1 class="display-4 font-weight-bold">{{site.title}}</h1>
-						<p class="lead text-secondary">{{site.description}}</p>
-						<div class="dropdown" style="display: inline-block;">
-							<button class="btn btn-secondary dropdown-toggle btn-filter" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							  Filter Results
-							</button>
-							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-							  <a class="dropdown-item dropdown-filter" id="filter-current" href="#">Now Playing</a>
-							  <a class="dropdown-item dropdown-filter" id="filter-upcoming" href="#" >Coming Soon</a>
-							  <a class="dropdown-item dropdown-filter" id="filter-all" href="#" >Show All</a>
-							</div>
-						</div>
-						<div class="fav-filter-button " style="display: inline-block; vertical-align: top; margin-left: 10px;  width: 40px; height: 40px;">&nbsp;</div>
+					<div class="container pt-3 px-3 mw-100" >
+						<h1 class="display-4 font-weight-bold site-title">{{site.title}}
+						<span class="fav-filter-button float-right" style="display: inline-block; vertical-align: middle; margin-left: 10px;  width: 40px; height: 40px;">&nbsp;</span>
+					</h1>
 					</div>
 				</div>
 			</header>
