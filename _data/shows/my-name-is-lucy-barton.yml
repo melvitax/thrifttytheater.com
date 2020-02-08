@@ -25,7 +25,7 @@ tickets:
       availability and are limited to two per valid ID. Note that students aged
       35 or under may prefer to purchase their tickets through the 30 Under 35
       program instead.
-    title: $30 Student Rush
+    title: $30 Student
     type: studentRush
   - highlight: false
     info: 'http://www.manhattantheatreclub.com/season-tickets/30-under-35/'

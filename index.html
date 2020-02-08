@@ -57,9 +57,9 @@ title: Show Hacker
 								{% for access_hash in access_folder %}
 									{% assign accessItem =  access_hash[1] %}
 									{% if accessItem.info contains "http" %}
-										<a class="list-group-item list-group-item-action pr-5" href="{{accessItem.info}}">{% include_relative assets/icon-{{ticket.type}}.svg %} {{accessItem.title}}</a>
+										<a class="list-group-item list-group-item-action pr-5" href="{{accessItem.info}}">{% include_relative assets/icon-{{accessItem.type}}.svg %} {{accessItem.title}}</a>
 									{% else %}
-										<a tabindex="0" class="btn list-group-item list-group-item-action pr-5" role="button" data-toggle="popover" title="{{accessItem.title}}" data-content="{{accessItem.info}}">{% include_relative assets/icon-{{ticket.type}}.svg %} {{accessItem.title}}</a>
+										<a tabindex="0" class="btn list-group-item list-group-item-action pr-5" role="button" data-toggle="popover" title="{{accessItem.title}}" data-content="{{accessItem.info}}">{% include_relative assets/icon-{{accessItem.type}}.svg %} {{accessItem.title}}</a>
 									{% endif %}
 								{% endfor %}
 							</div>

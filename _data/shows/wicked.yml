@@ -30,7 +30,7 @@ tickets:
       Tickets at the student ($69) rate are available in-person at the Gershwin
       Theatre box office with a valid college, university ID. Limited 2 tickets
       per ID. Subject to availability – not available for all performances.
-    title: $69 Rush
+    title: $69 Student
     type: studentRush
   - highlight: false
     info: >-

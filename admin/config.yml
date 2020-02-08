@@ -84,7 +84,7 @@ collections:
         widget: "select"
         options: 
           - { label: "Rush", value: "rush" }
-          - { label: "Student Rush", value: "studentRush" }
+          - { label: "Student", value: "studentRush" }
           - { label: "Hiptix", value: "hiptix" }
           - { label: "Hiptix High", value: "hiptixHigh" }
           - { label: "Access 10", value: "access10" }
