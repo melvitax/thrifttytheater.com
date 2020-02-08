@@ -14,6 +14,7 @@ opening: '2020-03-29'
 closing: '2020-07-18'
 tonyaward: false
 criticspick: true
+trailer: 'https://www.youtube.com/watch?v=ZL7qyuQwWd4'
 website: 'https://hangmenbroadway.com'
 tickets:
   - highlight: false
