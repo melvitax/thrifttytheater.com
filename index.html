@@ -100,6 +100,8 @@ title: Show Hacker
 								<iframe width="560" height="315" data-src="{{show.trailer}}" class="js-player w-100 h-100" style="border: 0; left: 0; position: absolute; top: 0;"></iframe>
 								{% endif %}
 							</div>
+							{% elsif show.header and show.header !=blank and show.header != "" %}
+							<div class="modal-video w-100" style="overflow: hidden; height: 0; padding-top: 56.25%; position: relative;"><img class="w-100 h-100" src="{{ show.header }}" width="160" height="90" alt="{{show.title}}" style="left: 0; position: absolute; top: 0;" /></div>
 							{% endif %}
 							<div class="modal-body">
 								<!-- Description -->
