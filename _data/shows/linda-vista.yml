@@ -27,5 +27,5 @@ tickets:
     type: thirtyUnder
   - highlight: false
     info: 'https://cart.2st.com/events'
-    title: $30-$79 Tickets
+    title: $30-$79
     type: regular

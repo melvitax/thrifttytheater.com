@@ -19,5 +19,5 @@ tickets:
     type: digitalLottery
   - highlight: false
     info: 'https://www.ticketmaster.com/artist/2398608'
-    title: $99-$159 Tickets
+    title: $99-$159
     type: regular

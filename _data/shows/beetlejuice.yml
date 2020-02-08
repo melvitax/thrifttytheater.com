@@ -25,5 +25,5 @@ tickets:
     type: rush
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/Beetlejuice/Ticket'
-    title: $59-$300 Tickets
+    title: $59-$300
     type: regular

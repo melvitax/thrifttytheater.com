@@ -19,5 +19,5 @@ tickets:
     type: digitalLottery
   - highlight: false
     info: 'http://www.ticketmaster.com/artist/1039581'
-    title: $122-$217 Tickets
+    title: $122-$217
     type: regular

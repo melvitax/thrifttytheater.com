@@ -24,5 +24,5 @@ tickets:
     type: standing
   - highlight: false
     info: 'http://www.ticketmaster.com/artist/1714389'
-    title: $69-$477 Tickets
+    title: $69-$477
     type: regular

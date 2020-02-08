@@ -34,5 +34,5 @@ tickets:
     type: pink
   - highlight: false
     info: 'http://www.ticketmaster.com/Mean-Girls-NY-tickets/artist/2412229'
-    title: $99-$401 Tickets
+    title: $99-$401
     type: regular

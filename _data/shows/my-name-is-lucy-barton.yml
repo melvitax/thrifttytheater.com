@@ -34,5 +34,5 @@ tickets:
     type: thirtyUnder35
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/My-Name-is-Lucy-Barton/Ticket'
-    title: $89-$169 Tickets
+    title: $89-$169
     type: regular

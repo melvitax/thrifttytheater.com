@@ -19,5 +19,5 @@ website: 'https://hangmenbroadway.com'
 tickets:
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/Hangmen/Ticket'
-    title: $59-$179 Tickets
+    title: $59-$179
     type: regular

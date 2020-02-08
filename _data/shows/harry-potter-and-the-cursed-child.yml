@@ -18,5 +18,5 @@ tickets:
     type: digitalLottery
   - highlight: false
     info: 'https://www.harrypottertheplay.com/us/ticket-info/'
-    title: $95-$250 Tickets
+    title: $95-$250
     type: regular

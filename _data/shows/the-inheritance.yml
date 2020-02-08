@@ -14,14 +14,6 @@ trailer: 'https://www.youtube.com/watch?v=8gGf1771NCQ'
 website: 'https://theinheritanceplay.com'
 tickets:
   - highlight: false
-    info: 'https://www.telecharge.com/Broadway/The-Inheritance-Part-1/Ticket'
-    title: $59-$199 Part 1
-    type: regular
-  - highlight: false
-    info: 'https://www.telecharge.com/Broadway/The-Inheritance-Part-2/Ticket'
-    title: $59-$199 Part 2
-    type: regular
-  - highlight: false
     info: >-
       A limited number of rush tickets are available for purchase in-person for
       $40 at the Ethel Barrymore Theater box office beginning at 10am for that
@@ -30,3 +22,12 @@ tickets:
       seating locations will be determined at the discretion of the box office.
     title: $40 Rush
     type: rush
+  - highlight: false
+    info: 'https://www.telecharge.com/Broadway/The-Inheritance-Part-1/Ticket'
+    title: $59-$199 Pt 1
+    type: regular
+  - highlight: false
+    info: 'https://www.telecharge.com/Broadway/The-Inheritance-Part-2/Ticket'
+    title: $59-$199 Pt 2
+    type: regular
+  

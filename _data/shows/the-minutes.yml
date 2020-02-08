@@ -18,5 +18,5 @@ website: 'https://theminutesbroadway.com/'
 tickets:
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/The-Minutes/Ticket'
-    title: $49-$119 Tickets
+    title: $49-$119
     type: regular
