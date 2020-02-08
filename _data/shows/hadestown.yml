@@ -14,7 +14,7 @@ website: 'https://www.hadestown.com/'
 tickets:
   - highlight: true
     info: 'https://www.luckyseat.com/shows/hadestown-newyork'
-    title: $42 Digital Lottery
+    title: $42 Lottery
     type: digitalLottery
   - highlight: false
     info: >-
@@ -30,7 +30,7 @@ tickets:
       when the performance is sold out. 10 am Monday-Saturday, noon on Sunday at
       Walter Kerr Theatre box office. Cash or credit. 2 tickets per person
       limit. Standing room at back of the orchestra section.
-    title: $39 Standing Room
+    title: $39 Standing
     type: standing
   - highlight: false
     info: 'https://www.ticketmaster.com/hadestown-ny-tickets/artist/2580967'

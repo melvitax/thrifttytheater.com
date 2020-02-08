@@ -12,13 +12,13 @@ website: 'https://2st.com/shows/grand-horizons'
 tickets:
   - highlight: true
     info: 'https://www.todaytix.com/x/nyc/shows/19706-grand-horizons-on-broadway'
-    title: $35 Digital Rush
+    title: $35 Rush
     type: digitalRush
   - highlight: false
     info: >-
       STUDENT ACCESS $25, one hour prior to curtain. 1 ticket per full-time high
       school or college student ID.
-    title: $25 Student Rush
+    title: $25 Rush
     type: studentRush
   - highlight: false
     info: >-

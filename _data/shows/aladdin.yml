@@ -12,7 +12,7 @@ website: 'http://www.aladdinthemusical.com'
 tickets:
   - highlight: true
     info: 'https://lottery.broadwaydirect.com/show/aladdin/'
-    title: $30 Digital Lottery
+    title: $30 Lottery
     type: digitalLottery
   - highlight: false
     info: 'http://www.ticketmaster.com/artist/1858715'

@@ -12,7 +12,7 @@ website: 'https://moulinrougemusical.com'
 tickets:
   - highlight: true
     info: 'https://www.luckyseat.com/shows/moulinrouge-newyork'
-    title: $34 Digital Lottery
+    title: $34 Lottery
     type: digitalLottery
   - highlight: false
     info: >-
@@ -27,5 +27,5 @@ tickets:
       Credit Card. Tickets Per Person: Limit 2. Seat Locations: Standing room at
       back or side of the orchestra section. Number of Tickets Available: The
       amount of standing room tickets may vary from performance to performance.
-    title: $50 Standing Room
+    title: $50 Standing
     type: standing

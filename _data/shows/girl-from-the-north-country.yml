@@ -12,7 +12,7 @@ website: 'https://northcountryonbroadway.com/'
 tickets:
   - highlight: true
     info: 'https://northcountrylottery.com'
-    title: $39 Digital Lottery
+    title: $39 Lottery
     type: digitalLottery
   - highlight: false
     info: >-
@@ -20,7 +20,7 @@ tickets:
       AM Monday-Saturday, and, beginning March 15, 12 PM Sunday. Cash or credit
       card. Limit 2 tickets per person. Seat Locations determined at the
       discretion of the box office. Subject to daily availability.
-    title: $39 Rush Tickets
+    title: $39 Rush
     type: rush
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/Girl-From-The-North-Country/Ticket'

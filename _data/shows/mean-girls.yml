@@ -12,7 +12,7 @@ website: 'http://meangirlsonbroadway.com'
 tickets:
   - highlight: true
     info: 'https://www.luckyseat.com/shows/meangirls-newyork'
-    title: $42 Digital Lottery
+    title: $42 Lottery
     type: digitalLottery
   - highlight: false
     info: >-

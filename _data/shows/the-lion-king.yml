@@ -14,7 +14,7 @@ website: 'http://www.lionking.com'
 tickets:
   - highlight: true
     info: 'https://lottery.broadwaydirect.com/show/the-lion-king/'
-    title: $30 Digital Lottery
+    title: $30 Lottery
     type: digitalLottery
   - highlight: false
     info: 'http://www.ticketmaster.com/artist/1039581'

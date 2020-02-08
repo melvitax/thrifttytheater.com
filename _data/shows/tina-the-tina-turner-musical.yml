@@ -14,7 +14,7 @@ website: 'https://tinaonbroadway.com'
 tickets:
   - highlight: true
     info: 'https://lottery.broadwaydirect.com/show/tina-ny/'
-    title: $45 Digital Lottery
+    title: $45 Lottery
     type: digitalLottery
   - highlight: false
     info: >-

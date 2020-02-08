@@ -14,7 +14,7 @@ website: 'http://www.thephantomoftheopera.com/new-york'
 tickets:
   - highlight: true
     info: 'http://www.phantombroadwaylottery.com'
-    title: $40 Digital Lottery
+    title: $40 Lottery
     type: digitalLottery
   - highlight: false
     info: >-
@@ -22,7 +22,7 @@ tickets:
       first-serve basis only if the performance is sold out. 10 AM
       Monday–Saturday; noon Sunday. Credit card. 2 tickets per person limit.
       Seat locations determined at the discretion of the box office.
-    title: $27 Standing Room
+    title: $27 Standing
     type: standing
   - highlight: false
     info: >-

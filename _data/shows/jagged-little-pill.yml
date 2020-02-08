@@ -14,7 +14,7 @@ website: 'https://jaggedlittlepill.com'
 tickets:
   - highlight: true
     info: 'http://jaggedlottery.com/'
-    title: $40 Digital Lottery
+    title: $40 Lottery
     type: digitalLottery
   - highlight: false
     info: >-
@@ -23,7 +23,7 @@ tickets:
       Cash or credit card Tickets Per Person: Limit 2 Seat Locations: Determined
       at the discretion of the box office Number of Tickets Available: Subject
       to daily availability.
-    title: $40 Rush Tickets
+    title: $40 Rush
     type: rush
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/Jagged-Little-Pill/Ticket'

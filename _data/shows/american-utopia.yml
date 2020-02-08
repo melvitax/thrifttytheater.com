@@ -14,7 +14,7 @@ website: 'https://americanutopiabroadway.com/'
 tickets:
   - highlight: true
     info: 'https://www.todaytix.com/x/nyc/shows/17293-american-utopia'
-    title: $39 Digital Rush
+    title: $39 Rush
     type: digitalRush
   - highlight: false
     info: 'http://www.thehudsonbroadway.com/whatson/david-byrnes-american-utopia/'

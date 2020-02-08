@@ -15,7 +15,7 @@ website: >-
 tickets:
   - highlight: true
     info: 'https://www.todaytix.com/x/nyc/shows/18941-a-soldiers-play-on-broadway'
-    title: $30 Digital Rush
+    title: $30 Rush
     type: digitalRush
   - highlight: false
     info: Access Roundabout Discounts

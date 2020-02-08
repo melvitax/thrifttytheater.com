@@ -12,7 +12,7 @@ website: 'http://comefromaway.com'
 tickets:
   - highlight: true
     info: 'http://comefromawaylottery.com'
-    title: $49 Digital Lottery
+    title: $49 Lottery
     type: digitalLottery
   - highlight: false
     info: >-
@@ -28,7 +28,7 @@ tickets:
       Monday–Saturday, noon on Sunday on a first-come, first-served basis when
       the show is sold out. Cash or credit. 2 Tickets per person limit. Standing
       room at back of the orchestra section.
-    title: $32 Standing Room
+    title: $32 Standing
     type: standing
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/Come-From-Away/Schedules-Prices'

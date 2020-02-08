@@ -12,7 +12,7 @@ website: 'https://2st.com/shows/linda-vista'
 tickets:
   - highlight: true
     info: 'https://www.todaytix.com/x/nyc/shows/17534-linda-vista'
-    title: $35 Digital Rush
+    title: $35 Rush
     type: digitalRush
   - highlight: false
     info: >-

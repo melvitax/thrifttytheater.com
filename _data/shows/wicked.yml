@@ -14,7 +14,7 @@ website: 'http://www.wickedthemusical.com'
 tickets:
   - highlight: true
     info: 'https://lottery.broadwaydirect.com/show/wicked/'
-    title: $48 Digital Lottery
+    title: $48 Lottery
     type: digitalLottery
   - highlight: true
     info: >-
@@ -30,7 +30,7 @@ tickets:
       Tickets at the student ($69) rate are available in-person at the Gershwin
       Theatre box office with a valid college, university ID. Limited 2 tickets
       per ID. Subject to availability – not available for all performances.
-    title: $69 Student Rush
+    title: $69 Rush
     type: studentRush
   - highlight: false
     info: >-

@@ -12,7 +12,7 @@ website: 'https://beetlejuicebroadway.com/'
 tickets:
   - highlight: true
     info: 'http://www.beetlejuicelottery.com/'
-    title: $43 Digital Lottery
+    title: $43 Lottery
     type: digitalLottery
   - highlight: false
     info: >-

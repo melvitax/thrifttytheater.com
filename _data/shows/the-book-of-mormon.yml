@@ -12,14 +12,14 @@ website: 'http://www.bookofmormonbroadway.com/'
 tickets:
   - highlight: true
     info: 'https://www.luckyseat.com/shows/bookofmormon-newyork'
-    title: $50 Digital Lottery
+    title: $50 Lottery
     type: digitalLottery
   - highlight: false
     info: >-
       Available at the O’Neill theater box office 2 hours prior to the
       performance based on availability. Cash or credit. 2 Tickets per person
       limit. Standing room at back of the orchestra section.
-    title: $27 Standing Room
+    title: $27 Standing
     type: standing
   - highlight: false
     info: 'http://www.ticketmaster.com/artist/1714389'

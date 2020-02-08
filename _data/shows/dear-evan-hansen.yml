@@ -14,13 +14,12 @@ website: 'http://dearevanhansen.com'
 tickets:
   - highlight: true
     info: 'http://www.dearevanhansenlottery.com'
-    title: $42 Digital Lottery
+    title: $42 Lottery
     type: digitalLottery
   - highlight: false
     info: >-
-      A limited number of standing room tickets are available for select
-      performances through the digital lottery.
-    title: $42 Standing room
+      A limited number of standing room tickets are available for select performances through the digital lottery.
+    title: $42 Standing
     type: standing
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/Dear-Evan-Hansen-Music-Box-Theatre'
