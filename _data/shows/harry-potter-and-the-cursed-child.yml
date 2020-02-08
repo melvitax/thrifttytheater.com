@@ -13,7 +13,7 @@ tickets:
   - highlight: true
     info: >-
       https://www.todaytix.com/x/nyc/shows/8728-harry-potter-and-the-cursed-child
-    title: $40 Friday Lottery
+    title: $40 Lottery
     type: digitalLottery
   - highlight: false
     info: 'https://www.harrypottertheplay.com/us/ticket-info/'

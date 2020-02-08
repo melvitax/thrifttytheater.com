@@ -26,7 +26,7 @@ tickets:
       performance if the performance is sold out. 10am Monday- Saturday, 12pm
       Sunday. Cash or credit. 2 tickets per person limit. Seat locations at back
       of the orchestra section. Available only if the performance is sold out.
-    title: $39 Standing Room
+    title: $39 Standing
     type: standing
   - highlight: false
     info: 'https://www.lct.org/linctix/'
@@ -35,7 +35,7 @@ tickets:
   - highlight: false
     info: >-
       https://www.broadwayinbound.com/to-kill-a-mockingbird-10-tickets-for-nyc-public-schools/
-    title: $10 NYC Schools
+    title: $10 Schools
     type: schools
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/To-Kill-a-Mockingbird/Ticket'
