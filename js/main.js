@@ -126,13 +126,6 @@ $( document ).ready(function() {
     }
   });
 
-  // Add and remove video from Modal
-  $('.modal').on('show.bs.modal', function (e) {
-    $('iframe', this).attr('src', $('iframe', this).attr('data-src')) 
-  })
-  $('.modal').on('hide.bs.modal', function (e) {
-    $('iframe', this).attr('src', "")
-  })
 
   // Fav Shows: Button logic
   $('.fav-button').click(function() {
@@ -195,9 +188,19 @@ $( document ).ready(function() {
       $('.fav-filter-button').removeClass('isActive')
     }
   }
-
-  $('main').removeClass('hide')
   
+  $('main').removeClass('hide')
+
+  // Load Modal dynamically
+  $('#modal').on('show.bs.modal', function (e) {
+    var button = $(e.relatedTarget) 
+    var url = button.data('url') 
+    $.get( url, function( data ) {
+      $('#modal .modal-content').html( data );
+    });
+  })
+
+  // Cookies
   function setCookie(c_name, value, exdays) {
     'use strict';
     var exdate = new Date();
@@ -205,7 +208,6 @@ $( document ).ready(function() {
     var c_value = escape(value) + ((exdays == null) ? "" : "; expires=" + exdate.toUTCString());
     document.cookie = c_name + "=" + c_value;
   }
-
   function getCookie(c_name) {
     'use strict';
     var i, x, y, ARRcookies = document.cookie.split(";");

@@ -3,15 +3,12 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-	<html lang="en">
-		{% include head.html %}
-		<body>
-			<header class="header">
-				<div class="fav-filter-button float-right" style="display: inline-block; vertical-align: middle; margin: 20px 20px 0 0;  width: 40px; height: 40px;">&nbsp;</div>
-				<h1 class="text-center font-weight-bold">{{site.title}}</h1>
-			</header>
-			{{ content }}
-			{% include footer.html %}
-			{% include scripts.html %}
-		</body>
-	</html>
+<html lang="en">
+	{% include head.html %}
+	<body>
+		{% include header.html %}
+		{{ content }}
+		{% include footer.html %}
+		{% include scripts.html %}
+	</body>
+</html>

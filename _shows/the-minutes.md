@@ -1,0 +1,24 @@
+---
+title: The Minutes
+poster: /assets/uploads/the-minutes.jpg
+header: /assets/uploads/the-minutes-header.jpg
+description: >-
+  The Minutes takes a look at the inner-workings of a city council meeting in
+  the small town of Big Cherry—and the hypocrisy, greed, and ambition that
+  follow. This powerful, resonant, and funny portrayal of democracy in action
+  proves that everything you know can change—it’s just a matter of minutes.
+  After all, the smallest towns keep the biggest secrets.
+theater: Cort Theatre
+preview: '2020-02-25'
+opening: '2020-03-15'
+closing: '2020-06-14'
+tonyaward: false
+criticspick: false
+trailer: 'https://www.youtube.com/watch?v=JGVHUPSB_b0'
+website: 'https://theminutesbroadway.com/'
+tickets:
+  - highlight: false
+    info: 'https://www.telecharge.com/Broadway/The-Minutes/Ticket'
+    title: $49-$119
+    type: regular
+---

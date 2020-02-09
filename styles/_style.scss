@@ -62,7 +62,6 @@ body {
     border-bottom: 1px solid #0c0e0f;
   }
   .modal-content table {
-    border-top: 1px solid #6c757d;
     color: #fff;
   }
   .close {
@@ -162,7 +161,7 @@ main {
 main.hide {
   opacity: 0;
 }
-h1, .card {
+.card {
   -webkit-animation: fadein 1.2s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 1.2s; /* Firefox < 16 */
   -ms-animation: fadein 1.2s; /* Internet Explorer */

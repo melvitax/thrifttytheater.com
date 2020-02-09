@@ -22,6 +22,18 @@ fonts:
 sass:
     style: compressed
     sass_dir: styles
+collections:
+  shows:
+    output: true
+    layout: show
+    permalink: /:collection/:path/
+defaults:
+  -
+    scope:
+      path: ""
+      type: "shows" 
+    values:
+      layout: "show"
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]

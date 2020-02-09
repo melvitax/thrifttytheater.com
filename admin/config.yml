@@ -9,8 +9,8 @@ collections:
   - label: "Shows"
     label_singular: Show
     name: "shows"
-    folder: "_data/shows"
-    format: yml
+    folder: "_shows"
+    format: frontmatter
     create: true
     identifier_field: title
     fields: 
