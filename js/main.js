@@ -171,8 +171,6 @@ $( document ).ready(function() {
       favFilter = "false"
       setCookie('favFilter', favFilter, 365)
     }
-
-    //$('.card.filter-all').parent().hide()
     var filterFavorites = (favFilter == "true")
     if (filterFavorites) {
       $('.fav-filter-button').addClass('isActive')
@@ -189,14 +187,18 @@ $( document ).ready(function() {
     }
   }
   
+  // Show the main div now that eveything has been filtered
   $('main').removeClass('hide')
 
   // Load Modal dynamically
   $('#modal').on('show.bs.modal', function (e) {
     var button = $(e.relatedTarget) 
-    var url = button.data('url') 
-    $.get( url, function( data ) {
+    var url = button.data('url')
+    $.get( url+'index.html', function( data ) {
       $('#modal .modal-content').html( data );
+    });
+    ga('send', 'pageview', {
+      'page': url
     });
   })
 
