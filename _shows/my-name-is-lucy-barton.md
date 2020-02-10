@@ -31,10 +31,11 @@ tickets:
     type: studentRush
   - highlight: false
     info: 'http://www.manhattantheatreclub.com/season-tickets/30-under-35/'
-    title: $30 Under 25
+    title: $30 Under 35
     type: thirtyUnder35
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/My-Name-is-Lucy-Barton/Ticket'
     title: $89-$169
     type: regular
 ---
+
