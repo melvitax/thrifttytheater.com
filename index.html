@@ -22,7 +22,7 @@ title: Show Hacker
 	
 	<!-- Current Shows -->
 	<div class="col-md-3 col-6 pt-4" >
-		<div class="card mb-3 shadow-sm card__{{show.id | remove: '/shows/'}}" id="show{{showIndex}}" data-preview="{{show.preview}}" data-opening="{{show.opening}}" {% if show.closing %}data-closing="{{show.closing}}"{% endif %}>
+		<div class="animate card mb-3 shadow-sm card__{{show.id | remove: '/shows/'}}" id="show{{showIndex}}" data-preview="{{show.preview}}" data-opening="{{show.opening}}" {% if show.closing %}data-closing="{{show.closing}}"{% endif %}>
 			<div class="row no-gutters"> 
 				<!-- Poster -->
 				<a class="poster-link grow w-100 d-table position-relative" style="z-index:1" title="{{ show.title }}" data-toggle="modal" data-target="#modal" data-url="{{show.url}}index.html">

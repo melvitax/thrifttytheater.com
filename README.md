@@ -47,7 +47,12 @@ $ gem install bundler -v 2.0.1
 $ bundle install
 ```
 
+### Adding Scripts
+```
+$ npm run webpack
+```
 ### Running locally
+```
 $ npm run dev
 ```
 

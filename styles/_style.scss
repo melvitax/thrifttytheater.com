@@ -159,21 +159,16 @@ header h1 {
 /***************
  *  Effects   *
 ****************/
-main {
-  min-height: 90%;
+.no-observer .animate {
+  opacity: 1;
+  transform: none;
 }
-main.hide {
+.animate {
   opacity: 0;
+  transition: opacity 1.6s, transform 0.6s ease-out;
+  transform: translateY(10px);
 }
-.card {
-  -webkit-animation: fadein 1.2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 1.2s; /* Firefox < 16 */
-  -ms-animation: fadein 1.2s; /* Internet Explorer */
-   -o-animation: fadein 1.2s; /* Opera < 12.1 */
-      animation: fadein 1.2s;
+.animate.is-active {
+  opacity: 1;
+  transform: none;
 }
-@keyframes fadein { from {opacity: 0} to {opacity: 1} }
-@-moz-keyframes fadein { from {opacity: 0} to {opacity: 1} } /* Firefox < 16 */
-@-webkit-keyframes fadein { from {opacity: 0} to {opacity: 1} } /* Safari, Chrome and Opera > 12.1 */
-@-ms-keyframes fadein { from {opacity: 0} to {opacity: 1} } /* IE */
-@-o-keyframes fadein { from {opacity: 0} to {opacity: 1} } /* Opera < 12.1 */

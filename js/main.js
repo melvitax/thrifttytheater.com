@@ -200,6 +200,29 @@ $( document ).ready(function() {
     });
   })
 
+  // Animate on Intersect
+  $('body').removeClass('no-observer')
+  const observerOptions = {
+    rootMargin: '0px',
+    threshold: 0.2
+  }
+  const $obsvItem = $('.animate')
+  IntersectionObserver.prototype.POLL_INTERVAL = 400
+  const observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.intersectionRatio > 0) {
+        entry.target.classList.add('is-active')
+        observer.unobserve(entry.target)
+      } else {
+        entry.target.classList.remove('is-active')
+      }
+    })
+    return entries
+  }, observerOptions)
+  $obsvItem.each(function (e) {
+    observer.observe(this)
+  })
+
   // Cookies
   function setCookie(c_name, value, exdays) {
     'use strict';
