@@ -1,6 +1,8 @@
 $( document ).ready(function() {
-
+  var servernow = new Date(srvTime);
   var now = new Date();
+  console.log("local now: "+now)
+  console.log("server now: "+servernow)
   var today = now.getDay();
   var cards = document.querySelectorAll(".card");
 
