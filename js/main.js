@@ -20,17 +20,19 @@ $( document ).ready(function() {
     if (now < previewDate) {
       $(card).addClass('filter-upcoming')
       upcoming_cards.push({date: previewDate, card: $(card)})
-      var previewDateString = moment(new Date(previewDate)).format('MMM Do')
-      $('.list-group-date-callout', card).html('<small>'+previewDateString+'</small>')
+      if (now > offsetDateByDays(previewDate, -7)) {
+        var previewDateString = moment(previewDate).fromNow()
+        $('.list-group-date-callout', card).html('<small>Begins '+previewDateString+'</small>')
+        $('.list-group-date-callout', card).addClass('comingsoon')
+      } else {
+        var previewDateString = moment(new Date(previewDate)).format('MMM Do')
+        $('.list-group-date-callout', card).html('<small>'+previewDateString+'</small>')
+      }
     // Identify current shows
     } else{
       $(card).addClass('filter-current')
       // 
-      if (now < previewDate) {
-        var previewDateString = moment(previewDate).fromNow()
-          $('.list-group-date-callout', card).html('<small>Begins '+previewDateString+'</small>')
-          $('.list-group-date-callout', card).addClass('comingsoon')
-      } else if (now >= previewDate && now < openingDate) {
+      if (now >= previewDate && now < openingDate) {
         $('.list-group-date-callout', card).html("<small>In Previews Now</small>")
       } else {
         if (closing != undefined && closing != "") {
@@ -114,8 +116,7 @@ $( document ).ready(function() {
         $('[data-toggle="popover"]').popover('hide');
     }
   });
-
-
+  
   // Fav Shows: Button logic
   $('.fav-button').click(function() {
     var id = $(this).attr('id').split("__")[1]
