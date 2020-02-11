@@ -1,16 +1,11 @@
 $( document ).ready(function() {
-  var servernow = new Date(srvTime);
+
   var now = new Date();
-  console.log("local now: "+now)
-  console.log("server now: "+servernow)
   var today = now.getDay();
   var cards = document.querySelectorAll(".card");
 
   var shows_ended = []
   var missing_current_schedule = []
-  var missing_current_trailer = []
-  var missing_upcoming_trailer = []
-
   var upcoming_cards = []
 
   for(var i = 0; i < cards.length; i++) {
@@ -22,7 +17,7 @@ $( document ).ready(function() {
     var closing = card.getAttribute('data-closing')
     
     // Identify upcoming shows
-    if (now < shiftDay(previewDate, -7)) {
+    if (now < previewDate) {
       $(card).addClass('filter-upcoming')
       upcoming_cards.push({date: previewDate, card: $(card)})
       var previewDateString = moment(new Date(previewDate)).format('MMM Do')
@@ -46,14 +41,14 @@ $( document ).ready(function() {
             $(card).parent().remove();
           } else {
             // Show is ending soon
-            if (now > shiftDay(closingDate, -7)) {
+            if (now > offsetDateByDays(closingDate, -7)) {
               var closingDateString = moment(closingDate).fromNow()
               $('.list-group-date-callout', card).html('<small>Ends '+closingDateString+'</small>')
             } else {
               var closingDateString = moment(closingDate).format('MMM Do')
               $('.list-group-date-callout', card).html('<small>Ends '+closingDateString+'</small>')
             }
-            if (now > shiftDay(closingDate, -30)) {
+            if (now > offsetDateByDays(closingDate, -30)) {
               $('.list-group-date-callout', card).addClass('ending')
             }
           }
@@ -63,14 +58,6 @@ $( document ).ready(function() {
         }
       }
       
-    }
-    // Find any missing trailers and add to array
-    if (!$('.modal-video', card).length) {
-      if  (now < openingDate) {
-        missing_upcoming_trailer.push($('.show-title', card).text())
-      } else {
-        missing_current_trailer.push($('.show-title', card).text())
-      }
     }
     // Find any missing schedule and add to array
     if (!$('.text-schedule-title', card).length) {
@@ -248,7 +235,7 @@ $( document ).ready(function() {
     }
   }
 
-  function shiftDay(date, offset) {
+  function offsetDateByDays(date, offset) {
     return new Date(date.getFullYear(), date.getMonth(), date.getDate() + offset);
   }
 
@@ -256,14 +243,6 @@ $( document ).ready(function() {
   if (shows_ended.length) {
     console.log("SHOWS ENDED")
     console.log(shows_ended.join("\n")) 
-  }
-  if (missing_current_schedule.length) {
-    console.log("SHOWS MISING SCHEDULE")
-    console.log(missing_current_schedule.join("\n")) 
-  }
-  if (missing_current_trailer.length) {
-    console.log("SHOWS MISING TRAILER")
-    console.log(missing_current_trailer.join("\n"))
   }
 
 });

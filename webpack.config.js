@@ -28,8 +28,7 @@ module.exports = {
             { from: './node_modules/moment/min/moment.min.js', to: './vendor/moment/' },
             // intersection-observer.js
             { 
-              from: './node_modules/intersection-observer/intersection-observer.js', to: './vendor/intersection-observer/'
-            }
+              from: './node_modules/intersection-observer/intersection-observer.js', to: './vendor/intersection-observer/'}
         ]),
     ],
 };
