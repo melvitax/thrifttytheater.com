@@ -38,8 +38,8 @@ body {
     background-color: #343a40;
     color: white !important;
   }
-  .list-group-date-callout {
-    background-color: #1b1e20 ;
+  .filter-current .list-group-date-callout {
+    background-color: #1b1e20 !important;
     color: white !important;
   }
   a.list-group-item-action:hover, a.list-group-item-action:focus {
@@ -112,11 +112,11 @@ header h1 {
   background-color: #f3f8fb;
 }
 .list-group-date-callout.ending {
-  background-color: rgb(255, 72, 0);
+  background-color: rgb(255, 72, 0) !important;
   color: white !important;
 }
 .list-group-date-callout.comingsoon {
-  background-color: rgb(58, 184, 0);
+  background-color: rgb(58, 184, 0) !important;
   color: white !important;
 }
 .grow { transition: all .2s ease-in-out; }
