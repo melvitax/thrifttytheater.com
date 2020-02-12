@@ -1,58 +1,69 @@
 $( document ).ready(function() {
 
-  var now = new Date();
-  var today = now.getDay();
+  var today = moment()
   var cards = document.querySelectorAll(".card");
 
   var shows_ended = []
   var missing_current_schedule = []
   var upcoming_cards = []
 
+  moment.updateLocale('en', {
+    calendar : {
+        lastDay : '[Yesterday]',
+        sameDay : '[Today]',
+        nextDay : '[Tomorrow]',
+        lastWeek : '[Last] dddd',
+        nextWeek : 'dddd',
+        sameElse : 'L'
+    }
+});
+
   for(var i = 0; i < cards.length; i++) {
+
     var card = cards[i];
     $(card).addClass('filter-all')
-    // Set dates for comparison
-    var previewDate = new Date(card.getAttribute('data-preview'))
-    var openingDate = new Date(card.getAttribute('data-opening'))
-    var closing = card.getAttribute('data-closing')
     
+    // Set dates for comparison
+    var previewDate = moment(card.getAttribute('data-preview'), "YYYY-MM-DD")
+    var openingDate = moment(card.getAttribute('data-opening'), "YYYY-MM-DD")
+    var aWeekBeforePreview = moment(card.getAttribute('data-preview'), "YYYY-MM-DD").subtract(7, 'days')
+    var closingTag = card.getAttribute('data-closing')
+
     // Identify upcoming shows
-    if (now < previewDate) {
+    if (today.isBefore(previewDate)) {
       $(card).addClass('filter-upcoming')
       upcoming_cards.push({date: previewDate, card: $(card)})
-      if (now > offsetDateByDays(previewDate, -7)) {
-        var previewDateString = moment(previewDate).fromNow()
-        $('.list-group-date-callout', card).html('<small>Begins '+previewDateString+'</small>')
+      if (today.isAfter(aWeekBeforePreview)) {
+        $('.list-group-date-callout', card).html('<small>Begins '+previewDate.calendar()+'</small>')
         $('.list-group-date-callout', card).addClass('comingsoon')
       } else {
-        var previewDateString = moment(new Date(previewDate)).format('MMM Do')
-        $('.list-group-date-callout', card).html('<small>'+previewDateString+'</small>')
+        $('.list-group-date-callout', card).html('<small>'+previewDate.format('MMM Do')
+        +'</small>')
       }
     // Identify current shows
     } else{
       $(card).addClass('filter-current')
       // 
-      if (now >= previewDate && now < openingDate) {
+      if (today.isSameOrAfter(previewDate) && today.isSameOrBefore(openingDate)) {
         $('.list-group-date-callout', card).html("<small>In Previews Now</small>")
       } else {
-        if (closing != undefined && closing != "") {
-          var closingDate = new Date(closing)
+        if (closingTag != undefined && closingTag != "") {
+          var closingDate = moment(closingTag, "YYYY-MM-DD")
+          var aWeekBeforeClosing = moment(closingTag, "YYYY-MM-DD").subtract(14, 'days')
           // Show ended
-          if (now > closingDate) {
+          if (today.isAfter(closingDate)) {
             shows_ended.push($('.show-title', card).text())
             $(card).parent().remove();
           } else {
             // Show is ending soon
-            if (now > offsetDateByDays(closingDate, -7)) {
-              var closingDateString = moment(closingDate).fromNow()
+            if (today.isAfter(aWeekBeforeClosing)) {
+              var closingDateString = closingDate.calendar()
               $('.list-group-date-callout', card).html('<small>Ends '+closingDateString+'</small>')
-            } else {
-              var closingDateString = moment(closingDate).format('MMM Do')
-              $('.list-group-date-callout', card).html('<small>Ends '+closingDateString+'</small>')
-            }
-            if (now > offsetDateByDays(closingDate, -30)) {
               $('.list-group-date-callout', card).addClass('ending')
-            }
+            } else {
+              var closingDateString = closingDate.format('MMM Do')
+              $('.list-group-date-callout', card).html('<small>Ends '+closingDateString+'</small>')
+            } 
           }
         } else {
           $('.list-group-date-callout', card).remove()
@@ -63,7 +74,7 @@ $( document ).ready(function() {
     }
     // Find any missing schedule and add to array
     if (!$('.text-schedule-title', card).length) {
-      if  (now >= openingDate) {
+      if  (today.isAfter(openingDate)) {
         missing_current_schedule.push($('.show-title', card).text())
       }
     }
@@ -83,7 +94,7 @@ $( document ).ready(function() {
     }
   }
 
-  // Build upcpming section
+  // Build upcoming section
   var upcoming_cards_grouped_by_dates = []
   var sorted_upcoming_cards = upcoming_cards.sort((a, b) => a.date - b.date)
   $(sorted_upcoming_cards).each(function(index, value) {
@@ -234,10 +245,6 @@ $( document ).ready(function() {
             return unescape(y);
         }
     }
-  }
-
-  function offsetDateByDays(date, offset) {
-    return new Date(date.getFullYear(), date.getMonth(), date.getDate() + offset);
   }
 
   // Log to console
