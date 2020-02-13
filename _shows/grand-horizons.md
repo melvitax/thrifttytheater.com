@@ -1,6 +1,6 @@
 ---
 title: Grand Horizons
-poster: /assets/uploads/grand-horizons.jpg
+poster: /assets/uploads/115731-7.jpg
 header: ''
 description: Second Stage presents Bess Wohl's Broadway-debut drama.
 theater: The Helen Hayes Theater
@@ -33,3 +33,4 @@ tickets:
     title: $79-$199
     type: regular
 ---
+
