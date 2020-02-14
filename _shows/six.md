@@ -2,7 +2,15 @@
 title: Six
 poster: /assets/uploads/six.jpg
 header: ''
-description: The Olivier Award-nominated hit musical is headed to Broadway!
+description: >-
+  The Olivier Award-nominated hit musical is now on Broadway! Divorced,
+  beheaded, died, divorced, beheaded, survived. From Tudor Queens to Pop
+  Princesses, the wives of Henry VIII take the mic to reclaim their identities
+  out of the shadow of their infamous spouse—remixing five hundred years of
+  historical heartbreak into an exuberant celebration of 21st century girl
+  power. The female cast are backed by an all-female band, the “Ladies in
+  Waiting.” Six is co-directed by Lucy Moss and Jamie Armitage, featuring
+  choreography by Carrie-Anne Ingrouille. 
 theater: Brooks Atkinson Theatre
 preview: '2020-02-13'
 opening: '2020-03-12'
