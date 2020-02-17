@@ -7,7 +7,7 @@ description: >-
   Bernstein and Stephen Sondheim's classic musical.
 theater: Broadway Theatre
 preview: '2019-12-10'
-opening: '2020-02-06'
+opening: '2020-02-20'
 closing: ''
 tonyaward: false
 criticspick: false
@@ -22,6 +22,7 @@ tickets:
     type: rush
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/West-Side-Story/Overview'
-    title: $39-$109 
+    title: $39-$109
     type: regular
 ---
+
