@@ -16,7 +16,7 @@ $( document ).ready(function() {
         nextWeek : 'dddd',
         sameElse : 'L'
     }
-});
+  });
 
   for(var i = 0; i < cards.length; i++) {
 
@@ -27,6 +27,7 @@ $( document ).ready(function() {
     var previewDate = moment(card.getAttribute('data-preview'), "YYYY-MM-DD")
     var openingDate = moment(card.getAttribute('data-opening'), "YYYY-MM-DD")
     var aWeekBeforePreview = moment(card.getAttribute('data-preview'), "YYYY-MM-DD").subtract(7, 'days')
+    var twoWeeksAfterPreviews = moment(card.getAttribute('data-preview'), "YYYY-MM-DD").add(14, 'days')
     var closingTag = card.getAttribute('data-closing')
 
     // Identify upcoming shows
@@ -43,9 +44,12 @@ $( document ).ready(function() {
     // Identify current shows
     } else{
       $(card).addClass('filter-current')
-      // 
+      // In Previews
       if (today.isSameOrAfter(previewDate) && today.isSameOrBefore(openingDate)) {
         $('.list-group-date-callout', card).html("<small>In Previews Now</small>")
+        if (today.isBefore(twoWeeksAfterPreviews)) {
+          $('.list-group-date-callout', card).addClass('comingsoon') // adds green bg
+        }
       } else {
         if (closingTag != undefined && closingTag != "") {
           var closingDate = moment(closingTag, "YYYY-MM-DD")
