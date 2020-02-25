@@ -14,7 +14,7 @@ opening: '2020-03-15'
 closing: '2020-06-14'
 tonyaward: false
 criticspick: false
-trailer: 'https://www.youtube.com/watch?v=JGVHUPSB_b0'
+trailer: 'https://www.youtube.com/watch?v=RDUk3rSa1Rw'
 website: 'https://theminutesbroadway.com/'
 tickets:
   - highlight: true
