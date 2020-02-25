@@ -46,7 +46,11 @@ $( document ).ready(function() {
       $(card).addClass('filter-current')
       // In Previews
       if (today.isSameOrAfter(previewDate) && today.isSameOrBefore(openingDate)) {
-        $('.list-group-date-callout', card).html("<small>In Previews Now</small>")
+        if (today.isSame(previewDate)) {
+          $('.list-group-date-callout', card).html("<small>Begins Today</small>")
+        } else {
+          $('.list-group-date-callout', card).html("<small>In Previews Now</small>")
+        }
         if (today.isBefore(twoWeeksAfterPreviews)) {
           $('.list-group-date-callout', card).addClass('comingsoon') // adds green bg
         }
