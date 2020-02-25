@@ -22,10 +22,6 @@ tickets:
     title: $35 Lottery
     type: digitalLottery
   - highlight: false
-    info: 'https://www.telecharge.com/Broadway/The-Minutes/Ticket'
-    title: $49-$119
-    type: regular
-  - highlight: false
     info: >-
       A limited number of rush tickets will be available for purchase in-person
       at the Cort Theatre box office beginning at 10am for that day's
@@ -34,5 +30,9 @@ tickets:
       locations will be determined at the discretion of the box office.
     title: $35 Rush
     type: rush
+  - highlight: false
+    info: 'https://www.telecharge.com/Broadway/The-Minutes/Ticket'
+    title: $49-$119
+    type: regular
 ---
 
