@@ -17,8 +17,22 @@ criticspick: false
 trailer: 'https://www.youtube.com/watch?v=JGVHUPSB_b0'
 website: 'https://theminutesbroadway.com/'
 tickets:
+  - highlight: true
+    info: 'https://theminuteslottery.com'
+    title: $35 Lottery
+    type: digitalLottery
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/The-Minutes/Ticket'
     title: $49-$119
     type: regular
+  - highlight: false
+    info: >-
+      A limited number of rush tickets will be available for purchase in-person
+      at the Cort Theatre box office beginning at 10am for that day's
+      performance only. Maximum two tickets per person. Rush tickets are subject
+      to availability and may not be offered at all performances. Rush seating
+      locations will be determined at the discretion of the box office.
+    title: $35 Rush
+    type: rush
 ---
+
