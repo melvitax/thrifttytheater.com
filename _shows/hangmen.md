@@ -18,8 +18,18 @@ criticspick: true
 trailer: 'https://www.youtube.com/watch?v=ZL7qyuQwWd4'
 website: 'https://hangmenbroadway.com'
 tickets:
+  - highlight: true
+    info: >-
+      A limited number of $39 general rush tickets will be available at the
+      Golden Theatre box office when the box office opens for that day's
+      performance(s) (10:00AM Monday through Saturday). Limited to two tickets
+      per person, tickets are subject to availability. Cash and major credit
+      cards are accepted.
+    title: $39 Rush
+    type: rush
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/Hangmen/Ticket'
     title: $59-$179
     type: regular
 ---
+
