@@ -2,11 +2,10 @@ $( document ).ready(function() {
 
   var today = moment()
   var cards = document.querySelectorAll(".card");
-
   var shows_ended = []
   var missing_current_schedule = []
   var upcoming_cards = []
-
+  
   moment.updateLocale('en', {
     calendar : {
         lastDay : '[Yesterday]',
@@ -46,7 +45,7 @@ $( document ).ready(function() {
       $(card).addClass('filter-current')
       // In Previews
       if (today.isSameOrAfter(previewDate) && today.isSameOrBefore(openingDate)) {
-        if (today.isSame(previewDate), 'date') {
+        if (today.isSame(previewDate, 'date')) {
           $('.list-group-date-callout', card).html("<small>Begins Today</small>")
         } else {
           $('.list-group-date-callout', card).html("<small>In Previews Now</small>")
