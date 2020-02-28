@@ -46,7 +46,7 @@ $( document ).ready(function() {
       $(card).addClass('filter-current')
       // In Previews
       if (today.isSameOrAfter(previewDate) && today.isSameOrBefore(openingDate)) {
-        if (today.isSame(previewDate)) {
+        if (today.isSame(previewDate), 'day') {
           $('.list-group-date-callout', card).html("<small>Begins Today</small>")
         } else {
           $('.list-group-date-callout', card).html("<small>In Previews Now</small>")
