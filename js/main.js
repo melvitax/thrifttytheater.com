@@ -30,10 +30,10 @@ $( document ).ready(function() {
     var closingTag = card.getAttribute('data-closing')
 
     // Identify upcoming shows
-    if (today.isBefore(previewDate)) {
+    if (today.isBefore(previewDate, 'date')) {
       $(card).addClass('filter-upcoming')
       upcoming_cards.push({date: previewDate, card: $(card)})
-      if (today.isAfter(aWeekBeforePreview)) {
+      if (today.isAfter(aWeekBeforePreview, 'date')) {
         $('.list-group-date-callout', card).html('<small>Begins '+previewDate.calendar()+'</small>')
         $('.list-group-date-callout', card).addClass('comingsoon')
       } else {
@@ -44,13 +44,13 @@ $( document ).ready(function() {
     } else{
       $(card).addClass('filter-current')
       // In Previews
-      if (today.isSameOrAfter(previewDate) && today.isSameOrBefore(openingDate)) {
+      if (today.isSameOrAfter(previewDate, 'date') && today.isSameOrBefore(openingDate, 'date')) {
         if (today.isSame(previewDate, 'date')) {
           $('.list-group-date-callout', card).html("<small>Begins Today</small>")
         } else {
           $('.list-group-date-callout', card).html("<small>In Previews Now</small>")
         }
-        if (today.isBefore(twoWeeksAfterPreviews)) {
+        if (today.isBefore(twoWeeksAfterPreviews, 'date')) {
           $('.list-group-date-callout', card).addClass('comingsoon') // adds green bg
         }
       } else {
@@ -58,12 +58,12 @@ $( document ).ready(function() {
           var closingDate = moment(closingTag, "YYYY-MM-DD")
           var aWeekBeforeClosing = moment(closingTag, "YYYY-MM-DD").subtract(14, 'days')
           // Show ended
-          if (today.isAfter(closingDate)) {
+          if (today.isAfter(closingDate, 'date')) {
             shows_ended.push($('.show-title', card).text())
             $(card).parent().remove();
           } else {
             // Show is ending soon
-            if (today.isAfter(aWeekBeforeClosing)) {
+            if (today.isAfter(aWeekBeforeClosing, 'date')) {
               var closingDateString = closingDate.calendar()
               $('.list-group-date-callout', card).html('<small>Ends '+closingDateString+'</small>')
               $('.list-group-date-callout', card).addClass('ending')
@@ -81,7 +81,7 @@ $( document ).ready(function() {
     }
     // Find any missing schedule and add to array
     if (!$('.text-schedule-title', card).length) {
-      if  (today.isAfter(openingDate)) {
+      if  (today.isAfter(openingDate, 'date')) {
         missing_current_schedule.push($('.show-title', card).text())
       }
     }
