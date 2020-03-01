@@ -15,7 +15,7 @@ trailer: 'https://www.youtube.com/watch?v=zKFyk1TltG8'
 website: 'https://thedianamusical.com'
 tickets:
   - highlight: false
-    title: $49-$179 Tickets
+    title: $49-$179
     type: regular
     info: 'https://www.telecharge.com/Broadway/Diana-A-True-Musical-Story/Ticket'
 ---
