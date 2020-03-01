@@ -16,6 +16,7 @@ website: 'https://virginiawoolfonbroadway.com'
 tickets:
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/Whos-Afraid-of-Virginia-Woolf/Ticket'
-    title: $49-$169
+    title: $49-$169 Tickets
     type: regular
 ---
+
