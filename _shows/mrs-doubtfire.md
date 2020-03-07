@@ -20,6 +20,10 @@ criticspick: false
 trailer: 'https://www.youtube.com/watch?v=xw91dGGPdd8'
 website: 'https://mrsdoubtfirebroadway.com'
 tickets:
+  - highlight: true
+    title: $35 Rush
+    type: digitalRush
+    info: 'https://www.todaytix.com/x/nyc/shows/19299-mrs.-doubtfire'
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/Mrs-Doubtfire/Ticket'
     title: $59-$159

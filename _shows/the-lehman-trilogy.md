@@ -14,6 +14,10 @@ criticspick: true
 trailer: 'https://www.youtube.com/watch?v=Z9Q6PrhCLO8'
 website: 'https://thelehmantrilogy.com'
 tickets:
+  - highlight: true
+    info: 'https://lottery.broadwaydirect.com/show/lehman-ny/'
+    type: digitalLottery
+    title: $40 Lottery
   - highlight: false
     info: 'https://www.ticketmaster.com/the-lehman-trilogy-ny-tickets/artist/2681323'
     title: $79-$179

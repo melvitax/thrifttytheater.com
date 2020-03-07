@@ -28,8 +28,14 @@ tickets:
       customer. Seat locations will be at the discretion of the box office and
       are based on availability.
   - highlight: false
+    type: standing
+    info: >-
+      Available at the Jacobs Theatre box office on the day of the performance
+      if the performance is sold out. Cash or credit. Limit two tickets per
+      purchase.
+    title: $32 Standing
+  - highlight: false
     title: $59-$179 Tickets
     type: regular
     info: 'https://www.telecharge.com/Broadway/Company/Ticket'
 ---
-
