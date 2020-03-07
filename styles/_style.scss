@@ -138,23 +138,22 @@ body {
   height: 400px;
 }
 table {
-  background-color: gray;
+  background-color: rgb(228, 228, 228);
   border-radius: 6px;
+  border: 1px solid rgb(228, 228, 228);
   overflow: hidden;
 }
 .table th, .table td, .table thead th {
-  border: 1px solid rgb(82, 82, 82);
+  border: 1px solid white;
   text-align: center;
 }
 
 @media (prefers-color-scheme: dark) {
-
   body {
     background-color: #000;
     color: white;
     height: 100%;
   }
-  
   .site-title a:link, .site-title a:visited {
     color: white ;
   }
@@ -203,7 +202,12 @@ table {
   .bs-popover-right > .arrow::after {
     border-right-color: #dee4e8;
   }
-
+  table {
+    background-color: gray;
+  }
+  .table th, .table td, .table thead th {
+    border: 1px solid rgb(82, 82, 82);
+  }
 }
 
 /***************
