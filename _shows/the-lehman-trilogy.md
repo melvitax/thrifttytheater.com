@@ -15,10 +15,6 @@ trailer: 'https://www.youtube.com/watch?v=Z9Q6PrhCLO8'
 website: 'https://thelehmantrilogy.com'
 tickets:
   - highlight: true
-    info: 'https://virginiawoolfonbroadway.com/lottery/'
-    type: digitalLottery
-    title: $39 Digital Lottery
-  - highlight: true
     info: 'https://lottery.broadwaydirect.com/show/lehman-ny/'
     type: digitalLottery
     title: $40 Lottery
