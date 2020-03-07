@@ -26,25 +26,25 @@ body {
 }
 .site-tagline {
   color: #6D757D;
-  font-size: 4.9vw;
+  font-size: 4.6vw;
   font-weight: 500;
   line-height: 1em;
 }
 @media (min-width: 576px) and (max-width: 767.98px) { 
   .site-title { font-size: 5.25em }
-  .site-tagline { font-size: 1.7em }
+  .site-tagline { font-size: 1.58em }
 }
 @media (min-width: 768px) and (max-width: 991.98px) { 
   .site-title { font-size: 7em }
-  .site-tagline { font-size: 2.27em }
+  .site-tagline { font-size: 2.12em }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) { 
   .site-title { font-size: 9.5em }
-  .site-tagline { font-size: 3.1em }
+  .site-tagline { font-size: 2.90em }
 }
 @media (min-width: 1200px) { 
   .site-title { font-size: 11.5em }
-  .site-tagline { font-size: 3.75em }
+  .site-tagline { font-size: 3.50em }
 }
 .show-title {
   font-size: 4.2vw;

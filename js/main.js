@@ -100,7 +100,7 @@ $( document ).ready(function() {
     upcoming_cards_grouped_by_dates[month].push(value.card)
   })
   for (date in upcoming_cards_grouped_by_dates) {
-    $('#upcoming').append('<h3 class="pv-6 mt-4">'+date+'</h3>')
+    $('#upcoming').append('<h3 class="pt-4 pb-2">'+date+'</h3>')
     $('#upcoming').append('')
     var row = upcoming_cards_grouped_by_dates[date]
     var rows = []

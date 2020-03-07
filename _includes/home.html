@@ -4,7 +4,7 @@
 	<div class="pb-5 pt-2 main-content">
 
 		<div class="container">
-			<h3 class="pv-6 mt-4">Now Playing</h3>
+			<h3 class="pt-4 pb-2">Now Playing</h3>
 			<div class="row card-columns">
 
 	{% assign showtimesData = site.data.showtimes.result.extractorData.data[0].group %} 
@@ -22,7 +22,6 @@
 		<div class="animate card mb-3 shadow-sm" id="card__{{show.id | remove: '/shows/'}}" data-preview="{{show.preview}}" data-opening="{{show.opening}}" {% if show.closing %}data-closing="{{show.closing}}"{% endif %}>
 			<div class="row no-gutters"> 
 				<!-- Poster -->
-				<!-- data-toggle="modal" data-target="#modal" data-url="{{show.url}}" -->
 				<a class="poster-link grow w-100 d-table position-relative" style="z-index:1" title="{{ show.title }}" href="{{show.url}}" >
 					{% if show.poster and show.poster != blank and show.poster != ""  %}
 					<img class="card-img-top w-100 h-100" src="{{ show.poster }}" width="230" height="355" alt="{{show.title}}" />
@@ -34,7 +33,7 @@
 					{% endif %}
 				</a>
 				<!-- Title -->
-				<div class="text-wrap text-muted text-monospace  text-center position-absolute w-100 show-title" style="top: -1.8em; z-index: 0"><small>{{ show.title }}</small></div>
+				<div class="text-wrap text-muted text-monospace  text-center position-absolute w-100 home-show-title" style="top: -1.8em; z-index: 0"><small>{{ show.title }}</small></div>
 				<!-- Favorite -->
 				<div id="fav__{{show.id | remove: '/shows/'}}" class="fav-button position-absolute" style="top: 16px; right: 16px; z-index: 2; width: 50px; height: 50px;">&nbsp;</div>
 				<!-- Tony Award -->
