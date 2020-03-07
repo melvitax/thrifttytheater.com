@@ -15,25 +15,25 @@
   <link rel="apple-touch-icon" href="/assets/icon.jpg">
   <link rel="icon" sizes="192x192" href="/assets/icon.jpg">
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@{{site.twitter}}">
-  <meta name="twitter:creator" content="@{{site.author.twitter}}">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:site" content="@{{site.twitter}}">
+  <meta property="twitter:creator" content="@{{site.author.twitter}}">
   <!-- Facebook -->
-  <meta name="og:site_name" content="{{site.title}}">
-  <meta name="og:url" content="{{site.url}}">
-  <meta name="og:type" content="article">
+  <meta property="og:site_name" content="{{site.title}}">
+  <meta property="og:url" content="{{site.url}}">
+  <meta property="og:type" content="article">
   <!-- Shared -->
   {% if page.id == "home" %}
-  <meta name="og:title" content="{{page.title}}">
-  <meta name="og:description" content="{{site.socialinfo}}">
-  <meta name="og:image" content="{{site.socialimage}}">
+  <meta property="og:title" content="{{page.title}}">
+  <meta property="og:description" content="{{site.socialinfo}}">
+  <meta property="og:image" content="{{site.socialimage}}">
   {% else %}
-  <meta name="og:title" content="{{page.title}}">
-  <meta name="og:description" content="{{site.socialinfo}}">
+  <meta property="og:title" content="{{page.title}}">
+  <meta property="og:description" content="{{site.socialinfo}}">
   {% if page.header and page.header !=blank and page.header != "" %}
-  <meta name="og:image" content="{{site.url}}{{page.header}}">
+  <meta property="og:image" content="{{site.url}}{{page.header}}">
   {% else %}
-  <meta name="og:image" content="{{site.url}}{{page.poster}}">
+  <meta property="og:image" content="{{site.url}}{{page.poster}}">
   {% endif %}
   {% endif %}
   <!-- CSS: Main -->
