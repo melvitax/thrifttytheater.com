@@ -14,9 +14,12 @@ criticspick: false
 trailer: 'https://www.youtube.com/watch?v=ybwgfIPf3Ik'
 website: 'https://virginiawoolfonbroadway.com'
 tickets:
+  - highlight: true
+    type: digitalLottery
+    info: 'https://virginiawoolfonbroadway.com/lottery/'
+    title: $39 Lottery
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/Whos-Afraid-of-Virginia-Woolf/Ticket'
     title: $49-$169
     type: regular
 ---
-
