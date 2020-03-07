@@ -1,0 +1,53 @@
+<script>
+
+window.matchMedia("(prefers-color-scheme: dark)").addListener(
+  e => e.matches && createMap()
+);
+window.matchMedia("(prefers-color-scheme: light)").addListener(
+  e => e.matches && createMap()
+);
+
+createMap()
+
+function createMap() {
+    console.log("changing")
+    var latitude = {{include.theater.lat}}
+    var longitude = {{include.theater.long}}
+    var title = "{{include.theater.title}}"
+    var address = "{{include.theater.address}}"
+    mapkit.init({
+        authorizationCallback: function(done) {
+            done('eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFBUUJNWDc0UDcifQ.eyJpc3MiOiJFUkE5UzhTUE5ZIiwiaWF0IjoxNTgzNTY2NzQ1LCJleHAiOjIyMjkwNjExNDV9.1fQE1cC8IpYK7lDVGvWfM4s3dStGlAat5pmsifIr5X_YiFSgxBJJ00Hnnl9xTtHfFYgntYLOWWHDPr4U9jWUPg');
+        }
+    });
+    
+    const center = new mapkit.Coordinate(latitude, longitude),
+    span = new mapkit.CoordinateSpan(0.0125, 0.0125),
+    region = new mapkit.CoordinateRegion(center, span);
+
+    var colorScheme 
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        colorScheme = mapkit.Map.ColorSchemes.Dark
+    } else {
+        colorScheme = mapkit.Map.ColorSchemes.Light
+    }
+    document.getElementById("map").innerHTML = "";
+    let map = new mapkit.Map("map", {
+        region: region,
+        showsCompass: mapkit.FeatureVisibility.Hidden,
+        showsZoomControl: false,
+        showsMapTypeControl: false, 
+        colorScheme: colorScheme, 
+        showsUserLocation: true
+    });
+    
+    const annotation = new mapkit.MarkerAnnotation(center, {
+        title: title,
+        subtitle: address,
+        //glyphText: "🎭",
+        color: "#FF5B40",
+        displayPriority: 1000
+    });
+    map.addAnnotation(annotation);
+}
+</script>

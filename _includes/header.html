@@ -1,6 +1,16 @@
 <header class="header">
     <div class="container">
-        <h1 class="font-weight-bold">{{site.title}}</h1>
-        <div class="fav-filter-button"><span class="d-inline-block align-middle" style="width: 40px; height: 40px;">&nbsp;</span> Favorites</div>
+
+        {% if page.id == "home" %}
+        <div class="fav-filter-button float-right pt-2 "><span class="d-inline-block align-middle" style="width: 40px; height: 40px;">&nbsp;</span></div>
+		<h1 class="font-weight-bold site-title">{{site.title}}</h1>
+        <div class="font-weight-bold site-tagline">Broadway lottery and rush ticket agregator </div>
+
+        {% else %}
+
+        <div class="font-weight-bold site-title"><a href="{{site.url}}">{{site.title}}</a></div>
+        
+        {% endif %}
+        
     </div>
 </header>

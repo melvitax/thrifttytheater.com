@@ -1,0 +1,154 @@
+<article>
+	<div class="pb-5 main-content">
+
+		<div class="container">
+
+<div class="row">
+
+	<div class="col-12">
+
+        <!-- Trailer -->
+        {% if page.trailer %}
+        <div class="modal-video w-100 border border-secondary" style="overflow: hidden; height: 0; padding-top: 56.25%; position: relative;">
+            {% if page.trailer contains "youtube.com" %}
+                {% assign trailer = page.trailer | split: "v=" %}
+                {% assign videoID = trailer[1] %}
+                {% assign src = 'https://www.youtube.com/embed/' | append: videoID | append: '?showinfo=0&modestbranding=0&color=white&autoplay=0&mute=1' %}
+                <iframe width="560" height="315" src="{{src}}" class="js-player w-100 h-100" style="border: 0; left: 0; position: absolute; top: 0;"></iframe>
+            {% elsif page.trailer contains "vimeo.com" %}
+            <iframe width="560" height="315" src="{{page.trailer}}" class="js-player w-100 h-100" style="border: 0; left: 0; position: absolute; top: 0;"></iframe>
+            {% endif %}
+        </div>
+        {% elsif page.header and page.header !=blank and page.header != "" %}
+        <div class="modal-video w-100" style="overflow: hidden; height: 0; padding-top: 56.25%; position: relative;"><img class="w-100 h-100" src="{{ page.header }}" width="160" height="90" alt="{{page.title}}" style="left: 0; position: absolute; top: 0;" /></div>
+        {% endif %}
+
+	</div>
+	
+	<div class="col-md-4 col-12 pt-4" >
+        
+        <div class="animate card mb-3 shadow-sm">
+			<div class="row no-gutters"> 
+
+                <!-- Poster -->
+                {% if page.poster and page.poster != blank and page.poster != ""  %}
+                <img class="card-img-top w-100 h-100" src="{{ page.poster }}" width="230" height="355" alt="{{page.title}}" />
+                {% else %}
+                <img class="card-img-top w-100 h-100" src="/assets/default.jpg" width="230" height="355" alt="{{page.title}}" />	
+                {% endif %}
+
+                <!-- Tickets -->
+                <div class="tickets list-group list-group-flush w-100" style="z-index:0">
+                    {% for ticket in page.tickets %}
+                        {% if ticket.type == "access" %}
+                            <a class="list-group-item list-group-item-action pr-5" style="background-image: url(/assets/icon-{{ticket.type}}.svg)" data-toggle="collapse" href="#show{{showIndex}}TicketAccess" role="button" aria-expanded="false" aria-controls="show{{showIndex}}TicketAcces">{{ticket.title}}</a>
+                            <div class="collapse multi-collapse" id="show{{showIndex}}TicketAccess">
+                                {% for access_hash in access_folder %}
+                                    {% assign accessItem =  access_hash[1] %} 
+                                    {% if accessItem.info contains "http" %}
+                                        <a class="list-group-item list-group-item-action pr-5" href="{{accessItem.info}}">{% include icons/icon-{{accessItem.type}}.svg %} {{accessItem.title}}</a>
+                                    {% else %}
+                                        <a tabindex="0" class="btn list-group-item list-group-item-action pr-5" role="button" data-toggle="popover" title="{{accessItem.title}}" data-content="{{accessItem.info}}">{% include icons/icon-{{accessItem.type}}.svg %} {{accessItem.title}}</a>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        {% elsif ticket.info contains "http" %}
+                            <a class="list-group-item list-group-item-action pr-5 {% if ticket.highlight == true %}list-group-item-highlighted {% endif %}" href="{{ticket.info}}">{% include icons/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
+                        {% else %}
+                            <a tabindex="0" class="btn list-group-item list-group-item-action pr-5" role="button" data-toggle="popover" title="{{ticket.title}}" data-content="{{ticket.info}}">{% include icons/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+        
+            </div>
+        </div>
+	</div>
+	
+	<div class="col-md-8 col-12 pt-4" >
+
+		<h1 class="show-title">{{ page.title }}</h1>
+
+		<!-- Description -->
+        <p class="pt-4">{{page.description}}</p>
+        
+        <!-- Dates -->
+        <h3 class="text-muted pt-4 pb-2">Dates</h3>
+		{% assign timeZone = " 00:00:00 -0500" %}
+		{% capture previewDate %}{{page.preview}} 00:00:00 -0500{% endcapture %}
+		{% capture openingDate %}{{page.opening}} 00:00:00 -0500{% endcapture %}
+        {% capture closingDate %}{% if page.closing %}{{page.closing}} 00:00:00 -0500{% endif %}{% endcapture %}
+
+        <div >
+            <span class="badge badge-success py-2 px-4 font-weight-normal" style="line-height: 1.2em;">
+                Previews<br />{{previewDate | date: "%b %-d, %Y"}}
+            </span>
+    
+            <span class="badge badge-success py-2 px-4 font-weight-normal" style="line-height: 1.2em;">
+                Opening<br />{{openingDate | date: "%b %-d, %Y"}}
+            </span>
+    
+            {% if page.closing and page.closing != blank and page.closing != "" %}
+                <span class="badge badge-danger py-2 px-4 font-weight-normal" style="line-height: 1.2em;">
+                    Closing<br /> {{closingDate | date: "%b %-d, %Y"}}
+                </span>
+            {% endif %}
+        </div>
+
+        <!-- Showtimes -->
+        {% assign showtimesData = site.data.showtimes.result.extractorData.data[0].group %} 
+        {% if showtimesData %}
+            <h3 class="text-muted pt-4 pb-2">Showtimes</h3>
+            {% for showtimes in showtimesData %}
+                {% if page.title == showtimes.show[0].text %}
+                    <table class="showtimes table table-sm">
+                        <thead>
+                            <tr>
+                            <th scope="col">sun</th><th scope="col">mon</th><th scope="col">tue</th><th scope="col">wed</th><th scope="col">thu</th><th scope="col">fri</th><th scope="col">sat</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td>{{showtimes.sun[0].text | replace: ', ', '<br />' }}</td>
+                            <td>{{showtimes.mon[0].text | replace: ', ', '<br />' }}</td>
+                            <td>{{showtimes.tue[0].text | replace: ', ', '<br />' }}</td>
+                            <td>{{showtimes.wed[0].text | replace: ', ', '<br />' }}</td>
+                            <td>{{showtimes.thu[0].text | replace: ', ', '<br />' }}</td>
+                            <td>{{showtimes.fri[0].text | replace: ', ', '<br />' }}</td>
+                            <td>{{showtimes.sat[0].text | replace: ', ', '<br />' }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    {% break %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+        
+        <!-- Theater and Website -->
+		{% assign access_folder = site.data.access | sort %}
+		{% assign timeZone = " 00:00:00 -0500" %}
+		{% for theater_hash in site.data.theaters %}
+			{% assign theater = theater_hash[1] %}
+            {% if theater.title == page.theater %}
+            <h3 class="text-muted pt-4 pb-2">Theater</h3>
+            <div id="map"></div>
+            <div><strong>{{ theater.title }}</strong></div>
+            <div>{{ theater.address }}</div>
+            {% include mapkit.html theater=theater %}
+			{% endif %}
+		{% endfor %}
+		{% if page.website %}
+		<hr />
+		<h3 class="text-muted pt-4 pb-2">Website</h3>
+		<p><a href="{{page.website}}">{{ page.website | remove:'http://' | remove:'https://' | remove:'www.' | split:'/' | first }}</a></p>
+        {% endif %}
+        
+	</div>
+</div>
+
+
+
+
+
+		</div>
+	</div>
+</article>

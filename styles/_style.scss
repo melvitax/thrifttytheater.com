@@ -8,85 +8,48 @@ body {
   background-color: #f8f9fa;
 }
 
-@media (prefers-color-scheme: dark) {
-
-  body {
-    background-color: #000;
-    color: white;
-    height: 100%;
-  }
-  
-  header h1 {
-    color: white !important;
-  }
-  header p {
-    color: rgb(221, 221, 221) !important;
-  }
-  .card {
-    background-color: #343a40;
-    border: 1px solid #6c757d;
-  }
-  .card svg {
-    fill: #fff;
-  }
-  .list-group-item {
-    background-color: #1f2326;
-    border: 1px solid #6c757d;
-    color: #a7b7c5 !important;
-  }
-  .list-group-item-action {
-    background-color: #343a40;
-    color: white !important;
-  }
-  .filter-current .list-group-date-callout {
-    background-color: #1b1e20 !important;
-    color: white !important;
-  }
-  a.list-group-item-action:hover, a.list-group-item-action:focus {
-    background-color: #6c757d;
-    color: white !important;
-  }
-  .popover {
-    background-color: #dee4e8;
-    color: #000 !important;
-  }
-  .popover-header {
-    background-color: #ecf3f7;
-    color: #000 !important;
-    border-bottom: 1px solid #c0c5c9;
-  }
-  .bs-popover-right > .arrow::after {
-    border-right-color: #dee4e8;
-  }
-  .modal-content {
-    background-color: #292f33;
-    color: #fff !important;
-  }
-  .modal-header {
-    border-bottom: 1px solid #0c0e0f;
-  }
-  .modal-content table {
-    color: #fff;
-  }
-  .close {
-    color: #fff;
-    text-shadow: none;
-  }
+.site-title {
+  clear: both;
+  font-size: 15.3vw;
+  font-weight: bold;
+  line-height: 1em;
 }
-header h1 {
-  font-size: 14.5vw 
+.site-title a:link, .site-title a:visited {
+  color: black;
+  text-decoration: none;
+}
+.site-title a:hover {
+  color: #6D757D;
+}
+.site-title a:active {
+  color: rgb(255, 72, 0);
+}
+.site-tagline {
+  color: #6D757D;
+  font-size: 4.9vw;
+  font-weight: 500;
+  line-height: 1em;
 }
 @media (min-width: 576px) and (max-width: 767.98px) { 
-  header h1 { font-size: 5em }
+  .site-title { font-size: 5.25em }
+  .site-tagline { font-size: 1.7em }
 }
 @media (min-width: 768px) and (max-width: 991.98px) { 
-  header h1 { font-size: 7em }
+  .site-title { font-size: 7em }
+  .site-tagline { font-size: 2.27em }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-  header h1 { font-size: 9.5em }
+  .site-title { font-size: 9.5em }
+  .site-tagline { font-size: 3.1em }
 }
 @media (min-width: 1200px) { 
-  header h1 { font-size: 11.5em }
+  .site-title { font-size: 11.5em }
+  .site-tagline { font-size: 3.75em }
+}
+.show-title {
+  font-size: 4.2vw;
+  font-weight: bold;
+  line-height: 1em;
 }
 .fav-filter-button {
   color: #6D757D;
@@ -169,6 +132,78 @@ header h1 {
   color: black;
   background-color: rgb(231, 244, 248);
   cursor: pointer;
+}
+#map {
+  width: 100%;
+  height: 400px;
+}
+table {
+  background-color: gray;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.table th, .table td, .table thead th {
+  border: 1px solid rgb(82, 82, 82);
+  text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  body {
+    background-color: #000;
+    color: white;
+    height: 100%;
+  }
+  
+  .site-title a:link, .site-title a:visited {
+    color: white ;
+  }
+  .site-title a:hover {
+    color: #6D757D;
+  }
+  .site-title a:active {
+    color: rgb(255, 72, 0);
+  }
+  header p {
+    color: rgb(221, 221, 221) !important;
+  }
+  .card {
+    background-color: #343a40;
+    border: 1px solid #6c757d;
+  }
+  .card svg {
+    fill: #fff;
+  }
+  .list-group-item {
+    background-color: #1f2326;
+    border: 1px solid #6c757d;
+    color: #a7b7c5 !important;
+  }
+  .list-group-item-action {
+    background-color: #343a40;
+    color: white !important;
+  }
+  .filter-current .list-group-date-callout {
+    background-color: #1b1e20 !important;
+    color: white !important;
+  }
+  a.list-group-item-action:hover, a.list-group-item-action:focus {
+    background-color: #6c757d;
+    color: white !important;
+  }
+  .popover {
+    background-color: #dee4e8;
+    color: #000 !important;
+  }
+  .popover-header {
+    background-color: #ecf3f7;
+    color: #000 !important;
+    border-bottom: 1px solid #c0c5c9;
+  }
+  .bs-popover-right > .arrow::after {
+    border-right-color: #dee4e8;
+  }
+
 }
 
 /***************

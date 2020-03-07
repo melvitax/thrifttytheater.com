@@ -89,18 +89,6 @@ $( document ).ready(function() {
   // Remove upcoming from the now playing section
   $('.filter-upcoming').parent().remove()
 
-  // Favorite Shows: Read saved state and update each card
-  var faved = getCookie('favedShows')
-  if (faved) {
-    var array = faved.split(",")
-    if (array) {
-      for(var i = 0; i < array.length; i++) {
-        let rawID = array[i]
-        $('.card__'+rawID).addClass('isFavorite')
-      }
-    }
-  }
-
   // Build upcoming section
   var upcoming_cards_grouped_by_dates = []
   var sorted_upcoming_cards = upcoming_cards.sort((a, b) => a.date - b.date)
@@ -134,12 +122,25 @@ $( document ).ready(function() {
         $('[data-toggle="popover"]').popover('hide');
     }
   });
+
+  // Fav Show Buttons
+  var faved = getCookie('favedShows')
+  if (faved) {
+    var array = faved.split(",")
+    if (array) {
+      for(var i = 0; i < array.length; i++) {
+        let rawID = array[i]
+        $('#card__'+rawID).addClass('isFavorite')
+      }
+    }
+  }
   
-  // Fav Shows: Button logic
+  // Fav Button Logic
   $('.fav-button').click(function() {
-    var id = $(this).attr('id').split("__")[1]
-    $('.card__'+id).toggleClass('isFavorite')
-    var isFavorite = $('.card__'+id).hasClass('isFavorite')
+    var id = $(this).parent().parent().attr('id').split("__")[1]
+    console.log('id: '+id)
+    $('#card__'+id).toggleClass('isFavorite')
+    var isFavorite = $('#card__'+id).hasClass('isFavorite')
     var faved = getCookie('favedShows')
     var array = []
     if (faved) {
@@ -161,7 +162,7 @@ $( document ).ready(function() {
     setCookie('favedShows', string, 365)
   })
 
-  // Filter Favorites: Button logic
+  // Filter Button Logic
   $('.fav-filter-button').click(function() {
     $(this).toggleClass('isActive')
     var showFavorites = $(this).hasClass('isActive')
@@ -198,17 +199,45 @@ $( document ).ready(function() {
   // Show the main div now that eveything has been filtered
   $('main').removeClass('hide')
 
-  // Load Modal dynamically
+
+  //checkForHashtag()
+
+  // Check for hashtag
+  function checkForHashtag() {
+    var id = location.hash.replace("#", "")
+    if (id != "") {
+      var card = $("#card__"+id)
+      var title = $('.show-title', card).text()
+      var dataURL = $('.poster-link', card).attr('data-url')
+      $('#modal').modal()
+      loadModalContent(dataURL)
+    }
+  }
+  
+  // Modal - onShow()
   $('#modal').on('show.bs.modal', function (e) {
-    var button = $(e.relatedTarget) 
-    var url = button.data('url')
+    var card = $(e.relatedTarget).parent().parent()
+    var id = $(card).attr('id').split("__")[1]
+    var title = $('.show-title', card).text()
+    window.history.pushState({}, title, "#"+id);
+    var url = $(e.relatedTarget).data('url')
+    loadModalContent(url)
+  })
+
+  // Modal - inHide()
+  $('#modal').on('hide.bs.modal', function (e) {
+    window.history.pushState({}, "Show Hacker", "/");
+  })
+
+  // Load Modal content
+  function loadModalContent(url) {
     $.get( url+'index.html', function( data ) {
       $('#modal .modal-content').html( data );
     });
     ga('send', 'pageview', {
       'page': url
     });
-  })
+  }
 
   // Animate on Intersect
   $('body').removeClass('no-observer')

@@ -72,6 +72,8 @@ collections:
     fields:
       - {label: "Name", name: "title", widget: string}
       - {label: "Address", name: "address", widget: string}
+      - {label: "Latitude", name: "lat", widget: string}
+      - {label: "Longitude", name: "long", widget: string}
   - label: Access Tickets
     label_singular: Access Ticket
     name: "access"
