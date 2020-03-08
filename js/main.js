@@ -107,7 +107,7 @@ $( document ).ready(function() {
     for (key in row) {
       var card = row[key]
       $('.tickets', card).hide()
-      rows.push('<div class="col-md-2 col-6 pt-4" >'+$(card).parent().html()+'</div>')
+      rows.push('<div class="col-6 col-sm-4 col-md-3 col-lg-2 pt-4" >'+$(card).parent().html()+'</div>')
     }
     $('#upcoming').append('<div class="row card-columns">'+rows.join("\n")+'</div>') 
   }
