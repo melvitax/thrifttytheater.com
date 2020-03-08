@@ -6,28 +6,13 @@
 <div class="row">
 
 	<div class="col-12">
-
-        <!-- Trailer -->
-        {% if page.trailer %}
-        <div class="modal-video w-100 border border-secondary" style="overflow: hidden; height: 0; padding-top: 56.25%; position: relative;">
-            {% if page.trailer contains "youtube.com" %}
-                {% assign trailer = page.trailer | split: "v=" %}
-                {% assign videoID = trailer[1] %}
-                {% assign src = 'https://www.youtube.com/embed/' | append: videoID | append: '?showinfo=0&modestbranding=0&color=white&autoplay=0&mute=1' %}
-                <iframe width="560" height="315" src="{{src}}" class="js-player w-100 h-100" style="border: 0; left: 0; position: absolute; top: 0;"></iframe>
-            {% elsif page.trailer contains "vimeo.com" %}
-            <iframe width="560" height="315" src="{{page.trailer}}" class="js-player w-100 h-100" style="border: 0; left: 0; position: absolute; top: 0;"></iframe>
-            {% endif %}
-        </div>
-        {% elsif page.header and page.header !=blank and page.header != "" %}
-        <div class="modal-video w-100" style="overflow: hidden; height: 0; padding-top: 56.25%; position: relative;"><img class="w-100 h-100" src="{{ page.header }}" width="160" height="90" alt="{{page.title}}" style="left: 0; position: absolute; top: 0;" /></div>
-        {% endif %}
-
+        <h1 class="show-title">{{ page.title }}</h1>
 	</div>
 	
 	<div class="col-md-4 col-12 pt-4" >
-        
-        <div class="animate card mb-3 shadow-sm">
+        <div class="row "> 
+            <div class="col-8 col-md-12 mx-auto"> 
+        <div class="card mb-3 shadow-sm">
 			<div class="row no-gutters"> 
 
                 <!-- Poster -->
@@ -41,10 +26,11 @@
                 <div class="tickets list-group list-group-flush w-100" style="z-index:0">
                     {% for ticket in page.tickets %}
                         {% if ticket.type == "access" %}
-                            <a class="list-group-item list-group-item-action pr-5" style="background-image: url(/assets/icon-{{ticket.type}}.svg)" data-toggle="collapse" href="#show{{showIndex}}TicketAccess" role="button" aria-expanded="false" aria-controls="show{{showIndex}}TicketAcces">{{ticket.title}}</a>
-                            <div class="collapse multi-collapse" id="show{{showIndex}}TicketAccess">
+                            <a class="list-group-item list-group-item-action pr-5" style="background-image: url(/assets/icon-{{ticket.type}}.svg)" data-toggle="collapse" href="#ticketAccess" role="button" aria-expanded="false" aria-controls="ticketAccess">{{ticket.title}}</a>
+                            <div class="collapse multi-collapse" id="ticketAccess">
+                                {% assign access_folder = site.data.access | sort %}
                                 {% for access_hash in access_folder %}
-                                    {% assign accessItem =  access_hash[1] %} 
+                                    {% assign accessItem = access_hash[1] %} 
                                     {% if accessItem.info contains "http" %}
                                         <a class="list-group-item list-group-item-action pr-5" href="{{accessItem.info}}">{% include icons/icon-{{accessItem.type}}.svg %} {{accessItem.title}}</a>
                                     {% else %}
@@ -62,14 +48,15 @@
         
             </div>
         </div>
+        </div>
+        </div>
 	</div>
 	
 	<div class="col-md-8 col-12 pt-4" >
 
-		<h1 class="show-title">{{ page.title }}</h1>
-
-		<!-- Description -->
-        <p class="pt-4">{{page.description}}</p>
+        <!-- Description -->
+        <h3 class="text-muted pt-0 pb-2">Synopsis</h3>
+        <div>{{page.description}}</div>
         
         <!-- Dates -->
         <h3 class="text-muted pt-4 pb-2">Dates</h3>
@@ -123,8 +110,22 @@
             {% endfor %}
         {% endif %}
         
-        <!-- Theater and Website -->
-		{% assign access_folder = site.data.access | sort %}
+        <!-- Trailer -->
+        {% if page.trailer %}
+        <h3 class="text-muted pt-4 pb-2">Trailer</h3>
+        <div class="modal-video w-100 border border-secondary" style="overflow: hidden; height: 0; padding-top: 56.25%; position: relative;">
+            {% if page.trailer contains "youtube.com" %}
+                {% assign trailer = page.trailer | split: "v=" %}
+                {% assign videoID = trailer[1] %}
+                {% assign src = 'https://www.youtube.com/embed/' | append: videoID | append: '?showinfo=0&modestbranding=0&color=white&autoplay=0&mute=1' %}
+                <iframe width="560" height="315" src="{{src}}" class="js-player w-100 h-100" style="border: 0; left: 0; position: absolute; top: 0;"></iframe>
+            {% elsif page.trailer contains "vimeo.com" %}
+            <iframe width="560" height="315" src="{{page.trailer}}" class="js-player w-100 h-100" style="border: 0; left: 0; position: absolute; top: 0;"></iframe>
+            {% endif %}
+        </div>
+        {% endif %}
+
+        <!-- Theater -->
 		{% assign timeZone = " 00:00:00 -0500" %}
 		{% for theater_hash in site.data.theaters %}
 			{% assign theater = theater_hash[1] %}
@@ -137,7 +138,9 @@
 			{% endif %}
 		{% endfor %}
 		{% if page.website %}
-		<hr />
+        <hr />
+        
+        <!-- Website -->
 		<h3 class="text-muted pt-4 pb-2">Website</h3>
 		<p><a href="{{page.website}}">{{ page.website | remove:'http://' | remove:'https://' | remove:'www.' | split:'/' | first }}</a></p>
         {% endif %}
