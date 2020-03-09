@@ -13,6 +13,10 @@ tonyaward: false
 criticspick: false
 website: 'https://plazasuitebroadway.com'
 tickets:
+  - highlight: true
+    title: $39 Lottery
+    type: digitalLottery
+    info: 'https://plazasuitebroadway.com'
   - highlight: false
     info: 'http://www.thehudsonbroadway.com/whatson/plaza-suite/'
     title: $59-$339
