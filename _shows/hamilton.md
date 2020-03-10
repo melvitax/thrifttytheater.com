@@ -1,7 +1,7 @@
 ---
 title: Hamilton
 poster: /assets/uploads/hamilton.jpg
-header: ''
+header: /assets/uploads/hamiltomn-header.jpg
 description: >-
   Go back to the era of the Founding Fathers with Lin-Manuel Miranda’s inventive
   new musical.
