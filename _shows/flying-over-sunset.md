@@ -1,7 +1,7 @@
 ---
 title: Flying Over Sunset
 poster: /assets/uploads/flying-over-sunset.jpg
-header: ''
+header: /assets/uploads/flying-over-sunset-header.jpg
 description: >-
   A new musical from James Lapine, Tom Kitt and Michael Korie inspired by the
   lives of three extraordinary people who experimented with LSD.
@@ -14,6 +14,10 @@ criticspick: false
 trailer: 'https://www.youtube.com/watch?v=3xo9eBlFlIg'
 website: 'https://www.lct.org/shows/flying-over-sunset/'
 tickets:
+  - highlight: false
+    info: 'https://flyingoversunsetlottery.com/'
+    title: $40 Lottery
+    type: digitalLottery
   - highlight: false
     info: 'https://www.lct.org/shows/flying-over-sunset/'
     title: $32 Rush
