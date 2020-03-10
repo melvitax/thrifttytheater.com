@@ -3,8 +3,13 @@ title: Flying Over Sunset
 poster: /assets/uploads/flying-over-sunset.jpg
 header: /assets/uploads/flying-over-sunset-header.jpg
 description: >-
-  A new musical from James Lapine, Tom Kitt and Michael Korie inspired by the
-  lives of three extraordinary people who experimented with LSD.
+  A new musical from James Lapine, Tom Kitt and Michael Korie. 1950's Hollywood.
+  You are in Malibu with Cary Grant, Clare Boothe Luce and Aldous Huxley and
+  they are on an acid trip. Together. All three of these extraordinary people
+  were known to experiment with LSD– it was legal then and used for
+  self-awareness and psychological exploration. Nobody knows if they ever really
+  shared a trip, but they were all in and around LA in the 1950s... Who’s to say
+  it never happened?
 theater: Vivian Beaumont Theater
 preview: '2020-03-12'
 opening: '2020-04-16'
