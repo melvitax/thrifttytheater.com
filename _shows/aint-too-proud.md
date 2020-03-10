@@ -1,7 +1,7 @@
 ---
 title: Ain't Too Proud
 poster: /assets/uploads/proud.jpg
-header: ''
+header: /assets/uploads/aint-too-proud-header.jpg
 description: ' Follow The Temptations’ extraordinary journey from the streets of Detroit to the Rock & Roll Hall of Fame—how they met, how they rose, the groundbreaking heights they hit, and how personal and political conflicts threatened to tear the group apart as the United States fell into civil unrest. Written by three time Obie Award winner Dominique Morisseau (Pipeline, Skeleton Crew), directed by two-time Tony Award winner Des McAnuff (Jersey Boys), and featuring choreography by Tony nominee Sergio Trujillo (Jersey Boys, On Your Feet).'
 theater: Imperial Theatre
 preview: '2019-02-28'
@@ -29,4 +29,3 @@ tickets:
     title: $49-$199
     type: regular
 ---
-
