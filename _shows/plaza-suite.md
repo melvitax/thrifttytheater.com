@@ -16,7 +16,7 @@ tickets:
   - highlight: true
     title: $39 Lottery
     type: digitalLottery
-    info: 'https://plazasuitebroadway.com'
+    info: 'https://www.todaytix.com/x/nyc/shows/19876-plaza-suite-on-broadway'
   - highlight: false
     info: 'http://www.thehudsonbroadway.com/whatson/plaza-suite/'
     title: $59-$339

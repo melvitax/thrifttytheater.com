@@ -1,7 +1,7 @@
 ---
 title: Aladdin
 poster: /assets/uploads/aladdin.jpg
-header: ''
+header: /assets/uploads/aladdin-header.jpg
 description: The beloved story of Aladdin is brought to thrilling theatrical life.
 theater: New Amsterdam Theater
 preview: '2014-02-26'
