@@ -45,6 +45,12 @@
                         {% endif %}
                     {% endfor %}
                 </div>
+
+                {% if page.website %}
+                <hr />
+                <!-- Website -->
+                <div class="py-2 px-4"><a href="{{page.website}}">{{ page.website | remove:'http://' | remove:'https://' | remove:'www.' | split:'/' | first }}</a></div>
+                {% endif %}
         
             </div>
         </div>
@@ -117,7 +123,7 @@
             {% if page.trailer contains "youtube.com" %}
                 {% assign trailer = page.trailer | split: "v=" %}
                 {% assign videoID = trailer[1] %}
-                {% assign src = 'https://www.youtube.com/embed/' | append: videoID | append: '?showinfo=0&modestbranding=0&color=white&autoplay=0&mute=1' %}
+                {% assign src = 'https://www.youtube.com/embed/' | append: videoID | append: '?showinfo=0&modestbranding=0&color=white&autoplay=0' %}
                 <iframe width="560" height="315" src="{{src}}" class="js-player w-100 h-100" style="border: 0; left: 0; position: absolute; top: 0;"></iframe>
             {% elsif page.trailer contains "vimeo.com" %}
             <iframe width="560" height="315" src="{{page.trailer}}" class="js-player w-100 h-100" style="border: 0; left: 0; position: absolute; top: 0;"></iframe>
@@ -137,13 +143,6 @@
             {% include mapkit.html theater=theater %}
 			{% endif %}
 		{% endfor %}
-		{% if page.website %}
-        <hr />
-        
-        <!-- Website -->
-		<h3 class="text-muted pt-4 pb-2">Website</h3>
-		<p><a href="{{page.website}}">{{ page.website | remove:'http://' | remove:'https://' | remove:'www.' | split:'/' | first }}</a></p>
-        {% endif %}
         
 	</div>
 </div>
