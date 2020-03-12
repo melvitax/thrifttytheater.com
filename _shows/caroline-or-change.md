@@ -19,4 +19,8 @@ tickets:
     info: 'https://www.roundabouttheatre.org/get-tickets/access-roundabout/'
     title: $10 Access
     type: access
+  - highlight: true
+    title: $20 Rush
+    type: digitalRush
+    info: 'https://www.todaytix.com/x/london/shows/12183-caroline,-or-change'
 ---
