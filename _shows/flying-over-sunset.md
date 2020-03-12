@@ -19,7 +19,7 @@ criticspick: false
 trailer: 'https://www.youtube.com/watch?v=3xo9eBlFlIg'
 website: 'https://www.lct.org/shows/flying-over-sunset/'
 tickets:
-  - highlight: false
+  - highlight: true
     info: 'https://flyingoversunsetlottery.com/'
     title: $40 Lottery
     type: digitalLottery
