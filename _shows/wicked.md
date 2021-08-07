@@ -13,6 +13,7 @@ tonyaward: true
 criticspick: false
 trailer: 'https://www.youtube.com/watch?v=KR1MWFti-IY'
 website: 'http://www.wickedthemusical.com'
+alert: 'Returns Sept 14'
 tickets:
   - highlight: true
     info: 'https://lottery.broadwaydirect.com/show/wicked/'
