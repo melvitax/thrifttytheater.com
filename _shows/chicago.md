@@ -11,6 +11,7 @@ tonyaward: true
 criticspick: false
 trailer: 'https://www.youtube.com/watch?v=Xx_eoxvYvc8'
 website: 'http://www.chicagothemusical.com'
+alert: 'Returns Sept 14'
 tickets:
   - highlight: false
     info: >-
