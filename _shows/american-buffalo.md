@@ -15,6 +15,7 @@ tonyaward: false
 criticspick: false
 trailer: 'https://www.youtube.com/watch?v=1PaenRrlvHI'
 website: 'https://americanbuffalonyc.com'
+alert: 'Returns Unknown'
 tickets:
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/American-Buffalo/Ticket'
