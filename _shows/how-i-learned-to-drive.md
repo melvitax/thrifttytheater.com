@@ -1,14 +1,14 @@
 ---
-title: "How I Learned to Drive\t"
+title: "How I Learned to Drive"
 poster: /assets/uploads/how-i-learned-to-drive.jpg
 header: ''
 description: >-
   Mary-Louise Parker and David Morse reunite for the Broadway debut of Paula
   Vogel's Pulitzer-winning play.
 theater: Samuel J Friedman Theatre
-preview: '2020-03-27'
-opening: '2020-04-22'
-closing: '2020-06-07'
+preview: '2022-03-29'
+opening: '2022-04-19'
+closing: ''
 tonyaward: false
 criticspick: false
 trailer: 'https://www.youtube.com/watch?v=l8tYkzwJySI'
