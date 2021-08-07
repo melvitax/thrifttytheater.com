@@ -13,6 +13,7 @@ tonyaward: false
 criticspick: true
 trailer: 'https://www.youtube.com/watch?v=RuGyut6C4Es'
 website: 'https://tokillamockingbirdbroadway.com'
+alert: 'Returns Oct 5'
 tickets:
   - highlight: false
     info: >-
