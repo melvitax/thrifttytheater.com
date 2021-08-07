@@ -19,6 +19,7 @@ tonyaward: false
 criticspick: false
 trailer: 'https://www.youtube.com/watch?v=4MLoIMkSGks'
 website: 'https://www.sixthemusical.com/broadway'
+alert: 'Returns Sept 19'
 tickets:
   - highlight: true
     info: 'https://lottery.broadwaydirect.com/show/six-ny/'
