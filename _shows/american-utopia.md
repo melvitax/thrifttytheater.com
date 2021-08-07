@@ -6,9 +6,9 @@ description: >-
   Following a sold-out world tour, David Byrne's acclaimed theatrical concert
   comes to Broadway.
 theater: Hudson Theatre
-preview: '2020-09-18'
-opening: '2020-09-18'
-closing: '2021-01-17'
+preview: '2021-09-17'
+opening: '2021-09-17'
+closing: ''
 tonyaward: false
 criticspick: false
 trailer: 'https://www.youtube.com/watch?time_continue=1&v=X1P2U34QrQ8'

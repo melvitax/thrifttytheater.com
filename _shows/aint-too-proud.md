@@ -11,6 +11,7 @@ tonyaward: true
 criticspick: true
 trailer: 'https://www.youtube.com/watch?v=570vC-BJNvc'
 website: 'https://www.ainttooproudmusical.com'
+alert: 'Returns Oct 16'
 tickets:
   - highlight: true
     info: 'https://ainttooproudlottery.com/'
