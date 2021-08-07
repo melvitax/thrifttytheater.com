@@ -6,12 +6,13 @@ description: >-
   Jeanine Tesori and Tony Kushner's acclaimed musical returns to Broadway
   starring Sharon D. Clarke.
 theater: Studio 54
-preview: '2020-03-13'
-opening: '2020-04-07'
-closing: ''
+preview: '2021-10-08'
+opening: '2021-10-27'
+closing: '2022-01-09'
 tonyaward: false
 criticspick: false
 trailer: 'https://www.youtube.com/watch?v=anMRTqnEhx4'
+alert: 'Returns Oct 8'
 website: >-
   https://www.roundabouttheatre.org/get-tickets/2019-2020-season/caroline-or-change/
 tickets:
