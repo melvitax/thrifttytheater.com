@@ -48,6 +48,11 @@
 				{% if show.criticspick %}<div class="position-absolute" style="top: -16px; left: {{ badgeOffset }}; z-index: 2; width: 64px; height: 0; padding-top: 64px; overflow: hidden; background: url('assets/criticspick.png') center center/cover no-repeat">New York Times Critic's Pick</div>{% endif %}
 				<!-- Tickets -->
 				<div class="tickets list-group list-group-flush w-100" style="z-index:0">
+					{% if show.alert and show.alert != blank and show.alert != "" %}
+					<ul class="list-group list-group-flush  w-100">
+						<li class="list-group-item text-muted text-center">{{show.alert}}</li>
+					</ul>
+					{% endif %}
 					{% for ticket in show.tickets %}
 						{% if ticket.type == "access" %}
 							<a class="list-group-item list-group-item-action pr-5" style="background-image: url(assets/icon-{{ticket.type}}.svg)" data-toggle="collapse" href="#show{{showIndex}}TicketAccess" role="button" aria-expanded="false" aria-controls="show{{showIndex}}TicketAcces">{{ticket.title}}</a>
@@ -77,11 +82,6 @@
 					{% endif %}
 					
 				</ul>
-				{% if show.alert and show.alert != blank and show.alert != "" %}
-				<ul class="list-group list-group-flush  w-100">
-					<li class="list-group-item text-muted text-center">{{show.alert}}</li>
-				</ul>
-				{% endif %}
 			</div>
 		</div>
 	</div>
