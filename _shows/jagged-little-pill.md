@@ -13,6 +13,7 @@ tonyaward: false
 criticspick: true
 trailer: 'https://www.youtube.com/watch?v=5teNqef7S88'
 website: 'https://jaggedlittlepill.com'
+alert: 'Returns Oct 21'
 tickets:
   - highlight: true
     info: 'http://jaggedlottery.com/'
