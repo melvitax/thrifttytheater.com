@@ -4,9 +4,9 @@ poster: /assets/uploads/take-me-out.jpg
 header: ''
 description: Richard Greenberg's groundbreaking play returns to Broadway.
 theater: The Helen Hayes Theater
-preview: '2020-03-31'
-opening: '2020-04-23'
-closing: '2020-06-14'
+preview: '2022-03-19'
+opening: '2022-04-04'
+closing: ''
 tonyaward: false
 criticspick: false
 trailer: 'https://www.youtube.com/watch?v=Dwu61izuC7o'
