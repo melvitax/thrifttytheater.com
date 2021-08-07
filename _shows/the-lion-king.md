@@ -13,6 +13,7 @@ tonyaward: true
 criticspick: false
 trailer: 'https://www.youtube.com/watch?v=vKDEwHv43uo'
 website: 'http://www.lionking.com'
+alert: 'Returns Sept 14'
 tickets:
   - highlight: true
     info: 'https://lottery.broadwaydirect.com/show/the-lion-king/'
