@@ -11,6 +11,7 @@ tonyaward: false
 criticspick: true
 trailer: 'https://www.youtube.com/watch?v=NN0jO6MxFyM'
 website: 'https://moulinrougemusical.com'
+alert: 'Returns Sept 24'
 tickets:
   - highlight: true
     info: 'https://www.luckyseat.com/shows/moulinrouge-newyork'
