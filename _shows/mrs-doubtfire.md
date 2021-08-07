@@ -19,6 +19,7 @@ tonyaward: false
 criticspick: false
 trailer: 'https://www.youtube.com/watch?v=xw91dGGPdd8'
 website: 'https://mrsdoubtfirebroadway.com'
+alert: 'Returns Oct 21'
 tickets:
   - highlight: true
     title: $35 Rush
