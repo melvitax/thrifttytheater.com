@@ -77,9 +77,9 @@
 					{% endif %}
 					
 				</ul>
-				{% if show.warning and show.warning != blank and show.warning != "" %}
-				<ul class="list-group list-group-flush list-dates w-100 list-group-date"></ul>
-					<li class="list-group-item text-muted list-group-date-callout text-center">{{show.warning}}</li>
+				{% if show.alert and show.alert != blank and show.alert != "" %}
+				<ul class="list-group list-group-flush  w-100"></ul>
+					<li class="list-group-item text-muted text-center">{{show.alert}}</li>
 				</ul>
 				{% endif %}
 			</div>
