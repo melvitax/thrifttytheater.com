@@ -13,6 +13,7 @@ tonyaward: false
 criticspick: false
 trailer: 'https://www.youtube.com/watch?v=CxN_He6NsAk'
 website: 'https://companymusical.com'
+alert: 'Returns Nov 15'
 tickets:
   - highlight: true
     info: 'http://www.companylottery.com/'
