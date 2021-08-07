@@ -7,11 +7,12 @@ description: >-
   suspense—confronting the tactics for surviving institutions that were not
   built for you. 
 theater: Black Box Theatre
-preview: '2020-04-30'
-opening: '2020-04-30'
-closing: '2020-06-28'
+preview: '2022'
+opening: ''
+closing: ''
 tonyaward: false
 criticspick: false
+alert: 'Opens Spring 2022'
 website: >-
   https://www.roundabouttheatre.org/get-tickets/2019-2020-season/exception-to-the-rule/
 tickets:
