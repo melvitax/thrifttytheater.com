@@ -13,6 +13,7 @@ tonyaward: true
 criticspick: true
 trailer: 'https://www.youtube.com/watch?v=NBkI_9cr1Ws'
 website: 'http://www.hamiltonbroadway.com'
+alert: 'Returns Sept 14'
 tickets:
   - highlight: true
     info: 'https://lottery.broadwaydirect.com/show/hamilton/'
