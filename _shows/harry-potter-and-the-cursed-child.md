@@ -11,6 +11,7 @@ tonyaward: true
 criticspick: true
 trailer: 'https://www.youtube.com/watch?v=2R4gKN-YCz0'
 website: 'https://www.harrypottertheplay.com/us/'
+alert: 'Returns Nov 2'
 tickets:
   - highlight: true
     info: >-
