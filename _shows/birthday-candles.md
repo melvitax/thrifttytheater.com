@@ -6,9 +6,9 @@ description: >-
   Debra Messing stars in the Broadway premiere of Noah Haidle's poignant new
   play.
 theater: American Airlines Theatre
-preview: '2020-04-02'
-opening: '2020-04-21'
-closing: '2020-06-21'
+preview: '2022-03-18'
+opening: '2022-04-10'
+closing: ''
 tonyaward: false
 criticspick: false
 website: >-
