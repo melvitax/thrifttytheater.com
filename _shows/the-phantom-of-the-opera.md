@@ -13,6 +13,7 @@ tonyaward: true
 criticspick: false
 trailer: 'https://www.youtube.com/watch?v=zqXaNYJ3JGg'
 website: 'http://www.thephantomoftheopera.com/new-york'
+alert: 'Returns Oct 22'
 tickets:
   - highlight: true
     info: 'http://www.phantombroadwaylottery.com'
