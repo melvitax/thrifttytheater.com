@@ -6,7 +6,7 @@
 		<div class="container">
 
 			<div class="alert alert-info mt-3" role="alert">
-				LATEST: Broadway performances are canceled until furthur notice.
+				Broadway performances return September 2021!
 			</div>
 
 			<h3 class="pt-4 pb-2">Now Playing</h3>
@@ -75,9 +75,9 @@
 					{% else %}
 					<li class="list-group-item text-muted list-group-date-callout text-center"><small class="d-inline-block pr-1">Starts:</small><small class="d-inline-block"> {{previewDate | date: "%b %-d, %Y"}}</small></li>
 					{% endif %}
-					{% if show.alert and show.alert != blank and show.alert != "" %}
-						<li class="list-group-item text-muted list-group-date-callout text-center">{{show.alert}}</li>
-					{% endif %}
+					
+					<li class="list-group-item text-muted list-group-date-callout text-center">{{show.alert}}</li>
+					
 				</ul>
 			</div>
 		</div>
