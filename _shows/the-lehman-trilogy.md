@@ -8,11 +8,12 @@ description: >-
 theater: Nederlander Theatre
 preview: '2020-03-07'
 opening: '2020-03-26'
-closing: '2020-07-05'
+closing: ''
 tonyaward: false
 criticspick: true
 trailer: 'https://www.youtube.com/watch?v=Z9Q6PrhCLO8'
 website: 'https://thelehmantrilogy.com'
+alert: 'Returns Sept 25'
 tickets:
   - highlight: true
     info: 'https://lottery.broadwaydirect.com/show/lehman-ny/'
