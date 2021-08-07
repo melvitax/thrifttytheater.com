@@ -13,6 +13,7 @@ tonyaward: false
 criticspick: false
 trailer: 'https://www.youtube.com/watch?v=7rXaK_w0O8w'
 website: 'https://tinaonbroadway.com'
+alert: 'Returns Oct 8'
 tickets:
   - highlight: true
     info: 'https://lottery.broadwaydirect.com/show/tina-ny/'
