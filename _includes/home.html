@@ -76,9 +76,12 @@
 					<li class="list-group-item text-muted list-group-date-callout text-center"><small class="d-inline-block pr-1">Starts:</small><small class="d-inline-block"> {{previewDate | date: "%b %-d, %Y"}}</small></li>
 					{% endif %}
 					
-					<li class="list-group-item text-muted list-group-date-callout text-center">{{show.alert}}</li>
-					
 				</ul>
+				{% if show.alert and show.alert != blank and show.alert != "" %}
+				<ul class="list-group list-group-flush list-dates w-100 list-group-date"></ul>
+					<li class="list-group-item text-muted list-group-date-callout text-center">{{show.alert}}</li>
+				</ul>
+				{% endif %}
 			</div>
 		</div>
 	</div>
