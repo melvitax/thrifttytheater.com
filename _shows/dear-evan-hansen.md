@@ -13,6 +13,7 @@ tonyaward: true
 criticspick: true
 trailer: 'https://www.youtube.com/watch?v=p3L5uw3ZWSw'
 website: 'http://dearevanhansen.com'
+alert: 'Returns Dec 11'
 tickets:
   - highlight: true
     info: 'http://www.dearevanhansenlottery.com'
