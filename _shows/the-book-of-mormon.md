@@ -11,6 +11,7 @@ tonyaward: true
 criticspick: false
 trailer: 'https://www.youtube.com/watch?v=GHQITfI9878'
 website: 'http://www.bookofmormonbroadway.com/'
+alert: 'Returns Nov 15'
 tickets:
   - highlight: true
     info: 'https://www.luckyseat.com/shows/bookofmormon-newyork'
