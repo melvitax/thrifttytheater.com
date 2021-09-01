@@ -31,7 +31,7 @@
     "jquery": "^3.5.0",
     "moment": "^2.24.0",
     "popper.js": "^1.16.0 ",
-    "video.js": "^7.6.0",
+    "video.js": "^7.14.3",
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11",
     "youtube-video-js": "^2.0.3"
