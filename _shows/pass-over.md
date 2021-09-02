@@ -9,6 +9,7 @@ opening: 2021-08-22
 closing: 2021-10-10
 tonyaward: false
 criticspick: true
+trailer: https://www.youtube.com/watch?v=OL-hLhNzXcY
 website: https://www.passoverbroadway.com
 tickets:
   - highlight: false
