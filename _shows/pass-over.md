@@ -17,6 +17,12 @@ tickets:
     type: digitalLottery
     info: https://www.luckyseat.com/shows/passover-newyork
   - highlight: false
+    title: $35 Rush
+    type: rush
+    info: " On sale when the box office opens at 10 AM Monday–Saturday, 11 AM Sunday
+      on a first-come, first-served basis. Limit 2 per person. Seat Locations
+      determined at the discretion of the box office. Subject to availability."
+  - highlight: false
     info: https://seatgeek.com/pass-over-tickets
     type: regular
     title: $39-$163 Tickets
