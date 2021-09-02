@@ -16,7 +16,7 @@ collections:
     fields: 
       - {label: Title, name: title, widget: string}
       - {label: Poster, name: poster, widget: image, required: false}
-      - {label: Header, name: header, widget: image, required: false}
+      - {label: Alert, name: alert, widget: string}
       - {label: Description, name: description, widget: string}
       - label: Theater
         name: theater
