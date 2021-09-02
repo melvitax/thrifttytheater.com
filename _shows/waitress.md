@@ -15,4 +15,8 @@ tickets:
     info: https://www.telecharge.com/Broadway/Waitress/
     type: regular
     title: $79-$252 Tickets
+  - highlight: false
+    type: standing
+    title: $32 Standing
+    info: Limited availability
 ---
