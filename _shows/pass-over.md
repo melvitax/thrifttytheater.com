@@ -12,6 +12,10 @@ criticspick: true
 trailer: https://www.youtube.com/watch?v=OL-hLhNzXcY
 website: https://www.passoverbroadway.com
 tickets:
+  - highlight: true
+    title: $30 Lottery
+    type: digitalLottery
+    info: https://www.luckyseat.com/shows/passover-newyork
   - highlight: false
     info: https://seatgeek.com/pass-over-tickets
     type: regular
