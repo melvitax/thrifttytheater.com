@@ -1,7 +1,7 @@
 ---
 title: Paradise Square
 poster: /assets/uploads/paradise-square.jpeg
-alert: " "
+alert: ""
 description: A new musical telling the galvanizing story of racial harmony
   undone by a country at war with itself.
 preview: 2022-02-22
