@@ -11,12 +11,19 @@ tonyaward: false
 criticspick: false
 website: https://waitressthemusical.com
 tickets:
-  - highlight: false
-    info: https://www.telecharge.com/Broadway/Waitress/
-    type: regular
-    title: $79-$252 Tickets
+  - highlight: true
+    type: rush
+    title: $49 Rush
+    info: Every day, a limited number of $49 tickets will be available for day-of
+      performances only. Limited to 1 per person and all tickets will be
+      distributed via E-Ticket. Must present valid email address. Our Box Office
+      is open 10am Tues-Sat and at noon on Sun
   - highlight: false
     type: standing
     title: $32 Standing
     info: Limited availability
+  - highlight: false
+    info: https://www.telecharge.com/Broadway/Waitress/
+    type: regular
+    title: $79-$252 Tickets
 ---
