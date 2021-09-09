@@ -76,13 +76,16 @@ body {
   background-image: url('/assets/heart-regular.svg');
   background-size: 50px 50px;
   transition: scale .2s ease-in-out; 
+  opacity: 0;
 }
 .fav-button:hover {
   cursor: pointer;
   transform: translateZ(0px) scale(1.15);
+  opacity: 1;
 }
 .isFavorite .fav-button {
   background-image: url('/assets/heart-solid.svg');
+  opacity: 1;
 }
 .list-group-item.list-group-item-highlighted svg {
   color: rgb(255, 72, 0);
