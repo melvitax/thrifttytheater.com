@@ -4,8 +4,10 @@ poster: /assets/uploads/merry-wives.jpg
 description: A fresh and joyous adaptation by Jocelyn Bioh of Shakespeare’s The
   Merry Wives of Windsor, directed by our Associate Artistic Director and
   Resident Director Saheem Ali.
+theater: Delacorte Theater
 preview: 2021-07-06
 opening: 2021-07-06
+returns: ""
 closing: 2021-09-18
 tonyaward: false
 criticspick: true
