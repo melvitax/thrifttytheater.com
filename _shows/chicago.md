@@ -31,6 +31,6 @@ tickets:
     type: standing
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/Chicago/Schedules-Prices'
-    title: $49-$159
+    title: $49+ Tickets
     type: regular
 ---

@@ -34,6 +34,6 @@ tickets:
     type: linctix
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/Flying-Over-Sunset/Ticket'
-    title: $87-$177
+    title: $87+ Tickets
     type: regular
 ---

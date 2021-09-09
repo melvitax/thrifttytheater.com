@@ -13,7 +13,7 @@ trailer: https://www.youtube.com/watch?v=SQnSagWrgpU
 website: https://mjthemusical.com
 tickets:
   - highlight: false
-    title: $59-$159 Tickets
+    title: $59+ Tickets
     type: regular
     info: https://www.ticketmaster.com/mj-ny-tickets/artist/2714992
 ---

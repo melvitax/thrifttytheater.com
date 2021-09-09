@@ -27,6 +27,6 @@ tickets:
     type: rush
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/Girl-From-The-North-Country/Ticket'
-    title: $49-$179
+    title: $49+ Tickets
     type: regular
 ---

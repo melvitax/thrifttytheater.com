@@ -22,7 +22,7 @@ tickets:
     type: rush
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/West-Side-Story/Overview'
-    title: $39-$109
+    title: $39+ Tickets
     type: regular
 ---
 

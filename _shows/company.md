@@ -28,7 +28,7 @@ tickets:
       purchase.
     title: $32 Standing
   - highlight: false
-    title: $59-$179 Tickets
+    title: $59+ Tickets
     type: regular
     info: https://www.telecharge.com/Broadway/Company/Ticket
 header: /assets/uploads/company-header.jpg

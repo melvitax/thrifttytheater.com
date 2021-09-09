@@ -27,6 +27,6 @@ tickets:
   - highlight: false
     info: >-
       https://www.telecharge.com/Broadway/Aint-Too-Proud-The-Life-and-Times-of-The-Temptations/Ticket
-    title: $49-$199
+    title: $49+ Tickets
     type: regular
 ---

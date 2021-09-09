@@ -16,7 +16,7 @@ tickets:
     type: digitalLottery
   - highlight: false
     info: https://www.harrypottertheplay.com/us/ticket-info/
-    title: $95-$250
+    title: $95+ Tickets
     type: regular
 header: ""
 theater: Lyric Theatre

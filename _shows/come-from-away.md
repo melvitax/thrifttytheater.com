@@ -35,6 +35,6 @@ tickets:
     type: standing
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/Come-From-Away/Schedules-Prices'
-    title: $47-$157
+    title: $47+ Tickets
     type: regular
 ---

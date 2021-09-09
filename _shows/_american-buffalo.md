@@ -13,7 +13,7 @@ website: https://americanbuffalonyc.com
 tickets:
   - highlight: false
     info: https://www.telecharge.com/Broadway/American-Buffalo/Ticket
-    title: $89-$179
+    title: $89+ Tickets
     type: regular
 header: ""
 theater: Circle In The Square Theatre

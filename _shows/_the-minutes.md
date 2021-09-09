@@ -33,7 +33,7 @@ tickets:
     type: rush
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/The-Minutes/Ticket'
-    title: $49-$119
+    title: $49+ Tickets
     type: regular
 ---
 

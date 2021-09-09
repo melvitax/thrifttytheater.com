@@ -24,7 +24,7 @@ tickets:
     type: rush
     info: ' A limited number of rush tickets will be Available on the day of the performance at the Longacre Theatre when the box office opens (10 AM Mon-Sat, and 12 PM Sun Starting April 19th). Cash or credit. Tickets per person  limit. Seat Locations determined at the discretion of the box office.'
   - highlight: false
-    title: $49-$179
+    title: $49+ Tickets
     type: regular
     info: 'https://www.telecharge.com/Broadway/Diana-A-True-Musical-Story/Ticket'
 ---

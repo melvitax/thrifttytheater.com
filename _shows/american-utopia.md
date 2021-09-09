@@ -16,7 +16,7 @@ website: 'https://americanutopiabroadway.com/'
 tickets:
   - highlight: false
     info: 'http://www.thehudsonbroadway.com/whatson/david-byrnes-american-utopia/'
-    title: $59-$159
+    title: $59+ Tickets
     type: regular
 ---
 

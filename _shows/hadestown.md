@@ -37,6 +37,6 @@ tickets:
     type: standing
   - highlight: false
     info: 'https://www.ticketmaster.com/hadestown-ny-tickets/artist/2580967'
-    title: $99-$159
+    title: $99+ Tickets
     type: regular
 ---

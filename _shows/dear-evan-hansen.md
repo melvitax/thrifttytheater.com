@@ -26,6 +26,6 @@ tickets:
     type: standing
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/Dear-Evan-Hansen-Music-Box-Theatre'
-    title: $49-$250
+    title: $49+ Tickets
     type: regular
 ---

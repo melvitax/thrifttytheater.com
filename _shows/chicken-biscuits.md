@@ -12,7 +12,7 @@ criticspick: false
 website: https://chickenandbiscuitsbway.com
 tickets:
   - highlight: false
-    title: $49-$225 Tickets
+    title: $49+ Tickets
     type: regular
     info: https://www.telecharge.com/Broadway/Chicken-and-Biscuits/Overview
 ---

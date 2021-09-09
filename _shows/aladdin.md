@@ -19,6 +19,6 @@ tickets:
     type: digitalLottery
   - highlight: false
     info: 'http://www.ticketmaster.com/artist/1858715'
-    title: $55-$357
+    title: $55+ Tickets
     type: regular
 ---

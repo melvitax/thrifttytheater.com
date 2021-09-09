@@ -24,7 +24,7 @@ tickets:
     type: rush
   - highlight: false
     info: https://www.telecharge.com/Broadway/Jagged-Little-Pill/Ticket
-    title: $89-$179
+    title: $89+ Tickets
     type: regular
 header: ""
 theater: Broadhurst Theatre

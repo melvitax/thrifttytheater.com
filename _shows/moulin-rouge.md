@@ -16,7 +16,7 @@ tickets:
     type: digitalLottery
   - highlight: false
     info: https://www.ticketmaster.com/moulin-rouge-the-musical-ny-tickets/artist/2571914
-    title: $99-$179
+    title: $99-+ Tickets
     type: regular
   - highlight: false
     info: "A limited number of standing room tickets may be available for each

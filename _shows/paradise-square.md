@@ -15,5 +15,5 @@ tickets:
   - highlight: false
     info: https://www.broadwayinbound.com/shows/paradise-square
     type: regular
-    title: $49 Tickets
+    title: $49+ Tickets
 ---
