@@ -6,7 +6,6 @@ description: A fresh and joyous adaptation by Jocelyn Bioh of Shakespeare’s Th
   Resident Director Saheem Ali.
 preview: 2021-07-06
 opening: 2021-07-06
-returns: 2021-07-06
 closing: 2021-09-18
 tonyaward: false
 criticspick: true
