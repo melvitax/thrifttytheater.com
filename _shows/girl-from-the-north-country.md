@@ -12,7 +12,6 @@ tonyaward: false
 criticspick: true
 trailer: 'https://www.youtube.com/watch?v=qNeHKvoshG4'
 website: 'https://northcountryonbroadway.com/'
-alert: 'Returns Oct 13'
 tickets:
   - highlight: true
     info: 'https://northcountrylottery.com'

@@ -17,7 +17,6 @@ tonyaward: false
 criticspick: false
 trailer: 'https://www.youtube.com/watch?v=RDUk3rSa1Rw'
 website: 'https://theminutesbroadway.com/'
-alert: 'Returns March 2022'
 tickets:
   - highlight: true
     info: 'https://theminuteslottery.com'

@@ -17,7 +17,6 @@ returns: 2021-11-11
 closing: ''
 tonyaward: false
 criticspick: false
-alert: 'Returns Nov 11'
 trailer: 'https://www.youtube.com/watch?v=3xo9eBlFlIg'
 website: 'https://www.lct.org/shows/flying-over-sunset/'
 tickets:

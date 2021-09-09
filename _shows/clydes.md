@@ -1,7 +1,6 @@
 ---
 title: Clyde's
 poster: /assets/uploads/clydes.jpeg
-alert: Begins Nov 3
 description: A stirring new play from Pulitzer Prize-winner Lynn Nottage.
 theater: The Helen Hayes Theater
 preview: 2021-11-03

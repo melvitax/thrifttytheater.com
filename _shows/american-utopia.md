@@ -13,7 +13,6 @@ tonyaward: false
 criticspick: false
 trailer: 'https://www.youtube.com/watch?time_continue=1&v=X1P2U34QrQ8'
 website: 'https://americanutopiabroadway.com/'
-alert: 'Returns Sept 17'
 tickets:
   - highlight: false
     info: 'http://www.thehudsonbroadway.com/whatson/david-byrnes-american-utopia/'

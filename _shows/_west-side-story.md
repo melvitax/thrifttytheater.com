@@ -13,7 +13,6 @@ tonyaward: false
 criticspick: false
 trailer: 'https://www.youtube.com/watch?v=gykFkXKef2k'
 website: 'https://westsidestorybway.com'
-alert: 'Return Unknown'
 tickets:
   - highlight: false
     info: >-

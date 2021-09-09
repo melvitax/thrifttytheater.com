@@ -12,7 +12,6 @@ tonyaward: true
 criticspick: true
 trailer: 'https://www.youtube.com/watch?v=bijwE0ZBdrM'
 website: 'http://comefromaway.com'
-alert: 'Returns Sept 21'
 tickets:
   - highlight: true
     info: 'http://comefromawaylottery.com'

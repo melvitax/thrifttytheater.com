@@ -1,7 +1,6 @@
 ---
 title: Company
 poster: /assets/uploads/company.jpg
-alert: Returns Nov 15
 description: A revelatory staging of the quintessential Sondheim musical.
 preview: 2020-03-02
 opening: 2020-03-22

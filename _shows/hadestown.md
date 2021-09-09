@@ -14,7 +14,6 @@ tonyaward: true
 criticspick: true
 trailer: 'https://www.youtube.com/watch?v=NREQfz2uTck'
 website: 'https://www.hadestown.com/'
-alert: 'Returns Sept 2'
 tickets:
   - highlight: true
     info: 'https://www.luckyseat.com/shows/hadestown-newyork'

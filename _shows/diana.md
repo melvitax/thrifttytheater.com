@@ -14,7 +14,6 @@ tonyaward: false
 criticspick: false
 trailer: 'https://www.youtube.com/watch?v=zKFyk1TltG8'
 website: 'https://thedianamusical.com'
-alert: 'Returns Nov 2'
 tickets:
   - highlight: true
     title: $40 Lottery

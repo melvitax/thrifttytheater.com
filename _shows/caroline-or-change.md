@@ -12,7 +12,6 @@ closing: '2022-01-09'
 tonyaward: false
 criticspick: false
 trailer: 'https://www.youtube.com/watch?v=anMRTqnEhx4'
-alert: 'Returns Oct 8'
 website: >-
   https://www.roundabouttheatre.org/get-tickets/2019-2020-season/caroline-or-change/
 tickets:

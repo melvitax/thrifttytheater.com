@@ -1,7 +1,6 @@
 ---
 title: Freestyle Love Supreme
 poster: /assets/uploads/freestyle.jpg
-alert: Limited time engagement
 description: A high-energy blend of improvisation, hip-hop and vocal stylings.
 theater: Booth Theatre
 preview: 2021-10-07

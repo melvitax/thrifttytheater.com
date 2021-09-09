@@ -1,7 +1,6 @@
 ---
 title: American Buffalo
 poster: /assets/uploads/american-buffalo.jpg
-alert: Return Unknown
 description: "Three small-time hustlers want a bigger cut of the American dream.
   David Mamet’s classic about loyalty and greed returns to Broadway more
   explosive and pointed than ever, exposing a timely American truth: crime and

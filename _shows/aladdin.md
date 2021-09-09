@@ -12,7 +12,6 @@ tonyaward: true
 criticspick: false
 trailer: 'https://www.youtube.com/watch?v=W0b3KVTDryQ'
 website: 'http://www.aladdinthemusical.com'
-alert: 'Returns Sept 28'
 tickets:
   - highlight: true
     info: 'https://lottery.broadwaydirect.com/show/aladdin/'

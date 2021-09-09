@@ -12,7 +12,6 @@ opening: ''
 closing: ''
 tonyaward: false
 criticspick: false
-alert: 'Opens Spring 2022'
 website: >-
   https://www.roundabouttheatre.org/get-tickets/2019-2020-season/exception-to-the-rule/
 tickets:
