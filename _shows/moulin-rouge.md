@@ -5,6 +5,7 @@ alert: Returns Sept 24
 description: Baz Luhrmann's revolutionary film comes to life.
 preview: 2019-06-28
 opening: 2019-07-25
+returns: 2021-09-24
 tonyaward: true
 criticspick: true
 website: https://moulinrougemusical.com

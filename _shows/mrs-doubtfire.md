@@ -5,6 +5,7 @@ alert: Returns Oct 21
 description: A new musical comedy about the things we do to stay together.
 preview: 2020-03-09
 opening: 2020-04-05
+returns: 2021-10-21
 tonyaward: false
 criticspick: false
 website: https://mrsdoubtfirebroadway.com

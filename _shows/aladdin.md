@@ -6,6 +6,7 @@ description: The beloved story of Aladdin is brought to thrilling theatrical lif
 theater: New Amsterdam Theater
 preview: '2014-02-26'
 opening: '2014-03-20'
+returns: 2021-09-28
 closing: ''
 tonyaward: true
 criticspick: false

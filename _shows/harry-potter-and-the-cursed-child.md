@@ -5,6 +5,7 @@ alert: Returns Nov 12
 description: The eighth story in the Harry Potter series arrives on Broadway!
 preview: 2018-03-16
 opening: 2018-04-22
+returns: 2021-11-12
 tonyaward: true
 criticspick: true
 website: https://broadway.harrypottertheplay.com

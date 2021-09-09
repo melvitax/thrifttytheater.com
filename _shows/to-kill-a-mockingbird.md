@@ -8,6 +8,7 @@ description: >-
 theater: Shubert Theatre
 preview: '2018-11-01'
 opening: '2018-12-13'
+returns: '2021-10-05'
 closing: ''
 tonyaward: false
 criticspick: true

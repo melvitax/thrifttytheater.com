@@ -8,6 +8,7 @@ description: >-
 theater: Gershwin Theatre
 preview: '2003-10-08'
 opening: '2003-10-30'
+returns: '2021-09-13'
 closing: ''
 tonyaward: true
 criticspick: false

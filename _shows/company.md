@@ -5,6 +5,7 @@ alert: Returns Nov 15
 description: A revelatory staging of the quintessential Sondheim musical.
 preview: 2020-03-02
 opening: 2020-03-22
+returns: 2021-11-15
 tonyaward: false
 criticspick: false
 website: https://companymusical.com

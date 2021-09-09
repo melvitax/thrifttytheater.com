@@ -13,6 +13,7 @@ description: >-
 theater: Vivian Beaumont Theater
 preview: '2020-03-12'
 opening: '2020-04-16'
+returns: 2021-11-11
 closing: ''
 tonyaward: false
 criticspick: false

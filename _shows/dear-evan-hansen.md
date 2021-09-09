@@ -8,6 +8,7 @@ description: >-
 theater: Music Box Theatre
 preview: '2016-11-14'
 opening: '2016-12-04'
+returns: 2021-12-11
 closing: ''
 tonyaward: true
 criticspick: true

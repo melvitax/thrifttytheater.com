@@ -7,6 +7,7 @@ description: Playwright Keenan Scott II makes his Broadway debut with this
 theater: John Golden Theater
 preview: 2021-10-01
 opening: 2021-10-31
+returns: '2021-10-01'
 closing: ""
 tonyaward: false
 criticspick: false

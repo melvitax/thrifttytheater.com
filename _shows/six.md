@@ -14,6 +14,7 @@ description: >-
 theater: Brooks Atkinson Theatre
 preview: '2020-02-13'
 opening: '2020-03-12'
+returns: 2021-09-19
 closing: ''
 tonyaward: false
 criticspick: false

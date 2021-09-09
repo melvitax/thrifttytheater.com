@@ -6,6 +6,7 @@ description: ' Follow The Temptations’ extraordinary journey from the streets 
 theater: Imperial Theatre
 preview: '2019-02-28'
 opening: '2019-03-31'
+returns: 2021-10-16
 closing: ''
 tonyaward: true
 criticspick: true

@@ -8,6 +8,7 @@ description: >-
 theater: Minskoff Theatre
 preview: '1997-10-15'
 opening: '1997-11-13'
+returns: 2021-09-14
 closing: ''
 tonyaward: true
 criticspick: false

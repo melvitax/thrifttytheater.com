@@ -24,7 +24,7 @@
 	
 	<!-- Current Shows -->
 	<div class="col-md-3 col-6 pt-4" >
-		<div class="animate card mb-3 shadow-sm" id="card__{{show.id | remove: '/shows/'}}" data-preview="{{show.preview}}" data-opening="{{show.opening}}" {% if show.closing %}data-closing="{{show.closing}}"{% endif %}>
+		<div class="animate card mb-3 shadow-sm" id="card__{{show.id | remove: '/shows/'}}" data-preview="{{show.preview}}" data-opening="{{show.opening}}" {% if show.returns %}data-returns="{{show.returns}}"{% endif %} {% if show.closing %}data-closing="{{show.closing}}"{% endif %}>
 			<div class="row no-gutters"> 
 				<!-- Poster -->
 				<a class="poster-link grow w-100 d-table position-relative" style="z-index:1" title="{{ show.title }}" href="{{show.url}}" >

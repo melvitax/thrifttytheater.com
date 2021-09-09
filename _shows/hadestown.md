@@ -8,6 +8,7 @@ description: >-
 theater: Walter Kerr Theatre
 preview: '2019-03-22'
 opening: '2019-04-17'
+returns: 2021-09-02
 closing: ''
 tonyaward: true
 criticspick: true

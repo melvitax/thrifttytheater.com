@@ -8,6 +8,7 @@ description: >-
 theater: Longacre Theatre
 preview: '2020-03-02'
 opening: '2020-03-21'
+returns: 2021-11-02
 closing: ''
 tonyaward: false
 criticspick: false

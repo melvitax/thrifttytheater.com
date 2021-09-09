@@ -6,6 +6,7 @@ description: Conor McPherson's acclaimed new work features the music of Bob Dyla
 theater: Belasco Theatre
 preview: '2020-02-07'
 opening: '2020-03-05'
+returns: 2021-10-13
 closing: ''
 tonyaward: false
 criticspick: true

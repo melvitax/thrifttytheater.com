@@ -25,12 +25,26 @@ $( document ).ready(function() {
     // Set dates for comparison
     var previewDate = moment(card.getAttribute('data-preview'), "YYYY-MM-DD")
     var openingDate = moment(card.getAttribute('data-opening'), "YYYY-MM-DD")
+    var returnDate = moment(card.getAttribute('data-returns'), "YYYY-MM-DD")
     var aWeekBeforePreview = moment(card.getAttribute('data-preview'), "YYYY-MM-DD").subtract(7, 'days')
+    var aWeekBeforeReturn = moment(card.getAttribute('data-returns'), "YYYY-MM-DD").subtract(7, 'days')
     var twoWeeksAfterPreviews = moment(card.getAttribute('data-preview'), "YYYY-MM-DD").add(14, 'days')
+    var twoWeeksAfterReturn = moment(card.getAttribute('data-returns'), "YYYY-MM-DD").add(14, 'days')
     var closingTag = card.getAttribute('data-closing')
 
     // Identify upcoming shows
-    if (today.isBefore(previewDate, 'date')) {
+    if (today.isBefore(returnDate, 'date')) {
+      $(card).addClass('filter-upcoming')
+      upcoming_cards.push({date: returnDate, card: $(card)})
+      if (today.isAfter(aWeekBeforeReturn, 'date')) {
+        $('.list-group-date-callout', card).html('<small>Begins '+returnDate.calendar()+'</small>')
+        $('.list-group-date-callout', card).addClass('comingsoon')
+      } else {
+        $('.list-group-date-callout', card).html('<small>'+returnDate.format('MMM Do')
+        +'</small>')
+      }
+    // Identify upcoming shows
+    } else if (today.isBefore(previewDate, 'date')) {
       $(card).addClass('filter-upcoming')
       upcoming_cards.push({date: previewDate, card: $(card)})
       if (today.isAfter(aWeekBeforePreview, 'date')) {

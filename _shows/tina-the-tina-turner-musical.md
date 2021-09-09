@@ -6,6 +6,7 @@ description: The thrilling hit musical, telling the story of Tina Turner,
   arrives on Broadway.
 preview: 2019-10-12
 opening: 2019-11-07
+returns: '2021-10-08'
 tonyaward: true
 criticspick: false
 website: https://tinaonbroadway.com

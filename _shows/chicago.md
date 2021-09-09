@@ -6,6 +6,7 @@ description: The Tony-winning revival of Kander and Ebb's musical will razzle-da
 theater: Ambassador Theatre
 preview: '1996-10-23'
 opening: '1996-11-14'
+returns: 2021-09-14
 closing: ''
 tonyaward: true
 criticspick: false

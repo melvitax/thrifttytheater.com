@@ -28,6 +28,7 @@ collections:
         valueField: "title"
       - {label: Preview, name: preview, widget: date, format: "YYYY-MM-DD", default: ""}
       - {label: Opening, name: opening, widget: date, format: "YYYY-MM-DD", default: ""}
+      - {label: Returns, name: returns, widget: date, format: "YYYY-MM-DD", default: ""}
       - {label: Closing, name: closing, widget: date, format: "YYYY-MM-DD", default: "", required: false}
       - {label: Tony Award, name: tonyaward, widget: boolean, default: false}
       - {label: Critic's Pick, name: criticspick, widget: boolean, default: false}

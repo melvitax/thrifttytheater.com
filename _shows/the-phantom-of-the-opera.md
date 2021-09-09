@@ -8,6 +8,7 @@ description: >-
 theater: Majestic Theatre
 preview: '1988-01-09'
 opening: '1988-01-26'
+returns: '2021-10-22'
 closing: ''
 tonyaward: true
 criticspick: false

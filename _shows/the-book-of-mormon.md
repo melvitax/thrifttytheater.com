@@ -6,6 +6,7 @@ description: The nine-time Tony Award-winning Best Musical.
 theater: Eugene O'Neill Theatre
 preview: '2011-02-24'
 opening: '2011-03-24'
+returns: 2021-11-15
 closing: ''
 tonyaward: true
 criticspick: false

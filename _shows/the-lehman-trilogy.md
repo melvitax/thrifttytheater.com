@@ -8,6 +8,7 @@ description: >-
 theater: Nederlander Theatre
 preview: '2020-03-07'
 opening: '2020-03-26'
+returns: 2021-09-25
 closing: ''
 tonyaward: false
 criticspick: true
