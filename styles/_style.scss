@@ -78,7 +78,7 @@ body {
   transition: scale .2s ease-in-out; 
   opacity: 0;
 }
-.fav-button:hover {
+.poster:hover .fav-button {
   cursor: pointer;
   transform: translateZ(0px) scale(1.15);
   opacity: 1;
