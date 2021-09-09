@@ -9,6 +9,7 @@ opening: 2021-09-02
 closing: 2022-01-09
 tonyaward: false
 criticspick: false
+trailer: https://www.youtube.com/watch?v=rHcWVwEM-3k
 website: https://waitressthemusical.com
 tickets:
   - highlight: true
