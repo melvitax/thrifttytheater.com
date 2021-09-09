@@ -96,10 +96,10 @@
 
         <!-- Showtimes -->
         {% assign showtimesData = site.data.showtimes.result.extractorData.data[0].group %} 
-        {% if showtimesData and showtimesData.size > 0 %}
-            <h3 class="text-muted pt-4 pb-2">Showtimes</h3>
+        {% if showtimesData %}
             {% for showtimes in showtimesData %}
                 {% if page.title == showtimes.show[0].text %}
+                    <h3 class="text-muted pt-4 pb-2">Showtimes</h3>
                     <table class="showtimes table table-sm">
                         <thead>
                             <tr>
