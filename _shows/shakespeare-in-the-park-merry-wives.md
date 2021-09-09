@@ -9,6 +9,7 @@ opening: 2021-07-06
 closing: 2021-09-18
 tonyaward: false
 criticspick: true
+trailer: https://www.youtube.com/watch?v=-HKe9C0v98k
 website: https://publictheater.org/productions/season/2021/sitp/merry-wives/
 tickets:
   - highlight: true
