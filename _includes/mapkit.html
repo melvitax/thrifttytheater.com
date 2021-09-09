@@ -17,11 +17,8 @@ function createMap() {
     var address = "{{include.theater.address}}"
     mapkit.init({
         authorizationCallback: function(done) {
-            fetch("/gettoken")
-                .then(res => res.text())
-                .then(done);
-        },
-        language: "es"
+            done('eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlFLVUI4NlFZQUQifQ.eyJpc3MiOiJFUkE5UzhTUE5ZIiwiaWF0IjoxNjMxMTUxNzM4LCJleHAiOjE2NjI2ODE2MDAsIm9yaWdpbiI6Imh0dHBzOi8vc2hvd2hhY2tlci5jb20ifQ.9Jl-B1DnU4sNfKjph1R9sOc4b0-hAJ3JUoPFh_I51ZsEIWpdSUq_ArfdkF4NCh1vQLxkxRZrVQzsEnoHGZNsEw');
+        }
     });
     
     const center = new mapkit.Coordinate(latitude, longitude),
