@@ -69,6 +69,7 @@
 		{% assign timeZone = " 00:00:00 -0500" %}
 		{% capture previewDate %}{{page.preview}} 00:00:00 -0500{% endcapture %}
 		{% capture openingDate %}{{page.opening}} 00:00:00 -0500{% endcapture %}
+        {% capture returnDate %}{% if page.returns %}{{page.returns}} 00:00:00 -0500{% endif %}{% endcapture %}
         {% capture closingDate %}{% if page.closing %}{{page.closing}} 00:00:00 -0500{% endif %}{% endcapture %}
 
         <div >
@@ -79,6 +80,12 @@
             <span class="badge badge-success py-2 px-4 font-weight-normal" style="line-height: 1.2em;">
                 Opening<br />{{openingDate | date: "%b %-d, %Y"}}
             </span>
+
+            {% if page.returns and page.returns != blank and page.returns != "" %}
+                <span class="badge badge-success py-2 px-4 font-weight-normal" style="line-height: 1.2em;">
+                    Returns<br /> {{returnDate | date: "%b %-d, %Y"}}
+                </span>
+            {% endif %}
     
             {% if page.closing and page.closing != blank and page.closing != "" %}
                 <span class="badge badge-danger py-2 px-4 font-weight-normal" style="line-height: 1.2em;">
