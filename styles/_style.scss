@@ -78,10 +78,12 @@ body {
   transition: scale .2s ease-in-out; 
   opacity: 0;
 }
-.poster:hover .fav-button {
+.card:hover .fav-button {
+  opacity: 1;
+}
+.fav-button:hover {
   cursor: pointer;
   transform: translateZ(0px) scale(1.15);
-  opacity: 1;
 }
 .isFavorite .fav-button {
   background-image: url('/assets/heart-solid.svg');
