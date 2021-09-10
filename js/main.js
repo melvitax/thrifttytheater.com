@@ -70,16 +70,17 @@ $( document ).ready(function() {
       } else {
         if (closingTag != undefined && closingTag != "") {
           var closingDate = moment(closingTag, "YYYY-MM-DD")
-          var aWeekBeforeClosing = moment(closingTag, "YYYY-MM-DD").subtract(14, 'days')
+          var twoWeeksBeforeClosing = moment(closingTag, "YYYY-MM-DD").subtract(14, 'days')
           // Show ended
           if (today.isAfter(closingDate, 'date')) {
             shows_ended.push($('.show-title', card).text())
             $(card).parent().remove();
           } else {
             // Show is ending soon
-            if (today.isAfter(aWeekBeforeClosing, 'date')) {
+            if (today.isAfter(twoWeeksBeforeClosing, 'date')) {
               var closingDateString = closingDate.calendar()
-              console.log("previewDate: "+previewDate+" closingDate: "+closingDate+" closingDateString: "+closingDateString)
+              var openingDateString = openingDate.calendar()
+              console.log("openingDate: "+openingDate+" openingDateString: "+ openingDateString +" closingDate: "+closingDate+" closingDateString: "+closingDateString)
               $('.list-group-date-callout', card).html('<small>Ends '+closingDateString+'</small>')
               $('.list-group-date-callout', card).addClass('ending')
             } else {
