@@ -78,9 +78,9 @@ $( document ).ready(function() {
           } else {
             // Show is ending soon
             if (today.isAfter(twoWeeksBeforeClosing, 'date')) {
-              var closingDateString = closingDate.calendar()
-              var openingDateString = openingDate.calendar()
-              console.log("openingDate: "+openingDate+" openingDateString: "+ openingDateString +" closingDate: "+closingDate+" closingDateString: "+closingDateString)
+              var aWeekBeforeClosing = moment(closingTag, "YYYY-MM-DD").subtract(7, 'days')
+              var closingThisWeek = (today.isAfter(aWeekBeforeClosing, 'date'))
+              var closingDateString = closingThisWeek ? closingDate.calendar() : closingDate.format('MMM Do')
               $('.list-group-date-callout', card).html('<small>Ends '+closingDateString+'</small>')
               $('.list-group-date-callout', card).addClass('ending')
             } else {
