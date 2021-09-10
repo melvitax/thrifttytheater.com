@@ -79,7 +79,7 @@ $( document ).ready(function() {
             // Show is ending soon
             if (today.isAfter(aWeekBeforeClosing, 'date')) {
               var closingDateString = closingDate.calendar()
-              console.log("closingDate: "+closingDate+" closingDateString: "+closingDateString)
+              console.log("previewDate: "+previewDate+" closingDate: "+closingDate+" closingDateString: "+closingDateString)
               $('.list-group-date-callout', card).html('<small>Ends '+closingDateString+'</small>')
               $('.list-group-date-callout', card).addClass('ending')
             } else {
