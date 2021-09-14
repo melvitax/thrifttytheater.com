@@ -1,7 +1,7 @@
 ---
 title: Hamilton
 poster: /assets/uploads/hamilton.jpg
-alert: Returns Sept 14
+alert: ""
 description: Go back to the era of the Founding Fathers with Lin-Manuel
   Miranda’s inventive new musical.
 preview: 2015-07-13
