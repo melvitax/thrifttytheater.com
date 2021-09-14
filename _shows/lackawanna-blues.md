@@ -1,12 +1,13 @@
 ---
 title: Lackawanna Blues
 poster: /assets/uploads/lackawanna-blues.jpeg
-alert: Opens Sept 14
+alert: ""
 description: Ruben Santiago-Hudson stars in and directs the Broadway premiere of
   his solo play.
 theater: Samuel J Friedman Theatre
 preview: 2021-09-14
 opening: 2021-09-28
+returns: ""
 closing: ""
 tonyaward: false
 criticspick: false
