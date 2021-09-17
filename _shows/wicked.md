@@ -16,14 +16,6 @@ tickets:
     info: https://lottery.broadwaydirect.com/show/wicked/
     title: $48 Lottery
     type: digitalLottery
-  - highlight: true
-    info: 2.5 hours prior to show time, people who present themselves at the
-      Gershwin Theatre box office will have their names placed in a hat. 30
-      minutes later, names will be drawn for 26 orchestra seats at $30.00 each.
-      This lottery is available only in-person at the box office, with a limit
-      of two tickets per person, cash only. Photo-ID required.
-    title: $30 Lottery
-    type: lottery
   - highlight: false
     info: Tickets at the student ($69) rate are available in-person at the Gershwin
       Theatre box office with a valid college, university ID. Limited 2 tickets
