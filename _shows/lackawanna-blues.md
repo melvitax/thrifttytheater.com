@@ -17,7 +17,7 @@ tickets:
   - highlight: true
     info: https://www.todaytix.com/nyc/shows/23677-lackawanna-blues-on-broadway
     type: digitalRush
-    title: $30 Rush
+    title: $30 Digital Rush
   - highlight: false
     type: studentRush
     info: Student tickets are available at the box office on the day of the show
