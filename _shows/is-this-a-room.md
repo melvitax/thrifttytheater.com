@@ -9,6 +9,7 @@ opening: 2021-10-01
 closing: 2022-01-16
 tonyaward: false
 criticspick: true
+trailer: https://www.youtube.com/watch?v=Vhc4neDuk54
 website: https://thelyceumplays.com
 tickets:
   - highlight: false
