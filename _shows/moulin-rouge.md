@@ -11,7 +11,7 @@ criticspick: true
 website: https://moulinrougemusical.com
 tickets:
   - highlight: true
-    info: https://www.luckyseat.com/shows/moulinrouge-newyork
+    info: https://www.luckyseat.com/dash/shows/moulinrouge!themusical-newyork
     title: $34 Lottery
     type: digitalLottery
   - highlight: false
