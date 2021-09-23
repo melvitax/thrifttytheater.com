@@ -6,8 +6,8 @@
 		<div class="container">
 
 			<h3 class="pt-4 pb-2">Now Playing</h3>
-			<div class="row card-columns">
-
+			<div class="row">
+			<!-- Current Shows -->
 	{% assign showtimesData = site.data.showtimes.result.extractorData.data[0].group %} 
 	{% assign access_folder = site.data.access | sort %}
 	{% assign timeZone = " 00:00:00 -0500" %}
@@ -18,19 +18,15 @@
 	{% capture closingDate %}{% if show.closing %}{{show.closing}} 00:00:00 -0500{% endif %}{% endcapture %}
 	{% assign showIndex = forloop.index %}
 	
-	<!-- Current Shows -->
-	<div class="col-md-3 col-6 pt-4" >
-		<div class="animate card mb-3 shadow-sm" id="card__{{show.id | remove: '/shows/'}}" data-preview="{{show.preview}}" data-opening="{{show.opening}}" {% if show.returns %}data-returns="{{show.returns}}"{% endif %} {% if show.closing %}data-closing="{{show.closing}}"{% endif %}>
-			<div class="row no-gutters"> 
+	<div class="col col-6 col-md-3 col-xl-2 pt-4" >
+		<div class="card animate mb-3 shadow-sm m-0 p-0" style="width: 100%;" id="card__{{show.id | remove: '/shows/'}}" data-preview="{{show.preview}}" data-opening="{{show.opening}}" {% if show.returns %}data-returns="{{show.returns}}"{% endif %} {% if show.closing %}data-closing="{{show.closing}}"{% endif %}>
+
 				<!-- Poster -->
-				<a class="poster-link grow w-100 d-table position-relative" style="z-index:1" title="{{ show.title }}" href="{{show.url}}" >
+				<a class="poster-link grow w-100 d-table position-relative px-0" style="z-index:1" title="{{ show.title }}" href="{{show.url}}" >
 					{% if show.poster and show.poster != blank and show.poster != ""  %}
 					<img class="card-img-top w-100 h-100" src="{{ show.poster }}" width="230" height="355" alt="{{show.title}}" />
 					{% else %}
 					<img class="card-img-top  w-100 h-100" src="/assets/default.jpg" width="230" height="355" alt="{{show.title}}" />	
-					{% endif %}
-					{% if show.trailer %}
-					<img class="icon-play" src="/assets/play.svg" width="120" height="120" alt="play button" />	
 					{% endif %}
 				</a>
 				<!-- Title -->
@@ -43,42 +39,41 @@
 				{% capture badgeOffset %} {% if show.tonyaward %} 22px {% else %} -22px {% endif %}{% endcapture %}
 				{% if show.criticspick %}<div class="position-absolute" style="top: -16px; left: {{ badgeOffset }}; z-index: 2; width: 64px; height: 0; padding-top: 64px; overflow: hidden; background: url('assets/criticspick.png') center center/cover no-repeat">New York Times Critic's Pick</div>{% endif %}
 				<!-- Tickets -->
-				<div class="tickets list-group list-group-flush w-100" style="z-index:0">
+				<div class="tickets list-group list-group-flush w-100 p-0" style="z-index:0">
 					{% if show.alert and show.alert != blank and show.alert != "" %}
-					<ul class="list-group list-group-flush  w-100">
+					<ul class="list-group list-group-flush w-100 p-0">
 						<li class="list-group-item text-muted text-center">{{show.alert}}</li>
 					</ul>
 					{% endif %}
 					{% for ticket in show.tickets %}
 						{% if ticket.type == "access" %}
-							<a class="list-group-item list-group-item-action pr-5" style="background-image: url(assets/icon-{{ticket.type}}.svg)" data-toggle="collapse" href="#show{{showIndex}}TicketAccess" role="button" aria-expanded="false" aria-controls="show{{showIndex}}TicketAcces">{{ticket.title}}</a>
+							<a class="list-group-item list-group-item-action pe-5" style="background-image: url(assets/icon-{{ticket.type}}.svg)" data-bs-toggle="collapse" href="#show{{showIndex}}TicketAccess" role="button" aria-expanded="false" aria-controls="show{{showIndex}}TicketAcces">{{ticket.title}}</a>
 							<div class="collapse multi-collapse" id="show{{showIndex}}TicketAccess">
 								{% for access_hash in access_folder %}
 									{% assign accessItem =  access_hash[1] %}
 									{% if accessItem.info contains "http" %}
-										<a class="list-group-item list-group-item-action pr-5" href="{{accessItem.info}}">{% include icons/icon-{{accessItem.type}}.svg %} {{accessItem.title}}</a>
+										<a class="list-group-item list-group-item-action pe-5" href="{{accessItem.info}}">{% include icons/icon-{{accessItem.type}}.svg %} {{accessItem.title}}</a>
 									{% else %}
-										<a tabindex="0" class="btn list-group-item list-group-item-action pr-5" role="button" data-toggle="popover" title="{{accessItem.title}}" data-content="{{accessItem.info}}">{% include icons/icon-{{accessItem.type}}.svg %} {{accessItem.title}}</a>
+										<a tabindex="0" class="btn list-group-item list-group-item-action pe-5" role="button" data-bs-toggle="popover" title="{{accessItem.title}}" data-bs-content="{{accessItem.info}}">{% include icons/icon-{{accessItem.type}}.svg %} {{accessItem.title}}</a>
 									{% endif %}
 								{% endfor %}
 							</div>
 						{% elsif ticket.info contains "http" %}
-							<a class="list-group-item list-group-item-action pr-5 {% if ticket.highlight == true %}list-group-item-highlighted {% endif %}" href="{{ticket.info}}">{% include icons/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
+							<a class="list-group-item list-group-item-action pe-5 {% if ticket.highlight == true %}list-group-item-highlighted {% endif %}" href="{{ticket.info}}">{% include icons/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
 						{% else %}
-							<a tabindex="0" class="btn list-group-item list-group-item-action pr-5" role="button" data-toggle="popover" title="{{ticket.title}}" data-content="{{ticket.info}}">{% include icons/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
+							<a tabindex="0" class="btn list-group-item list-group-item-action pe-5" role="button" data-bs-toggle="popover" title="{{ticket.title}}" data-bs-content="{{ticket.info}}">{% include icons/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
 						{% endif %}
 					{% endfor %}
 				</div>
 				<!-- Dates -->
-				<ul class="list-group list-group-flush list-dates w-100 list-group-date">
+				<ul class="list-group list-group-flush list-dates w-100 list-group-date p-0">
 					{% if show.closing and show.closing != blank and show.closing != "" %}
-					<li class="list-group-item text-muted list-group-date-callout text-center"><small class="d-inline-block pr-1">Ends:</small><small class="d-inline-block"> {{closingDate | date: "%b %-d, %Y"}}</small></li>
+					<li class="list-group-item text-muted list-group-date-callout text-center"><small class="d-inline-block pe-1">Ends:</small><small class="d-inline-block"> {{closingDate | date: "%b %-d, %Y"}}</small></li>
 					{% else %}
-					<li class="list-group-item text-muted list-group-date-callout text-center"><small class="d-inline-block pr-1">Starts:</small><small class="d-inline-block"> {{previewDate | date: "%b %-d, %Y"}}</small></li>
+					<li class="list-group-item text-muted list-group-date-callout text-center"><small class="d-inline-block pe-1">Starts:</small><small class="d-inline-block"> {{previewDate | date: "%b %-d, %Y"}}</small></li>
 					{% endif %}
 					
 				</ul>
-			</div>
 		</div>
 	</div>
 	

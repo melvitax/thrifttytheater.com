@@ -89,7 +89,7 @@ $( document ).ready(function() {
             } 
           }
         } else {
-          $('.list-group-date-callout', card).remove()
+          $('.list-dates', card).remove()
           $('.list-group-item-action', card).last().addClass('last')
         }
       }
@@ -129,15 +129,13 @@ $( document ).ready(function() {
   }
 
   // Enable Popovers
-  $('[data-toggle="popover"]').popover()
-  // Hide Popover when clicking anywhere outside popover
-  $('body').on('click', function (e) {
-    if ($(e.target).data('toggle') !== 'popover'
-        && $(e.target).parents('[data-toggle="popover"]').length === 0
-        && $(e.target).parents('.popover.in').length === 0) { 
-        $('[data-toggle="popover"]').popover('hide');
-    }
-  });
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+  })
+  var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), {
+    trigger: 'focus'
+  })
 
   // Fav Show Buttons
   var faved = getCookie('favedShows')

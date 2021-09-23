@@ -109,6 +109,7 @@ body {
   background-color: rgb(58, 184, 0) !important;
   color: white !important;
 }
+
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { 
   transform: translateZ(0px) scale(1.05);
@@ -125,6 +126,9 @@ body {
   right: 1.25rem;
   top: 50%;
   transform: translateY(-50%)
+}
+.poster {
+  padding: 0;
 }
 .poster-link:hover .icon-play {
     display: block;

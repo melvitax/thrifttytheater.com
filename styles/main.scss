@@ -1,7 +1,8 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+
 ---
 
 @import "../vendor/bootstrap/_scss/bootstrap";
+$fa-font-path: "../vendor/font-awesome/fonts/";
 @import "../vendor/font-awesome/_scss/font-awesome";
 @import "style";
