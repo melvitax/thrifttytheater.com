@@ -9,6 +9,7 @@ opening: 2021-10-10
 closing: 2022-01-02
 tonyaward: false
 criticspick: false
+trailer: https://www.youtube.com/watch?v=rKhnxsHkyCY
 website: https://chickenandbiscuitsbway.com
 tickets:
   - highlight: false
