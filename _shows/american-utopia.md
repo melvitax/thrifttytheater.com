@@ -7,7 +7,7 @@ preview: 2021-09-17
 opening: 2021-09-17
 returns: ""
 closing: ""
-tonyaward: false
+tonyaward: true
 criticspick: false
 website: https://americanutopiabroadway.com/
 tickets:
