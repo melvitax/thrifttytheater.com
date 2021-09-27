@@ -14,7 +14,7 @@ tonyaward: false
 criticspick: true
 trailer: 'https://www.youtube.com/watch?v=Z9Q6PrhCLO8'
 website: 'https://thelehmantrilogy.com'
-alert: 'Returns Sept 25'
+alert: ''
 tickets:
   - highlight: true
     info: 'https://lottery.broadwaydirect.com/show/lehman-ny/'

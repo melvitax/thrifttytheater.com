@@ -1,7 +1,7 @@
 ---
 title: Trouble in Mind
 poster: /assets/uploads/touble-in-mind.jpg
-alert: Limited Time
+alert: Limited Run
 description: Alice Childress’ acclaimed 1955 play makes its Broadway debut.
 theater: American Airlines Theatre
 preview: 2021-10-29

@@ -1,7 +1,7 @@
 ---
 title: Chicken & Biscuits
 poster: /assets/uploads/chicken-and-biscuits.jpg
-alert: Limited Time
+alert: Limited Run
 description: Douglas Lyons' new family comedy makes its Broadway premiere.
 theater: Circle In The Square Theatre
 preview: 2021-09-23

@@ -1,7 +1,7 @@
 ---
 title: The Music Man
 poster: /assets/uploads/the-music-man.jpg
-alert: Opens Dec 20
+alert: 
 description: Hugh Jackman returns to Broadway as Harold Hill in this musical
   theater classic.
 preview: 2021-12-20

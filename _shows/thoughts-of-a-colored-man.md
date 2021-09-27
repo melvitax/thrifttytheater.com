@@ -1,7 +1,7 @@
 ---
 title: Thoughts of a Colored Man
 poster: /assets/uploads/thoughts-of-a-colored-man.jpg
-alert: Open Oct 1
+alert: 
 description: Playwright Keenan Scott II makes his Broadway debut with this
   vulnerable and vibrant new work.
 theater: John Golden Theater

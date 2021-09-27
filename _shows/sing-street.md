@@ -10,7 +10,7 @@ closing: ''
 tonyaward: false
 criticspick: false
 website: 'https://singstreet.com'
-alert: 'Opens Winter 2021'
+alert: ""
 tickets:
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/Sing-Street/Ticket'
