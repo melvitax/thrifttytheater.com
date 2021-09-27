@@ -28,14 +28,14 @@
                             {% for access_hash in access_folder %}
                                 {% assign accessItem = access_hash[1] %} 
                                 {% if accessItem.info contains "http" %}
-                                    <a class="list-group-item list-group-item-action pe-5" href="{{accessItem.info}}">{% include icons/icon-{{accessItem.type}}.svg %} {{accessItem.title}}</a>
+                                    <a class="list-group-item list-group-item-action pe-5" href="{{accessItem.info}}" target="_blank">{% include icons/icon-{{accessItem.type}}.svg %} {{accessItem.title}}</a>
                                 {% else %}
                                     <a tabindex="0" class="btn list-group-item list-group-item-action pe-5" role="button" data-bs-oggle="popover" title="{{accessItem.title}}" data-bs-content="{{accessItem.info}}">{% include icons/icon-{{accessItem.type}}.svg %} {{accessItem.title}}</a>
                                 {% endif %}
                             {% endfor %}
                         </div>
                     {% elsif ticket.info contains "http" %}
-                        <a class="list-group-item list-group-item-action pe-5 {% if ticket.highlight == true %}list-group-item-highlighted {% endif %}" href="{{ticket.info}}">{% include icons/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
+                        <a class="list-group-item list-group-item-action pe-5 {% if ticket.highlight == true %}list-group-item-highlighted {% endif %}" href="{{ticket.info}}" target="_blank">{% include icons/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
                     {% else %}
                         <a tabindex="0" class="btn list-group-item list-group-item-action pe-5" role="button" data-bs-toggle="popover" title="{{ticket.title}}" data-bs-content="{{ticket.info}}">{% include icons/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
                     {% endif %}
@@ -44,7 +44,7 @@
 
             {% if page.website %}
             <!-- Website -->
-            <div class="py-2 px-4"><a href="{{page.website}}">{{ page.website | remove:'http://' | remove:'https://' | remove:'www.' | split:'/' | first }}</a></div>
+            <div class="py-2 px-4"><a href="{{page.website}}" target="_blank">{{ page.website | remove:'http://' | remove:'https://' | remove:'www.' | split:'/' | first }}</a></div>
             {% endif %}
         
         </div>
