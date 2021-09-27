@@ -11,7 +11,7 @@ returns: ""
 closing: ""
 tonyaward: false
 criticspick: false
-trailer: https://www.youtube.com/watch?v=UHi3CE-z6i8
+trailer: https://www.youtube.com/watch?v=BeSjHTMQQKw
 website: https://www.manhattantheatreclub.com/shows/2021-22-season/lackawanna-blues/
 tickets:
   - highlight: true
