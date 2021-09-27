@@ -1,7 +1,7 @@
 ---
 title: "Tina: The Tina Turner Musical"
 poster: /assets/uploads/tina.jpg
-alert: Returns Oct 8
+alert: 
 description: The thrilling hit musical, telling the story of Tina Turner,
   arrives on Broadway.
 preview: 2019-10-12

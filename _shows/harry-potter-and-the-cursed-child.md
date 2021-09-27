@@ -1,7 +1,7 @@
 ---
 title: Harry Potter and the Cursed Child
 poster: /assets/uploads/harry.jpg
-alert: Returns Nov 12
+alert: 
 description: The eighth story in the Harry Potter series arrives on Broadway!
 preview: 2018-03-16
 opening: 2018-04-22

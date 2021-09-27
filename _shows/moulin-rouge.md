@@ -1,7 +1,7 @@
 ---
 title: Moulin Rouge!
 poster: /assets/uploads/moulinrouge.jpg
-alert: Returns Sept 24
+alert: 
 description: Baz Luhrmann's revolutionary film comes to life.
 preview: 2019-06-28
 opening: 2019-07-25

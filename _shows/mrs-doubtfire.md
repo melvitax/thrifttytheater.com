@@ -1,7 +1,7 @@
 ---
 title: Mrs. Doubtfire
 poster: /assets/uploads/mrs-doubtfire.jpg
-alert: Returns Oct 21
+alert: 
 description: A new musical comedy about the things we do to stay together.
 preview: 2020-03-09
 opening: 2020-04-05

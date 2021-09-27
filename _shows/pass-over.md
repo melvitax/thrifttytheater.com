@@ -1,7 +1,7 @@
 ---
 title: Pass Over
 poster: /assets/uploads/pass-over.jpeg
-alert: Limited time engagement
+alert: Limited run
 description: Antoinette Chinonye Nwandu's acclaimed play makes its Broadway premiere.
 theater: August Wilson Theatre
 preview: 2021-08-04

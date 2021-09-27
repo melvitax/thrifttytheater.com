@@ -1,7 +1,7 @@
 ---
 title: Waitress
 poster: /assets/uploads/waitress.jpg
-alert: Limited time engagement
+alert: Limited Time
 description: Sara Bareilles’ score and creatively titled pies are a sweet combination.
 theater: Ethel Barrymore Theatre
 preview: 2021-09-02

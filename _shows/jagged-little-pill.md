@@ -1,12 +1,12 @@
 ---
 title: Jagged Little Pill
 poster: /assets/uploads/jagged.jpg
-alert: Returns Oct 21
+alert: 
 description: A musical inspired by Alanis Morissette’s award-winning album.
 preview: 2019-11-03
 opening: 2019-12-05
 returns: 2021-10-21
-tonyaward: false
+tonyaward: true
 criticspick: true
 website: https://jaggedlittlepill.com
 tickets:
