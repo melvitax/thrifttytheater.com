@@ -32,7 +32,7 @@
 				<!-- Title -->
 				<div class="text-wrap text-muted text-monospace  text-center position-absolute w-100 home-show-title" style="top: -1.8em; z-index: 0"><small>{{ show.title }}</small></div>
 				<!-- Favorite -->
-				<div id="fav__{{show.id | remove: '/shows/'}}" class="fav-button position-absolute" style="top: 16px; right: 16px; z-index: 2; width: 50px; height: 50px;">&nbsp;</div>
+				<div id="fav__{{show.id | remove: '/shows/'}}" class="fav-button position-absolute" style="top: 0; right: 16px; z-index: 2; width: 50px; height: 50px;">&nbsp;</div>
 				<!-- Tony Award -->
 				{% if show.tonyaward %}<div class="position-absolute" style="top: -16px; left: -22px; z-index: 2; width: 64px; height: 0; padding-top: 64px; overflow: hidden; background: url('assets/tonyaward.png') center center/cover no-repeat">Tony Award</div>{% endif %}
 				<!-- NYT Critic's Pick -->

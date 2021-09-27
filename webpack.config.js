@@ -17,8 +17,7 @@ module.exports = {
             { from: './node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map', to: './vendor/bootstrap' },
             { from: './node_modules/bootstrap/scss/', to: './vendor/bootstrap/_scss' },
             // Font Awesome
-            { from: './node_modules/font-awesome/fonts', to: './vendor/font-awesome/fonts' },
-            { from: './node_modules/font-awesome/scss', to: './vendor/font-awesome/_scss' },
+            { from: './node_modules/@fortawesome/fontawesome-free', to: './vendor/font-awesome' },
             // intersection-observer.js
             { 
               from: './node_modules/intersection-observer/intersection-observer.js', to: './vendor/intersection-observer/'

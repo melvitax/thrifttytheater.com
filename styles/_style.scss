@@ -61,22 +61,36 @@ body {
 .fav-filter-button {
   color: #6D757D;
 }
-.fav-filter-button span {
-  background-image: url('/assets/heart-all-regular.svg');
-  background-size: 40px 40px;
+.fav-filter-button span::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f004";
+  font-size: 34px;
+  color: rgb(135, 135, 135);
 }
 .fav-filter-button:hover {
   opacity: 0.6;
   cursor: pointer;
 }
-.fav-filter-button.isActive span {
-  background-image: url('/assets/heart-all-solid.svg');
+.fav-filter-button.isActive span::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f004";
 }
 .fav-button {
-  background-image: url('/assets/heart-regular.svg');
-  background-size: 50px 50px;
   transition: scale .2s ease-in-out; 
   opacity: 0;
+}
+.fav-button::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f004";
+  font-size: 50px;
+  color: #fff;
 }
 .card:hover .fav-button {
   opacity: 1;
@@ -86,8 +100,10 @@ body {
   transform: translateZ(0px) scale(1.15);
 }
 .isFavorite .fav-button {
-  background-image: url('/assets/heart-solid.svg');
   opacity: 1;
+}
+.isFavorite .fav-button::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f004";
 }
 .list-group-item.list-group-item-highlighted svg {
   color: rgb(255, 72, 0);

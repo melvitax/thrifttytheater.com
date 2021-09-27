@@ -129,12 +129,8 @@ $( document ).ready(function() {
   }
 
   // Enable Popovers
-  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-    return new bootstrap.Popover(popoverTriggerEl)
-  })
-  var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), {
-    trigger: 'focus'
+  document.querySelectorAll('[data-bs-toggle="popover"]').forEach(function (popover) {
+      new bootstrap.Popover(popover)
   })
 
   // Fav Show Buttons
@@ -151,7 +147,7 @@ $( document ).ready(function() {
   
   // Fav Button Logic
   $('.fav-button').click(function() {
-    var id = $(this).parent().parent().attr('id').split("__")[1]
+    var id = $(this).parent().attr('id').split("__")[1]
     console.log('id: '+id)
     $('#card__'+id).toggleClass('isFavorite')
     var isFavorite = $('#card__'+id).hasClass('isFavorite')

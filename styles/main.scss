@@ -3,6 +3,9 @@
 ---
 
 @import "../vendor/bootstrap/_scss/bootstrap";
-$fa-font-path: "../vendor/font-awesome/fonts/";
-@import "../vendor/font-awesome/_scss/font-awesome";
+$fa-font-path: "../vendor/font-awesome/webfonts";
+@import "../vendor/font-awesome/scss/fontawesome";
+@import "../vendor/font-awesome/scss/brands";
+@import "../vendor/font-awesome/scss/regular";
+@import "../vendor/font-awesome/scss/solid";
 @import "style";
