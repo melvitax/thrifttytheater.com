@@ -17,7 +17,6 @@ markdown: kramdown
 url: https://showhacker.com
 exclude: ["node_modules",  "package.json", "Gemfile", "Gemfile.lock", "README.md", "LICENSE"]
 timezone: 'America/New_York'
-googleanalytics: 'UA-3488813-17'
 fonts:
   - "Lato:400,900,700,500,300,100:latin"
 sass:
