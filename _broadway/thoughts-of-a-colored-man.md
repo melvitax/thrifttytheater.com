@@ -11,6 +11,10 @@ returns: 2021-10-01
 closing: ""
 tonyaward: false
 criticspick: false
+tags: 
+  - Play
+  - Broadway
+  - Drama
 trailer: https://www.youtube.com/watch?v=EsBF5kppsgs
 website: https://thoughtsofacoloredman.com
 tickets:

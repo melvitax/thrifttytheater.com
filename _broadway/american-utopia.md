@@ -9,6 +9,10 @@ returns: ""
 closing: ""
 tonyaward: true
 criticspick: false
+tags: 
+  - Musical
+  - Broadway
+  - Award Winning
 website: https://americanutopiabroadway.com/
 tickets:
   - highlight: true

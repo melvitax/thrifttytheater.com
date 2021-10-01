@@ -9,6 +9,11 @@ returns: 2021-11-05
 closing: ""
 tonyaward: true
 criticspick: false
+tags: 
+  - Musical
+  - Broadway
+  - Comedy
+  - Award Winning
 website: http://www.bookofmormonbroadway.com/
 tickets:
   - highlight: true

@@ -9,6 +9,9 @@ opening: 2022-02-01
 closing: ""
 tonyaward: false
 criticspick: false
+tags: 
+  - Musical
+  - Broadway
 trailer: https://www.youtube.com/watch?v=SQnSagWrgpU
 website: https://mjthemusical.com
 tickets:

@@ -18,6 +18,9 @@ returns: 2021-09-19
 closing: ''
 tonyaward: false
 criticspick: false
+tags: 
+  - Musical
+  - Broadway
 trailer: 'https://www.youtube.com/watch?v=4MLoIMkSGks'
 website: 'https://www.sixthemusical.com/broadway'
 alert: ""

@@ -8,6 +8,10 @@ opening: 2018-04-22
 returns: 2021-11-12
 tonyaward: true
 criticspick: true
+tags: 
+  - Play
+  - Broadway
+  - Award Winning
 website: https://broadway.harrypottertheplay.com
 tickets:
   - highlight: true

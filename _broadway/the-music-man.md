@@ -8,6 +8,10 @@ preview: 2021-12-20
 opening: 2022-02-10
 tonyaward: false
 criticspick: false
+tags: 
+  - Musical
+  - Broadway
+  - Comedy
 website: https://musicmanonbroadway.com
 tickets:
   - highlight: false

@@ -10,6 +10,11 @@ returns: 2021-09-28
 closing: ''
 tonyaward: true
 criticspick: false
+tags: 
+  - Musical
+  - Broadway
+  - Kid Friendly
+  - Award Winning
 trailer: 'https://www.youtube.com/watch?v=3ByWKIIdVQs'
 website: 'http://www.aladdinthemusical.com'
 tickets:

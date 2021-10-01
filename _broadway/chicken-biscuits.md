@@ -10,7 +10,11 @@ returns: ""
 closing: 2022-01-02
 tonyaward: false
 criticspick: false
-trailer: https://www.youtube.com/watch?v=rKhnxsHkyCY
+tags: 
+  - Play
+  - Broadway
+  - Comedy
+trailer: https://www.youtube.com/watch?v=E0pzALXA2uk
 website: https://chickenandbiscuitsbway.com
 tickets:
   - highlight: true

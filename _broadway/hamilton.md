@@ -10,6 +10,10 @@ returns: 2021-09-14
 closing: ""
 tonyaward: true
 criticspick: true
+tags: 
+  - Musical
+  - Broadway
+  - Award Winning
 website: http://www.hamiltonbroadway.com
 tickets:
   - highlight: true

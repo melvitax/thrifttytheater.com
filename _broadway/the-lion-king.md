@@ -10,6 +10,12 @@ returns: 2021-09-14
 closing: ""
 tonyaward: true
 criticspick: false
+tags: 
+  - Musical
+  - Broadway
+  - Kid Friendly
+  - Dance
+  - Award Winning
 website: http://www.lionking.com
 tickets:
   - highlight: true

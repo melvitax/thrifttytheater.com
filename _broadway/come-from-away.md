@@ -10,6 +10,10 @@ returns: 2021-09-21
 closing: ''
 tonyaward: true
 criticspick: true
+tags: 
+  - Musical
+  - Broadway
+  - Award Winning
 trailer: 'https://www.youtube.com/watch?v=bijwE0ZBdrM'
 website: 'http://comefromaway.com'
 tickets:

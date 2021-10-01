@@ -12,6 +12,11 @@ returns: '2021-10-05'
 closing: ''
 tonyaward: false
 criticspick: true
+tags: 
+  - Play
+  - Broadway
+  - Drama
+  - Award Winning
 trailer: 'https://www.youtube.com/watch?v=RuGyut6C4Es'
 website: 'https://tokillamockingbirdbroadway.com'
 alert: 

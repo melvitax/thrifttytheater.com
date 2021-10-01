@@ -11,8 +11,11 @@ opening: '2022-04-10'
 closing: ''
 tonyaward: false
 criticspick: false
-website: >-
-  https://www.roundabouttheatre.org/get-tickets/2019-2020-season/birthday-candles/
+tags: 
+  - Play
+  - Broadway
+  - Drama
+website: 'https://www.roundabouttheatre.org/get-tickets/2021-2022-season/birthday-candles/'
 tickets:
   - highlight: false
     info: A range of discounts from Roundabout Theater

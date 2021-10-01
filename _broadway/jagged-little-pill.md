@@ -8,6 +8,10 @@ opening: 2019-12-05
 returns: 2021-10-21
 tonyaward: true
 criticspick: true
+tags: 
+  - Musical
+  - Broadway
+  - Award Winning
 website: https://jaggedlittlepill.com
 tickets:
   - highlight: true

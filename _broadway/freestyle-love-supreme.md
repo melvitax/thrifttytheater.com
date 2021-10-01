@@ -8,6 +8,11 @@ opening: 2021-10-07
 closing: 2022-01-02
 tonyaward: true
 criticspick: false
+tags: 
+  - Special
+  - Broadway
+  - Comedy
+  - Award Winning
 trailer: https://www.youtube.com/watch?v=088xey4geDg
 website: https://freestylelovesupreme.com
 tickets:

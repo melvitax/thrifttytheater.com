@@ -9,6 +9,9 @@ opening: '2022-04-04'
 closing: ''
 tonyaward: false
 criticspick: false
+tags: 
+  - Play
+  - Broadway
 trailer: 'https://www.youtube.com/watch?v=Dwu61izuC7o'
 website: 'https://2st.com/shows/take-me-out'
 tickets:

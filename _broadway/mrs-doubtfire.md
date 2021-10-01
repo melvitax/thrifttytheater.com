@@ -8,6 +8,10 @@ opening: 2020-04-05
 returns: 2021-10-21
 tonyaward: false
 criticspick: false
+tags: 
+  - Musical
+  - Broadway
+  - Comedy
 website: https://mrsdoubtfirebroadway.com
 tickets:
   - highlight: true

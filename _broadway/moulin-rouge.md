@@ -8,6 +8,11 @@ opening: 2019-07-25
 returns: 2021-09-24
 tonyaward: true
 criticspick: true
+tags: 
+  - Musical
+  - Broadway
+  - Comedy
+  - Award Winning
 website: https://moulinrougemusical.com
 tickets:
   - highlight: true

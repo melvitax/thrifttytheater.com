@@ -6,9 +6,13 @@ description: Jeremy O. Harris’ acclaimed work sheds light on race, gender and 
 theater: August Wilson Theatre
 preview: '2021-11-23'
 opening: '2022-12-02'
-closing: '2003-01-23'
+closing: '2002-01-23'
 tonyaward: false
 criticspick: true
+tags: 
+  - Play
+  - Broadway
+  - Drama
 trailer: 'https://www.youtube.com/watch?v=DydjhMHg70U'
 website: 'https://slaveplaybroadway.com'
 tickets:

@@ -11,13 +11,16 @@ returns: ""
 closing: ""
 tonyaward: false
 criticspick: false
+tags: 
+  - Play
+  - Broadway
 trailer: https://www.youtube.com/watch?v=BeSjHTMQQKw
 website: https://www.manhattantheatreclub.com/shows/2021-22-season/lackawanna-blues/
 tickets:
   - highlight: true
     info: https://www.todaytix.com/nyc/shows/23677-lackawanna-blues-on-broadway
     type: digitalRush
-    title: $30 Digital Rush
+    title: $30 Rush
   - highlight: false
     type: studentRush
     info: Student tickets are available at the box office on the day of the show

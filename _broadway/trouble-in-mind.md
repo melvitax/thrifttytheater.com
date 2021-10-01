@@ -9,6 +9,10 @@ opening: 2021-11-18
 closing: 2022-01-09
 tonyaward: false
 criticspick: false
+tags: 
+  - Play
+  - Broadway
+  - Drama
 website: https://www.roundabouttheatre.org/get-tickets/2021-2022-season/trouble-in-mind/
 tickets:
   - highlight: false

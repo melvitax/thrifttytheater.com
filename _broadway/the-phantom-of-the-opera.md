@@ -12,6 +12,11 @@ returns: '2021-10-22'
 closing: ''
 tonyaward: true
 criticspick: false
+tags: 
+  - Musical
+  - Broadway
+  - Drama
+  - Award Winning
 trailer: 'https://www.youtube.com/watch?v=zqXaNYJ3JGg'
 website: 'http://www.thephantomoftheopera.com/new-york'
 alert: 

@@ -10,6 +10,9 @@ returns: 2021-10-13
 closing: ''
 tonyaward: false
 criticspick: true
+tags: 
+  - Musical
+  - Broadway
 trailer: 'https://www.youtube.com/watch?v=qNeHKvoshG4'
 website: 'https://northcountryonbroadway.com/'
 tickets:

@@ -9,6 +9,9 @@ opening: ''
 closing: ''
 tonyaward: false
 criticspick: false
+tags: 
+  - Musical
+  - Broadway
 website: 'https://singstreet.com'
 alert: ""
 tickets:

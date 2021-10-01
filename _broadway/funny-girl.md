@@ -10,6 +10,10 @@ returns: ""
 closing: ""
 tonyaward: false
 criticspick: false
+tags: 
+  - Musical
+  - Broadway
+  - Comedy
 website: https://funnygirlonbroadway.com
 tickets: []
 ---

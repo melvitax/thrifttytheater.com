@@ -9,6 +9,11 @@ opening: 2019-11-07
 returns: '2021-10-08'
 tonyaward: true
 criticspick: false
+tags: 
+  - Musical
+  - Broadway
+  - Comedy
+  - Award Winning
 website: https://tinaonbroadway.com
 tickets:
   - highlight: true

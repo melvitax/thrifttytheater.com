@@ -11,6 +11,10 @@ opening: '2021-10-27'
 closing: '2022-01-09'
 tonyaward: false
 criticspick: false
+tags: 
+  - Musical
+  - Broadway
+  - Drama
 trailer: 'https://www.youtube.com/watch?v=anMRTqnEhx4'
 website: >-
   https://www.roundabouttheatre.org/get-tickets/2019-2020-season/caroline-or-change/

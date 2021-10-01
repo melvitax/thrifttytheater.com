@@ -9,6 +9,8 @@ opening: 2022-03-20
 closing: ""
 tonyaward: false
 criticspick: false
+tags: 
+  - Musical
 trailer: https://www.youtube.com/watch?v=83zgymXmrRc
 website: https://paradisesquaremusical.com
 tickets:

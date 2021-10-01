@@ -12,6 +12,10 @@ returns: 2021-12-11
 closing: ''
 tonyaward: true
 criticspick: true
+tags: 
+  - Musical
+  - Broadway
+  - Award Winning
 trailer: 'https://www.youtube.com/watch?v=p3L5uw3ZWSw'
 website: 'http://dearevanhansen.com'
 tickets:

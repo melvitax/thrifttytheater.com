@@ -9,6 +9,10 @@ opening: 2021-10-17
 closing: 2022-01-16
 tonyaward: false
 criticspick: true
+tags: 
+  - Play
+  - Broadway
+  - Drama
 trailer: https://www.youtube.com/watch?v=yT5grwQE3k4
 website: https://thelyceumplays.com/
 tickets:

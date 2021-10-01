@@ -12,6 +12,10 @@ returns: 2021-09-25
 closing: ''
 tonyaward: false
 criticspick: true
+tags: 
+  - Play
+  - Broadway
+  - Drama
 trailer: 'https://www.youtube.com/watch?v=Z9Q6PrhCLO8'
 website: 'https://thelehmantrilogy.com'
 alert: ''

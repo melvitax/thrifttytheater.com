@@ -10,6 +10,12 @@ returns: 2021-09-13
 closing: ""
 tonyaward: true
 criticspick: false
+tags: 
+  - Musical
+  - Broadway
+  - Kid Friendly
+  - Comedy
+  - Award Winning
 website: http://www.wickedthemusical.com
 tickets:
   - highlight: true

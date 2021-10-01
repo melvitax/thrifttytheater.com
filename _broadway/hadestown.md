@@ -12,6 +12,10 @@ returns: 2021-09-02
 closing: ''
 tonyaward: true
 criticspick: true
+tags: 
+  - Musical
+  - Broadway
+  - Award Winning
 trailer: 'https://www.youtube.com/watch?v=NREQfz2uTck'
 website: 'https://www.hadestown.com/'
 tickets:

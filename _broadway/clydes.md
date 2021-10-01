@@ -9,6 +9,11 @@ returns: 2021-11-03
 closing: ""
 tonyaward: false
 criticspick: false
+tags: 
+  - Play
+  - Broadway
+  - Comedy
+  - Drama
 website: https://2st.com/shows/clydes
 tickets:
   - highlight: false

@@ -10,6 +10,11 @@ returns: 2021-09-14
 closing: ''
 tonyaward: true
 criticspick: false
+tags: 
+  - Musical
+  - Broadway
+  - Dance
+  - Award Winning
 trailer: 'https://www.youtube.com/watch?v=Xx_eoxvYvc8'
 website: 'http://www.chicagothemusical.com'
 tickets:

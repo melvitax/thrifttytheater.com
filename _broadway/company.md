@@ -7,6 +7,10 @@ opening: 2020-03-22
 returns: 2021-11-15
 tonyaward: false
 criticspick: false
+tags: 
+  - Musical
+  - Broadway
+  - Comedy
 website: https://companymusical.com
 tickets:
   - highlight: true

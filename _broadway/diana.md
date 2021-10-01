@@ -12,6 +12,9 @@ returns: 2021-11-02
 closing: ''
 tonyaward: false
 criticspick: false
+tags: 
+  - Musical
+  - Broadway
 trailer: 'https://www.youtube.com/watch?v=zKFyk1TltG8'
 website: 'https://thedianamusical.com'
 tickets:

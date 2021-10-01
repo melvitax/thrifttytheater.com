@@ -9,6 +9,10 @@ opening: 2021-08-22
 closing: 2021-10-10
 tonyaward: false
 criticspick: true
+tags: 
+  - Play
+  - Broadway
+  - Drama
 trailer: https://www.youtube.com/watch?v=OL-hLhNzXcY
 website: https://www.passoverbroadway.com
 tickets:

@@ -10,7 +10,11 @@ preview: '2022-02-25'
 opening: '2022-03-28'
 closing: ''
 tonyaward: false
-criticspick: false
+criticspick: 
+tags: 
+  - Play
+  - Broadway
+  - Comedy
 website: 'https://plazasuitebroadway.com'
 tickets:
   - highlight: true
