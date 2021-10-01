@@ -17,5 +17,5 @@ tickets:
   - highlight: false
     info: A range of discounts from Roundabout Theater
     title: $10+ Access
-    type: access
+    type: broadway_access
 ---

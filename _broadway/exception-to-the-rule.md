@@ -19,5 +19,5 @@ tickets:
     info: >-
       https://www.roundabouttheatre.org/get-tickets/2019-2020-season/exception-to-the-rule/
     title: $10 Access
-    type: access
+    type: broadway_access
 ---

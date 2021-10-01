@@ -18,5 +18,5 @@ tickets:
   - highlight: false
     info: 'https://www.roundabouttheatre.org/get-tickets/access-roundabout/'
     title: $10 Access
-    type: access
+    type: broadway_access
 ---

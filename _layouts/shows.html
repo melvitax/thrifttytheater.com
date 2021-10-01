@@ -48,7 +48,7 @@ layout: default
 					</ul>
 					{% endif %}
 					{% for ticket in show.tickets %}
-						{% if ticket.type == "access" %}
+						{% if ticket.type == "broadway_access" %}
 							<a class="list-group-item list-group-item-action pe-5" style="background-image: url(/images/icon-{{ticket.type}}.svg)" data-bs-toggle="collapse" href="#show{{showIndex}}TicketAccess" role="button" aria-expanded="false" aria-controls="show{{showIndex}}TicketAcces">{{ticket.title}}</a>
 							<div class="collapse multi-collapse" id="show{{showIndex}}TicketAccess">
 								{% for access_hash in access_folder %}

@@ -23,7 +23,7 @@ collections:
         name: theater
         required: false
         widget: relation
-        collection: theaters
+        collection: broadway_theaters
         searchFields: ["title"]
         displayFields: ["title"]
         valueField: "title"
@@ -46,7 +46,7 @@ collections:
             name: type
             widget: "select"
             options: 
-              - { label: "Access Roundabout", value: "access" }
+              - { label: "Access Roundabout", value: "broadway_access" }
               - { label: "Digital Lottery", value: "digitalLottery" }
               - { label: "Digital Rush", value: "digitalRush" }
               - { label: "Lictix", value: "linctix" }
@@ -64,10 +64,10 @@ collections:
               - { label: "Thirty Under", value: "thirtyUnder" }
           - {label: "URL or Info", name: "info", widget: "string"}
           - {label: "Highlight", name: "highlight", widget: "boolean", default: false}
-  - label: Theaters
+  - label: Broadway Theaters
     label_singular: Theater
-    name: "theaters"
-    folder: "_data/theaters"
+    name: "broadway_theaters"
+    folder: "_data/broadway/theaters"
     format: yml
     create: true
     identifier_field: title
@@ -76,10 +76,10 @@ collections:
       - {label: "Address", name: "address", widget: string}
       - {label: "Latitude", name: "lat", widget: string}
       - {label: "Longitude", name: "long", widget: string}
-  - label: Access Tickets
+  - label: Broadway Access
     label_singular: Access Ticket
-    name: "access"
-    folder: "_data/access"
+    name: "broadway_access"
+    folder: "_data/broadway/access"
     format: yml
     create: true
     fields:

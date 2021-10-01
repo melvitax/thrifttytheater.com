@@ -12,7 +12,7 @@ criticspick: false
 website: https://www.roundabouttheatre.org/get-tickets/2021-2022-season/trouble-in-mind/
 tickets:
   - highlight: false
-    type: access
+    type: broadway_access
     title: Access Roundabout
     info: https://www.roundabouttheatre.org/get-tickets/access-roundabout/
   - highlight: false
