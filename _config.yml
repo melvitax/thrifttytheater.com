@@ -3,7 +3,7 @@ description: Broadway lottery and rush ticket agregator
 keywords: theater, broadway, tickets, discount, rush, lottery, opensource, hack, lifehacker, hamilton
 twitter: showhacker
 github: melvitax/showhacker.com
-socialimage: http://showhacker.com/assets/socialimage.jpg
+socialimage: http://showhacker.com/images/socialimage.jpg
 socialinfo: "Up to date Broadway lottery and rush ticket information"
 author:
   name: Melvin Rivera
@@ -23,17 +23,22 @@ sass:
     style: compressed
     sass_dir: styles
 collections:
-  shows:
+  broadway:
     output: true
-    layout: show
-    permalink: /:collection/:path/
+    permalink: /broadway/:path/
 defaults:
   -
     scope:
       path: ""
-      type: "shows" 
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "broadway" 
     values:
       layout: "show"
+      collection_title: Broadway
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]

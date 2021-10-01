@@ -1,16 +1,15 @@
 <header class="header">
     <div class="container">
-
-        {% if page.id == "home" %}
-        <div class="fav-filter-button float-end pt-2 "><span class="d-inline-block align-middle" style="width: 40px; height: 40px;">&nbsp;</span></div>
-		<h1 class="font-weight-bold site-title">{{site.title}}</h1>
-        <div class="font-weight-bold site-tagline">{{site.description}}</div>
-
+        {% if page.layout == "home"%}
+            <div class="fav-filter-button float-end pt-2 "><span class="d-inline-block align-middle" style="width: 40px; height: 40px;">&nbsp;</span></div>
+            <h1 class="font-weight-bold site-title">{{ site.title }}</h1>
+            <div class="font-weight-bold site-tagline">{{ site.description }}</div>
+        {% elsif page.layout == "shows" %}
+            <div class="fav-filter-button float-end pt-2 "><span class="d-inline-block align-middle" style="width: 40px; height: 40px;">&nbsp;</span></div>
+            <div class="font-weight-bold show-site-title pt-4"><a href="{{ site.url }}">◀︎ {{ site.title }}</a></div>
+            <h1 class="font-weight-bold site-title">{{ page.title }}</h1>
         {% else %}
-
-        <div class="font-weight-bold show-site-title pt-4"><a href="{{site.url}}">◀︎ {{site.title}}</a></div>
-        
+            <div class="font-weight-bold show-site-title pt-4"><a href="/{{ page.url }}">◀︎ {{ page.collection_title }}</a></div>
         {% endif %}
-        
     </div>
 </header>

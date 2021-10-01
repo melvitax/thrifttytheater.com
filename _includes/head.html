@@ -1,6 +1,6 @@
 <head>
   <meta charset="utf-8">
-  {% if page.id == "home" %}
+  {% if page.layout == "home" %}
   <title>{{ page.title }} | {{site.description}}</title>
   {% else %}
   <title>{{ page.title }} | {{ site.title }}</title>
@@ -12,8 +12,8 @@
   <meta name="mobileoptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="author" href="/humans.txt">
-  <link rel="apple-touch-icon" href="/assets/icon.jpg">
-  <link rel="icon" sizes="192x192" href="/assets/icon.jpg">
+  <link rel="apple-touch-icon" href="/images/icon.jpg">
+  <link rel="icon" sizes="192x192" href="/images/icon.jpg">
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:site" content="@{{site.twitter}}">
@@ -23,7 +23,7 @@
   
   <meta property="og:type" content="article">
   <!-- Shared -->
-  {% if page.id == "home" %}
+  {% if page.type == "shows" %}
   <meta property="og:url" content="{{site.url}}">
   <meta property="og:title" content="{{page.title}}">
   <meta property="og:description" content="{{site.socialinfo}}">

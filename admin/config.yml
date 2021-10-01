@@ -4,15 +4,16 @@ backend:
   name: git-gateway
   branch: master
   repo: melvitax/showhacker.com 
-media_folder: 'assets/uploads'
+media_folder: 'images/uploads'
 collections:
-  - label: "Shows"
+  - label: "Broadway"
     label_singular: Show
-    name: "shows"
-    folder: "_shows"
+    name: "broadway"
+    folder: "_broadway"
     format: frontmatter
     create: true
-    identifier_field: title
+    media_folder: 'images'
+    public_folder: ''
     fields: 
       - {label: Title, name: title, widget: string}
       - {label: Poster, name: poster, widget: image, required: false}
