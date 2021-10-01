@@ -10,7 +10,7 @@ returns: 2021-09-28
 closing: ''
 tonyaward: true
 criticspick: false
-trailer: 'https://www.youtube.com/watch?v=W0b3KVTDryQ'
+trailer: 'https://www.youtube.com/watch?v=3ByWKIIdVQs'
 website: 'http://www.aladdinthemusical.com'
 tickets:
   - highlight: true

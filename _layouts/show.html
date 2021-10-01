@@ -24,7 +24,7 @@ layout: default
             <!-- Tickets -->
             <div class="tickets list-group list-group-flush w-100 p-0" style="z-index:0">
                 {% for ticket in page.tickets %}
-                    {% if ticket.type == "access" %}
+                    {% if ticket.type == "broadway_access" %}
                         <a class="list-group-item list-group-item-action pe-5" style="background-image: url(/images/icon-{{ticket.type}}.svg)" data-bs-toggle="collapse" href="#ticketAccess" role="button" aria-expanded="false" aria-controls="ticketAccess">{{ticket.title}}</a>
                         <div class="collapse multi-collapse" id="ticketAccess">
                             {% assign access_folder = site.data[page.collection].access | sort %}
