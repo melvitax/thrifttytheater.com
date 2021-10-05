@@ -27,14 +27,22 @@ collections:
         searchFields: ["title"]
         displayFields: ["title"]
         valueField: "title"
-      - {label: Preview, name: preview, widget: date, format: "YYYY-MM-DD", default: ""}
-      - {label: Opening, name: opening, widget: date, format: "YYYY-MM-DD", default: ""}
-      - {label: Returns, name: returns, widget: date, format: "YYYY-MM-DD", default: "", required: false}
-      - {label: Closing, name: closing, widget: date, format: "YYYY-MM-DD", default: "", required: false}
+      - {label: Original Preview, name: original_preview, widget: date, format: "YYYY-MM-DD", required: false}
+      - {label: Original Opening, name: original_opening, widget: date, format: "YYYY-MM-DD", required: false}
+      - {label: Preview, name: preview, widget: date, format: "YYYY-MM-DD", required: false}
+      - {label: Opening, name: opening, widget: date, format: "YYYY-MM-DD", required: false}
+      - {label: Closing, name: closing, widget: date, format: "YYYY-MM-DD", required: false}
       - {label: Tony Award, name: tonyaward, widget: boolean, default: false}
       - {label: Critic's Pick, name: criticspick, widget: boolean, default: false}
       - {label: Trailer, name: trailer, widget: string, required: false}
       - {label: Website, name: website, widget: string, required: false}
+      - label: Tags
+        label_singular: Tag
+        name: tags
+        required: false
+        widget: "select"
+        multiple: true
+        options: ["Broadway", "Musical", "Play", "Comedy", "Drama", "Special", "Kid Friendly"]
       - label: Tickets
         label_singular: Ticket
         name: tickets
