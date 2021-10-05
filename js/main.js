@@ -2,8 +2,6 @@ $( document ).ready(function() {
 
   var today = moment()
   var shows_ended = []
-  var missing_current_schedule = []
-  var move_to_current = []
   
   moment.updateLocale('en', {
     calendar : {
@@ -154,12 +152,11 @@ $( document ).ready(function() {
   // Clean up
   $('.row').each(function() {
     if ($(this).children().length == 0) {
-      console.log('ROW IS EMPTY')
       $(this).prev().remove()
       $(this).remove()
-      console.log(this)
     }
   })
+
 
   // Show the main div now that eveything has been filtered
   $('main').delay( 800 ).removeClass('hide')
@@ -192,6 +189,14 @@ $( document ).ready(function() {
     console.log("SHOWS ENDED")
     console.log(shows_ended.join("\n")) 
   }
+
+  // Missing schedulle 
+  
+  $('.row.nowplaying .card').each(function() {
+    if (!$(this).hasClass('hasSchedule')) {
+      console.log("MISSING SCHEDULE: "+$('.show-title', $(this)).text())
+    }
+  })
 
 });
 

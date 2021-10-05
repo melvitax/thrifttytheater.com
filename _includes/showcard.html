@@ -4,10 +4,11 @@
 {% assign access_folder = site.data[include.region].access | sort %}
 {% capture collectionPath  %}/{{ include.region }}/{% endcapture %}
 {% assign showID = {{ include.show.id | remove: collectionPath }}%}
+{% assign schedule = site.data[include.region].schedule.result.extractorData.data[0].group %} 
 <!-- Favorite -->
 <div id="fav__{{ showID }}" class="fav-button text-end pb-3">&nbsp;</div>
 <!-- Card -->
-<div class="card animate mb-3 shadow-sm m-0 p-0" style="width: 100%;" id="card__{{ showID }}" data-preview="{{ include.show.preview }}" data-opening="{{ include.show.opening }}" {% if show.returns %}data-returns="{{ include.show.returns }}"{% endif %} {% if include.show.closing %}data-closing="{{ include.show.closing }}"{% endif %} {% for tag in show.tags %}data-tag-{{ tag | slugify }} {% endfor %}>
+<div class="card animate mb-3 shadow-sm m-0 p-0 {% if schedule %}hasSchedule{% endif %}" style="width: 100%;" id="card__{{ showID }}" data-preview="{{ include.show.preview }}" data-opening="{{ include.show.opening }}" {% if show.returns %}data-returns="{{ include.show.returns }}"{% endif %} {% if include.show.closing %}data-closing="{{ include.show.closing }}"{% endif %} {% for tag in show.tags %}data-tag-{{ tag | slugify }} {% endfor %}>
 		<!-- Poster -->
 		<a class="poster-link grow w-100 d-table position-relative px-0" style="z-index:1" title="{{ include.show.title }}" href="{{ include.show.url }}" >
 			{% if include.show.poster and include.show.poster != blank and include.show.poster != ""  %}
@@ -17,7 +18,7 @@
 			{% endif %}
 		</a>
 		<!-- Title -->
-		<div class="text-wrap text-muted text-monospace  text-center position-absolute w-100 home-show-title" style="top: -1.8em; z-index: 0"><small>{{ include.show.title }}</small></div>
+		<div class="text-wrap text-muted text-monospace text-center position-absolute w-100 show-title" style="top: -1.8em; z-index: 0"><small>{{ include.show.title }}</small></div>
 		<!-- Tony Award -->
 		{% if include.show.tonyaward %}<div class="position-absolute" style="top: -16px; left: -22px; z-index: 2; width: 64px; height: 0; padding-top: 64px; overflow: hidden; background: url('/images/tonyaward.png') center center/cover no-repeat">Tony Award</div>{% endif %}
 		<!-- NYT Critic's Pick -->

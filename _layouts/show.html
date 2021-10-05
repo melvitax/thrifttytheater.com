@@ -57,9 +57,9 @@ layout: default
         </div>
 
         <!-- Showtimes -->
-        {% assign showtimesData = site.data[page.collection].schedule.result.extractorData.data[0].group %} 
-        {% if showtimesData %}
-            {% for showtimes in showtimesData %}
+        {% assign schedule = site.data[page.collection].schedule.result.extractorData.data[0].group %} 
+        {% if schedule %}
+            {% for showtimes in schedule %}
                 {% if page.title == showtimes.show[0].text %}
                     <h3 class="text-muted pt-4 pb-2">Showtimes</h3>
                     <table class="showtimes table table-sm">
