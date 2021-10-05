@@ -6,17 +6,18 @@ description: Playwright Keenan Scott II makes his Broadway debut with this
   vulnerable and vibrant new work.
 theater: John Golden Theater
 original_preview: 2021-10-01
-original_opening: 2021-10-31
+original_opening: 2021-10-13
 preview: 2021-10-01
-opening: 2021-10-01
+opening: 2021-10-13
+closing: ""
 tonyaward: false
 criticspick: false
-tags: 
+trailer: https://www.youtube.com/watch?v=EsBF5kppsgs
+website: https://thoughtsofacoloredman.com
+tags:
   - Play
   - Broadway
   - Drama
-trailer: https://www.youtube.com/watch?v=EsBF5kppsgs
-website: https://thoughtsofacoloredman.com
 tickets:
   - highlight: true
     title: $39 Lottery
