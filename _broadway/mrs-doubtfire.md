@@ -3,9 +3,10 @@ title: Mrs. Doubtfire
 poster: mrs-doubtfire.jpg
 alert: 
 description: A new musical comedy about the things we do to stay together.
-preview: 2020-03-09
-opening: 2020-04-05
-returns: 2021-10-21
+original_preview: 2020-03-09
+original_opening: 2020-04-05
+preview: 2021-10-21
+opening: 2021-10-21
 tonyaward: false
 criticspick: false
 tags: 

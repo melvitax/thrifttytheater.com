@@ -4,6 +4,8 @@ poster: is-this-a-room.jpeg
 alert: Limited Run
 description: Tina Satter's thrilling play based on a true story makes its Broadway debut.
 theater: Lyceum Theatre
+original_preview: 2021-09-24
+original_opening: 2021-10-01
 preview: 2021-09-24
 opening: 2021-10-01
 closing: 2022-01-16

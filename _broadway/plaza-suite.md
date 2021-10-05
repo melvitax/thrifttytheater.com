@@ -6,9 +6,10 @@ description: >-
   Sarah Jessica Parker and Matthew Broderick star in the Broadway revival of
   Neil Simon's comedy.
 theater: Hudson Theatre
+original_preview: '2022-02-25'
+original_opening: '2022-03-28'
 preview: '2022-02-25'
 opening: '2022-03-28'
-closing: ''
 tonyaward: false
 criticspick: 
 tags: 

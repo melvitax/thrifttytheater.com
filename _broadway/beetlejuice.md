@@ -4,10 +4,10 @@ poster: beetlejuice.jpg
 alert: "On Sale Oct 1"
 description: The ghost-with-the-most returns to Broadway!
 theater: Marquis Theatre
-preview: 2022-04-08
-opening: 2022-04-08
-returns: ""
-closing: ""
+original_preview: '2022-04-08'
+original_opening: '2022-04-08'
+preview: '2022-04-08'
+opening: '2022-04-08'
 tonyaward: false
 criticspick: false
 tags: 

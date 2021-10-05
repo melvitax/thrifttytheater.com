@@ -6,10 +6,10 @@ description: >-
   Andrew Lloyd Webber's masterwork is a timeless story of seduction and despair.
   Broadway’s longest running musical!
 theater: Majestic Theatre
-preview: '1988-01-09'
-opening: '1988-01-26'
-returns: '2021-10-22'
-closing: ''
+original_preview: 1988-01-09
+original_opening: 1988-01-26
+preview: 2021-10-22
+opening: 2021-10-22
 tonyaward: true
 criticspick: false
 tags: 

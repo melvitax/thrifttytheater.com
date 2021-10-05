@@ -4,6 +4,8 @@ poster: waitress.jpg
 alert: Limited Run
 description: Sara Bareilles’ score and creatively titled pies are a sweet combination.
 theater: Ethel Barrymore Theatre
+original_preview: 2021-09-02
+original_opening: 2021-09-02
 preview: 2021-09-02
 opening: 2021-09-02
 closing: 2022-01-09

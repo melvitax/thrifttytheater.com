@@ -5,10 +5,10 @@ alert: ""
 description: Ruben Santiago-Hudson stars in and directs the Broadway premiere of
   his solo play.
 theater: Samuel J Friedman Theatre
+original_preview: 2021-09-14
+original_opening: 2021-09-28
 preview: 2021-09-14
 opening: 2021-09-28
-returns: ""
-closing: ""
 tonyaward: false
 criticspick: false
 tags: 

@@ -4,6 +4,8 @@ poster: the-music-man.jpg
 alert: 
 description: Hugh Jackman returns to Broadway as Harold Hill in this musical
   theater classic.
+original_preview: 2021-12-20
+original_opening: 2022-02-10
 preview: 2021-12-20
 opening: 2022-02-10
 tonyaward: false

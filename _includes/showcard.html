@@ -1,0 +1,62 @@
+{% capture previewDate %}{{ include.show.preview }} 00:00:00 -0500{% endcapture %}
+{% capture openingDate %}{{ include.show.opening }} 00:00:00 -0500{% endcapture %}
+{% capture closingDate %}{% if include.show.closing %}{{ include.show.closing }} 00:00:00 -0500{% endif %}{% endcapture %}
+{% assign access_folder = site.data[include.region].access | sort %}
+{% capture collectionPath  %}/{{ include.region }}/{% endcapture %}
+{% assign showID = {{ include.show.id | remove: collectionPath }}%}
+<!-- Favorite -->
+<div id="fav__{{ showID }}" class="fav-button text-end pb-3">&nbsp;</div>
+<!-- Card -->
+<div class="card animate mb-3 shadow-sm m-0 p-0" style="width: 100%;" id="card__{{ showID }}" data-preview="{{ include.show.preview }}" data-opening="{{ include.show.opening }}" {% if show.returns %}data-returns="{{ include.show.returns }}"{% endif %} {% if include.show.closing %}data-closing="{{ include.show.closing }}"{% endif %} {% for tag in show.tags %}data-tag-{{ tag | slugify }} {% endfor %}>
+		<!-- Poster -->
+		<a class="poster-link grow w-100 d-table position-relative px-0" style="z-index:1" title="{{ include.show.title }}" href="{{ include.show.url }}" >
+			{% if include.show.poster and include.show.poster != blank and include.show.poster != ""  %}
+			<img class="card-img-top w-100 h-100" src="/{{ include.region }}/images/{{ include.show.poster }}" width="230" height="355" alt="{{ include.show.title }}" />
+			{% else %}
+			<img class="card-img-top  w-100 h-100" src="/images/default.jpg" width="230" height="355" alt="{{ include.show.title }}" />	
+			{% endif %}
+		</a>
+		<!-- Title -->
+		<div class="text-wrap text-muted text-monospace  text-center position-absolute w-100 home-show-title" style="top: -1.8em; z-index: 0"><small>{{ include.show.title }}</small></div>
+		<!-- Tony Award -->
+		{% if include.show.tonyaward %}<div class="position-absolute" style="top: -16px; left: -22px; z-index: 2; width: 64px; height: 0; padding-top: 64px; overflow: hidden; background: url('/images/tonyaward.png') center center/cover no-repeat">Tony Award</div>{% endif %}
+		<!-- NYT Critic's Pick -->
+		{% capture badgeOffset %} {% if include.show.tonyaward %} 22px {% else %} -22px {% endif %}{% endcapture %}
+		{% if include.show.criticspick %}<div class="position-absolute" style="top: -16px; left: {{ badgeOffset }}; z-index: 2; width: 64px; height: 0; padding-top: 64px; overflow: hidden; background: url('/images/criticspick.png') center center/cover no-repeat">New York Times Critic's Pick</div>{% endif %}
+		<!-- Tickets -->
+		<div class="tickets list-group list-group-flush w-100 p-0" style="z-index:0">
+			{% if include.show.alert and include.show.alert != blank and include.show.alert != "" %}
+			<ul class="list-group list-group-flush w-100 p-0">
+				<li class="list-group-item text-muted text-center">{{ include.show.alert }}</li>
+			</ul>
+			{% endif %}
+			{% for ticket in include.show.tickets %}
+				{% if ticket.type == "broadway_access" %}
+					<a class="list-group-item list-group-item-action pe-5" style="background-image: url(/images/icon-{{ticket.type}}.svg)" data-bs-toggle="collapse" href="#show{{showID}}TicketAccess" role="button" aria-expanded="false" aria-controls="show{{showID}}TicketAcces">{{ticket.title}}</a>
+					<div class="collapse multi-collapse" id="show{{showID}}TicketAccess">
+						{% for access_hash in include.access_folder %}
+							{% assign accessItem =  access_hash[1] %}
+							{% if accessItem.info contains "http" %}
+								<a class="list-group-item list-group-item-action pe-5" href="{{accessItem.info}}" target="_blank">{% include icons/icon-{{accessItem.type}}.svg %} {{accessItem.title}}</a>
+							{% else %}
+								<a tabindex="0" class="btn list-group-item list-group-item-action pe-5" role="button" data-bs-toggle="popover" title="{{accessItem.title}}" data-bs-content="{{accessItem.info}}">{% include icons/icon-{{accessItem.type}}.svg %} {{accessItem.title}}</a>
+							{% endif %}
+						{% endfor %}
+					</div>
+				{% elsif ticket.info contains "http" %}
+					<a class="list-group-item list-group-item-action pe-5 {% if ticket.highlight == true %}list-group-item-highlighted {% endif %}" href="{{ticket.info}}" target="_blank">{% include icons/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
+				{% else %}
+					<a tabindex="0" class="btn list-group-item list-group-item-action pe-5" role="button" data-bs-toggle="popover" title="{{ticket.title}}" data-bs-content="{{ticket.info}}">{% include icons/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
+				{% endif %}
+			{% endfor %}
+		</div>
+		<!-- Dates -->
+		<ul class="list-group list-group-flush list-dates w-100 list-group-date p-0">
+			{% if include.show.closing and include.show.closing != blank and include.show.closing != "" %}
+			<li class="list-group-item text-muted list-group-date-callout text-center"><small class="d-inline-block pe-1">Ends:</small><small class="d-inline-block"> {{closingDate | date: "%b %-d, %Y"}}</small></li>
+			{% else %}
+			<li class="list-group-item text-muted list-group-date-callout text-center"><small class="d-inline-block pe-1">Starts:</small><small class="d-inline-block"> {{previewDate | date: "%b %-d, %Y"}}</small></li>
+			{% endif %}
+			
+		</ul>
+</div>

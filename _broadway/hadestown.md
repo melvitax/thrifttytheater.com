@@ -6,10 +6,10 @@ description: >-
   A celebrated new musical that follows the mythical quest of Orpheus to
   overcome Hades and regain the favor of his one true love.
 theater: Walter Kerr Theatre
-preview: '2019-03-22'
-opening: '2019-04-17'
-returns: 2021-09-02
-closing: ''
+original_preview: '2019-03-22'
+original_opening: '2019-04-17'
+preview: '2021-09-02'
+opening: '2021-09-02'
 tonyaward: true
 criticspick: true
 tags: 

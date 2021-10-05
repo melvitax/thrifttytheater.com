@@ -2,9 +2,10 @@
 title: Company
 poster: company.jpg
 description: A revelatory staging of the quintessential Sondheim musical.
-preview: 2020-03-02
-opening: 2020-03-22
-returns: 2021-11-15
+original_preview: 2020-03-02
+original_opening: 2020-03-22
+preview: 2021-11-15
+opening: 2021-11-15
 tonyaward: false
 criticspick: false
 tags: 

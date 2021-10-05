@@ -4,10 +4,10 @@ poster: lion.jpg
 alert: ""
 description: An award-winning score and innovative puppetry bring the classic
   story of young royal heir Simba to life.
-preview: 1997-10-15
-opening: 1997-11-13
-returns: 2021-09-14
-closing: ""
+original_preview: 1997-10-15
+original_opening: 1997-11-13
+preview: 2021-09-14
+opening: 2021-09-14
 tonyaward: true
 criticspick: false
 tags: 

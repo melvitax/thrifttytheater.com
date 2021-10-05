@@ -4,9 +4,6 @@ poster: sing-street.jpg
 header: sing-street-header.jpg
 description: The cult favorite film is transported to the stage.
 theater: Lyceum Theatre
-preview: '2021-12'
-opening: ''
-closing: ''
 tonyaward: false
 criticspick: false
 tags: 

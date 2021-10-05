@@ -4,6 +4,8 @@ poster: mj.jpg
 header: mj-header.jpg
 description: "The life story of Michael Jackson arrives on Broadway. "
 theater: Neil Simon Theatre
+original_preview: 2021-12-06
+original_opening: 2022-02-01
 preview: 2021-12-06
 opening: 2022-02-01
 closing: ""

@@ -4,9 +4,10 @@ poster: christmas-spectacular.jpg
 header: 
 description: Experience wonder like never before with NYC’s favorite holiday tradition.
 theater: Radio City Music Hal
+original_preview: '2021-11-05'
+original_opening: '2021-11-05'
 preview: '2021-11-05'
 opening: '2021-11-05'
-returns: 
 closing: '2021-01-02'
 tonyaward: false
 criticspick: false

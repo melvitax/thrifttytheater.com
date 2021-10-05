@@ -12,9 +12,10 @@ description: >-
   Waiting.” Six is co-directed by Lucy Moss and Jamie Armitage, featuring
   choreography by Carrie-Anne Ingrouille. 
 theater: Brooks Atkinson Theatre
-preview: '2020-02-13'
-opening: '2020-03-12'
-returns: 2021-09-19
+original_preview: '2020-02-13'
+original_opening: '2020-03-12'
+preview: '2021-09-19'
+opening: '2021-09-19'
 closing: ''
 tonyaward: false
 criticspick: false

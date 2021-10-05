@@ -4,10 +4,10 @@ poster: aladdin.jpg
 header: aladdin-header.jpg
 description: The beloved story of Aladdin is brought to thrilling theatrical life.
 theater: New Amsterdam Theater
-preview: '2014-02-26'
-opening: '2014-03-20'
-returns: 2021-09-28
-closing: ''
+original_preview: '2014-02-26'
+original_opening: '2014-03-20'
+preview: '2021-09-28'
+opening: '2021-09-28'
 tonyaward: true
 criticspick: false
 tags: 

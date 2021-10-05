@@ -13,44 +13,11 @@ layout: default
 	</div>
 	
 	<div class="col-12 col-md-4 col-lg-3" >
-        <div class="card mb-3 shadow-sm m-5 m-md-0">
-            <!-- Poster -->
-            {% if page.poster and page.poster != blank and page.poster != ""  %}
-            <img class="card-img-top w-100 h-100 p-0" src="/{{ page.collection }}/images/{{ page.poster }}" width="230" height="355" alt="{{page.title}}" />
-            {% else %}
-            <img class="card-img-top w-100 h-100" src="/images/default.jpg" width="230" height="355" alt="{{page.title}}" />	
-            {% endif %}
-
-            <!-- Tickets -->
-            <div class="tickets list-group list-group-flush w-100 p-0" style="z-index:0">
-                {% for ticket in page.tickets %}
-                    {% if ticket.type == "broadway_access" %}
-                        <a class="list-group-item list-group-item-action pe-5" style="background-image: url(/images/icon-{{ticket.type}}.svg)" data-bs-toggle="collapse" href="#ticketAccess" role="button" aria-expanded="false" aria-controls="ticketAccess">{{ticket.title}}</a>
-                        <div class="collapse multi-collapse" id="ticketAccess">
-                            {% assign access_folder = site.data[page.collection].access | sort %}
-                            {% for access_hash in access_folder %}
-                                {% assign accessItem = access_hash[1] %} 
-                                {% if accessItem.info contains "http" %}
-                                    <a class="list-group-item list-group-item-action pe-5" href="{{accessItem.info}}" target="_blank">{% include icons/icon-{{accessItem.type}}.svg %} {{accessItem.title}}</a>
-                                {% else %}
-                                    <a tabindex="0" class="btn list-group-item list-group-item-action pe-5" role="button" data-bs-oggle="popover" title="{{accessItem.title}}" data-bs-content="{{accessItem.info}}">{% include icons/icon-{{accessItem.type}}.svg %} {{accessItem.title}}</a>
-                                {% endif %}
-                            {% endfor %}
-                        </div>
-                    {% elsif ticket.info contains "http" %}
-                        <a class="list-group-item list-group-item-action pe-5 {% if ticket.highlight == true %}list-group-item-highlighted {% endif %}" href="{{ticket.info}}" target="_blank">{% include icons/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
-                    {% else %}
-                        <a tabindex="0" class="btn list-group-item list-group-item-action pe-5" role="button" data-bs-toggle="popover" title="{{ticket.title}}" data-bs-content="{{ticket.info}}">{% include icons/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
-                    {% endif %}
-                {% endfor %}
-            </div>
-
-            {% if page.website %}
-            <!-- Website -->
-            <div class="py-2 p-3"><a href="{{page.website}}" target="_blank">{{ page.website | remove:'http://' | remove:'https://' | remove:'www.' | split:'/' | first }}</a></div>
-            {% endif %}
-        
-        </div>
+        {% include showcard.html show=page region=page.collection featured=true %}
+        {% if page.website %}
+        <!-- Website -->
+        <div class="py-3 text-center"><a href="{{page.website}}" target="_blank">{{ page.website | remove:'http://' | remove:'https://' | remove:'www.' | split:'/' | first }}</a></div>
+        {% endif %}
 	</div>
 	
 	<div class="col-12 col-md-8 col-lg-9" >

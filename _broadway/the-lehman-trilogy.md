@@ -6,10 +6,10 @@ description: >-
   Stefano Massini's acclaimed epic, weaving through two centuries of Lehman
   lineage, comes to Broadway.
 theater: Nederlander Theatre
-preview: '2020-03-07'
-opening: '2020-03-26'
-returns: 2021-09-25
-closing: ''
+original_preview: 2020-03-07
+original_opening: 2020-03-26
+preview: 2021-09-25
+opening: 2021-09-25
 tonyaward: false
 criticspick: true
 tags: 

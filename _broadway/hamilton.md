@@ -4,9 +4,10 @@ poster: hamilton.jpg
 alert: ""
 description: Go back to the era of the Founding Fathers with Lin-Manuel
   Miranda’s inventive new musical.
-preview: 2015-07-13
-opening: 2015-08-06
-returns: 2021-09-14
+original_preview: 2015-07-13
+original_opening: 2015-08-06
+preview: 2021-09-14
+opening: 2021-09-14
 closing: ""
 tonyaward: true
 criticspick: true

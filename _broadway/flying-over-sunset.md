@@ -11,9 +11,10 @@ description: >-
   shared a trip, but they were all in and around LA in the 1950s... Who’s to say
   it never happened?
 theater: Vivian Beaumont Theater
-preview: '2020-03-12'
-opening: '2020-04-16'
-returns: 2021-11-11
+original_preview: 2020-03-12
+original_opening: 2020-04-16
+preview: 2021-11-11
+opening: 2021-11-11
 closing: ''
 tonyaward: false
 criticspick: false

@@ -4,10 +4,10 @@ poster: proud.jpg
 header: aint-too-proud-header.jpg
 description: 'Follow The Temptations’ extraordinary journey from the streets of Detroit to the Rock & Roll Hall of Fame—how they met, how they rose, the groundbreaking heights they hit, and how personal and political conflicts threatened to tear the group apart as the United States fell into civil unrest. Written by three time Obie Award winner Dominique Morisseau (Pipeline, Skeleton Crew), directed by two-time Tony Award winner Des McAnuff (Jersey Boys), and featuring choreography by Tony nominee Sergio Trujillo (Jersey Boys, On Your Feet).'
 theater: Imperial Theatre
-preview: '2019-02-28'
-opening: '2019-03-31'
-returns: 2021-10-16
-closing: ''
+original_preview: '2019-02-28'
+original_opening: '2019-03-31'
+preview: '2021-10-16'
+opening: '2021-10-16'
 tonyaward: true
 criticspick: true
 tags: 

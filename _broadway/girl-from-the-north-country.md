@@ -4,9 +4,10 @@ poster: girl.jpg
 header: ''
 description: Conor McPherson's acclaimed new work features the music of Bob Dylan.
 theater: Belasco Theatre
-preview: '2020-02-07'
-opening: '2020-03-05'
-returns: 2021-10-13
+original_preview: '2020-02-07'
+original_opening: '2020-03-05'
+preview: '2021-10-13'
+opening: '2021-10-13'
 closing: ''
 tonyaward: false
 criticspick: true

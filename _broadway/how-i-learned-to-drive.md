@@ -6,6 +6,8 @@ description: >-
   Mary-Louise Parker and David Morse reunite for the Broadway debut of Paula
   Vogel's Pulitzer-winning play.
 theater: Samuel J Friedman Theatre
+original_preview: '2022-03-29'
+original_opening: '2022-04-19'
 preview: '2022-03-29'
 opening: '2022-04-19'
 closing: ''

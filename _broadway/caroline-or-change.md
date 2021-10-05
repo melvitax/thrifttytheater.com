@@ -6,6 +6,8 @@ description: >-
   Jeanine Tesori and Tony Kushner's acclaimed musical returns to Broadway
   starring Sharon D. Clarke.
 theater: Studio 54
+original_preview: '2021-10-08'
+original_opening: '2021-10-27'
 preview: '2021-10-08'
 opening: '2021-10-27'
 closing: '2022-01-09'

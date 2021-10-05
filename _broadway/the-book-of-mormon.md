@@ -3,10 +3,10 @@ title: The Book of Mormon
 poster: mormon.jpg
 alert: ""
 description: The nine-time Tony Award-winning Best Musical.
-preview: 2011-02-24
-opening: 2011-03-24
-returns: 2021-11-05
-closing: ""
+original_preview: 2011-02-24
+original_opening: 2011-03-24
+preview: 2021-11-05
+opening: 2021-11-05
 tonyaward: true
 criticspick: false
 tags: 

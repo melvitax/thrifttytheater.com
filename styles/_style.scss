@@ -3,9 +3,14 @@
 :root {
   color-scheme: light dark;
 }
-
 body {
   background-color: #f8f9fa;
+}
+main.hide { 
+  display: none;
+}
+a:link, a:visited {
+  text-decoration: none;
 }
 .site-title {
   clear: both;
@@ -26,6 +31,9 @@ body {
   font-size: 4.2vw;
   font-weight: 500;
   line-height: 1em;
+}
+.row.upcoming .tickets {
+  display: none;
 }
 @media (min-width: 576px) and (max-width: 767.98px) { 
   .site-title { font-size: 5.25em }
@@ -80,7 +88,7 @@ body {
 }
 .fav-button {
   transition: scale .2s ease-in-out; 
-  opacity: 0;
+  opacity: 0.3;
 }
 .fav-button::before {
   display: inline-block;
@@ -89,20 +97,14 @@ body {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f004";
-  font-size: 50px;
-  color: #fff;
-}
-.card:hover .fav-button {
-  opacity: 1;
+  font-size: 30px;
+  color: #6c757d;
 }
 .fav-button:hover {
   cursor: pointer;
-  transform: translateZ(0px) scale(1.15);
+  opacity: 1.0;
 }
-.isFavorite .fav-button {
-  opacity: 1;
-}
-.isFavorite .fav-button::before {
+.isFavorite.fav-button::before {
   font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f004";
 }
 .list-group-item.list-group-item-highlighted svg {

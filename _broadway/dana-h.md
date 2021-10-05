@@ -4,6 +4,8 @@ poster: dana-h.jpg
 description: The Broadway premiere of Lucas Hnath's drama, telling the true
   story of his mother, Dana.
 theater: Lyceum Theatre
+original_preview: 2021-10-01
+original_opening: 2021-10-17
 preview: 2021-10-01
 opening: 2021-10-17
 closing: 2022-01-16

@@ -1,10 +1,10 @@
 ---
 title: To Kill a Mockingbird
 poster: mockingbird.jpg
-preview: 2018-11-01
-opening: 2018-12-13
-returns: 2021-10-05
-closing: ""
+original_preview: 2018-11-01
+original_opening: 2018-12-13
+preview: 2021-10-05
+opening: 2021-10-05
 tonyaward: false
 criticspick: true
 tickets:

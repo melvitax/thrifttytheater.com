@@ -4,6 +4,8 @@ poster: pass-over.jpeg
 alert: Limited Run
 description: Antoinette Chinonye Nwandu's acclaimed play makes its Broadway premiere.
 theater: August Wilson Theatre
+original_preview: 2021-08-04
+original_opening: 2021-08-22
 preview: 2021-08-04
 opening: 2021-08-22
 closing: 2021-10-10

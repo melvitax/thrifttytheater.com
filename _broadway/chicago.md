@@ -4,10 +4,10 @@ poster: chicago.jpg
 header: ''
 description: The Tony-winning revival of Kander and Ebb's musical will razzle-dazzle you.
 theater: Ambassador Theatre
-preview: '1996-10-23'
-opening: '1996-11-14'
-returns: 2021-09-14
-closing: ''
+original_preview: '1996-10-23'
+original_opening: '1996-11-14'
+preview: '2021-09-14'
+opening: '2021-09-14'
 tonyaward: true
 criticspick: false
 tags: 

@@ -4,10 +4,10 @@ poster: come.jpg
 header: ''
 description: 'When the world stopped, their stories moved us all.'
 theater: Schoenfeld Theatre
-preview: '2017-02-08'
-opening: '2017-03-12'
-returns: 2021-09-21
-closing: ''
+original_preview: 2017-02-08
+original_opening: 2017-03-12
+preview: 2021-09-21
+opening: 2021-09-21
 tonyaward: true
 criticspick: true
 tags: 

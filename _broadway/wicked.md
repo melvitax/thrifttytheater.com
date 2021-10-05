@@ -4,9 +4,10 @@ poster: wicked.jpg
 alert: ""
 description: The untold musical story of The Wizard of Oz’s Wicked Witch of the
   West and Glinda the Good.
-preview: 2003-10-08
-opening: 2003-10-30
-returns: 2021-09-13
+original_preview: 2003-10-08
+original_opening: 2003-10-30
+preview: 2021-09-13
+opening: 2021-09-13
 closing: ""
 tonyaward: true
 criticspick: false

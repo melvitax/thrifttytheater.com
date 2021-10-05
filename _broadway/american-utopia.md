@@ -3,10 +3,10 @@ title: American Utopia
 poster: utopia.jpg
 description: Following a sold-out world tour, David Byrne's acclaimed theatrical
   concert comes to Broadway.
+original_preview: 2021-09-17
+original_opening: 2021-09-17
 preview: 2021-09-17
 opening: 2021-09-17
-returns: ""
-closing: ""
 tonyaward: true
 criticspick: false
 tags: 

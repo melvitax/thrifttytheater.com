@@ -1,0 +1,28 @@
+<div class="pt-4 text-end">
+    <div class="dropdown d-inline">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+          Filters
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item tag" href="#" id="tag__favorites">Favorites</a></li>
+          {% for tag in site.data.tags %}
+          <li><a class="dropdown-item tag" href="#" id="tag__{{ tag | slugify }}">{{ tag }}</a></li>
+          {% endfor %}
+        </ul>
+    </div>
+    <div class="active-tags float-start">
+      
+    </div>
+</div>
+<hr class="clearfix" />
+<script type="text/javascript">
+  //<![CDATA[
+   var tags = {
+    {% for tag in site.data.tags %}
+    '{{ tag | slugify }}': '{{ tag }}', 
+    {% endfor %}
+    'favorites': 'Favorites'
+   }
+//]]>
+</script>
+  

@@ -4,9 +4,10 @@ poster: chicken-and-biscuits.jpg
 alert: Limited Run
 description: Douglas Lyons' new family comedy makes its Broadway premiere.
 theater: Circle In The Square Theatre
+original_preview: 2021-09-23
+original_opening: 2021-10-10
 preview: 2021-09-23
 opening: 2021-10-10
-returns: ""
 closing: 2022-01-02
 tonyaward: false
 criticspick: false
