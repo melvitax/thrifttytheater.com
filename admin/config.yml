@@ -42,7 +42,7 @@ collections:
         required: false
         widget: "select"
         multiple: true
-        options: ["Broadway", "Musical", "Play", "Comedy", "Drama", "Special", "Kid Friendly"]
+        options: ["Broadway", "Off Broadway", "Musical", "Play", "Comedy", "Drama", "Special", "Kid Friendly"]
       - label: Tickets
         label_singular: Ticket
         name: tickets
