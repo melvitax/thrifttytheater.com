@@ -94,7 +94,7 @@ layout: default
                 {% assign videoID = trailer[1] %}
                 {% assign src = 'https://www.youtube.com/embed/' | append: videoID | append: '?showinfo=0&modestbranding=0&color=white&autoplay=0' %}
                 <iframe width="560" height="315" src="{{src}}" class="js-player w-100 h-100" style="border: 0; left: 0; position: absolute; top: 0;"></iframe>
-            {% elsif page.trailer contains "vimeo.com" %}
+            {% else %}
             <iframe width="560" height="315" src="{{page.trailer}}" class="js-player w-100 h-100" style="border: 0; left: 0; position: absolute; top: 0;"></iframe>
             {% endif %}
         </div>
