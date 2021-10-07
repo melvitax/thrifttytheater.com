@@ -18,6 +18,10 @@ tags:
 trailer: https://www.youtube.com/watch?v=088xey4geDg
 website: https://freestylelovesupreme.com
 tickets:
+  - highlight: true
+    info: https://freestylelovesupreme.com/lottery/
+    type: digitalLottery
+    title: $29 Lottery
   - highlight: false
     info: https://www.telecharge.com/Broadway/Freestyle-Love-Supreme/Overview
     type: regular
