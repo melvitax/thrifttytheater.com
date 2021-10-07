@@ -21,6 +21,10 @@ trailer: 'https://www.youtube.com/watch?v=anMRTqnEhx4'
 website: >-
   https://www.roundabouttheatre.org/get-tickets/2019-2020-season/caroline-or-change/
 tickets:
+  - highlight: true
+    info: https://www.todaytix.com/nyc/shows/19556-caroline,-or-change-on-broadway
+    type: digitalRush
+    title: $20 Rush
   - highlight: false
     info: 'https://www.roundabouttheatre.org/get-tickets/access-roundabout/'
     title: $10 Access

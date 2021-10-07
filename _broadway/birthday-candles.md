@@ -1,6 +1,6 @@
 ---
 title: Birthday Candles
-poster: birthdaycandles.jpg
+poster: birthday-candles.jpg
 header: birthday-candles-header.jpg
 description: >-
   Debra Messing stars in the Broadway premiere of Noah Haidle's poignant new
