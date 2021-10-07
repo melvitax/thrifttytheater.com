@@ -18,7 +18,7 @@ preview: '2021-09-19'
 opening: '2021-09-19'
 closing: ''
 tonyaward: false
-criticspick: false
+criticspick: true
 tags: 
   - Musical
   - Broadway
