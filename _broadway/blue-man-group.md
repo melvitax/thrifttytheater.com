@@ -6,8 +6,8 @@ description: >-
 theater: Astor Place Theatre
 original_preview: '1991-11-07'
 original_opening: '1991-11-07'
-preview: '2021-10-08'
-opening: '2021-10-08'
+preview: '2021-09-03'
+opening: '2021-09-03'
 tonyaward: false
 criticspick: false
 tags: 
