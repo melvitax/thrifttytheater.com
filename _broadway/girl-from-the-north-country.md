@@ -14,7 +14,7 @@ criticspick: true
 tags: 
   - Musical
   - Broadway
-trailer: 'https://www.youtube.com/watch?v=qNeHKvoshG4'
+trailer: 'https://www.youtube.com/watch?v=A1SA1NNhG9A'
 website: 'https://northcountryonbroadway.com/'
 tickets:
   - highlight: true
