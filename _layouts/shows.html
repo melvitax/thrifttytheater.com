@@ -9,64 +9,62 @@ layout: default
 		<div class="container">
 
 			<!-- Current Shows -->
-			{% assign timeZone = site.data[page.region].timezone.offset %}
+			{% assign timeOffset = site.data[page.region].time.offset %}
+			{% assign sortedShows = site[page.region] | sort: 'title' | where_exp: "item",
+			"item.preview" %}
+			{% assign today = 'now' | date: '%Y%m%d' %}
 
-			{% assign today = 'now' | date: '%Y%m%d'%}
+			{% assign nowplaying = "" | split: ',' %}
+			{% assign upcoming = "" | split: ',' %}
+			{% assign announced = site[page.region] | sort: 'title' | where_exp: "item", "item.preview == nil" %}
 
-			{%- comment -%}
-			• group by date with format YYYYMMDD so we can filter dates and sort
-			• sort and flatten groups into array with nested array
-			{%- endcomment -%}
-			{% assign nowplaying = site[page.region] | group_by_exp: "item",
-			"item.preview | date: '%Y%m%d'" | where_exp: "item",
-			"item.name <= today" | sort: 'name' | map: 'items' %}
-			<h3 class="pt-5 m-0">Now Playing</h3>
-			<div class="row nowplaying">
-			{% for item in nowplaying %}
-				{% for show in item %}
-				<div class="col col-6 col-md-3 col-xl-2 pt-4" >
-					{% include showcard.html show=show region=page.region featured=true %}
-				</div>
-				{% endfor %}
+			{% for item in sortedShows %}
+				{% assign date = item.preview | date: '%Y%m%d' %}
+				{% if date <= today %}
+					{% assign nowplaying = nowplaying | push: item %}
+				{% else %}
+					{% assign upcoming = upcoming | push: item %}
+				{% endif %}
 			{% endfor %} 
-			</div>
 
-			{%- comment -%}
-			• group by date with format YYYYMMDD so we can filter dates and sort
-			• sort and flatten groups into array with nested array
-			• group again but this time by month
-			{%- endcomment -%}
-			{% assign upcoming = site[page.region] | group_by_exp: "item",
-			"item.preview | date: '%Y%m%d'" | where_exp: "item",
-			"item.name > today" | sort: 'name' | map: 'items' | group_by_exp: "item",
-			"item[0].preview | date: '%B %Y'" %}
-			{% for item in upcoming %}
-				<h3 class="pt-5 m-0">{{ item.name }}</h3>
-				<div class="row upcoming" id="upcoming_{{ item.preview | date: '%Y%m' }}">
-				{% for group in item.items %}
-					{% for show in group %}
+			{% if nowplaying.size > 0 %}
+				<h3 class="pt-5 m-0">Now Playing</h3>
+				<div class="row nowplaying">
+					{% for show in nowplaying %}
+						<div class="col col-6 col-md-3 col-xl-2 pt-4" >
+							{% include showcard.html show=show region=page.region featured=true %}
+						</div>
+					{% endfor %} 
+				</div>
+			{% endif %}
+			
+			{% if upcoming.size > 0 %}
+				{% assign grouped = upcoming | group_by_exp: "item",
+				"item.preview | date: '%Y%m'" | sort: 'name' %}
+				{% for group in grouped %}
+					{% assign firstItem = group.items | first %}
+					<h3 class="pt-5 m-0">{{ firstItem.preview | date: '%B %Y' }}</h3>
+					<div class="row upcoming">
+					{% for show in group.items %}
+						<div class="col col-6 col-sm-4 col-md-3 col-lg-2 pt-4">
+							{% include showcard.html show=show region=page.region %}
+						</div>
+					{% endfor %} 
+					</div>
+				{% endfor %} 
+			{% endif %}
+
+			{% if announced %}
+				<h3 class="pt-5 m-0">Announced</h3>
+				<div class="row announced">
+					{% for show in announced %}
 					<div class="col col-6 col-sm-4 col-md-3 col-lg-2 pt-4">
 						{% include showcard.html show=show region=page.region %}
 					</div>
 					{% endfor %} 
-				{% endfor %} 
 				</div>
-			{% endfor %} 
-
-			{%- comment -%}
-			• filter dates by nil and sort
-			{%- endcomment -%}
-			{% assign announced = site[page.region] | where_exp: "item", "item.preview == nil" | sort: 'name' %}
-			{% if announced %}
-			<h3 class="pt-5 m-0">Announced</h3>
-			<div class="row announced">
-				{% for show in announced %}
-				<div class="col col-6 col-sm-4 col-md-3 col-lg-2 pt-4">
-					{% include showcard.html show=show region=page.region %}
-				</div>
-				{% endfor %} 
-			</div>
 			{% endif %}
+			
 		</div>
 	</div>
 
