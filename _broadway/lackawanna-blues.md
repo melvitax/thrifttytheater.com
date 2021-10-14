@@ -11,7 +11,7 @@ preview: 2021-09-14
 opening: 2021-09-28
 closing: 2021-11-07
 tonyaward: false
-criticspick: false
+criticspick: true
 tags: 
   - Play
   - Broadway
