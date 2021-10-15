@@ -6,9 +6,9 @@ description: Tracy Letts’ powerful and resonant portrayal of democracy in acti
 theater: Studio 54
 original_preview: 2020-02-25
 original_opening: 2020-03-15
-preview: 2022-03-22
-opening: 2022-03-22
-closing: 2020-06-14
+preview: 2022-03-19
+opening: 2022-04-07
+closing: 2020-07-10
 tonyaward: false
 criticspick: false
 tags:
@@ -23,8 +23,8 @@ tickets:
     title: $35 Lottery
     type: digitalLottery
   - highlight: false
-    info: 'https://theminutesbroadway.com/tickets/'
-    title: $49+ Tickets
+    info: 'https://www.telecharge.com/Broadway/The-Minutes'
+    title: $39+ Tickets
     type: regular
 ---
 
