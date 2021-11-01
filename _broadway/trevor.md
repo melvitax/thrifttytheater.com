@@ -15,6 +15,10 @@ tags:
 trailer: https://www.youtube.com/watch?v=RxGJURE6Z4Q
 website: https://www.trevorthemusical.com
 tickets:
+  - highlight: true
+    info: https://trevorthemusicallottery.com
+    type: digitalLottery
+    title: $35 Lottery
   - highlight: false
     info: https://www.telecharge.com/Off-Broadway/Trevor
     type: regular
