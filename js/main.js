@@ -157,7 +157,6 @@ $( document ).ready(function() {
     }
   })
 
-
   // Show the main div now that eveything has been filtered
   $('main').delay( 800 ).removeClass('hide')
 

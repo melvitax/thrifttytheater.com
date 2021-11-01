@@ -3,7 +3,7 @@
 {% capture closingDate %}{% if include.show.closing %}{{ include.show.closing }} 00:00:00 -0500{% endif %}{% endcapture %}
 {% assign access_folder = site.data[include.region].access | sort %}
 {% capture collectionPath  %}/{{ include.region }}/{% endcapture %}
-{% assign showID = {{ include.show.id | remove: collectionPath }}%}
+{% assign showID =  include.show.id | remove: collectionPath %}
 {% assign schedule = site.data[include.region].schedule.result.extractorData.data[0].group %} 
 <!-- Favorite -->
 <div id="fav__{{ showID }}" class="fav-button text-end pb-3">&nbsp;</div>
@@ -33,9 +33,9 @@
 			{% endif %}
 			{% for ticket in include.show.tickets %}
 				{% if ticket.type == "broadway_access" %}
-					<a class="list-group-item list-group-item-action pe-5" style="background-image: url(/images/icon-{{ticket.type}}.svg)" data-bs-toggle="collapse" href="#show{{showID}}TicketAccess" role="button" aria-expanded="false" aria-controls="show{{showID}}TicketAcces">{{ticket.title}}</a>
-					<div class="collapse multi-collapse" id="show{{showID}}TicketAccess">
-						{% for access_hash in include.access_folder %}
+					<a class="list-group-item list-group-item-action pe-5" style="background-image: url(/images/icon-{{ticket.type}}.svg)" data-bs-toggle="collapse" href="#show_{{showID}}_TicketAccess" role="button" aria-expanded="false" aria-controls="show_{{showID}}_TicketAcces">{{ticket.title}}</a>
+					<div class="collapse multi-collapse" id="show_{{showID}}_TicketAccess">
+						{% for access_hash in access_folder %}
 							{% assign accessItem =  access_hash[1] %}
 							{% if accessItem.info contains "http" %}
 								<a class="list-group-item list-group-item-action pe-5" href="{{accessItem.info}}" target="_blank">{% include icons/icon-{{accessItem.type}}.svg %} {{accessItem.title}}</a>
