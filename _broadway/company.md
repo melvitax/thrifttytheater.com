@@ -1,8 +1,8 @@
 ---
 title: Company
-poster: company.jpg
 header: company-header.jpg
-description: A revelatory staging of the quintessential Sondheim musical.
+poster: company.jpg
+description: A revelatory staging of the quintessential Sondheim musical
 original_preview: 2020-03-02
 original_opening: 2020-03-22
 preview: 2021-11-15
