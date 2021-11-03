@@ -1,7 +1,7 @@
 ---
 title: "Tina: The Tina Turner Musical"
 poster: tina.jpg
-alert: 
+header: tina-header.jpg
 description: The thrilling hit musical, telling the story of Tina Turner,
   arrives on Broadway.
 original_preview: 2019-10-12
@@ -25,8 +25,6 @@ tickets:
     info: https://www.ticketmaster.com/tina-the-tina-turner-musical-ny-tickets/artist/2612545
     title: $79-$159
     type: regular
-header: ""
 theater: Lunt-Fontanne Theatre
-closing: ""
 trailer: https://www.youtube.com/watch?v=7rXaK_w0O8w
 ---
