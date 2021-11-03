@@ -1,7 +1,7 @@
 ---
 title: The Lion King
-poster: lion.jpg
-alert: ""
+poster: the-lion-king.jpg
+header: the-lion-king-header.jpg
 description: An award-winning score and innovative puppetry bring the classic
   story of young royal heir Simba to life.
 original_preview: 1997-10-15
@@ -26,7 +26,6 @@ tickets:
     info: http://www.ticketmaster.com/artist/1039581
     title: $122-$217
     type: regular
-header: ""
 theater: Minskoff Theatre
 trailer: https://www.youtube.com/watch?v=vKDEwHv43uo
 ---
