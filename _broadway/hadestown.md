@@ -1,7 +1,7 @@
 ---
 title: Hadestown
 poster: hadestown.jpg
-header: ''
+header: hadestown-header.jpg
 description: >-
   A celebrated new musical that follows the mythical quest of Orpheus to
   overcome Hades and regain the favor of his one true love.
