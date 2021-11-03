@@ -1,6 +1,7 @@
 ---
 title: American Utopia
-poster: utopia.jpg
+poster: american-utopia.jpg
+header: american-utopia-header.jpg
 description: Following a sold-out world tour, David Byrne's acclaimed theatrical
   concert comes to Broadway.
 original_preview: 2021-09-17
