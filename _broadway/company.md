@@ -1,6 +1,7 @@
 ---
 title: Company
 poster: company.jpg
+header: company-header.jpg
 description: A revelatory staging of the quintessential Sondheim musical.
 original_preview: 2020-03-02
 original_opening: 2020-03-22
@@ -36,7 +37,6 @@ tickets:
     title: $59+ Tickets
     type: regular
     info: https://www.telecharge.com/Broadway/Company/Ticket
-header: company-header.jpg
 theater: Bernard B. Jacobs Theatre
 trailer: https://www.youtube.com/watch?v=CxN_He6NsAk
 ---
