@@ -1,7 +1,7 @@
 ---
 title: MJ - The Musical
-poster: mj.jpg
-header: mj-header.jpg
+poster: mj-the-musical.jpg
+header: mj-the-musical-header.jpg
 description: "The life story of Michael Jackson arrives on Broadway. "
 theater: Neil Simon Theatre
 original_preview: 2021-12-06
