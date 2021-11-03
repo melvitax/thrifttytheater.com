@@ -45,7 +45,6 @@ tickets:
     info: http://www.ticketmaster.com/artist/965961
     title: $92-$232
     type: regular
-header: ""
 theater: Gershwin Theatre
 trailer: https://www.youtube.com/watch?v=KR1MWFti-IY
 ---

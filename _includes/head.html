@@ -33,9 +33,9 @@
   <meta property="og:title" content="{{page.title}} | {{site.title}}">
   <meta property="og:description" content="{{page.description}}">
   {% if page.header and page.header !=blank and page.header != "" %}
-  <meta property="og:image" content="{{site.url}}{{page.header}}">
+  <meta property="og:image" content="{{site.url}}/{{page.collection}}/images/{{page.header}}">
   {% else %}
-  <meta property="og:image" content="{{site.url}}{{page.poster}}">
+  <meta property="og:image" content="{{site.url}}/{{page.collection}}/images/{{page.poster}}">
   {% endif %}
   {% endif %}
   <!-- CSS: Main -->
