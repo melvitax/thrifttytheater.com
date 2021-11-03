@@ -1,6 +1,7 @@
 ---
 title: To Kill a Mockingbird
 poster: mockingbird.jpg
+header: mockingbird-header.jpg
 original_preview: 2018-11-01
 original_opening: 2018-12-13
 preview: 2021-10-05
@@ -34,7 +35,6 @@ tickets:
     info: https://www.telecharge.com/Broadway/To-Kill-a-Mockingbird/Ticket
     title: $29+ Tickets
     type: regular
-header: ""
 theater: Shubert Theatre
 trailer: https://www.youtube.com/watch?v=RuGyut6C4Es
 tags:
