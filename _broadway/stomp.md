@@ -1,8 +1,8 @@
 ---
 title: Stomp
 poster: stomp.jpg
-description: >-
-  A high-energy percussive symphony played entirely on unconventional instruments.
+header: stomp-header.jpg
+description: A high-energy percussive symphony played entirely on unconventional instruments.
 theater: Orpheum Theatre
 original_preview: '1994-02-27'
 original_opening: '1994-02-27'
