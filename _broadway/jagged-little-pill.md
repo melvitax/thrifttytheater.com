@@ -1,7 +1,7 @@
 ---
 title: Jagged Little Pill
-poster: jagged.jpg
-alert: 
+poster: jagged-little-pill.jpg
+header: jagged-little-pill-header.jpg
 description: A musical inspired by Alanis Morissette’s award-winning album.
 original_preview: 2019-11-03
 original_opening: 2019-12-05
