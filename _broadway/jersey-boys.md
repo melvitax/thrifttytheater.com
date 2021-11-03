@@ -1,7 +1,7 @@
 ---
 title: Jersey Boys
 poster: jersey-boys.jpg
-alert: ""
+header: jersey-boys-jeader.jpg
 description: The Tony-winning story of Frankie Valli and the Four Seasons.
 theater: New World Stages
 original_preview: 2017-11-22
