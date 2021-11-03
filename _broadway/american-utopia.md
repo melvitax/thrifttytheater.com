@@ -23,7 +23,6 @@ tickets:
     info: http://www.thehudsonbroadway.com/whatson/david-byrnes-american-utopia/
     title: $59+ Tickets
     type: regular
-header: ""
 theater: Hudson Theatre
 trailer: https://www.youtube.com/watch?time_continue=1&v=X1P2U34QrQ8
 ---

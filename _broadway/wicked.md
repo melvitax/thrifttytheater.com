@@ -9,7 +9,6 @@ original_preview: 2003-10-08
 original_opening: 2003-10-30
 preview: 2021-09-13
 opening: 2021-09-13
-closing: ""
 tonyaward: true
 criticspick: false
 tags: 

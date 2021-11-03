@@ -20,8 +20,6 @@ tickets:
     info: https://www.telecharge.com/Broadway/The-Music-Man/Ticket
     title: $99-$279
     type: regular
-header: ""
 theater: Winter Garden Theatre
-closing: ""
 trailer: https://www.youtube.com/watch?v=VH6dX9MGvSk
 ---

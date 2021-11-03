@@ -8,7 +8,6 @@ original_preview: 2022-02-22
 original_opening: 2022-03-20
 preview: 2022-02-22
 opening: 2022-03-20
-closing: ""
 tonyaward: false
 criticspick: false
 tags: 

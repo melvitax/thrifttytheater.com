@@ -38,6 +38,5 @@ tickets:
     info: https://www.telecharge.com/Broadway/Company/Ticket
 header: company-header.jpg
 theater: Bernard B. Jacobs Theatre
-closing: ""
 trailer: https://www.youtube.com/watch?v=CxN_He6NsAk
 ---

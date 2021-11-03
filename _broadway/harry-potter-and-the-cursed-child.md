@@ -1,7 +1,7 @@
 ---
 title: Harry Potter and the Cursed Child
-poster: harry.jpg
-alert: 
+poster: harry-potter.jpg
+header: harry-potter-header.jpg
 description: The eighth story in the Harry Potter series arrives on Broadway!
 original_preview: 2018-03-16
 original_opening: 2018-04-22
@@ -23,8 +23,6 @@ tickets:
     info: https://www.harrypottertheplay.com/us/ticket-info/
     title: $95+ Tickets
     type: regular
-header: ""
 theater: Lyric Theatre
-closing: ""
 trailer: https://www.youtube.com/watch?v=2R4gKN-YCz0
 ---

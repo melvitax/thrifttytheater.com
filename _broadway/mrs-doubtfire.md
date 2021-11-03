@@ -25,6 +25,5 @@ tickets:
     type: regular
 header: soubtfire-header.jpg
 theater: Stephen Sondheim Theatre
-closing: ""
 trailer: https://www.youtube.com/watch?v=xw91dGGPdd8
 ---
