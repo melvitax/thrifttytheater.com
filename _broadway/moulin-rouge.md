@@ -1,7 +1,7 @@
 ---
 title: Moulin Rouge!
-poster: moulinrouge.jpg
-alert: 
+poster: moulin-rouge.jpg
+header: moulin-rouge-header.jpg
 description: Baz Luhrmann's revolutionary film comes to life.
 original_preview: 2019-06-28
 original_opening: 2019-07-25
@@ -33,8 +33,6 @@ tickets:
       amount of standing room tickets may vary from performance to performance."
     title: $50 Standing
     type: standing
-header: ""
 theater: Al Hirschfeld Theatre
-closing: ""
 trailer: https://www.youtube.com/watch?v=NN0jO6MxFyM
 ---
