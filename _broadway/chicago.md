@@ -1,7 +1,7 @@
 ---
 title: Chicago
 poster: chicago.jpg
-header: ''
+header: chicago-header.jpg
 description: The Tony-winning revival of Kander and Ebb's musical will razzle-dazzle you.
 theater: Ambassador Theatre
 original_preview: '1996-10-23'
