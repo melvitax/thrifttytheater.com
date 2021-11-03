@@ -25,12 +25,12 @@
   <!-- Shared -->
   {% if page.layout == "home" %}
   <meta property="og:url" content="{{site.url}}">
-  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:title" content="{{ site.title }}">
   <meta property="og:description" content="{{site.socialinfo}}">
   <meta property="og:image" content="{{site.socialimage}}">
   {% elsif page.layout == "shows" %}
   <meta property="og:url" content="{{site.url}}{{page.permalink}}">
-  <meta property="og:title" content="{{page.title}}">
+  <meta property="og:title" content="{{page.title}} | {{site.title}}"">
   <meta property="og:description" content="{{site.socialinfo}}">
   <meta property="og:image" content="{{site.socialimage}}">
   {% else %}
