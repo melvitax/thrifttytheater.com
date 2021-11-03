@@ -1,7 +1,7 @@
 ---
 title: The Book of Mormon
 poster: mormon.jpg
-alert: ""
+header: mormon-header.jpg
 description: The nine-time Tony Award-winning Best Musical.
 original_preview: 2011-02-24
 original_opening: 2011-03-24
@@ -30,7 +30,6 @@ tickets:
     info: http://www.ticketmaster.com/artist/1714389
     title: $69-$477
     type: regular
-header: ""
 theater: Eugene O'Neill Theatre
 trailer: https://www.youtube.com/watch?v=GHQITfI9878
 ---
