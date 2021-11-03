@@ -1,14 +1,13 @@
 ---
 title: Girl From the North Country
-poster: girl.jpg
-header: ''
+poster: girl-from-the-north-country.jpg
+header: girl-from-the-north-country-header.jpg
 description: Conor McPherson's acclaimed new work features the music of Bob Dylan.
 theater: Belasco Theatre
 original_preview: '2020-02-07'
 original_opening: '2020-03-05'
 preview: '2021-10-13'
 opening: '2021-10-13'
-closing: ''
 tonyaward: false
 criticspick: true
 tags: 
