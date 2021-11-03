@@ -1,7 +1,7 @@
 ---
 title: Little Shop of Horrors
 poster: little-shop-of-horrors.jpg
-alert: ""
+header: little-shop-of-horrors-header.jpg
 description: Experience this cult favorite musical as it was meant to be seen.
 theater: Westside Theatre Upstairs
 original_preview: 2019-09-17
