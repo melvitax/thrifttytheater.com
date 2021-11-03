@@ -2,8 +2,7 @@
 title: Hamilton
 poster: hamilton.jpg
 header: hamilton-header.jpg
-description: Go back to the era of the Founding Fathers with Lin-Manuel
-  Miranda’s inventive new musical.
+description: A fresh look at the era of the Founding Fathers
 original_preview: 2015-07-13
 original_opening: 2015-08-06
 preview: 2021-09-14
