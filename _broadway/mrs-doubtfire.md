@@ -1,7 +1,7 @@
 ---
 title: Mrs. Doubtfire
 poster: mrs-doubtfire.jpg
-alert: 
+header: mrs-doubtfire-header.jpg
 description: A new musical comedy about the things we do to stay together.
 original_preview: 2020-03-09
 original_opening: 2020-04-05
@@ -23,7 +23,6 @@ tickets:
     info: https://www.telecharge.com/Broadway/Mrs-Doubtfire/Ticket
     title: $59+ Tickets
     type: regular
-header: soubtfire-header.jpg
 theater: Stephen Sondheim Theatre
 trailer: https://www.youtube.com/watch?v=xw91dGGPdd8
 ---
