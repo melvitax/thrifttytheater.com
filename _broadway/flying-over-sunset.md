@@ -14,8 +14,8 @@ theater: Vivian Beaumont Theater
 original_preview: 2020-03-12
 original_opening: 2020-04-16
 preview: 2021-11-11
-opening: 2021-11-11
-closing: ''
+opening: 2021-12-13
+closing: 2022-02-06
 tonyaward: false
 criticspick: false
 tags: 
