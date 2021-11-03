@@ -1,7 +1,7 @@
 ---
 title: Come From Away
-poster: come.jpg
-header: ''
+poster: come-from-away.jpg
+header: come-from-away-header.jpg
 description: 'When the world stopped, their stories moved us all.'
 theater: Schoenfeld Theatre
 original_preview: 2017-02-08
