@@ -10,7 +10,6 @@ original_preview: 2020-03-02
 original_opening: 2020-03-21
 preview: 2021-11-02
 opening: 2021-11-02
-closing: ''
 tonyaward: false
 criticspick: false
 tags: 
