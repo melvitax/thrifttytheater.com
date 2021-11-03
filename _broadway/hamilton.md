@@ -1,7 +1,7 @@
 ---
 title: Hamilton
-poster: hamilton.jpg
 header: hamilton-header.jpg
+poster: hamilton.jpg
 description: A fresh look at the era of the Founding Fathers
 original_preview: 2015-07-13
 original_opening: 2015-08-06
