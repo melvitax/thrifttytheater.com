@@ -35,8 +35,8 @@
   <meta property="og:image" content="{{site.socialimage}}">
   {% else %}
   <meta property="og:url" content="{{site.url}}{{page.url}}">
-  <meta property="og:title" content="{{ page.title }} | {{ site.socialinfo_callout }} | {{site.title}}">
-  <meta property="og:description" content="{{ page.description }} | {{ site.socialinfo_callout }}">
+  <meta property="og:title" content="{{page.title}} | {{site.title}}">
+  <meta property="og:description" content="{{ site.socialinfo_callout }} - {{ page.description }}">
   {% if page.header and page.header !=blank and page.header != "" %}
   <meta property="og:image" content="{{site.url}}/{{page.collection}}/images/{{page.header}}">
   {% else %}
