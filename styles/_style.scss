@@ -28,7 +28,7 @@ h1.show-title {
 }
 .site-tagline {
   color: #6D757D;
-  font-size: 4.2vw;
+  font-size: 3.15vw;
   font-weight: 500;
   line-height: 1em;
 }
@@ -37,22 +37,22 @@ h1.show-title {
 }
 @media (min-width: 576px) and (max-width: 767.98px) { 
   .site-title { font-size: 5.25em }
-  .site-tagline { font-size: 1.58em }
+  .site-tagline { font-size: 1.18em }
   h1.show-title {  font-size: 10.2vw }
 }
 @media (min-width: 768px) and (max-width: 991.98px) { 
   .site-title { font-size: 7em }
-  .site-tagline { font-size: 2.12em }
+  .site-tagline { font-size: 1.62em }
   h1.show-title {  font-size: 9.2vw }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) { 
   .site-title { font-size: 9.5em }
-  .site-tagline { font-size: 2.90em }
+  .site-tagline { font-size: 2.20em }
   h1.show-title {  font-size: 8.2vw }
 }
 @media (min-width: 1200px) { 
   .site-title { font-size: 11.5em }
-  .site-tagline { font-size:  3.50em  }
+  .site-tagline { font-size:  2.65em  }
   h1.show-title {  font-size: 8.2vw }
 }
 .show-site-title a:link, .show-site-title a:visited {
