@@ -1,7 +1,7 @@
 ---
 title: The Phantom of the Opera
 poster: phantom.jpg
-header: ''
+header: phantom-header.jpg
 description: >-
   Andrew Lloyd Webber's masterwork is a timeless story of seduction and despair.
   Broadway’s longest running musical!
