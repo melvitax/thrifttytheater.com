@@ -1,8 +1,8 @@
 ---
 title: Blue Man Group
 poster: blue-man-group.jpg
-description: >-
-  Join three enigmatic bald and blue men for a multi-sensory experience.
+header: blue-man-group-header.jpg
+description: Join three enigmatic bald and blue men for a multi-sensory experience
 theater: Astor Place Theatre
 original_preview: '1991-11-07'
 original_opening: '1991-11-07'
