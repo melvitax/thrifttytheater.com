@@ -1,7 +1,7 @@
 ---
 title: Slave Play
 poster: slave-play.jpg
-header: ''
+header: slave-play-header.jpg
 description: Jeremy O. Harris’ acclaimed work sheds light on race, gender and equality.
 theater: August Wilson Theatre
 original_preview: 2021-11-23
