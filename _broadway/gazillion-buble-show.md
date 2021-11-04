@@ -1,6 +1,7 @@
 ---
 title: Gazillion Bubble Show
 poster: gazillion-bubble-show.jpg
+header: gazillion-bubble-show-header.jpg
 description: Step into an interactive bubble world and be dazzled by jaw-dropping masterpieces of bubble artistry.
 theater: New World Stages
 tonyaward: false
