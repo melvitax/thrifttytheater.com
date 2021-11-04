@@ -1,7 +1,7 @@
 ---
 title: 'Caroline, or Change'
 poster: caroline-or-change.jpg
-header: caroline-or-change-leaher.jpg
+header: caroline-or-change-header.jpg
 description: >-
   Jeanine Tesori and Tony Kushner's acclaimed musical returns to Broadway
   starring Sharon D. Clarke.
