@@ -1,6 +1,7 @@
 ---
 title: The Play That Goes Wrong
 poster: the-play-that-goes-wrong.jpg
+header: the-play-that-goes-wrong-header.jpg
 description: >-
   A celebration of the best of live theater… and the worst.
 theater: New World Stages
