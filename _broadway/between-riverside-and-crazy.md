@@ -3,7 +3,7 @@
 title: Between Riverside and Crazy
 description: Stephen Adly Guirgis' Pulitzer Prize-winning play makes its Broadway premiere.
 poster: between-riverside-and-crazy.jpg
-theater: Tony Kiser Theatre
+theater: Hayes Theater
 tonyaward: false
 criticspick: false
 tags: 
@@ -22,5 +22,4 @@ tickets:
     type: thirtyUnder
     info: $30 tickets are available to people age 30 and under for all Second Stage
       productions! Simply use promo code 30UNDER30 to access tickets.
-
 ---
