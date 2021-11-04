@@ -1,7 +1,7 @@
 ---
 title: The Lehman Trilogy
 poster: the-lehman-trilogy.jpg
-header: lehman-header.jpg
+header: the-lehman-trilogy-header.jpg
 description: >-
   Stefano Massini's acclaimed epic, weaving through two centuries of Lehman
   lineage, comes to Broadway.
