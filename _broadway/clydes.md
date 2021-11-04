@@ -19,6 +19,10 @@ tags:
 trailer: https://www.youtube.com/watch?v=WK8rUWIUliE
 website: https://2st.com/shows/clydes
 tickets:
+  - highlight: true
+    type: digitalRush
+    title: $35 Rush
+    info: https://www.todaytix.com/nyc/shows/23518-clyde’s-on-broadway
   - highlight: false
     type: student
     title: $25 Student
