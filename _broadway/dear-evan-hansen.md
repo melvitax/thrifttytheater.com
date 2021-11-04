@@ -1,7 +1,7 @@
 ---
 title: Dear Evan Hansen
-poster: evan.jpg
-header: ''
+poster: dear-evan-hansen.jpg
+header: dear-evan-hansen-header.jpg
 description: >-
   Pasek and Paul's new musical follows Evan as he searches for the things in
   life that we all need.
