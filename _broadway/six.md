@@ -1,7 +1,7 @@
 ---
 title: Six
 poster: six.jpg
-header: ''
+header: six-header.jpg
 description: >-
   The Olivier Award-nominated hit musical is now on Broadway! Divorced,
   beheaded, died, divorced, beheaded, survived. From Tudor Queens to Pop
@@ -16,7 +16,6 @@ original_preview: '2020-02-13'
 original_opening: '2020-03-12'
 preview: '2021-09-19'
 opening: '2021-09-19'
-closing: ''
 tonyaward: false
 criticspick: true
 tags: 
@@ -24,7 +23,6 @@ tags:
   - Broadway
 trailer: 'https://www.youtube.com/watch?v=4MLoIMkSGks'
 website: 'https://www.sixthemusical.com/broadway'
-alert: ""
 tickets:
   - highlight: true
     info: 'https://lottery.broadwaydirect.com/show/six-ny/'
