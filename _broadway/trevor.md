@@ -1,6 +1,7 @@
 ---
 title: Trevor
 poster: trevor.jpg
+header: trevor-header.jpg
 description: A new musical based on the award-winning short film of the same name. 
 theater: Stage 42
 original_preview: 2021-10-25
