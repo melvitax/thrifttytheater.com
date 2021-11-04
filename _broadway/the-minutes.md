@@ -8,7 +8,6 @@ original_preview: 2020-02-25
 original_opening: 2020-03-15
 preview: 2022-03-19
 opening: 2022-04-07
-closing: 2020-07-10
 tonyaward: false
 criticspick: false
 tags:
