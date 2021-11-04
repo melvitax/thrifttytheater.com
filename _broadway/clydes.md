@@ -1,12 +1,14 @@
 ---
 title: Clyde's
 poster: clydes.jpg
+header: clydes-header.jpg
 description: A stirring new play from Pulitzer Prize-winner Lynn Nottage.
 theater: The Helen Hayes Theater
 original_preview: 2021-11-03
 original_opening: 2021-11-22
 preview: 2021-11-03
 opening: 2021-11-03
+closing: 2022-01-16
 tonyaward: false
 criticspick: false
 tags: 
@@ -14,6 +16,7 @@ tags:
   - Broadway
   - Comedy
   - Drama
+trailer: https://www.youtube.com/watch?v=WK8rUWIUliE
 website: https://2st.com/shows/clydes
 tickets:
   - highlight: false
