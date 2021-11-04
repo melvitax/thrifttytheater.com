@@ -1,6 +1,7 @@
 ---
 title: A Commercial Jingle for Regina Comet
 poster: regina-comet.jpg
+header: regina-comet-header.jpg
 description: Two nobodies with a dream. One pop star with a phone. This is their calling.
 theater: DR2 Theater
 original_preview: '2021-09-17'
