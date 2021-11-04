@@ -1,7 +1,7 @@
 ---
 title: Between The Lines
 description: A new musical based on the acclaimed novel by Jodi Picoult and Samantha Van Leer.
-poster: between-the-lines.jpg.jpg
+poster: between-the-lines.jpg
 theater: Tony Kiser Theatre
 tonyaward: false
 criticspick: false
