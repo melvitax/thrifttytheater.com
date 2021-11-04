@@ -1,4 +1,3 @@
-
 ---
 title: Between Riverside and Crazy
 description: Stephen Adly Guirgis' Pulitzer Prize-winning play makes its Broadway premiere.
