@@ -1,7 +1,7 @@
 ---
 title: Lackawanna Blues
-poster: lackawanna-blues.jpeg
-alert: ""
+poster: lackawanna-blues.jpg
+header: lackawanna-blues-header.jpg
 description: Ruben Santiago-Hudson stars in and directs the Broadway premiere of
   his solo play.
 theater: Samuel J Friedman Theatre
