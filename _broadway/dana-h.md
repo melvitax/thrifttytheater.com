@@ -1,6 +1,7 @@
 ---
 title: Dana H.
 poster: dana-h.jpg
+header: dana-h-header.jpg
 description: The Broadway premiere of Lucas Hnath's drama, telling the true
   story of his mother, Dana.
 theater: Lyceum Theatre
