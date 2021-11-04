@@ -1,6 +1,7 @@
 ---
 title: Bettlejuice
 poster: beetlejuice.jpg
+header: beetlejuice-header.jpg
 alert: "On Sale Oct 1"
 description: The ghost-with-the-most returns to Broadway!
 theater: Marquis Theatre
@@ -16,4 +17,9 @@ tags:
   - Kid Friendly
 trailer: https://www.youtube.com/watch?v=ZjOX39IxN_c
 website: https://beetlejuicebroadway.com
+tickets:
+  - highlight: false
+    info: https://www.ticketmaster.com/beetlejuice-ny-tickets/artist/2818024
+    title: $69+ Tickets
+    type: regular
 ---
