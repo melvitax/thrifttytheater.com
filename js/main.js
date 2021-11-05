@@ -195,6 +195,9 @@ $( document ).ready(function() {
     if (!$(this).hasClass('hasSchedule')) {
       console.log("MISSING SCHEDULE: "+$('.show-title', $(this)).text())
     }
+    if (!$(this).hasClass('hasHeader')) {
+      console.log("MISSING HEADER: "+$('.show-title', $(this)).text())
+    }
   })
 
 });
