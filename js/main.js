@@ -190,11 +190,14 @@ $( document ).ready(function() {
   }
 
   // Missing schedulle 
-  
   $('.row.nowplaying .card').each(function() {
     if (!$(this).hasClass('hasSchedule')) {
       console.log("MISSING SCHEDULE: "+$('.show-title', $(this)).text())
     }
+  })
+
+  // Missing header 
+  $('.card').each(function() {
     if (!$(this).hasClass('hasHeader')) {
       console.log("MISSING HEADER: "+$('.show-title', $(this)).text())
     }
