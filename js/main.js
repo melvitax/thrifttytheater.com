@@ -190,19 +190,28 @@ $( document ).ready(function() {
   }
 
   // Missing schedulle 
+  var shows_missing_schedulle = []
   $('.row.nowplaying .card').each(function() {
     if (!$(this).hasClass('hasSchedule')) {
-      console.log("MISSING SCHEDULE: "+$('.show-title', $(this)).text())
+      shows_missing_schedulle.push($('.show-title', $(this)).text())
     }
   })
+  if (shows_missing_schedulle.length) {
+    console.log("MISSING SCHEDULE")
+    console.log(shows_missing_schedulle.join("\n")) 
+  }
 
   // Missing header 
+  var shows_missing_header = []
   $('.card').each(function() {
     if (!$(this).hasClass('hasHeader')) {
-      console.log("MISSING HEADER: "+$('.show-title', $(this)).text())
+      shows_missing_header.push($('.show-title', $(this)).text())
     }
   })
-
+  if (shows_missing_header.length) {
+    console.log("MISSING HEADER")
+    console.log(shows_missing_header.join("\n")) 
+  }
 });
 
 // URL Parameters
