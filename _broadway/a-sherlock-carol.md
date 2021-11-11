@@ -1,7 +1,7 @@
 ---
 title: A Sherlock Carol
 poster: a-sherlock-carol.jpg
-alert: ""
+header: a-sherlock-carol-header.jpg
 description: A new holiday play combining the characters of Sir Arthur Conan Doyle and Charles Dickens' classic tales to serve up a new mystery.
 theater: New World Stages
 original_preview: 2021-11-11
