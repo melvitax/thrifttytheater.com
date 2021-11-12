@@ -17,7 +17,7 @@ tags:
 website: https://asherlockcarol.com
 tickets:
   - highlight: false
-    info: 'A limitted number of $30 rush tickets will be available at New World Stages' Box Office on the day of the desired performance. Limit 2 tickets per person, cash or credit. Tickets are subject to availability, seats may be partial view.'
+    info: A limitted number of $30 rush tickets will be available at New World Stages' Box Office on the day of the desired performance. Limit 2 tickets per person, cash or credit. Tickets are subject to availability, seats may be partial view.
     type: rush
     title: $30 Rush
   - highlight: false
