@@ -20,7 +20,7 @@ tickets:
   - highlight: true
     info: https://www.todaytix.com/nyc/shows/23897-morning-sun
     type: digitalRush
-    title: $82 Rush
+    title: $25 Rush
   - highlight: false
     type: studentRush
     info: Student tickets are available at the box office on the day of the show
