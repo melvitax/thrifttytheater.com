@@ -17,6 +17,10 @@ tags:
 trailer: 'https://www.youtube.com/watch?v=knq5psZeIRI'
 website: https://jerseyboysinfo.com/newyork
 tickets:
+  - highlight: true
+    info: https://jerseyboysinfo.com/newyork/lottery/
+    type: digitalLottery
+    title: $$30 Lottery
   - highlight: false
     info: 'A limited number of rush tickets may be available for each performance. These tickets are available for day of purchase at New World Stages (340 W 50th St) when the Box Office opens. Limit of two tickets per customer. Tickets are non-transferable, subject to availability and may be partial view. Cash only.'
     type: rush
