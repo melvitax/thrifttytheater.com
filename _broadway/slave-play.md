@@ -18,6 +18,10 @@ tags:
 trailer: 'https://www.youtube.com/watch?v=DydjhMHg70U'
 website: 'https://slaveplaybroadway.com'
 tickets:
+  - highlight: true
+    info: 'https://www.luckyseat.com/shows/slaveplay-newyork'
+    title: $25 Lottery
+    type: digitallLottery
   - highlight: false
     info: 'https://seatgeek.com/slave-play-tickets'
     title: $39 Tickets
