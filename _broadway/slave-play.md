@@ -21,7 +21,7 @@ tickets:
   - highlight: true
     info: 'https://www.luckyseat.com/shows/slaveplay-newyork'
     title: $25 Lottery
-    type: digitallLottery
+    type: digitalLottery
   - highlight: false
     info: 'https://seatgeek.com/slave-play-tickets'
     title: $39 Tickets
