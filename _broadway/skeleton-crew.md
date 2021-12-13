@@ -1,7 +1,6 @@
 ---
 title: Skeleton Crew
-poster: ''
-header: ''
+poster: 'skeleton-crew.jpg'
 description: Phylicia Rashad returns in the Broadway premiere in Dominique Morisseau's new play.
 theater: Samuel J Friedman Theatre
 original_preview: '2021-12-21'
