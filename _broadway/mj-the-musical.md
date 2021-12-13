@@ -16,6 +16,10 @@ tags:
 trailer: https://www.youtube.com/watch?v=SQnSagWrgpU
 website: https://mjthemusical.com
 tickets:
+  - highlight: true
+    title: $35 Lottery
+    type: digitalLottery
+    info: https://lottery.broadwaydirect.com/show/mj-ny/
   - highlight: false
     title: $59+ Tickets
     type: regular
