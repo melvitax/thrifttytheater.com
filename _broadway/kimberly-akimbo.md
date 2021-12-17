@@ -9,7 +9,7 @@ preview: 2021-11-05
 opening: 2021-11-05
 closing: 2021-12-26
 tonyaward: false
-criticspick: false
+criticspick: true
 tags: 
   - Musical
   - Off Broadway
