@@ -18,7 +18,6 @@ tags:
   - Drama
 trailer: 'https://www.youtube.com/watch?v=Z9Q6PrhCLO8'
 website: 'https://thelehmantrilogy.com'
-alert: ''
 tickets:
   - highlight: true
     info: 'https://lottery.broadwaydirect.com/show/lehman-ny/'
