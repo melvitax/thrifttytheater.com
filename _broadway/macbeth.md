@@ -1,9 +1,8 @@
 ---
 title: Macbeth
 poster: macbeth.jpg
-alert: ""
 description: Daniel Craig and Ruth Negga star in a Broadway revival of Shakespeare's classic.
-theater: Lyceum Theatre
+theater: Longacre Theatre
 original_preview: 2022-03-29
 original_opening: 2022-04-28
 preview: 2022-03-29
