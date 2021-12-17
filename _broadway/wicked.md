@@ -2,7 +2,6 @@
 title: Wicked
 poster: wicked.jpg
 header: wicked-header.jpg
-alert: ""
 description: The untold musical story of The Wizard of Oz’s Wicked Witch of the
   West and Glinda the Good.
 original_preview: 2003-10-08
