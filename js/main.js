@@ -158,13 +158,12 @@ $( document ).ready(function() {
   })
 
   // Show the main div now that eveything has been filtered
-  $('main').delay( 800 ).removeClass('hide')
+  // $('main').delay( 800 ).removeClass('hide')
 
   // Animate on Intersect
   $('body').removeClass('no-observer')
   const observerOptions = {
-    rootMargin: '0px',
-    threshold: 0.2
+    rootMargin: '0px 0px -200px 0px'
   }
   const $obsvItem = $('.animate')
   IntersectionObserver.prototype.POLL_INTERVAL = 400
