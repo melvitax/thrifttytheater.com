@@ -10,7 +10,7 @@ preview: 2021-11-11
 opening: 2021-11-22
 closing: 2022-01-02
 tonyaward: false
-criticspick: false
+criticspick: true
 tags: 
   - Play
   - Off Broadway
