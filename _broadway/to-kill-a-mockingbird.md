@@ -42,7 +42,6 @@ tags:
   - Broadway
   - Drama
   - Award Winning
-alert: null
 description: he world premier of Academy Award winner Aaron Sorkin's new play,
   directed by Tony winner Bartlett Sher.
 website: https://tokillamockingbirdbroadway.com
