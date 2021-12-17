@@ -2,7 +2,6 @@
 title: The Skin of Our Teeth 
 poster: 
 header: 
-alert: 
 description: Thornton Wilder's Pulitzer Prize-winning drama returns to Broadway.
 original_preview: 2022-03-31
 original_opening: 2022-04-25
