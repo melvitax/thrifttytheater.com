@@ -17,8 +17,12 @@ tags:
 website: https://musicmanonbroadway.com
 tickets:
   - highlight: false
+    info: A limited number of rush tickets will be available when the box office opens on the day of the performance at 10 AM Mon-Sat, 12 PM Sundday. Cash or credit card. Limitted to 2 tickets per person. Seat Locations determined at the discretion of the box office. Subject to daily availability.
+    title: $49 Rush
+    type: rush
+  - highlight: false
     info: https://www.telecharge.com/Broadway/The-Music-Man/Ticket
-    title: $99-$279
+    title: $99+ Tickets
     type: regular
 theater: Winter Garden Theatre
 trailer: https://www.youtube.com/watch?v=VH6dX9MGvSk
