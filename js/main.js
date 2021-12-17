@@ -161,7 +161,6 @@ $( document ).ready(function() {
   // $('main').delay( 800 ).removeClass('hide')
 
   // Animate on Intersect
-  $('body').removeClass('no-observer')
   const observerOptions = {
     rootMargin: '0px 0px -200px 0px'
   }
