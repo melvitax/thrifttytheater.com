@@ -157,30 +157,6 @@ $( document ).ready(function() {
     }
   })
 
-  // Show the main div now that eveything has been filtered
-  // $('main').delay( 800 ).removeClass('hide')
-
-  // Animate on Intersect
-  const observerOptions = {
-    rootMargin: '0px 0px -200px 0px'
-  }
-  const $obsvItem = $('.animate')
-  IntersectionObserver.prototype.POLL_INTERVAL = 400
-  const observer = new IntersectionObserver(function (entries) {
-    entries.forEach(function (entry) {
-      if (entry.intersectionRatio > 0) {
-        entry.target.classList.add('is-active')
-        observer.unobserve(entry.target)
-      } else {
-        entry.target.classList.remove('is-active')
-      }
-    })
-    return entries
-  }, observerOptions)
-  $obsvItem.each(function (e) {
-    observer.observe(this)
-  })
-
   // Log to console
   if (shows_ended.length) {
     console.log("SHOWS ENDED")
