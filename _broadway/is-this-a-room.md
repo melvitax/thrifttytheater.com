@@ -2,7 +2,6 @@
 title: Is This A Room
 poster: is-this-a-room.jpg
 header: is-this-a-room-header.jpg
-alert: Limited Run
 description: Tina Satter's thrilling play based on a true story makes its Broadway debut.
 theater: Lyceum Theatre
 original_preview: 2021-09-24

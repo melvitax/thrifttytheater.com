@@ -10,7 +10,6 @@ tags:
   - Musical
   - Broadway
 website: 'https://singstreet.com'
-alert: ""
 tickets:
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/Sing-Street/Ticket'

@@ -19,7 +19,6 @@ tags:
   - Award Winning
 trailer: 'https://www.youtube.com/watch?v=zqXaNYJ3JGg'
 website: 'http://www.thephantomoftheopera.com/new-york'
-alert: 
 tickets:
   - highlight: true
     info: 'http://www.phantombroadwaylottery.com'
