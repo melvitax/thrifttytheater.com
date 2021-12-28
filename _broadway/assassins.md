@@ -1,6 +1,7 @@
 ---
 title: Assassins
 poster: assassins.jpg
+header: assassins-header.jpg
 description: Classic Stage Company presents the revival of Stephen Sondheim and John Weidman's musical drama
 theater: Lynn F. Angelson Theater
 original_preview: 2021-11-11
