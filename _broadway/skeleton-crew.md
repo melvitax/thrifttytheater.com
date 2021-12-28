@@ -15,5 +15,13 @@ tags:
   - Drama
 trailer: 
 website: 'https://www.manhattantheatreclub.com/shows/2021-22-season/skeleton-crew/'
-
+tickets:
+  - highlight: true
+    type: digitalRush
+    title: $30 Rush
+    info: https://www.todaytix.com/nyc/shows/24217
+  - highlight: false
+    type: regular
+    title: $59+ Tickets
+    info: https://www.telecharge.com/Broadway/Skeleton-Crew/
 ---
