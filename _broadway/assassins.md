@@ -21,6 +21,6 @@ tickets:
     type: digitalLottery
   - highlight: false
     info: https://ci.ovationtix.com/166/production/1023004
-    title: Tickets
+    title: $125 Tickets
     type: regular
 ---
