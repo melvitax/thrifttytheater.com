@@ -9,6 +9,7 @@ original_preview: 2021-10-01
 original_opening: 2021-10-13
 preview: 2021-10-01
 opening: 2021-10-13
+closing: 2021-12-22
 tonyaward: false
 criticspick: false
 trailer: https://www.youtube.com/watch?v=EsBF5kppsgs
