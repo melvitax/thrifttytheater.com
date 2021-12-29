@@ -70,6 +70,7 @@ collections:
               - { label: "Thirty", value: "thirty" }
               - { label: "Thirty Under 35", value: "thirtyUnder35" }
               - { label: "Thirty Under", value: "thirtyUnder" }
+              - { label: "Free", value: "free" }
           - {label: "URL or Info", name: "info", widget: "string"}
           - {label: "Highlight", name: "highlight", widget: "boolean", default: false}
   - label: Broadway Theaters
