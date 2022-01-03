@@ -11,5 +11,4 @@ tags:
   - Broadway
 website: 'https://singstreet.com'
 tickets:
-
 ---
