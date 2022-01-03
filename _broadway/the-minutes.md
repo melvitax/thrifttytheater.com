@@ -4,8 +4,8 @@ poster: the-minutes.jpg
 header: the-minutes-header.jpg
 description: Tracy Letts’ powerful and resonant portrayal of democracy in action.
 theater: Studio 54
-original_preview: 2020-02-25
-original_opening: 2020-03-15
+original_preview: 2022-03-19
+original_opening: 2022-04-07
 preview: 2022-03-19
 opening: 2022-04-07
 tonyaward: false
