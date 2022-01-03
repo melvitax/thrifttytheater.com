@@ -8,12 +8,12 @@ original_opening: '2022-01-19'
 preview: '2021-12-27'
 opening: '2022-01-19'
 tonyaward: false
-criticspick: false
+criticspick: true
 tags: 
   - Play
   - Broadway
   - Drama
-trailer: 
+trailer: https://www.youtube.com/watch?v=EvSH5pBTCFU
 website: 'https://www.manhattantheatreclub.com/shows/2021-22-season/skeleton-crew/'
 tickets:
   - highlight: true
