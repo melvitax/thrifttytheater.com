@@ -11,8 +11,5 @@ tags:
   - Broadway
 website: 'https://singstreet.com'
 tickets:
-  - highlight: false
-    info: 'https://www.telecharge.com/Broadway/Sing-Street/Ticket'
-    title: $49-199
-    type: regular
+
 ---
