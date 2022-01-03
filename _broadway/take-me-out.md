@@ -4,9 +4,9 @@ poster: take-me-out.jpg
 header: take-me-out-header.jpg
 description: Richard Greenberg's groundbreaking play returns to Broadway.
 theater: The Helen Hayes Theater
-original_preview: 2022-03-19
+original_preview: 2022-03-10
 original_opening: 2022-04-04
-preview: 2022-03-19
+preview: 2022-03-10
 opening: 2022-04-04
 tonyaward: false
 criticspick: false
