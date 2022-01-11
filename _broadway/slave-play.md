@@ -5,9 +5,9 @@ header: slave-play-header.jpg
 description: Jeremy O. Harris’ acclaimed work sheds light on race, gender and equality.
 theater: August Wilson Theatre
 original_preview: 2021-11-23
-original_opening: 2022-12-02
+original_opening: 2021-12-02
 preview: 2021-11-23
-opening: 2022-12-02
+opening: 2021-12-02
 closing: 2002-01-23
 tonyaward: false
 criticspick: true
