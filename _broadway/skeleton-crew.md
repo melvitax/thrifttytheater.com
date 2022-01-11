@@ -5,8 +5,8 @@ description: Phylicia Rashad returns in the Broadway premiere in Dominique Moris
 theater: Samuel J Friedman Theatre
 original_preview: '2021-12-27'
 original_opening: '2022-01-19'
-preview: '2021-12-27'
-opening: '2022-01-19'
+preview: '2021-01-11'
+opening: '2022-01-26'
 tonyaward: false
 criticspick: true
 tags: 
