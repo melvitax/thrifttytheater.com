@@ -56,7 +56,9 @@ $( document ).ready(function() {
         // Show ended
         if (today.isAfter(closingDate, 'date')) {
           shows_ended.push($('.show-title', $(this)).text())
-          shows_ended.push('closingDate: '+closingDate+' closingTag: '+closingTag+' today: '+today)
+          shows_ended.push('closingDate: '+closingDate+' closingTag: '+closingTag+' today: '+today+'todayTag: '+today.format('YYYY-MM-DD'))
+          1011762000000
+          1642014861223
           $(this).parent().remove();
         } else {
           // Show is ending soon
