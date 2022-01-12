@@ -37,14 +37,14 @@ $( document ).ready(function() {
     var previewDate = moment($(this).data('preview'), "YYYY-MM-DD")
     var openingDate = moment($(this).data('opening'), "YYYY-MM-DD")
     // In Previews
-    if (today.isSameOrAfter(previewDate, 'date') && today.isSameOrBefore(openingDate, 'date')) {
+    if (today.isSameOrAfter(previewDate, 'date') && today.isSameOrBefore(openingDate, 'day')) {
       var twoWeeksAfterPreviews = moment($(this).data('preview'), "YYYY-MM-DD").add(14, 'days')
       if (today.isSame(previewDate, 'date')) {
         $('.list-group-date-callout', $(this)).html("<small>Begins Today</small>")
       } else {
         $('.list-group-date-callout', $(this)).html("<small>In Previews Now</small>")
       }
-      if (today.isBefore(twoWeeksAfterPreviews, 'date')) {
+      if (today.isBefore(twoWeeksAfterPreviews, 'day')) {
         $('.list-group-date-callout', $(this)).addClass('comingsoon') // adds green bg
       }
     } else {
@@ -56,15 +56,13 @@ $( document ).ready(function() {
         // Show ended
         if (today.isAfter(closingDate, 'day')) {
           shows_ended.push($('.show-title', $(this)).text())
-          shows_ended.push('closingDate: '+closingDate+' closingTag: '+closingTag+' today: '+today+'todayTag: '+today.format('YYYY-MM-DD'))
-          1011762000000
-          1642014861223
+          shows_ended.push('closingDate: '+closingDate+' closingTag: '+closingTag+' today: '+today+' todayTag: '+today.format('YYYY-MM-DD'))
           $(this).parent().remove();
         } else {
           // Show is ending soon
-          if (today.isAfter(twoWeeksBeforeClosing, 'date')) {
+          if (today.isAfter(twoWeeksBeforeClosing, 'day')) {
             var aWeekBeforeClosing = moment(closingTag, "YYYY-MM-DD").subtract(7, 'days')
-            var closingThisWeek = (today.isAfter(aWeekBeforeClosing, 'date'))
+            var closingThisWeek = (today.isAfter(aWeekBeforeClosing, 'day'))
             var closingDateString = closingThisWeek ? closingDate.calendar() : closingDate.format('MMM Do')
             $('.list-group-date-callout', $(this)).html('<small>Ends '+closingDateString+'</small>')
             $('.list-group-date-callout', $(this)).addClass('ending')
