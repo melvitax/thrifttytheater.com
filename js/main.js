@@ -54,7 +54,7 @@ $( document ).ready(function() {
         var closingDate = moment(closingTag, "YYYY-MM-DD")
         var twoWeeksBeforeClosing = moment(closingTag, "YYYY-MM-DD").subtract(14, 'days')
         // Show ended
-        if (today.isAfter(closingDate, 'date')) {
+        if (today.isAfter(closingDate, 'day')) {
           shows_ended.push($('.show-title', $(this)).text())
           shows_ended.push('closingDate: '+closingDate+' closingTag: '+closingTag+' today: '+today+'todayTag: '+today.format('YYYY-MM-DD'))
           1011762000000
