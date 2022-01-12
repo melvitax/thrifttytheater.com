@@ -11,7 +11,7 @@ closing: 2022-02-18
 tonyaward: false
 criticspick: false
 tags: 
-  - Play
+  - Special
   - Off Broadway
 theater: The Flea Theater
 website: https://oddmanoutnyc.com
