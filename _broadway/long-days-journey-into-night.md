@@ -1,6 +1,7 @@
 ---
 title: Long Day’s Journey into Night
 poster: long-days-journey-into-night.jpg
+header: long-days-journey-into-night-header.jpg
 description: >-
 An American masterpiece reimagined for our time. O’Neill’s Long Day’s Journey Into Night receives a vibrant and timely update in this interpretation by prolific, Tony Award®-nominated director Robert O’Hara (Slave Play).
 theater: Minetta Lane Theatre
