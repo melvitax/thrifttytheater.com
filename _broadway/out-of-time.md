@@ -3,11 +3,11 @@ title: Out of Time
 poster: out-of-time.jpg
 header: out-of-time-header.jpg
 description:  Obie Award-winning director Les Waters brings a collection of brand-new monologues by five award-winning Asian American playwrights, performed by an ensemble of actors all over the age of 60.
-original_preview: 2020-02-15
-original_opening: 2020-02-15
-preview: 2022-02-15
-opening: 2022-02-15
-closing: 2022-13-13
+original_preview: '2020-02-15'
+original_opening: '2020-02-15'
+preview: '2022-02-15'
+opening: '2022-02-15'
+closing: '2022-13-13'
 tonyaward: false
 criticspick: false
 tags: 
