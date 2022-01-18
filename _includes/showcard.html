@@ -34,7 +34,7 @@
 			{% endif %}
 			{% for ticket in include.show.tickets %}
 				{% if ticket.type == "broadway_access" %}
-					<a class="list-group-item list-group-item-action pe-5" data-bs-toggle="collapse" href="#show_{{showID}}_TicketAccess" role="button" aria-expanded="false" aria-controls="show_{{showID}}_TicketAcces">{{ticket.title}}</a>
+					<a class="list-group-item list-group-item-action pe-5" style="background-image: url(/images/icon-{{ticket.type}}.svg)" data-bs-toggle="collapse" href="#show_{{showID}}_TicketAccess" role="button" aria-expanded="false" aria-controls="show_{{showID}}_TicketAcces">{{ticket.title}}</a>
 					<div class="collapse multi-collapse" id="show_{{showID}}_TicketAccess">
 						{% for hash in access_folder %}
 							{% assign subTicket =  hash[1] %}
@@ -46,7 +46,7 @@
 						{% endfor %}
 					</div>
 				{% elsif ticket.type == "public" %}
-					<a class="list-group-item list-group-item-action pe-5" data-bs-toggle="collapse" href="#show_{{showID}}_TicketPublic" role="button" aria-expanded="false" aria-controls="show_{{showID}}_TicketPublic">{{ticket.title}}</a>
+					<a class="list-group-item list-group-item-action pe-5" style="background-image: url(/images/icon-{{ticket.type}}.svg)" data-bs-toggle="collapse" href="#show_{{showID}}_TicketPublic" role="button" aria-expanded="false" aria-controls="show_{{showID}}_TicketPublic">{{ticket.title}}</a>
 					<div class="collapse multi-collapse" id="show_{{showID}}_TicketPublic">
 						{% for hash in public_folder %}
 							{% assign subTicket =  hash[1] %}
