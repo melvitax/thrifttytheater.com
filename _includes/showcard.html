@@ -37,11 +37,11 @@
 					<a class="list-group-item list-group-item-action pe-5" data-bs-toggle="collapse" href="#show_{{showID}}_TicketAccess" role="button" aria-expanded="false" aria-controls="show_{{showID}}_TicketAcces">{{ticket.title}}</a>
 					<div class="collapse multi-collapse" id="show_{{showID}}_TicketAccess">
 						{% for hash in access_folder %}
-							{% assign ticket =  hash[1] %}
+							{% assign subTicket =  hash[1] %}
 							{% if ticket.info contains "http" %}
-								<a class="list-group-item list-group-item-action pe-5" href="{{ticket.info}}" target="_blank">{% include icons/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
+								<a class="list-group-item list-group-item-action pe-5" href="{{subTicket.info}}" target="_blank">{% include icons/icon-{{subTicket.type}}.svg %} {{subTicket.title}}</a>
 							{% else %}
-								<a tabindex="0" class="btn list-group-item list-group-item-action pe-5" role="button" data-bs-toggle="popover" title="{{ticket.title}}" data-bs-content="{{ticket.info}}">{% include icons/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
+								<a tabindex="0" class="btn list-group-item list-group-item-action pe-5" role="button" data-bs-toggle="popover" title="{{subTicket.title}}" data-bs-content="{{subTicket.info}}">{% include icons/icon-{{subTicket.type}}.svg %} {{subTicket.title}}</a>
 							{% endif %}
 						{% endfor %}
 					</div>
@@ -49,11 +49,11 @@
 					<a class="list-group-item list-group-item-action pe-5" data-bs-toggle="collapse" href="#show_{{showID}}_TicketPublic" role="button" aria-expanded="false" aria-controls="show_{{showID}}_TicketPublic">{{ticket.title}}</a>
 					<div class="collapse multi-collapse" id="show_{{showID}}_TicketPublic">
 						{% for hash in public_folder %}
-							{% assign ticket =  hash[1] %}
-							{% if ticket.info contains "http" %}
-								<a class="list-group-item list-group-item-action pe-5" href="{{ticket.info}}" target="_blank">{% include icons/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
+							{% assign subTicket =  hash[1] %}
+							{% if subTicket.info contains "http" %}
+								<a class="list-group-item list-group-item-action pe-5" href="{{subTicket.info}}" target="_blank">{% include icons/icon-{{subTicket.type}}.svg %} {{subTicket.title}}</a>
 							{% else %}
-								<a tabindex="0" class="btn list-group-item list-group-item-action pe-5" role="button" data-bs-toggle="popover" title="{{ticket.title}}" data-bs-content="{{ticket.info}}">{% include icons/icon-{{ticket.type}}.svg %} {{ticket.title}}</a>
+								<a tabindex="0" class="btn list-group-item list-group-item-action pe-5" role="button" data-bs-toggle="popover" title="{{subTicket.title}}" data-bs-content="{{subTicket.info}}">{% include icons/icon-{{subTicket.type}}.svg %} {{subTicket.title}}</a>
 							{% endif %}
 						{% endfor %}
 					</div>
