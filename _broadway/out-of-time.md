@@ -7,7 +7,7 @@ original_preview: '2020-02-15'
 original_opening: '2020-02-15'
 preview: '2022-02-15'
 opening: '2022-02-15'
-closing: '2022-13-13'
+closing: '2022-03-13'
 tonyaward: false
 criticspick: false
 tags: 
