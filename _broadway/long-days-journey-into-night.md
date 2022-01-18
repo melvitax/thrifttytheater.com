@@ -1,5 +1,5 @@
 ---
-title: Long Day’s Journey into Night
+title: 'Long Day’s Journey into Night'
 poster: long-days-journey-into-night.jpg
 header: long-days-journey-into-night-header.jpg
 description: >-
