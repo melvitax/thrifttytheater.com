@@ -36,24 +36,24 @@
 				{% if ticket.type == "broadway_access" %}
 					<a class="list-group-item list-group-item-action pe-5" style="background-image: url(/images/icon-{{ticket.type}}.svg)" data-bs-toggle="collapse" href="#show_{{showID}}_TicketAccess" role="button" aria-expanded="false" aria-controls="show_{{showID}}_TicketAcces">{{ticket.title}}</a>
 					<div class="collapse multi-collapse" id="show_{{showID}}_TicketAccess">
-						{% for access_hash in access_folder %}
-							{% assign accessItem =  access_hash[1] %}
-							{% if accessItem.info contains "http" %}
-								<a class="list-group-item list-group-item-action pe-5" href="{{accessItem.info}}" target="_blank">{% include icons/icon-{{accessItem.type}}.svg %} {{accessItem.title}}</a>
+						{% for hash in access_folder %}
+							{% assign item =  hash[1] %}
+							{% if item.info contains "http" %}
+								<a class="list-group-item list-group-item-action pe-5" href="{{item.info}}" target="_blank">{% include icons/icon-{{item.type}}.svg %} {{item.title}}</a>
 							{% else %}
-								<a tabindex="0" class="btn list-group-item list-group-item-action pe-5" role="button" data-bs-toggle="popover" title="{{accessItem.title}}" data-bs-content="{{accessItem.info}}">{% include icons/icon-{{accessItem.type}}.svg %} {{accessItem.title}}</a>
+								<a tabindex="0" class="btn list-group-item list-group-item-action pe-5" role="button" data-bs-toggle="popover" title="{{item.title}}" data-bs-content="{{item.info}}">{% include icons/icon-{{item.type}}.svg %} {{item.title}}</a>
 							{% endif %}
 						{% endfor %}
 					</div>
 				{% elsif ticket.type == "public" %}
-					<a class="list-group-item list-group-item-action pe-5" style="background-image: url(/images/icon-{{ticket.type}}.svg)" data-bs-toggle="collapse" href="#show_{{showID}}_TicketAccess" role="button" aria-expanded="false" aria-controls="show_{{showID}}_TicketPublic">{{ticket.title}}</a>
+					<a class="list-group-item list-group-item-action pe-5" style="background-image: url(/images/icon-{{ticket.type}}.svg)" data-bs-toggle="collapse" href="#show_{{showID}}_TicketPublic" role="button" aria-expanded="false" aria-controls="show_{{showID}}_TicketPublic">{{ticket.title}}</a>
 					<div class="collapse multi-collapse" id="show_{{showID}}_TicketPublic">
-						{% for public_hash in public_folder %}
-							{% assign publicItem =  public_hash[1] %}
-							{% if publicItem.info contains "http" %}
-								<a class="list-group-item list-group-item-action pe-5" href="{{publicItem.info}}" target="_blank">{% include icons/icon-{{publicItem.type}}.svg %} {{publicItem.title}}</a>
+						{% for hash in public_folder %}
+							{% assign item =  hash[1] %}
+							{% if item.info contains "http" %}
+								<a class="list-group-item list-group-item-action pe-5" href="{{item.info}}" target="_blank">{% include icons/icon-{{item.type}}.svg %} {{item.title}}</a>
 							{% else %}
-								<a tabindex="0" class="btn list-group-item list-group-item-action pe-5" role="button" data-bs-toggle="popover" title="{{publicItem.title}}" data-bs-content="{{publicItem.info}}">{% include icons/icon-{{publicItem.type}}.svg %} {{publicItem.title}}</a>
+								<a tabindex="0" class="btn list-group-item list-group-item-action pe-5" role="button" data-bs-toggle="popover" title="{{item.title}}" data-bs-content="{{item.info}}">{% include icons/icon-{{item.type}}.svg %} {{item.title}}</a>
 							{% endif %}
 						{% endfor %}
 					</div>
