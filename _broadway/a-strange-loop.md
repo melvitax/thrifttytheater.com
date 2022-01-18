@@ -1,7 +1,7 @@
 ---
 title: A Strange Loop
-header: a-strange-loop.jpg
-poster: a-strange-loop-header.jpg
+poster: a-strange-loop.jpg
+header: a-strange-loop-header.jpg
 description: Michael R. Jackson's Pulitzer Prize-winning play arrives on Broadway.
 tonyaward: false
 criticspick: true
