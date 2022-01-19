@@ -23,7 +23,7 @@ tickets:
     title: $30 Lottery
     type: digitalLottery
   - highlight: false
-    info: https://stubhub.prf.hn/l/7Y9ledR
+    info: https://stubhub.prf.hn/l/7onxN5W
     title: 2nd Market
     type: stubhub
   - highlight: false
