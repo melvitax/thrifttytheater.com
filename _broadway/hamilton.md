@@ -21,7 +21,7 @@ tickets:
     type: digitalLottery
   - highlight: false
     info: https://stubhub.prf.hn/l/7x014bk
-    title: 2nd Market
+    title: 2ndry Market
     type: stubhub
   - highlight: false
     info: http://www.ticketmaster.com/artist/2095830
