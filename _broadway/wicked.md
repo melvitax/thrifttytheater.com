@@ -37,7 +37,7 @@ tickets:
     type: military
   - highlight: false
     info: https://stubhub.prf.hn/l/70gxOxW
-    title: 2nd Market
+    title: 2ndry Market
     type: stubhub
   - highlight: false
     info: http://www.ticketmaster.com/artist/965961
