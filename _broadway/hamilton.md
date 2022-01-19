@@ -20,6 +20,10 @@ tickets:
     title: $10 Lottery
     type: digitalLottery
   - highlight: false
+    info: https://stubhub.prf.hn/l/7x014bk
+    title: 2nd Market
+    type: stubhub
+  - highlight: false
     info: http://www.ticketmaster.com/artist/2095830
     title: $57+ Tickets
     type: regular
