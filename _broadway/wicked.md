@@ -36,7 +36,7 @@ tickets:
     title: $79 Military
     type: military
   - highlight: false
-    info: https://stubhub.prf.hn/l/6Wx81kw
+    info: https://stubhub.prf.hn/l/70gxOxW
     title: 2nd Market
     type: stubhub
   - highlight: false
