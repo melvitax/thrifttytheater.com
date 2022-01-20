@@ -17,6 +17,10 @@ tags:
   - Off Broadway
 website: https://longdaysoffbroadway.com
 tickets:
+  - highlight: true
+    info: https://www.todaytix.com/nyc/shows/24134-long-day’s-journey-into-night
+    type: digitalRush
+    title: $25 Rush
   - highlight: false
     info: https://www.todaytix.com/nyc/shows/24134-long-day’s-journey-into-night
     type: regular
