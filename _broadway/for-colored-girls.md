@@ -3,10 +3,10 @@ title: for colored girls who have considered suicide/when the rainbow is enuf
 poster: for-colored-girls.jpg
 description: Camille A. Brown directs and choreographs the Broadway revival of Ntozake Shange's choreopoem.
 theater: Booth Theatre
-original_preview: 2022-03-04
-original_opening: 2022-11-24
-preview: 2022-03-04
-opening: 2022-11-24
+original_preview: 2022-04-01
+original_opening: 2022-04-20
+preview: 2022-04-01
+opening: 2022-04-20
 tonyaward: false
 criticspick: false
 tags: 
