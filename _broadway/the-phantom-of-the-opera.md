@@ -33,6 +33,10 @@ tickets:
     title: $27 Standing
     type: standing
   - highlight: false
+    info: https://stubhub.prf.hn/l/KM9vnxp
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: >-
       https://www.telecharge.com/Broadway/The-Phantom-of-the-Opera/Schedules-Prices
     title: $29-$179 
