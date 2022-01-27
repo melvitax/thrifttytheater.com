@@ -19,6 +19,10 @@ trailer: 'https://www.youtube.com/watch?v=0rsbTyjgxlY'
 website: 'https://stomponline.com/'
 tickets:
   - highlight: false
+    info: https://stubhub.prf.hn/l/6n5A83X
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: https://www.ticketmaster.com/artist/844123?brand=STOMP
     title: $48+ Tickets
     type: regular
