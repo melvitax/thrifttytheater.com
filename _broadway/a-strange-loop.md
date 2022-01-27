@@ -16,6 +16,10 @@ tags:
 website: https://strangeloopmusical.com
 tickets: 
   - highlight: false
+    info: https://stubhub.prf.hn/l/6PpqnMP
+    type: stubhub
+    title: 2ndry Market
+  - highlight: false
     info: https://www.telecharge.com/Broadway/A-Strange-Loop/Ticket
     type: regular
     title: $49+ Tickets
