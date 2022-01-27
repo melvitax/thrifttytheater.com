@@ -21,6 +21,10 @@ tickets:
     title: $49 Rush
     type: rush
   - highlight: false
+    info: https://stubhub.prf.hn/l/7g8yLVy
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: https://www.telecharge.com/Broadway/The-Music-Man/Ticket
     title: $99+ Tickets
     type: regular
