@@ -16,7 +16,11 @@ tags:
   - Comedy
 trailer: https://www.youtube.com/watch?v=Gx49liIr4Yo
 website: https://funnygirlonbroadway.com
-tickets: 
+tickets:
+  - highlight: false
+    info: https://stubhub.prf.hn/l/KjAR4kB
+    title: 2ndry Market
+    type: stubhub
   - highlight: false
     info: https://seatgeek.com/funny-girl-tickets
     type: regular
