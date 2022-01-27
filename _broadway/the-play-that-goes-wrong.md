@@ -25,6 +25,10 @@ tickets:
     title: $30 Rush
     type: rush
   - highlight: false
+    info: https://stubhub.prf.hn/l/6Wx8nPo
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: https://www.telecharge.com/Off-Broadway/The-Play-That-Goes-Wrong
     title: $79+ Tickets
     type: regular
