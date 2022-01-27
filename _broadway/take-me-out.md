@@ -23,6 +23,10 @@ tickets:
     title: $25 Student
     type: studentRush
   - highlight: false
+    info: https://stubhub.prf.hn/l/KV59g0M
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: 'https://2st.com/buy-tickets/rush-30-under-30'
     title: $30 Under 30
     type: thirtyUnder
