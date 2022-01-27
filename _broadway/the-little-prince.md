@@ -15,6 +15,10 @@ trailer: 'https://www.youtube.com/watch?v=B93ALg-QKNk'
 website: 'https://thelittleprincebroadway.com'
 tickets:
   - highlight: false
+    info: https://stubhub.prf.hn/l/7QGQnEz
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: 'https://www.telecharge.com/Broadway/The-Little-Prince/Overview'
     title: $59+ Tickets
     type: regular
