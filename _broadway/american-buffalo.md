@@ -17,6 +17,10 @@ tags:
 website: https://americanbuffalonyc.com
 tickets: 
   - highlight: false
+    info: https://stubhub.prf.hn/l/6k0Da4N
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: https://www.telecharge.com/Broadway/American-Buffalo
     type: regular
     title: $89+ Tickets
