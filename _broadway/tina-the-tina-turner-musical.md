@@ -22,6 +22,10 @@ tickets:
     title: $45 Lottery
     type: digitalLottery
   - highlight: false
+    info: https://stubhub.prf.hn/l/7O8XnlA
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: https://www.ticketmaster.com/tina-the-tina-turner-musical-ny-tickets/artist/2612545
     title: $79-$159
     type: regular
