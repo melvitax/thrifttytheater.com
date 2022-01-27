@@ -34,6 +34,10 @@ tickets:
       purchase.
     title: $32 Standing
   - highlight: false
+    info: https://stubhub.prf.hn/l/7O8Xngy
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     title: $59+ Tickets
     type: regular
     info: https://www.telecharge.com/Broadway/Company/Ticket
