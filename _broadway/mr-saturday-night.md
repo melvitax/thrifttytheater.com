@@ -1,5 +1,5 @@
 ---
-title: Mr. Saturday Night Tickets
+title: Mr. Saturday Night
 poster: mr-saturday-night.jpg
 header: mr-saturday-night-header.jpg
 description: Billy Crystal returns to Broadway in a new musical based on the film of the same name.
@@ -16,7 +16,11 @@ theater: Nederlander Theatre
 website: https://mrsaturdaynightonbroadway.com
 tickets:
   - highlight: false
+    info: https://stubhub.prf.hn/l/rGDLaop
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: https://www.ticketmaster.com/mr-saturday-night-ny-tickets/artist/2830153
-    title: $199-+ Tickets
+    title: $199+ Tickets
     type: regular
 ---
