@@ -21,10 +21,6 @@ tickets:
     title: $34 Lottery
     type: digitalLottery
   - highlight: false
-    info: https://www.ticketmaster.com/moulin-rouge-the-musical-ny-tickets/artist/2571914
-    title: $99-+ Tickets
-    type: regular
-  - highlight: false
     info: "A limited number of standing room tickets may be available for each
       Broadway performance. Where: Al Hirschfeld Theatre Box Office. Time:
       10:30am for matinees, 2:30pm for evening shows. Payment Method: Cash or
@@ -33,6 +29,14 @@ tickets:
       amount of standing room tickets may vary from performance to performance."
     title: $50 Standing
     type: standing
+  - highlight: false
+    info: https://stubhub.prf.hn/l/rpo5Gv5
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
+    info: https://www.ticketmaster.com/moulin-rouge-the-musical-ny-tickets/artist/2571914
+    title: $99-+ Tickets
+    type: regular
 theater: Al Hirschfeld Theatre
 trailer: https://www.youtube.com/watch?v=NN0jO6MxFyM
 ---
