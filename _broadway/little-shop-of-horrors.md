@@ -22,6 +22,10 @@ tickets:
     type: digitalLottery
     title: $33 Lottery
   - highlight: false
+    info: https://stubhub.prf.hn/l/ryPNLyx
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: https://www.telecharge.com/Off-Broadway/Little-Shop-Of-Horrors
     type: regular
     title: $69+ Tickets
