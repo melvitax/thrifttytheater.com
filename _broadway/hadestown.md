@@ -40,6 +40,10 @@ tickets:
     title: $39 Standing
     type: standing
   - highlight: false
+    info: https://stubhub.prf.hn/l/7ED5zO2
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: 'https://www.ticketmaster.com/hadestown-ny-tickets/artist/2580967'
     title: $99+ Tickets
     type: regular
