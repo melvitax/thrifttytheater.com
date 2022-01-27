@@ -30,4 +30,8 @@ tickets:
       I.D.
     title: $29 Student
     type: studentRush
+  - highlight: false
+    info: https://stubhub.prf.hn/l/7oxdpJL
+    title: 2ndry Market
+    type: stubhub
 ---
