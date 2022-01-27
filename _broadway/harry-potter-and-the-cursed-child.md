@@ -20,6 +20,10 @@ tickets:
     title: $40 Lottery
     type: digitalLottery
   - highlight: false
+    info: https://stubhub.prf.hn/l/78De8gA
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: https://www.harrypottertheplay.com/us/ticket-info/
     title: $95+ Tickets
     type: regular
