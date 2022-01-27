@@ -21,6 +21,10 @@ tickets:
     type: public
     info: Public Theater Discounts
   - highlight: false
+    info: https://stubhub.prf.hn/l/70gxlJG
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: https://publictheater.org/productions/season/2122/out-of-time/
     title: $60+ Tickets
     type: regular
