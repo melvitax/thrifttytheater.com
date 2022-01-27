@@ -26,6 +26,10 @@ tickets:
     type: rush
     title: $30 Rush
   - highlight: false
+    info: https://stubhub.prf.hn/l/6ldE9ke
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: https://www.telecharge.com/off-broadway/Jersey-Boys
     type: regular
     title: $59+ Tickets
