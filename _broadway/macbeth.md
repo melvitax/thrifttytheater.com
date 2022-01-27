@@ -17,6 +17,10 @@ tags:
 website: https://macbethbroadway.com/
 tickets:
   - highlight: false
+    info: https://stubhub.prf.hn/l/7O8XnNN
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: https://www.telecharge.com/Broadway/Macbeth
     type: regular
     title: $35+ Tickets
