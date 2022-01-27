@@ -35,6 +35,10 @@ tickets:
     title: $27 Standing
     type: standing
   - highlight: false
+    info: https://stubhub.prf.hn/l/KM9vngz
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: 'https://www.telecharge.com/Broadway/Chicago/Schedules-Prices'
     title: $49+ Tickets
     type: regular
