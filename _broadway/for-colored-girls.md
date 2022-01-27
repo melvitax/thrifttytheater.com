@@ -16,6 +16,10 @@ tags:
 website: https://forcoloredgirlsbway.com/
 tickets:
   - highlight: false
+    info: https://stubhub.prf.hn/l/7Yl0qG9
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: https://www.telecharge.com/Broadway/for-colored-girls-who-have-considered-suicide-when-the-rainbow-is-enuf
     type: regular
     title: $69+ Tickets
