@@ -21,6 +21,10 @@ tickets:
     type: digitalLottery
     info: https://lottery.broadwaydirect.com/show/mj-ny/
   - highlight: false
+    info: https://stubhub.prf.hn/l/78De8Gp
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     title: $59+ Tickets
     type: regular
     info: https://www.ticketmaster.com/mj-ny-tickets/artist/2714992
