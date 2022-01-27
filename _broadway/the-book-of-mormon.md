@@ -27,6 +27,10 @@ tickets:
     title: $27 Standing
     type: standing
   - highlight: false
+    info: https://stubhub.prf.hn/l/rvakxER
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: http://www.ticketmaster.com/artist/1714389
     title: $69-$477
     type: regular
