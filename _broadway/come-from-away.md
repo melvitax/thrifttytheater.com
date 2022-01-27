@@ -38,6 +38,10 @@ tickets:
     title: $32 Standing
     type: standing
   - highlight: false
+    info: https://stubhub.prf.hn/l/62gZjq9
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: 'https://www.telecharge.com/Broadway/Come-From-Away/Schedules-Prices'
     title: $47+ Tickets
     type: regular
