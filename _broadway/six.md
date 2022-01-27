@@ -36,6 +36,10 @@ tickets:
     title: $40 Rush
     type: rush
   - highlight: false
+    info: https://stubhub.prf.hn/l/6Ppqn9B
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: 'https://www.ticketmaster.com/six-new-york-ny-tickets/artist/2677195'
     title: $49-$149
     type: regular
