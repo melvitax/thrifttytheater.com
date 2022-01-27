@@ -18,6 +18,10 @@ trailer: https://www.youtube.com/watch?v=ZjOX39IxN_c
 website: https://beetlejuicebroadway.com
 tickets:
   - highlight: false
+    info: https://stubhub.prf.hn/l/KNENnMN
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: https://www.ticketmaster.com/beetlejuice-ny-tickets/artist/2818024
     title: $69+ Tickets
     type: regular
