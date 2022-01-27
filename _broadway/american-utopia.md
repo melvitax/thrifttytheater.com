@@ -21,6 +21,10 @@ tickets:
     type: digitalLottery
     info: https://www.luckyseat.com/dash/shows/davidbyrnesamericanutopia-newyork
   - highlight: false
+    info: https://stubhub.prf.hn/l/7JD1QRM
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: http://www.thehudsonbroadway.com/whatson/david-byrnes-american-utopia/
     title: $59+ Tickets
     type: regular
