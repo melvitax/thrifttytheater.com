@@ -23,6 +23,10 @@ tickets:
     type: digitalLottery
     info: 'https://www.todaytix.com/x/nyc/shows/19876-plaza-suite-on-broadway'
   - highlight: false
+    info: https://stubhub.prf.hn/l/6bkJmbO
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: 'http://www.thehudsonbroadway.com/whatson/plaza-suite/'
     title: $59-$339
     type: regular
