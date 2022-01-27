@@ -22,6 +22,10 @@ tickets:
     type: digitalRush
     title: $25 Rush
   - highlight: false
+    info: https://stubhub.prf.hn/l/KM9vnj8
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: https://www.todaytix.com/nyc/shows/24134-long-day’s-journey-into-night
     type: regular
     title: $59+ Tickets
