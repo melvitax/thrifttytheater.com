@@ -18,6 +18,10 @@ trailer: https://www.youtube.com/watch?v=SqyFuTfFq-I
 website: https://paradisesquaremusical.com
 tickets:
   - highlight: false
+    info: https://stubhub.prf.hn/l/7oxdpqL
+    title: 2ndry Market
+    type: stubhub
+  - highlight: false
     info: https://www.telecharge.com/Broadway/Paradise-Square/Ticket
     type: regular
     title: $39+ Tickets
