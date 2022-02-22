@@ -2,7 +2,8 @@
 title: Shining City
 poster: shining-city.jpg
 header: shining-city-header.jpg
-description: A play by Conor McPherson
+description: >-
+  Conor McPherson's mysterious Irish play about shifting perspective & the importance of sharing your story
 theater: Paradise Factory Theater
 tonyaward: false
 criticspick: false
