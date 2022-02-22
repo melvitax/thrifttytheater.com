@@ -15,7 +15,7 @@ tags:
 website: 'https://www.shiningcitynyc.com'
 trailer: 'https://player.vimeo.com/video/656219860'
 tickets:
-    - highlight: false
+  - highlight: false
     info: 'https://www.eventbrite.com/e/shining-city-by-conor-mcpherson-tickets-258098297957'
     title: $32+ Tickets
     type: regular
