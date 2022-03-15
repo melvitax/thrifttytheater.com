@@ -17,7 +17,7 @@ tags:
   - Broadway
   - Comedy
 website: 'https://plazasuitebroadway.com'
-trailer: 'https://www.youtube.com/watch?v=PGDoQBLiFuU'
+trailer: 'https://www.youtube.com/watch?v=KCPSqMw-mFk'
 tickets:
   - highlight: true
     title: $39 Lottery
