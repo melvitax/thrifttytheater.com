@@ -14,9 +14,17 @@ criticspick: false
 tags: 
   - Musical
   - Broadway
-trailer: https://www.youtube.com/watch?v=SqyFuTfFq-I
+trailer: https://www.youtube.com/watch?v=efnGuVTIa3Y
 website: https://paradisesquaremusical.com
 tickets:
+  - highlight: true
+    title: $32 Rush
+    type: digitalRush
+    info: https://paradisesquarelottery.com/
+  - highlight: false
+    title: $32 Rush
+    type: rush
+    info: A limited number of $32 Genral Rush tickets are available for each performance when the Box Office opens for that day’s performance(s). Subject to availability.
   - highlight: false
     info: https://stubhub.prf.hn/l/7oxdpqL
     title: 2ndry Market
