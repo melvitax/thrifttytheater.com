@@ -8,6 +8,7 @@ original_preview: 2021-09-17
 original_opening: 2021-09-17
 preview: 2021-09-17
 opening: 2021-09-17
+closing: 2022-04-03
 tonyaward: true
 criticspick: false
 tags: 
