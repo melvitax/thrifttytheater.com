@@ -15,7 +15,7 @@ tonyaward: false
 criticspick: false
 tags: 
   - Play
-trailer: 'https://www.youtube.com/watch?v=l8tYkzwJySI'
+trailer: 'https://www.youtube.com/watch?v=CFV46RcDhFg'
 website: 'https://manhattantheatreclub.com/2019-20-season/how-i-learned-to-drive/'
 tickets:
   - highlight: false
