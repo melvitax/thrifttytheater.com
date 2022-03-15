@@ -1,6 +1,8 @@
 ---
 title: To My Girls
 description: JC Lee's comedy makes it world premiere at Second Stage. 
+poster: to-my-girls.jpg
+header: to-my-girls-header.jpg
 theater: Tony Kiser Theatre
 original_preview: 2022-03-22
 original_opening: 2022-04-14
@@ -24,5 +26,8 @@ tickets:
     type: thirtyUnder
     info: $30 tickets are available to people age 30 and under for all Second Stage
       productions! Simply use promo code 30UNDER30 to access tickets.
-
+  - highlight: false
+    title: $69+ Tickets
+    type: regular
+    info: https://cart.2st.com/events/2256?view=calendar&startDate=2022-03
 ---
