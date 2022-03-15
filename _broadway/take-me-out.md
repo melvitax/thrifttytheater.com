@@ -16,6 +16,10 @@ tags:
 trailer: https://www.youtube.com/watch?v=DPv0RtPTv64
 website: https://2st.com/shows/take-me-out
 tickets:
+  - highlight: true
+    info: https://www.todaytix.com/nyc/shows/19749-take-me-out
+    title: $39 Rush
+    type: digitalRush
   - highlight: false
     info: >-
       $25, one hour prior to curtain. 1 ticket per full-time high school or
