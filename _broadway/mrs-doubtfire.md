@@ -5,9 +5,8 @@ header: mrs-doubtfire-header.jpg
 description: A new musical comedy about the things we do to stay together.
 original_preview: 2020-03-09
 original_opening: 2020-04-05
-preview: 2022-03-13
-opening: 2022-03-21
-closing: 2022-12-20
+preview: 2022-04-14
+opening: 2022-04-14
 tonyaward: false
 criticspick: false
 tags: 
