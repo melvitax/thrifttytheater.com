@@ -32,6 +32,7 @@ defaults:
     values:
       layout: "show"
       region: broadway
+      regionname: Broadway
       permalink: /:path/:basename/
 compress_html:
   clippings: all
