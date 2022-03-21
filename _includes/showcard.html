@@ -15,16 +15,16 @@
 			{% if include.show.poster and include.show.poster != blank and include.show.poster != ""  %}
 			<img class="card-img-top w-100 h-100" src="/{{ include.region }}/images/{{ include.show.poster }}" width="230" height="355" alt="{{ include.show.title }}" />
 			{% else %}
-			<img class="card-img-top  w-100 h-100" src="/images/default.jpg" width="230" height="355" alt="{{ include.show.title }}" />	
+			<img class="card-img-top  w-100 h-100" src="/assets/images/default.jpg" width="230" height="355" alt="{{ include.show.title }}" />	
 			{% endif %}
 		</a>
 		<!-- Title -->
 		<div class="text-wrap text-muted text-monospace text-center position-absolute w-100 show-title" style="top: -1.8em; z-index: 0"><small>{{ include.show.title }}</small></div>
 		<!-- Tony Award -->
-		{% if include.show.tonyaward %}<div class="position-absolute" style="top: -16px; left: -22px; z-index: 2; width: 64px; height: 0; padding-top: 64px; overflow: hidden; background: url('/images/tonyaward.png') center center/cover no-repeat">Tony Award</div>{% endif %}
+		{% if include.show.tonyaward %}<div class="position-absolute" style="top: -16px; left: -22px; z-index: 2; width: 64px; height: 0; padding-top: 64px; overflow: hidden; background: url('/assets/images/tonyaward.png') center center/cover no-repeat">Tony Award</div>{% endif %}
 		<!-- NYT Critic's Pick -->
 		{% capture badgeOffset %} {% if include.show.tonyaward %} 22px {% else %} -22px {% endif %}{% endcapture %}
-		{% if include.show.criticspick %}<div class="position-absolute" style="top: -16px; left: {{ badgeOffset }}; z-index: 2; width: 64px; height: 0; padding-top: 64px; overflow: hidden; background: url('/images/criticspick.png') center center/cover no-repeat">New York Times Critic's Pick</div>{% endif %}
+		{% if include.show.criticspick %}<div class="position-absolute" style="top: -16px; left: {{ badgeOffset }}; z-index: 2; width: 64px; height: 0; padding-top: 64px; overflow: hidden; background: url('/assets/images/criticspick.png') center center/cover no-repeat">New York Times Critic's Pick</div>{% endif %}
 		<!-- Tickets -->
 		<div class="tickets list-group list-group-flush w-100 p-0" style="z-index:0">
 			{% if include.show.alert and include.show.alert != blank and include.show.alert != "" %}
@@ -34,7 +34,7 @@
 			{% endif %}
 			{% for ticket in include.show.tickets %}
 				{% if ticket.type == "broadway_access" %}
-					<a class="list-group-item list-group-item-action pe-5" style="background-image: url(/images/icon-chevron.svg)" data-bs-toggle="collapse" href="#show_{{showID}}_TicketAccess" role="button" aria-expanded="false" aria-controls="show_{{showID}}_TicketAcces">{{ticket.title}}</a>
+					<a class="list-group-item list-group-item-action pe-5" style="background-image: url(/assets/images/icon-chevron.svg)" data-bs-toggle="collapse" href="#show_{{showID}}_TicketAccess" role="button" aria-expanded="false" aria-controls="show_{{showID}}_TicketAcces">{{ticket.title}}</a>
 					<div class="collapse multi-collapse" id="show_{{showID}}_TicketAccess">
 						{% for hash in access_folder %}
 							{% assign subTicket =  hash[1] %}
@@ -46,7 +46,7 @@
 						{% endfor %}
 					</div>
 				{% elsif ticket.type == "public" %}
-					<a class="list-group-item list-group-item-action pe-5" style="background-image: url(/images/icon-chevron.svg)" data-bs-toggle="collapse" href="#show_{{showID}}_TicketPublic" role="button" aria-expanded="false" aria-controls="show_{{showID}}_TicketPublic">{{ticket.title}}</a>
+					<a class="list-group-item list-group-item-action pe-5" style="background-image: url(/assets/images/icon-chevron.svg)" data-bs-toggle="collapse" href="#show_{{showID}}_TicketPublic" role="button" aria-expanded="false" aria-controls="show_{{showID}}_TicketPublic">{{ticket.title}}</a>
 					<div class="collapse multi-collapse" id="show_{{showID}}_TicketPublic">
 						{% for hash in public_folder %}
 							{% assign subTicket =  hash[1] %}

@@ -2,5 +2,5 @@
 title: Broadway
 layout: shows
 region: broadway
-permalink: /broadway/
+permalink: broadway/index.html
 ---

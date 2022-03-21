@@ -9,7 +9,7 @@
             <h1 class="font-weight-bold site-title">{{ page.title }}</h1>
             {% include filters.html %}
         {% else %}
-            <div class="font-weight-bold show-site-title pt-4"><a href="{{ site.url }}">◀︎ {{ page.collection_title }}</a></div>
+            <div class="font-weight-bold show-site-title pt-4"><a href="{{ site.url }}">◀︎ {{ page.region | upcase }}</a></div>
         {% endif %}
     </div>
 </header>

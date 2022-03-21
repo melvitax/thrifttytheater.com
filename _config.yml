@@ -10,36 +10,29 @@ author:
   name: Melvin Rivera
   twitter: melvitax
   role: designer/developer
-thanks:
-  -
-    name: Ian Rose
-    url: https://github.com/ianrose
 markdown: kramdown
 url: https://showhacker.com
-exclude: ["node_modules",  "package.json", "Gemfile", "Gemfile.lock", "README.md", "LICENSE"]
+exclude: ["Gemfile", "Gemfile.lock", "README.md"]
 timezone: 'America/New_York'
 fonts:
   - "Lato:400,900,700,500,300,100:latin"
 sass:
     style: compressed
-    sass_dir: styles
-collections:
-  broadway:
-    output: true
-    permalink: /broadway/:path/
+    sass_dir: assets/css
 defaults:
   -
     scope:
       path: ""
     values:
-      layout: "default"
+      layout: "default"  
   -
     scope:
-      path: ""
-      type: "broadway" 
+      path: "broadway"
+      type: "pages"
     values:
       layout: "show"
-      collection_title: Broadway
+      region: broadway
+      permalink: /:path/:basename/
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]

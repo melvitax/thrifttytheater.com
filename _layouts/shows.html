@@ -8,13 +8,15 @@ layout: default
 
 		<div class="container">
 
+			{% assign allshows = site.pages | where: "region", page.region %}
+
 			{% assign timeOffset = site.data[page.region].time.offset %}
-			{% assign shows = site[page.region] | sort: 'title' | where_exp: "item", "item.preview" %}
+			{% assign shows = allshows | sort: 'title' | where_exp: "item", "item.preview" %}
 			{% assign today = 'now' | date: '%Y%m%d' %}
 
 			{% assign nowplaying = "" | split: ',' %}
 			{% assign upcoming = "" | split: ',' %}
-			{% assign announced = site[page.region] | sort: 'title' | where_exp: "item", "item.preview == nil" %}
+			{% assign announced = allshows | sort: 'title' | where_exp: "item", "item.preview == nil" %}
 
 			{% for item in shows %}
 				{% assign date = item.preview | date: '%Y%m%d' %}
