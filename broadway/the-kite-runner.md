@@ -1,5 +1,6 @@
 ---
 title: The Kite Runner
+poster: the-kite-runner.jpg
 description: The stage adaptation of Khaled Hosseini’s best-selling novel arrives on Broadway.
 theater: Helen Hayes Theater
 original_preview: 2022-07-06
