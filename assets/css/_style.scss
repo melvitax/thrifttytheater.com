@@ -29,7 +29,7 @@ h1.show-title {
   font-weight: 500;
   line-height: 1em;
 }
-.row.upcoming .tickets, .row.announced .tickets {
+.row.upcoming .tickets, .row.announced .tickets, .row.announced .list-group {
   display: none;
 }
 @media (min-width: 576px) and (max-width: 767.98px) { 
