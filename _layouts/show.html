@@ -102,7 +102,7 @@ layout: default
 
         <!-- Theater -->
 		{% assign timeZone = " 00:00:00 -0500" %}
-		{% for theater_hash in site.data[page.collection].theaters %}
+		{% for theater_hash in site.data[page.region].theaters %}
 			{% assign theater = theater_hash[1] %}
             {% if theater.title == page.theater %}
             <h3 class="text-muted pt-4 pb-2">Theater</h3>
