@@ -8,7 +8,7 @@ layout: default
 
 		<div class="container">
 
-			{% assign allshows = site.pages | where: "region", page.region %}
+			{% assign allshows = site.pages | where: "region", page.region | where: "layout", 'show' %}
 
 			{% assign timeOffset = site.data[page.region].time.offset %}
 			{% assign shows = allshows | sort: 'title' | where_exp: "item", "item.preview" %}
