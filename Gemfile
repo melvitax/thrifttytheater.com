@@ -17,7 +17,7 @@ gem "webrick"
 # end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 platforms :mingw, :x64_mingw, :mswin, :jruby do
-    gem "tzinfo", "~> 1.2"
+    gem "tzinfo", "~> 2.0.4"
     gem "tzinfo-data"
 end
 
