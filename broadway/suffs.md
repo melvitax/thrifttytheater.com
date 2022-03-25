@@ -17,6 +17,10 @@ tags:
   - Off Broadway
 website: 'https://publictheater.org/productions/season/2122/suffs/'
 tickets:
+  - hightlight: true
+    info: https://www.todaytix.com/nyc/shows/24495-suffs
+    title: $20 Rush
+    type: digitalRush
   - highlight: false
     info: Public Discounts
     title: Public Discounts
