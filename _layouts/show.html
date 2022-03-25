@@ -57,7 +57,7 @@ layout: default
         </div>
 
         <!-- Showtimes -->
-        {% assign schedule = site.data[page.collection].schedule.result.extractorData.data[0].group %} 
+        {% assign schedule = site.data[page.region].schedule.result.extractorData.data[0].group %} 
         {% if schedule %}
             {% for showtimes in schedule %}
                 {% if page.title == showtimes.show[0].text %}
