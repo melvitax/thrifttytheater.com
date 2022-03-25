@@ -15,6 +15,10 @@ tags:
 theater: Nederlander Theatre
 website: https://mrsaturdaynightonbroadway.com
 tickets:
+  - highlight: true
+    info: https://lottery.broadwaydirect.com/show/msn-ny/
+    type: digitalLottery
+    title: $45 Lottery
   - highlight: false
     info: https://stubhub.prf.hn/l/rGDLaop
     title: 2ndry Market
