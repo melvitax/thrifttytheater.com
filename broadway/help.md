@@ -2,8 +2,7 @@
 title: Help
 poster: help.jpg
 header: help-header.jpg
-description: >-
-   A new play by acclaimed author and poet Claudia Rankine, directed by Obie Award-winner Taibi Magar
+description: A new play by acclaimed author and poet Claudia Rankine, directed by Obie Award-winner Taibi Magar
 original_preview: 2022-03-15
 original_opening: 2022-03-15
 preview: 2022-03-15
