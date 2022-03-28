@@ -2,8 +2,7 @@
 title: The Chinese Lady
 poster: the-chinese-lady.jpg
 header: the-chinese-lady-header.jpg
-description: >-
-    Inspired by the true story of the first Chinese woman to step foot in America, Lloyd Suh’s critically-acclaimed play, THE CHINESE LADY, is a tale of dark poetic whimsy and a unique portrait of the United States as seen through the eyes of a young Chinese girl.
+description: Inspired by the true story of the first Chinese woman to step foot in America, Lloyd Suh’s critically-acclaimed play, THE CHINESE LADY, is a tale of dark poetic whimsy and a unique portrait of the United States as seen through the eyes of a young Chinese girl.
 theater: The Public Theater - Shiva Theater
 original_preview: 2022-02-23
 original_opening: 2022-02-23
