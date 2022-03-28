@@ -19,6 +19,10 @@ tags:
   - Drama
 website: 'https://www.roundabouttheatre.org/get-tickets/2021-2022-season/birthday-candles/'
 tickets:
+  - highlight: true
+    info: https://www.todaytix.com/nyc/shows/19885-birthday-candles
+    title: $29 Rush
+    type: digitalRush
   - highlight: false
     info: https://stubhub.prf.hn/l/rwbVoYn
     title: 2ndry Market
