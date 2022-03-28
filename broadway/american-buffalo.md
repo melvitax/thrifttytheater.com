@@ -16,6 +16,10 @@ tags:
   - Drama
 website: https://americanbuffalonyc.com
 tickets: 
+  - highlight: true
+    info: https://www.todaytix.com/nyc/shows/21057-american-buffalo
+    title: $35 Rush
+    type: digitalRush
   - highlight: false
     info: https://stubhub.prf.hn/l/6k0Da4N
     title: 2ndry Market
