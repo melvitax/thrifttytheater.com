@@ -18,6 +18,10 @@ tags:
 trailer: 'https://www.youtube.com/watch?v=CFV46RcDhFg'
 website: 'https://manhattantheatreclub.com/2019-20-season/how-i-learned-to-drive/'
 tickets:
+  - highlight: true
+    info: https://www.todaytix.com/nyc/shows/19938-how-i-learned-to-drive-on-broadway-nyc
+    title: $35 Rush
+    type: digitalRush
   - highlight: false
     info: 'https://manhattantheatreclub.com/season-tickets/30-under-35/'
     title: $30 under 35
