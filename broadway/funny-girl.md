@@ -17,6 +17,10 @@ tags:
 trailer: https://www.youtube.com/watch?v=Gx49liIr4Yo
 website: https://funnygirlonbroadway.com
 tickets:
+  - highlight: true
+    info: https://www.luckyseat.com/shows/funnygirl-newyork
+    title: $47 Lottery
+    type: digitalLottery
   - highlight: false
     info: https://stubhub.prf.hn/l/KjAR4kB
     title: 2ndry Market
