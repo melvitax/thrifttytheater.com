@@ -14,7 +14,7 @@ criticspick: true
 tags: 
   - Play
   - Off Broadway
-  trailer: https://www.youtube.com/watch?v=-OmT89deWtw
+trailer: https://www.youtube.com/watch?v=-OmT89deWtw
 website: https://publictheater.org/productions/season/2122/the-chinese-lady/
 tickets:
   - highlight: true
