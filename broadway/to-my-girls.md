@@ -16,6 +16,10 @@ tags:
   - Off Broadway
 website: https://2st.com/shows/to-my-girls
 tickets:
+  - highlight: true
+    title: $25 Rush
+    info: https://www.todaytix.com/nyc/shows/24251-to-my-girls
+    type: digitalRush
   - highlight: false
     type: student
     title: $25 Student
