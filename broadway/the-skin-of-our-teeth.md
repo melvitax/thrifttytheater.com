@@ -14,6 +14,10 @@ tags:
   - Drama
 website: https://www.lct.org/shows/skin-our-teeth/
 tickets:
+  - highlight: true
+    title: $30 Lottery
+    type: digitalLottery
+    info: https://skinofourteethlottery.com
   - highlight: false
     title: $39+ Tickets
     type: regular
