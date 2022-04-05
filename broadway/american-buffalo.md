@@ -17,6 +17,10 @@ tags:
 website: https://americanbuffalonyc.com
 tickets: 
   - highlight: true
+    info: https://americanbuffalonyc.com/american-buffalo-lottery
+    title: $35 Lottery
+    type: digitalLottery
+  - highlight: true
     info: https://www.todaytix.com/nyc/shows/21057-american-buffalo
     title: $35 Rush
     type: digitalRush
