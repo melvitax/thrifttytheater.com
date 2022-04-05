@@ -15,6 +15,10 @@ tags:
   - Broadway
 website: https://strangeloopmusical.com
 tickets: 
+  - highlight: true
+    info: https://strangeloopmusical.com/lotteryandrush
+    type: digitalLottery
+    title: $39 Lottery
   - highlight: false
     info: https://stubhub.prf.hn/l/6PpqnMP
     type: stubhub
