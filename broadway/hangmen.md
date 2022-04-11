@@ -17,6 +17,16 @@ tags:
 theater: John Golden Theater
 website: https://hangmenbroadway.com
 tickets:
+  - highlight: true
+    type: digitalLottery
+    title: $37 Lottery
+    info: https://lottery.hangmenbroadway.com
+  - highlight: false
+    type: rush
+    title: $37 Rush
+    info:  On sale when the box office opens at 10 AM for that day's performance on a first-come, first-served basis. Cash or credit. Limit 2 per person. Seat locations determined at the discretion of the box office and may be partial view.
+Number of Tickets Available: Determined at the discretion of the box office
+Special Policies: Subject to availability. Seats may be partial view.
   - highlight: false
     title: $59+ Tickets
     type: regular
