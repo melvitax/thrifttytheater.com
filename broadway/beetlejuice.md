@@ -17,6 +17,10 @@ tags:
 trailer: https://www.youtube.com/watch?v=ZjOX39IxN_c
 website: https://beetlejuicebroadway.com
 tickets:
+  - highlight: true
+    info: https://lottery.broadwaydirect.com/show/beetle-ny/
+    type: digitalLottery
+    title: $45 Lottery
   - highlight: false
     info: https://stubhub.prf.hn/l/KNENnMN
     title: 2ndry Market
