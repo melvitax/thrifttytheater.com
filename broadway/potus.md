@@ -18,6 +18,10 @@ tags:
 website: 'https://www.potusbway.com/'
 trailer: 'https://www.youtube.com/watch?v=YgKdMombYGk'
 tickets:
+  - highlight: true
+    info: https://potusbway.com/lottery
+    title: $39 Lottery
+    type: digitalLottery
   - highlight: false
     info: 'https://www.telecharge.com/Broadway/POTUS-Or-Behind-Every-Great-Dumbass-are-Seven-Women-Trying-to-Keep-Him-Alive/Ticket'
     title: $49 Tickets
