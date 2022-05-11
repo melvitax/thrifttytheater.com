@@ -6,7 +6,7 @@ original_preview: 2022-04-01
 original_opening: 2022-04-25
 preview: 2022-04-01
 opening: 2022-04-25
-closing: 2022-05-29
+closing: 2022-05-22
 tonyaward: false
 criticspick: true
 tags: 
