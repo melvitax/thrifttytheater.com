@@ -3,7 +3,7 @@ title: American Buffalo
 poster: american-buffalo.jpg
 description: Laurence Fishburne, Sam Rockwell and Darren Criss star in the Broadway revival of David Mamet's classic.
 tonyaward: false
-criticspick: false
+criticspick: true
 theater: Circle In The Square Theatre
 original_preview: 2022-03-22
 original_opening: 2022-04-14
