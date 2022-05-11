@@ -7,7 +7,7 @@ original_opening: 2022-04-25
 preview: 2022-04-01
 opening: 2022-04-25
 tonyaward: false
-criticspick: false
+criticspick: true
 tags: 
   - Play
   - Broadway
