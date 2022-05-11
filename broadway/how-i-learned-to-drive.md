@@ -10,7 +10,7 @@ original_preview: '2022-03-29'
 original_opening: '2022-04-19'
 preview: '2022-03-29'
 opening: '2022-04-19'
-closing: ''
+closing: '2022-05-29'
 tonyaward: false
 criticspick: false
 tags: 
