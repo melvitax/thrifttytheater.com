@@ -7,6 +7,7 @@ original_preview: 2022-07-06
 original_opening: 2022-07-21
 preview: 2022-07-06
 opening: 2022-07-21
+closing: 2022-10-30
 tonyaward: false
 criticspick: false
 tags: 
