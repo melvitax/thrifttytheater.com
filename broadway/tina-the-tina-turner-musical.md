@@ -8,6 +8,7 @@ original_preview: 2019-10-12
 original_opening: 2019-11-07
 preview: 2021-10-08
 opening: 2021-10-08
+ending: 2022-08-14
 tonyaward: true
 criticspick: false
 tags: 
