@@ -3,7 +3,7 @@ title: A Strange Loop
 poster: a-strange-loop.jpg
 header: a-strange-loop-header.jpg
 description: Michael R. Jackson's Pulitzer Prize-winning play arrives on Broadway.
-tonyaward: false
+tonyaward: true
 criticspick: true
 theater: Lyceum Theatre
 original_preview: 2022-04-06
