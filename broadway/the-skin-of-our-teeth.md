@@ -7,7 +7,7 @@ original_opening: 2022-04-25
 preview: 2022-04-01
 opening: 2022-04-25
 closing: 2022-05-22
-tonyaward: false
+tonyaward: true
 criticspick: true
 tags: 
   - Play
