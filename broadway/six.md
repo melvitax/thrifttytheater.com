@@ -16,7 +16,7 @@ original_preview: '2020-02-13'
 original_opening: '2020-03-12'
 preview: '2021-09-19'
 opening: '2021-09-19'
-tonyaward: false
+tonyaward: true
 criticspick: true
 tags: 
   - Musical
