@@ -9,7 +9,7 @@ original_preview: 2022-03-15
 original_opening: 2022-04-03
 preview: 2022-03-15
 opening: 2022-04-03
-tonyaward: false
+tonyaward: true
 criticspick: false
 tags: 
   - Musical
