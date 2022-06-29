@@ -16,15 +16,15 @@ opening: '2022-06-14'
 tickets:
   - highlight: true
     type: digitalRush
-    title: $30
+    title: $30 Rush
     info: https://www.todaytix.com/nyc/shows/24267-between-the-lines
   - highlight: false
     type: studentRush
-    title: $25
+    title: $25 Student
     info: $25, two hours prior to curtain. 1 ticket per full-time high school or college student ID.
   - highlight: false
     type: thirtyUnder
-    title: $30
+    title: $30 30y-Under
     info: $30 tickets are available to people age 30 and under for all Second Stage productions! Simply use promo code 30UNDER30 to access tickets.
   - highlight: false
     type: regular
