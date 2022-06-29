@@ -16,6 +16,10 @@ tags:
   - Drama
 website: https://thekiterunnerbroadway.com
 tickets:
+  - highlight: true
+    info: https://www.todaytix.com/nyc/shows/25087-the-kite-runner-on-broadway
+    type: digitalRush
+    title: $30 Rush
   - highlight: false
     info: https://www.telecharge.com/Broadway/The-Kite-Runner/Overview
     type: regular
