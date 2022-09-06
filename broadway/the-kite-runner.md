@@ -19,7 +19,12 @@ tickets:
   - highlight: true
     info: https://www.todaytix.com/nyc/shows/25087-the-kite-runner-on-broadway
     type: digitalRush
-    title: $30 Rush
+    title: $35 Rush
+  - highlight: false
+    info: >-
+       On sale when the  Helen Hayes Theater box office opens on a first-come, first-served basis at 10 AM Monday–Saturday; noon Sunday. Cash or credit card. Limit 2 per person. Seat Locations determined at the discretion of the box office. Subject to availability.
+    title: $35 Student
+    type: studentRush
   - highlight: false
     info: https://www.telecharge.com/Broadway/The-Kite-Runner/Overview
     type: regular
