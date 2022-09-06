@@ -16,6 +16,10 @@ tags:
   - Drama
 website: https://salesmanonbroadway.com
 tickets:
+  - highlight: true
+    info: https://www.todaytix.com/nyc/shows/25459-death-of-a-salesman-on-broadway
+    type: digitalRush
+    title: $35 Rush
   - highlight: false
     info: https://www.thehudsonbroadway.com/whatson/death-of-a-salesman/
     type: regular
