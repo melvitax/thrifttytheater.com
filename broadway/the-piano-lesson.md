@@ -9,7 +9,7 @@ opening: '2022-10-13'
 tonyaward: false
 criticspick: false
 tags: 
-  - MusPlayical
+  - Play
   - Broadway
 trailer: 'https://www.youtube.com/watch?v=5ay_WBimgC8'
 website: 'https://pianolessonplay.com'
