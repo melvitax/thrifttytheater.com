@@ -3,6 +3,10 @@ title: Between Riverside and Crazy
 description: "Stephen Adly Guirgis Pulitzer Prize-winning play makes its Broadway premiere."
 poster: between-riverside-and-crazy.jpg
 theater: Hayes Theater
+original_preview: '2022-11-30'
+original_opening: '2022-11-30'
+preview: '2022-11-30'
+opening: '2022-11-30'
 tonyaward: false
 criticspick: false
 tags: 
