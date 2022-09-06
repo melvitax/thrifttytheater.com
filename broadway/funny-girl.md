@@ -22,6 +22,11 @@ tickets:
     title: $47 Lottery
     type: digitalLottery
   - highlight: false
+    info: >-
+       On sale when the August Wilson Theatre box office opens on a first-come, first-served basis at 10 AM Monday-Saturday, 12 PM on Sunday. Cash or credit card. Limit 2 per person. Seat Locations determined at the discretion of the box office. Subject to availability.
+    title: $42 Rush
+    type: rush
+  - highlight: false
     info: https://stubhub.prf.hn/l/KjAR4kB
     title: 2ndry Market
     type: stubhub
