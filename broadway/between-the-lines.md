@@ -10,9 +10,10 @@ tags:
   - Off Broadway
 website: https://2st.com/shows/between-the-lines
 original_preview: '2022-06-14'
-original_opening: '2022-06-14'
+original_opening: '2022-07-01'
 preview: '2022-06-14'
-opening: '2022-06-14'
+opening: '2022-07-01'
+closing: '2022-09-11'
 tickets:
   - highlight: true
     type: digitalRush
