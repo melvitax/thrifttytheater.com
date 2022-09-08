@@ -14,7 +14,7 @@ tags:
   - Musical
   - Broadway
   - Kid Friendly
-trailer: https://www.youtube.com/watch?v=ZjOX39IxN_c
+trailer: https://www.youtube.com/watch?v=VsK6fOJmVAQ
 website: https://beetlejuicebroadway.com
 tickets:
   - highlight: true
