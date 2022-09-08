@@ -14,7 +14,7 @@ tags:
   - Musical
   - Broadway
   - Comedy
-trailer: https://www.youtube.com/watch?v=Gx49liIr4Yo
+trailer: https://www.youtube.com/watch?v=XZmTwen9Kd4
 website: https://funnygirlonbroadway.com
 tickets:
   - highlight: true
