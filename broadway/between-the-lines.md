@@ -8,6 +8,7 @@ criticspick: false
 tags: 
   - Musical
   - Off Broadway
+trailer: https://www.youtube.com/watch?v=5qlxFYVBca0
 website: https://2st.com/shows/between-the-lines
 original_preview: '2022-06-14'
 original_opening: '2022-07-01'
