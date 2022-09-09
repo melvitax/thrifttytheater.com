@@ -18,7 +18,11 @@ tickets:
   - highlight: true
     info: https://strangeloopmusical.com/lotteryandrush
     type: digitalLottery
-    title: $39 Lottery
+    title: $43 Lottery
+  - highlight: true
+    info: https://strangeloopmusical.com/lotteryandrush
+    type: digitalRush
+    title: $55 Rush
   - highlight: false
     info: https://stubhub.prf.hn/l/6PpqnMP
     type: stubhub
