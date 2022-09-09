@@ -15,7 +15,7 @@ function createMap() {
     var longitude = {{include.theater.long}}
     var title = "{{include.theater.title}}"
     var address = "{{include.theater.address}}"
-    const tokenID = 'eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlFLVUI4NlFZQUQifQ.eyJpc3MiOiJFUkE5UzhTUE5ZIiwiaWF0IjoxNjMxMTUyMDkzLCJleHAiOjE2NjI2ODE2MDAsIm9yaWdpbiI6Imh0dHBzOi8vd3d3LnNob3doYWNrZXIuY29tIn0.zInS-RrVX8iy9WSRxKOCMDf8eVrfNTCJea7kH-fCmbfSvBLogQqld07AFbMhrSt6qzpzt7xI0h4j_blM5cgG2w'
+    const tokenID = 'MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQg9pikIbstpmdmy6+9eMAFhlDB4y3ml5AQ52z0MgGLKlqgCgYIKoZIzj0DAQehRANCAASxTRYpzbEKPKYrOuT8OLxoN2OeE1V0qny09ovJv4PBXj+6wdaOJFK5tXEGi6ZSz2xwFZ+7wkPV/pBxgYYuWkaQ'
     mapkit.init({
         authorizationCallback: function(done) {
             done(tokenID);
