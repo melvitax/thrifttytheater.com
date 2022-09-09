@@ -15,7 +15,7 @@ tags:
   - Broadway
   - Dance
   - Award Winning
-trailer: 'https://www.youtube.com/watch?v=Xx_eoxvYvc8'
+trailer: 'https://www.youtube.com/watch?v=iQwRkUbCuho'
 website: 'http://www.chicagothemusical.com'
 tickets:
   - highlight: false
