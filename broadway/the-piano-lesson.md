@@ -17,6 +17,6 @@ website: 'https://pianolessonplay.com'
 tickets:
   - highlight: false
     info: https://www.telecharge.com/Broadway/The-Piano-Lesson
-    title: $69+ Tickets
+    title: $39+ Tickets
     type: regular
 ---
