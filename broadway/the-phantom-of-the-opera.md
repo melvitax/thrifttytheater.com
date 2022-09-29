@@ -23,7 +23,7 @@ website: 'http://www.thephantomoftheopera.com/new-york'
 tickets:
   - highlight: true
     info: 'http://www.phantombroadwaylottery.com'
-    title: $40 Lottery
+    title: $45 Lottery
     type: digitalLottery
   - highlight: false
     info: >-
