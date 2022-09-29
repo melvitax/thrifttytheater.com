@@ -19,6 +19,10 @@ tickets:
     info: https://almostfamousthemusicallottery.com
     title: $45 Lottery
     type: digitalLottery
+  - highlight: true
+    info: Available at the Bernard B. Jacobs Theatre Box Office beginning at 10:00 a.m. for that day's performance. Open Mon-Sat at 10:00 a.m. and Sun at 12:00 p.m. Two tickets per person max. Subject to availability and may not be offered at all performances. Seating locations will be determined by the box office.
+    title: $40 Rush
+    type: rush
   - highlight: false
     info: https://www.telecharge.com/Broadway/Almost-Famous
     title: $59+ Tickets
