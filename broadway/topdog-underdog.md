@@ -15,6 +15,14 @@ tags:
 trailer: 'https://www.youtube.com/watch?v=5ay_WBimgC8'
 website: 'https://topdogunderdog.com'
 tickets:
+  - highlight: true
+    info: "https://rush.telecharge.com/"
+    title: $40 Lottery
+    type: digitalLottery
+  - highlight: false
+    info: "Available at the Golden Theatre box office on the day of the performance at 10 AM Mon-Sat, 12 PM Sunday. Two tickets per person max. Seat locations determined at the discretion of the box office. Subject to daily availability."
+    title: "$35 Rush"
+    type: rush
   - highlight: false
     info: https://www.telecharge.com/Broadway/TopdogUnderdog
     title: $69+ Tickets
