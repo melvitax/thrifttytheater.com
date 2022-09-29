@@ -19,6 +19,10 @@ tags:
 trailer: 'https://www.youtube.com/watch?v=85IGpsBX8V4'
 website: 'https://broadwaygoeswrong.com'
 tickets:
+  - highlight: true
+    info: "https://rush.telecharge.com/"
+    title: $40 Lottery
+    type: digitalLottery
   - highlight: false
     info: >-
         Available at the New World Stages box office on the day of the performance. See website for current box office hours. Cash or credit card. Limit 2 tickets per Person. Subject to availability
