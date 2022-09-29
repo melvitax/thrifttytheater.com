@@ -15,6 +15,14 @@ tags:
 trailer: 'https://www.youtube.com/watch?v=Th-Ud3AQHaE'
 website: 'https://leopoldstadtplay.com'
 tickets:
+  - highlight: true
+    info: "https://rush.telecharge.com"
+    title: "$47 Rush"
+    type: digitalRush
+  - highlight: false
+    info: "Available at the Longacre Theatre box office on the day of the performanceat 10 AM Mon-Sat, 12 PM Sun. Limit 2 tickets per person. Seat locations determined at the discretion of the box office. Subject to daily availability"
+    title: $35 Rush
+    type: rush
   - highlight: false
     info: https://www.telecharge.com/Broadway/Leopoldstadt
     title: $59+ Tickets
