@@ -12,7 +12,7 @@ criticspick: false
 tags: 
   - Play
   - Broadway
-trailer: 'https://www.youtube.com/watch?v=5ay_WBimgC8'
+trailer: 'https://www.youtube.com/watch?v=gMZGsKwwwOg'
 website: 'https://pianolessonplay.com'
 tickets:
   - highlight: false
