@@ -14,6 +14,7 @@ closing: 2023-01-15
 tags: 
   - Musical
   - Broadway
+trailer: 'https://www.youtube.com/watch?v=lRWwZaw63wA'
 website: https://strangeloopmusical.com
 tickets: 
   - highlight: true
