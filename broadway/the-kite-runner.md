@@ -14,6 +14,7 @@ tags:
   - Play
   - Broadway
   - Drama
+trailer: https://www.youtube.com/watch?v=NDGb6XLsFDo
 website: https://thekiterunnerbroadway.com
 tickets:
   - highlight: true
