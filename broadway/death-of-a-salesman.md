@@ -14,7 +14,7 @@ tags:
   - Play
   - Broadway
   - Drama
-  trailer: https://www.youtube.com/watch?v=b8F7b0zrZmI
+trailer: https://www.youtube.com/watch?v=b8F7b0zrZmI
 website: https://salesmanonbroadway.com
 tickets:
   - highlight: true
