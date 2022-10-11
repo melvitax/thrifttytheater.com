@@ -12,6 +12,7 @@ opening: 2022-10-03
 tags: 
   - Play
   - Broadway
+trailer: https://www.youtube.com/watch?v=18lC8kz-sDA
 website: https://www.manhattantheatreclub.com/shows/2022-23-season/cost-of-living
 tickets:
   - highlight: true
