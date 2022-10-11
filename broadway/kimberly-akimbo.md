@@ -15,6 +15,10 @@ tags:
 trailer: 'https://www.youtube.com/watch?v=Zsm9roEaNT8'
 website: 'https://kimberlyakimbothemusical.com'
 tickets:
+  - highlight: true
+    info: https://rush.telecharge.com/
+    title: $45 Lottery
+    type: digitalLottery
   - highlight: false
     info: https://www.telecharge.com/Broadway/Kimberly-Akimbo
     title: $89+ Tickets
