@@ -20,6 +20,10 @@ tickets:
     title: $45 Lottery
     type: digitalLottery
   - highlight: false
+    info: Available at the Booth Theatre box office on the day of the performance at 10 AM Mon-Sat, 12 PM Sunday. Cash or credit card. Limit 2 per person. Seat locations determined at the discretion of the box office. Subject to availability.
+    title: $40 Rush
+    type: rush
+  - highlight: false
     info: https://www.telecharge.com/Broadway/Kimberly-Akimbo
     title: $89+ Tickets
     type: regular
