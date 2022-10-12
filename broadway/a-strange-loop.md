@@ -26,6 +26,10 @@ tickets:
     type: digitalRush
     title: $55 Rush
   - highlight: false
+    info: Available at the Lyceum Theatre box office on the day of the performance at 10 AM Mon-Sat, 12 PM Sunday. Cash or credit card. Limit 2 per person. Seat locations determined at the discretion of the box office. Subject to daily availability.
+    title: $47 Rush
+    type: rush
+  - highlight: false
     info: https://stubhub.prf.hn/l/6PpqnMP
     type: stubhub
     title: 2ndry Market
