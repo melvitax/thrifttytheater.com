@@ -15,6 +15,10 @@ tags:
 trailer: 'https://www.youtube.com/watch?v=gMZGsKwwwOg'
 website: 'https://pianolessonplay.com'
 tickets:
+  - highlight: true
+    info: https://rush.telecharge.com/
+    title: $57 Lottery
+    type: digitalLottery
   - highlight: false
     info: https://www.telecharge.com/Broadway/The-Piano-Lesson
     title: $39+ Tickets
