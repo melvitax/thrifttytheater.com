@@ -15,6 +15,9 @@ tags:
 trailer: 'https://www.youtube.com/watch?v=SSXBXXinMGQ'
 website: 'https://somelikeithotmusical.com'
 tickets:
+  - highlight: true
+    info: https://rush.telecharge.com/
+    title: $45 D-Lottery
   - highlight: false
     info: https://www.telecharge.com/Broadway/Some-Like-It-Hot
     title: $69+ Tickets
