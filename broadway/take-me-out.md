@@ -8,7 +8,7 @@ original_preview: '2022-10-27'
 original_opening: '2022-10-27'
 preview: '2022-10-27'
 opening: '2022-10-27'
-closing: '2022-01-29'
+closing: '2023-02-05'
 tonyaward: false
 criticspick: true
 tags: 
