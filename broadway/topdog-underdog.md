@@ -17,7 +17,7 @@ website: 'https://topdogunderdog.com'
 tickets:
   - highlight: true
     info: "https://rush.telecharge.com/"
-    title: $40 Lottery
+    title: $40 D-Lottery
     type: digitalLottery
   - highlight: false
     info: "Available at the Golden Theatre box office on the day of the performance at 10 AM Mon-Sat, 12 PM Sunday. Two tickets per person max. Seat locations determined at the discretion of the box office. Subject to daily availability."
