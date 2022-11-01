@@ -17,6 +17,10 @@ tags:
 trailer: 'https://www.youtube.com/watch?v=w31qRCJnsh0'
 website: 'https://takemeoutbway.com'
 tickets:
+  - highlight: true
+    info: https://rush.telecharge.com
+    title: $57 Lottery
+    type: digitalLottery
   - highlight: false
     info: https://www.telecharge.com/Broadway/Take-Me-Out
     title: $69+ Tickets
