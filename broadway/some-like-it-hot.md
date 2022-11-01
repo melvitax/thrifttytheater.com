@@ -18,6 +18,7 @@ tickets:
   - highlight: true
     info: https://rush.telecharge.com/
     title: $45 D-Lottery
+    type: digitalLottery
   - highlight: false
     info: https://www.telecharge.com/Broadway/Some-Like-It-Hot
     title: $69+ Tickets
