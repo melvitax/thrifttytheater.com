@@ -15,6 +15,10 @@ tags:
 trailer: 'https://www.youtube.com/watch?v=ICkfHpl9IKo'
 website: 'https://abeautifulnoisethemusical.com'
 tickets:
+  - highlight: true
+    info: https://rush.telecharge.com
+    title: $55 Lottery
+    type: digitalLottery
   - highlight: false
     info: https://www.telecharge.com/Broadway/A-Beautiful-Noise-The-Neil-Diamond-Musical
     title: $69+ Tickets
