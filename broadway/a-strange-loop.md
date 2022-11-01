@@ -20,11 +20,11 @@ tickets:
   - highlight: true
     info: https://strangeloopmusical.com/lotteryandrush
     type: digitalLottery
-    title: $43 Lottery
+    title: $43 D-Lottery
   - highlight: true
     info: https://strangeloopmusical.com/lotteryandrush
     type: digitalRush
-    title: $55 Rush
+    title: $55 D-Rush
   - highlight: false
     info: Available at the Lyceum Theatre box office on the day of the performance at 10 AM Mon-Sat, 12 PM Sunday. Cash or credit card. Limit 2 per person. Seat locations determined at the discretion of the box office. Subject to daily availability.
     title: $47 Rush
