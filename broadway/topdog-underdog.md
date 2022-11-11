@@ -1,6 +1,7 @@
 ---
 title: Topdog/Underdog
 poster: topdog-underdog.jpg
+header: topdog-underdog-header.jpg
 description: Suzan-Lori Parks' Pulitzer Prize-winning play returns to Broadway.
 theater: John Golden Theatre
 original_preview: '2022-09-27'
