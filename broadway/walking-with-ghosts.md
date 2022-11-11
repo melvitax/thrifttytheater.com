@@ -1,6 +1,7 @@
 ---
 title: Walking With Ghosts 
 poster: walking-with-ghosts.jpg
+header: walking-with-ghosts-header.jpg
 description: Gabriel Byrne returns to Broadway in his acclaimed autobiographical solo show.
 theater: Music Box Theatre
 original_preview: '2022-10-18'
