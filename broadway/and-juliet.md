@@ -1,6 +1,7 @@
 ---
 title: '& Juliet'
 poster: and-juliet.jpg
+header: and-juliet-header.jpg
 description: The Olivier Award-winning West End hit arrives on Broadway.
 tonyaward: false
 criticspick: false
