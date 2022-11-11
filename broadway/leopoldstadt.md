@@ -1,6 +1,7 @@
 ---
 title: Leopoldstadt
 poster: leopoldstadt.jpg
+header: leopoldstadt-header.jpg
 description: Tom Stoppard's acclaimed play arrives on Broadway following a successful run in the West End.
 theater: Longacre Theatre
 original_preview: '2022-09-14'
