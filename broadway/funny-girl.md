@@ -1,6 +1,7 @@
 ---
 title: Funny Girl
 poster: funny-girl.jpg
+header: funny-girl-header.jpg
 description: Beanie Feldstein stars as Fanny Brice in the first Broadway revival
   of this classic musical.
 tonyaward: false
