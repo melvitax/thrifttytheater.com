@@ -1,6 +1,7 @@
 ---
 title: Kinky Boots
 poster: kinky-boots.jpg
+header: kinky-boots-header.jpg
 description: The Tony-winning musical based on the film of the same name returns to New York!
 theater: Stage 42
 original_preview: '2022-07-26'
