@@ -1,6 +1,7 @@
 ---
 title: Some Like It Hot
 poster: some-like-it-hot.jpg
+header: some-like-it-hot-header.jpg
 description: A new musical comedy based on the 1959 film of the same name.
 theater: Shubert Theatre
 original_preview: '2022-11-01'
