@@ -1,6 +1,7 @@
 ---
 title: Death of a Salesman
 poster: death-of-a-salesman.jpg
+header: death-of-a-salesman-header.jpg
 description: The acclaimed West End production of Arthur Miller's classic transfers to Broadway.
 tonyaward: false
 criticspick: false
