@@ -1,6 +1,7 @@
 ---
 title: Kimberly Akimbo
 poster: kimberly-akimbo.jpg
+header: kimberly-akimbo-header.jpg
 description: David Lindsay-Abaire and Jeanine Tesori's musical adaptation of the acclaimed play of the same name arrives on Broadway.
 theater: Booth Theatre
 original_preview: '2022-10-12'
