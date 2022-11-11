@@ -1,6 +1,7 @@
 ---
 title: KPOP
-poster: kpop-the-musical.jpg
+poster: kpop.jpg
+header: kpop-header.jpg
 description: K-pop comes to Broadway in this immersive new musical.
 theater: Circle In The Square Theatre
 original_preview: '2022-10-13'
