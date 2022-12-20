@@ -1,6 +1,7 @@
 ---
 title: Ain't No Mo'
 poster: aint-no-mo.jpg
+header: aint-no-mo-header.jpg
 description: Jordan E. Cooper stars in the Broadway premiere of his critically-acclaimed comedy. 
 theater: Belasco Theatre
 original_preview: '2022-11-09'
