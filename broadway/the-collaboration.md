@@ -14,7 +14,7 @@ criticspick: false
 tags: 
   - Play
   - Broadway
-trailer: 'https://www.youtube.com/watch?v=yVufUn2oUZE'
+trailer: 'https://www.youtube.com/watch?v=R8ba-2s-mlw'
 website: 'https://www.manhattantheatreclub.com/shows/2022-23-season/the-collaboration'
 tickets:
   - highlight: true
