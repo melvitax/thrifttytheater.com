@@ -1,6 +1,7 @@
 ---
 title: Shuked
 poster: shucked.jpg
+header: shucked-header.jpg
 description: 'A farm-to-fable new Broadway musical that puts the "culture" back in agriculture.'
 tonyaward: false
 criticspick: true
