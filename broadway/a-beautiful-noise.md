@@ -1,6 +1,7 @@
 ---
 title: A Beautiful Noise, The Neil Diamond Musical
 poster: a-beautiful-noise.jpg
+header: a-beautiful-noise-header.jpg
 description: A new musical about the life and music of iconic singer/songwriter Neil Diamond.
 theater: Broadhurst Theatre
 original_preview: '2022-11-02'
