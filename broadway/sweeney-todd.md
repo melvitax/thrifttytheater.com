@@ -12,5 +12,15 @@ opening: 2023-03-26
 tags: 
   - Musical
   - Broadway
+website: https://sweeneytoddbroadway.com
+trailer: https://www.youtube.com/watch?v=06joMvLvN3w
 tickets: 
+  - highlight: true
+    info: https://lottery.broadwaydirect.com/show/sweeney-todd-ny/
+    title: $30 D-Lottery
+    type: digitalLottery
+  - highlight: false
+    info: https://sweeneytoddbroadway.com/tickets/
+    title: $66+ Tickets
+    type: regular
 ---
