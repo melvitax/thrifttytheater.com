@@ -20,6 +20,10 @@ tickets:
     title: $45 D-Lottery
     type: digitalLottery
   - highlight: false
+    info:  Available on the day of the performance at the St. James Theatre box office at 10 AM Monday-Saturday or 12 PM Sunday. Cash or credit card. Limit 2 tickets per person. Seat locations determined at the discretion of the box office. Subject to daily availability.
+    title: $30 Rush
+    type: rush
+  - highlight: false
     info: https://seatgeek.com/new-york-new-york-a-new-musical-tickets
     title: $49+ Tickets
     type: regular
