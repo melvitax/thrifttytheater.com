@@ -3,7 +3,7 @@
 backend:
   name: git-gateway
   branch: master
-  repo: melvitax/showhacker.com 
+  repo: melvitax/thriftytheater.com 
 media_folder: 'images/uploads'
 collections:
   - label: "Broadway"

@@ -1,9 +1,9 @@
-title: Show Hacker
+title: Thrifty Theater
 description: "Broadway Lottery & Rush tickets for the thrifty theater lover"
 keywords: theater, broadway, tickets, discount, rush, lottery, opensource, hack, lifehacker, hamilton
-twitter: showhacker
-github: melvitax/showhacker.com
-socialimage: https://showhacker.com/images/socialimage.jpg
+twitter: thriftytheater
+github: melvitax/thriftytheater.com
+socialimage: https://thriftytheater.com/images/socialimage.jpg
 socialinfo: "Broadway Lottery & Rush tickets for the thrifty theater lover"
 socialinfo_callout: "Get Lottery & Rush Tickets"
 author:
@@ -11,7 +11,7 @@ author:
   twitter: melvitax
   role: designer/developer
 markdown: kramdown
-url: https://showhacker.com
+url: https://thriftytheater.com
 exclude: ["Gemfile", "Gemfile.lock", "README.md"]
 timezone: 'America/New_York'
 fonts:

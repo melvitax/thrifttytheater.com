@@ -1,10 +1,10 @@
-# Show Hacker
+# Thrifty Theater
 
-![Sample Project Screenshot](https://raw.githubusercontent.com/melvitax/showhacker.com/master/_Screenshot.jpg "Sample Project Screenshot")
+![Sample Project Screenshot](https://raw.githubusercontent.com/melvitax/thriftytheater.com/master/_Screenshot.jpg "Sample Project Screenshot")
 
 ## About
 
-Show Hacker is an aggregator of discounted Broadway tickets for lottery and rush tickets. It is an open source project where any one can contibute code or content. Show Hacker uses **Jekyll** static site generator.
+Thrifty Theater is an aggregator of discounted Broadway tickets for lottery and rush tickets. It is an open source project where any one can contibute code or content. Thrifty Theater uses **Jekyll** static site generator.
 
 ## First time install
 
@@ -17,7 +17,7 @@ Follow directions at [jekyllrb.com](https://jekyllrb.com)
 #### Clone project
 
 ```
-$ git clone https://github.com/melvitax/showhacker.com
+$ git clone https://github.com/melvitax/thriftytheater.com
 ```
 
 #### Install Jekyll Gem
