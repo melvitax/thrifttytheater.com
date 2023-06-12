@@ -2,7 +2,7 @@
 title: Good Night, Oscar
 poster: good-night-oscar.jpg
 header: good-night-oscar-header.jpg
-description: 'Sean Hayes returns to Broadway in Doug Wright's new work.'
+description: Sean Hayes returns to Broadway in Doug Wright's new work.
 tonyaward: true
 criticspick: false
 theater: Belasco Theatre

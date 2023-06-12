@@ -2,7 +2,7 @@
 title: Prima Facie
 poster: prima-facie.jpg
 header: prima-facie-header.jpg
-description: 'See Jodie Comer in her Tony® winning role of Suzie Miller's play.'
+description: See Jodie Comer in her Tony® winning role of Suzie Miller's play.
 tonyaward: true
 criticspick: false
 theater: Golden Theatre

@@ -1,8 +1,8 @@
 ---
-title: The Sign in Sidney Brustein’s Window
+title: The Sign in Sidney Brustein's Window
 poster: the-sign-in-sidney-brusteins-window.jpg
-header: the-sign-in-sidney-brusteins-window.jpg
-description: 'Oscar Isaac and Rachel Brosnahan star in Lorraine Hansberry's political drama.'
+header: the-sign-in-sidney-brusteins-window-header.jpg
+description: "Oscar Isaac and Rachel Brosnahan star in Lorraine Hansberry's political drama."
 tonyaward: true
 criticspick: false
 theater: James Earl Jones Theatre
@@ -21,7 +21,7 @@ tickets:
     info: https://rush.telecharge.com
     title: $40 D-Lottery
     type: digitalLottery
-- highlight: true
+  - highlight: true
     info: https://rush.telecharge.com
     title: $40 D-Rush
     type: digitalRush
