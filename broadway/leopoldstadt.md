@@ -9,7 +9,7 @@ original_opening: '2022-10-02'
 preview: '2022-09-14'
 opening: '2022-10-02'
 closing: 2023-07-02
-tonyaward: false
+tonyaward: true
 criticspick: false
 tags: 
   - Play

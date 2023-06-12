@@ -3,7 +3,7 @@ title: Parade
 poster: parade.jpg
 header: parade-header.jpg
 description: Ben Platt and Micaela Diamond star in the Broadway revival of Jason Robert Brown and Alfred Uhry's musical.
-tonyaward: false
+tonyaward: true
 criticspick: true
 theater: Bernard B. Jacobs Theatre
 original_preview: 2023-02-21

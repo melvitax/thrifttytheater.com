@@ -3,7 +3,7 @@ title: Sweeney Todd
 poster: sweeney-todd.jpg
 header: sweeney-todd-header.jpg
 description: Josh Groban and Annaleigh Ashford star in Stephen Sondheim and Hugh Wheeler's classic musical.
-tonyaward: false
+tonyaward: true
 criticspick: true
 theater: Lunt-Fontanne Theatre
 original_preview: 2023-02-26

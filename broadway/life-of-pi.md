@@ -3,7 +3,7 @@ title: Life of Pi
 poster: life-of-pi.jpg
 header: life-of-pi-header.jpg
 description: The Olivier Award-winning stage adaptation of Yann Martel's best-selling 2001 fantasy adventure novel arrives on Broadway.
-tonyaward: false
+tonyaward: true
 criticspick: false
 theater: Schoenfeld Theatre
 original_preview: 2023-03-09

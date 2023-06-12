@@ -2,7 +2,7 @@
 title: New York, New York
 poster: new-york-new-york.jpg
 description: A new musical from legendary composing team John Kander & Fred Ebb, inspired by the motion picture of the same name.
-tonyaward: false
+tonyaward: true
 criticspick: false
 theater: St. James Theatre
 original_preview: 2023-03-24
