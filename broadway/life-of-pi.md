@@ -10,6 +10,7 @@ original_preview: 2023-03-09
 original_opening: 2023-03-30
 preview: 2023-03-09
 opening: 2023-03-30
+closing: 2023-07-23
 tags: 
   - Play
   - Broadway
