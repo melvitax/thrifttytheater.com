@@ -6,8 +6,9 @@ description: Experience this cult favorite musical as it was meant to be seen.
 theater: Westside Theatre Upstairs
 original_preview: 2019-09-17
 original_opening: 2019-10-17
-preview: 2021-09-21
-opening: 2021-09-21
+preview: 2023-07-25
+opening: 2023-07-25
+closing: 2023-09-17
 tonyaward: false
 criticspick: true
 tags: 
