@@ -10,6 +10,7 @@ original_preview: 2023-03-09
 original_opening: 2023-04-13
 preview: 2023-03-09
 opening: 2023-04-13
+closing: 2023-07-23
 tags: 
   - Musical
   - Broadway
