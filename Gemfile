@@ -8,8 +8,8 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.2.2"
-gem "webrick"
+gem "jekyll", "~> 4.3.4"
+gem "webrick", "~> 1.8.2"
 
 # gem 'github-pages', group: :jekyll_plugins
 # group :jekyll_plugins do
